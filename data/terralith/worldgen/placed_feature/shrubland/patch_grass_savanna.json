@@ -1,0 +1,16 @@
+{
+	"feature": "terralith:shrubland/patch_grass_savanna",
+	"placement": [
+		{
+			"type": "count",
+			"count": 28
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		}
+	]
+}

@@ -1,0 +1,162 @@
+{
+  "type": "minecraft:geode",
+  "config": {
+    "blocks": {
+      "filling_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:cave_air"
+        }
+      },
+      "inner_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:cave_air"
+        }
+      },
+      "alternate_inner_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:cave_air"
+        }
+      },
+      "middle_layer_provider": {
+        "type": "minecraft:dual_noise_provider",
+        "seed": 66,
+        "noise": {
+          "firstOctave": -6,
+          "amplitudes": [
+            1,
+            0.75
+          ]
+        },
+        "scale": 1,
+        "variety": {
+          "min_inclusive": 1,
+          "max_inclusive": 3
+        },
+        "slow_noise": {
+          "firstOctave": -7,
+          "amplitudes": [
+            5.25,
+            0.75,
+            1.25,
+            5.5
+          ]
+        },
+        "slow_scale": 1,
+        "states": [
+          {
+            "Name": "minecraft:calcite"
+          },
+          {
+            "Name": "minecraft:diorite"
+          },
+          {
+            "Name": "minecraft:calcite"
+          },
+          {
+            "Name": "minecraft:ice"
+          },
+          {
+            "Name": "minecraft:calcite"
+          },
+          {
+            "Name": "minecraft:calcite"
+          },
+          {
+            "Name": "minecraft:calcite"
+          }
+        ]
+      },
+      "outer_layer_provider": {
+        "type": "minecraft:dual_noise_provider",
+        "seed": 66,
+        "noise": {
+          "firstOctave": -6,
+          "amplitudes": [
+            1,
+            0.75
+          ]
+        },
+        "scale": 1,
+        "variety": {
+          "min_inclusive": 1,
+          "max_inclusive": 3
+        },
+        "slow_noise": {
+          "firstOctave": -7,
+          "amplitudes": [
+            5.25,
+            0.75,
+            1.25,
+            5.5
+          ]
+        },
+        "slow_scale": 1,
+        "states": [
+          {
+            "Name": "minecraft:calcite"
+          },
+          {
+            "Name": "minecraft:diorite"
+          },
+          {
+            "Name": "minecraft:calcite"
+          },
+          {
+            "Name": "minecraft:ice"
+          },
+          {
+            "Name": "minecraft:calcite"
+          },
+          {
+            "Name": "minecraft:calcite"
+          },
+          {
+            "Name": "minecraft:calcite"
+          }
+        ]
+      },
+      "inner_placements": [
+        {
+          "Name": "minecraft:calcite"
+        }
+      ],
+      "cannot_replace": "#terralith:island_ban_winter",
+      "invalid_blocks": "#minecraft:features_cannot_replace"
+    },
+    "layers": {
+      "filling": 3,
+      "inner_layer": 5,
+      "middle_layer": 7,
+      "outer_layer": 9
+    },
+    "crack": {
+      "generate_crack_chance": 0,
+      "base_crack_size": 3,
+      "crack_point_offset": 2
+    },
+    "noise_multiplier": 0.035,
+    "use_potential_placements_chance": 0.35,
+    "use_alternate_layer0_chance": 0.085,
+    "placements_require_layer0_alternate": true,
+    "distribution_points": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 3,
+        "max_inclusive": 3
+      }
+    },
+    "point_offset": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 5,
+        "max_inclusive": 8
+      }
+    },
+    "min_gen_offset": -15,
+    "max_gen_offset": 15,
+    "invalid_blocks_threshold": 255
+  }
+}

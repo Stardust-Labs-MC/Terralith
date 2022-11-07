@@ -1,0 +1,43 @@
+{
+	"feature": "terralith:forest/flower/beaches",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 100,
+						"data": 160
+					},
+					{
+						"weight": 0,
+						"data": 160
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 1,
+			"noise_factor": 144,
+			"noise_offset": 0.4
+		},
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 1
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"absolute": 62
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

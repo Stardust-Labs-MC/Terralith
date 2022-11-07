@@ -1,0 +1,54 @@
+{
+   "type": "flat_cache",
+   "argument": {
+      "type": "cache_2d",
+      "argument": {
+         "type": "spline",
+         "min_value": -12.0,
+         "max_value": 0,
+         "spline": {
+            "coordinate": "overworld/continents",
+            "points": [
+               {
+                  "location": 0.03,
+                  "derivative": 10,
+                  "value": -12
+               },
+               {
+                  "location": 0.16,
+                  "derivative": 0,
+                  "value": {
+                     "coordinate": "overworld/erosion",
+                     "points": [
+                        {
+                           "location": -0.08,
+                           "derivative": 0,
+                           "value": {
+                              "coordinate": "overworld/temperature",
+                              "points": [
+                                 {
+                                    "location": 0.55,
+                                    "derivative": 10,
+                                    "value": -12
+                                 },
+                                 {
+                                    "location": 0.65,
+                                    "derivative": 0,
+                                    "value": 0.0
+                                 }
+                              ]
+                           }
+                        },
+                        {
+                           "location": 0.05,
+                           "derivative": -10,
+                           "value": -12
+                        }
+                     ]
+                  }
+               }
+            ]
+         }
+      }
+   }
+}

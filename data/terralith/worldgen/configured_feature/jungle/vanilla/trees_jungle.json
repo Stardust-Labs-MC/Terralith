@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.31,
+        "feature": "minecraft:mega_jungle_tree"
+      },
+      {
+        "chance": 0.03,
+        "feature": "minecraft:fancy_oak"
+      },
+      {
+        "chance": 0.07,
+        "feature": "terralith:jungle/vanilla/fancy_oak_bend"
+      },
+      {
+        "chance": 0.2,
+        "feature": "minecraft:jungle_bush"
+      },
+      {
+        "chance": 0.3,
+        "feature": "terralith:jungle/vanilla/fence_tree"
+      }
+    ],
+    "default": "terralith:jungle/vanilla/bending_jungle_tree"
+  }
+}

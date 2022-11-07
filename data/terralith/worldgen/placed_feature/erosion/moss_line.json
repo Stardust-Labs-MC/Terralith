@@ -1,0 +1,166 @@
+{
+  "feature": {
+    "type": "minecraft:simple_block",
+    "config": {
+      "to_place": {
+        "type": "minecraft:noise_provider",
+        "seed": 292202,
+        "noise": {
+          "firstOctave": -6,
+          "amplitudes": [
+            1,
+            0.85,
+            0.5,
+            0.75,
+            1.2,
+            1.4
+          ]
+        },
+        "scale": 1,
+        "states": [
+          {
+            "Name": "minecraft:tuff"
+          },
+          {
+            "Name": "minecraft:tuff"
+          },
+          {
+            "Name": "minecraft:tuff"
+          },
+          {
+            "Name": "minecraft:tuff"
+          },
+          {
+            "Name": "minecraft:tuff"
+          },
+          {
+            "Name": "minecraft:tuff"
+          },
+          {
+            "Name": "minecraft:tuff"
+          },
+                    {
+            "Name": "minecraft:tuff"
+          },
+                              {
+            "Name": "minecraft:tuff"
+          },
+          {
+            "Name": "minecraft:tuff"
+          },
+                    {
+            "Name": "minecraft:tuff"
+          },
+                                        {
+            "Name": "minecraft:tuff"
+          },
+          {
+            "Name": "minecraft:tuff"
+          },
+                    {
+            "Name": "minecraft:tuff"
+          },
+                                                  {
+            "Name": "minecraft:tuff"
+          },
+          {
+            "Name": "minecraft:moss_block"
+          },
+                    {
+            "Name": "minecraft:tuff"
+          },
+                                        {
+            "Name": "minecraft:tuff"
+          },
+          {
+            "Name": "minecraft:tuff"
+          },
+                    {
+            "Name": "minecraft:tuff"
+          },
+                    {
+            "Name": "minecraft:tuff"
+          },
+          {
+            "Name": "minecraft:tuff"
+          },
+                              {
+            "Name": "minecraft:tuff"
+          },
+                    {
+            "Name": "minecraft:tuff"
+          },
+          {
+            "Name": "minecraft:tuff"
+          },
+          {
+            "Name": "minecraft:tuff"
+          },
+          {
+            "Name": "minecraft:tuff"
+          },
+          {
+            "Name": "minecraft:tuff"
+          },
+          {
+            "Name": "minecraft:tuff"
+          },
+          {
+            "Name": "minecraft:tuff"
+          },
+          {
+            "Name": "minecraft:tuff"
+          }
+        ]
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 7
+    },
+    {
+      "type": "minecraft:count",
+      "count": 256
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:noise_based_count",
+      "noise_to_count_ratio": 1,
+      "noise_factor": 900,
+      "noise_offset": 0.0
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": -5,
+          "max_inclusive": 5
+        }
+      },
+      "y_spread": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE"
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 1,
+      "target_condition": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:tuff"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

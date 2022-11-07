@@ -1,0 +1,85 @@
+{
+  "type": "minecraft:no_op",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 1000,
+        "extra_count": 0,
+        "extra_chance": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:no_op",
+      "config": {
+        "decorator": {
+          "type": "minecraft:no_op",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:no_op",
+              "config": {
+                "outer": {
+                  "type": "minecraft:nope",
+                  "config": {
+                    "noise_to_count_ratio": 1,
+                    "noise_factor": 807,
+                    "noise_offset": -0.025
+                  }
+                },
+                "inner": {
+                  "type": "minecraft:nope",
+                  "config": {
+                    "noise_to_count_ratio": 1,
+                    "noise_factor": 457,
+                    "noise_offset": -0.025
+                  }
+                }
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:no_op",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "type": "minecraft:uniform",
+                  "min_inclusive": {
+                    "above_bottom": 13
+                  },
+                  "max_inclusive": {
+                    "absolute": 60
+                  }
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:netherrack_replace_blobs",
+              "config": {
+                "state": {
+                  "Name": "minecraft:packed_ice"
+                },
+                "target": {
+                  "Name": "minecraft:dripstone_block"
+                },
+                "radius": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 12,
+                    "max_inclusive": 12
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+      "type":"cache_once",
+      "argument":{
+      "noise": "minecraft:aquifer_fluid_level_floodedness",
+      "xz_scale": 1.0,
+      "y_scale": 1.4,
+      "type": "minecraft:noise"
+}
+}

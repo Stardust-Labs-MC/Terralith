@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "ignore_vines": false,
+    "force_dirt": false,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "min_clipped_height": 0,
+      "limit": 0,
+      "lower_size": 0,
+      "upper_size": 0
+    },
+    "sapling_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:oak_sapling",
+        "Properties": {
+          "stage": "0"
+        }
+      }
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dark_oak_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    "trunk_placer": {
+      "type": "minecraft:dark_oak_trunk_placer",
+      "base_height": 2,
+      "height_rand_a": 16,
+      "height_rand_b": 16
+    },
+    "foliage_placer": {
+      "type": "minecraft:dark_oak_foliage_placer",
+      "radius": 0,
+      "offset": 0
+    },
+    "decorators": []
+  }
+}

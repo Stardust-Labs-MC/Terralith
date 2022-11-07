@@ -1,0 +1,123 @@
+{
+  "type": "minecraft:no_op",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": 21
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:heightmap",
+              "config": {
+                "heightmap": "WORLD_SURFACE_WG"
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:spread_32_above",
+              "config": {}
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:count",
+                  "config": {
+                    "count": {
+                      "type": "minecraft:clamped",
+                      "value": {
+                        "min_inclusive": 0,
+                        "max_inclusive": 1,
+                        "source": {
+                          "type": "minecraft:uniform",
+                          "value": {
+                            "min_inclusive": -3,
+                            "max_inclusive": 1
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:simple_random_selector",
+                  "config": {
+                    "features": [
+                      {
+                        "type": "minecraft:random_patch",
+                        "config": {
+                          "can_replace": false,
+                          "project": false,
+                          "need_water": false,
+                          "xspread": 7,
+                          "yspread": 3,
+                          "zspread": 7,
+                          "tries": 64,
+                          "state_provider": {
+                            "type": "minecraft:simple_state_provider",
+                            "state": {
+                              "Name": "minecraft:lilac",
+                              "Properties": {
+                                "half": "lower"
+                              }
+                            }
+                          },
+                          "block_placer": {
+                            "type": "minecraft:double_plant_placer"
+                          },
+                          "whitelist": [],
+                          "blacklist": []
+                        }
+                      },
+                      {
+                        "type": "minecraft:random_patch",
+                        "config": {
+                          "can_replace": false,
+                          "project": false,
+                          "need_water": false,
+                          "xspread": 7,
+                          "yspread": 3,
+                          "zspread": 7,
+                          "tries": 64,
+                          "state_provider": {
+                            "type": "minecraft:simple_state_provider",
+                            "state": {
+                              "Name": "minecraft:peony",
+                              "Properties": {
+                                "half": "lower"
+                              }
+                            }
+                          },
+                          "block_placer": {
+                            "type": "minecraft:double_plant_placer"
+                          },
+                          "whitelist": [],
+                          "blacklist": []
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"feature": "terralith:forest/flower/tiny/oak_tiny",
+	"placement": [
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE"
+		},
+		{
+			"type": "minecraft:surface_water_depth_filter",
+			"max_water_depth": 0
+		}
+	]
+}

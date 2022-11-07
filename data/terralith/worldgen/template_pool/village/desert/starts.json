@@ -1,0 +1,15 @@
+{
+  "name": "terralith:village/desert/starts",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "terralith:village/desert/houses/castle",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

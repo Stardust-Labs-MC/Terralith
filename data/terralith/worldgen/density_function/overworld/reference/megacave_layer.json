@@ -1,0 +1,22 @@
+
+{
+
+    "type": "minecraft:range_choice",
+    "input": "terralith:overworld/reference/megacave",
+    "min_inclusive": -1000000,
+    "max_exclusive": 0.1,
+"when_in_range":{
+                            "argument1": 4.0,
+                            "argument2": {
+                              "argument": {
+                                "noise": "terralith:math/cheese/cave_layer",
+                                "xz_scale": 0.75,
+                                "y_scale": 5.0,
+                                "type": "minecraft:noise"
+                              },
+                              "type": "minecraft:square"
+                            },
+                            "type": "minecraft:mul"
+                          },
+"when_out_of_range":4.0
+}

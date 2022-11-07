@@ -1,0 +1,27 @@
+{
+	"feature": "minecraft:monster_room_deep",
+	"placement": [
+		{
+			"type": "count",
+			"count": 12
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"min_inclusive": {
+					"above_bottom": 6
+				},
+				"max_inclusive": {
+					"absolute": 128
+				},
+				"type": "minecraft:uniform"
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

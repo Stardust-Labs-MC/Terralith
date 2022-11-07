@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "dark_oak_leaves",
+    "oak_leaves",
+    "acacia_leaves",
+    "birch_leaves",
+    "spruce_leaves",
+    "jungle_leaves"
+  ]
+}

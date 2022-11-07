@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:nether_forest_vegetation",
+  "config": {
+    "state_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 3,
+          "data": {
+            "Name": "minecraft:warped_roots"
+          }
+        },
+        {
+          "weight": 7,
+          "data": {
+            "Name": "minecraft:nether_sprouts"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:blue_orchid"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:fern"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:grass"
+          }
+        },
+        {
+          "weight": 50,
+          "data": {
+            "Name": "minecraft:cornflower"
+          }
+        }
+      ]
+    },
+    "spread_width": 8,
+    "spread_height": 4
+  }
+}

@@ -1,0 +1,31 @@
+{
+	"feature": "terralith:cave/frostfire/replacer2",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 30
+		},
+		{
+			"type": "minecraft:count",
+			"count": 40
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"above_bottom": 0
+				},
+				"max_inclusive": {
+					"absolute": 30
+				}
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

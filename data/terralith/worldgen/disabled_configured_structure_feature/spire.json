@@ -1,0 +1,10 @@
+{
+  "config": {
+    "start_pool": "terralith:spire",
+    "size": 1
+  },
+  "biomes": "#terralith:has_structure/spire",
+  "adapt_noise": false,
+  "spawn_overrides": {},
+  "type": "minecraft:bastion_remnant"
+}

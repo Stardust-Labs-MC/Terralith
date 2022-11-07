@@ -1,0 +1,19 @@
+{
+	"feature": "terralith:highlands/forest/disk_gravel",
+	"placement": [
+		{
+			"type": "count",
+			"count": 64
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "OCEAN_FLOOR"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

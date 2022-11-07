@@ -1,0 +1,25 @@
+{
+	"feature": "terralith:enchanted/island",
+	"placement": [
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 221
+		},
+		{
+			"type": "count",
+			"count": 1
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"absolute": 160
+				},
+				"max_inclusive": {
+					"absolute": 230
+				}
+			}
+		}
+	]
+}

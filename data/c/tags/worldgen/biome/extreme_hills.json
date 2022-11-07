@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:blooming_plateau",
+    "terralith:lush_valley",
+    "terralith:shield",
+    "terralith:shield_clearing",
+    "terralith:snowy_shield",
+    "terralith:steppe",
+    "terralith:windswept_spires",
+    "terralith:yellowstone",
+    "terralith:yosemite_cliffs"
+  ]
+}

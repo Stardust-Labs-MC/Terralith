@@ -1,0 +1,15 @@
+{
+	"feature": "terralith:skylands/summer/bending_acacia",
+	"placement": [
+		{
+			"type": "count",
+			"count": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": 1,
+					"max_inclusive": 1
+				}
+			}
+		}
+	]
+}

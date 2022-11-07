@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:ancient_sands",
+    "terralith:bryce_canyon",
+    "terralith:painted_mountains",
+    "terralith:red_oasis",
+    "terralith:warped_mesa",
+    "terralith:white_mesa"
+  ]
+}

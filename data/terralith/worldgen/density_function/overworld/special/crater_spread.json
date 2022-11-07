@@ -1,0 +1,30 @@
+{"type":"flat_cache",
+  "argument":{
+    "type": "minecraft:range_choice",
+    "input": "minecraft:overworld/ridges",
+    "min_inclusive": -1000000,
+    "max_exclusive": -0.7666,
+    "when_in_range": {
+      "type": "minecraft:range_choice",
+    "input": "minecraft:overworld/continents",
+    "min_inclusive": -0.11,
+    "max_exclusive": 1000000,
+    "when_in_range": {
+      "type": "minecraft:range_choice",
+    "input": "minecraft:overworld/erosion",
+    "min_inclusive": -1000000,
+    "max_exclusive": -0.375,
+    "when_in_range": {
+      "type": "minecraft:range_choice",
+    "input": "minecraft:overworld/temperature",
+    "min_inclusive": 0.2,
+    "max_exclusive": 0.55,
+    "when_in_range": -10000,
+    "when_out_of_range": 1000
+    },
+    "when_out_of_range": 1000
+    },
+    "when_out_of_range": 1000
+    },
+    "when_out_of_range": 1000
+}}

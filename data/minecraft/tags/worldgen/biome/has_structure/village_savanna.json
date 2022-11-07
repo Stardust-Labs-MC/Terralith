@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:savanna",
+    "terralith:arid_highlands",
+    "terralith:hot_shrubland",
+    "terralith:savanna_slopes",
+    "terralith:savanna_badlands"
+  ]
+}

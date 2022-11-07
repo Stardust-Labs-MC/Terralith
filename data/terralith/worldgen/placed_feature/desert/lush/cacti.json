@@ -1,0 +1,89 @@
+{
+  "feature": {
+    "type": "minecraft:random_patch",
+    "config": {
+      "tries": 2,
+      "xz_spread": 6,
+      "y_spread": 2,
+      "feature": {
+        "feature": {
+          "type": "minecraft:block_column",
+          "config": {
+            "direction": "up",
+            "allowed_placement": {
+              "type": "minecraft:true"
+            },
+            "prioritize_tip": false,
+            "layers": [
+              {
+                "height": {
+                  "type": "minecraft:clamped_normal",
+                  "value": {
+                    "min_inclusive": 1,
+                    "max_inclusive": 7,
+                    "mean": 2,
+                    "deviation": 2
+                  }
+                },
+                "provider": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:cactus"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:all_of",
+              "predicates": [
+                {
+                  "type": "minecraft:matching_blocks",
+                  "offset": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:air"
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:sand"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 10
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

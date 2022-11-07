@@ -1,0 +1,59 @@
+{
+	"feature": "terralith:snowy/trees_center",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 90,
+						"data": 24
+					},
+					{
+						"weight": 10,
+						"data": 25
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "MOTION_BLOCKING"
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 1,
+			"noise_factor": 215,
+			"noise_offset": 0
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": -1,
+			"noise_factor": 215,
+			"noise_offset": -1
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					-1,
+					0
+				],
+				"blocks": [
+					"minecraft:snow_block",
+					"minecraft:powder_snow",
+					"grass_block"
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

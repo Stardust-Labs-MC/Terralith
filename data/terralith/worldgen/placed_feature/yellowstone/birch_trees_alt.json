@@ -1,0 +1,48 @@
+{
+	"feature": "terralith:yellowstone/birch_alt",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 100,
+						"data": 150
+					},
+					{
+						"weight": 0,
+						"data": 150
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:trapezoid",
+				"min_inclusive": {
+					"absolute": 130
+				},
+				"max_inclusive": {
+					"absolute": 240
+				}
+			}
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:would_survive",
+				"state": {
+					"Name": "minecraft:fern"
+				}
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

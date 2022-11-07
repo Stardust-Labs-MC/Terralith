@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "blackstone",
+    "smooth_sandstone",
+    "smooth_red_sandstone",
+    "deepslate_tiles",
+    "stone",
+    "diorite",
+    "andesite",
+    "granite",
+    "tuff",
+    "blue_ice",
+    "cracked_deepslate_tiles"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.3,
+        "feature": "terralith:yosemite/oak_mega"
+      },
+      {
+        "chance": 0.075,
+        "feature": "terralith:yellowstone/spruce_big_alt"
+      },
+      {
+        "chance": 0.075,
+        "feature": "terralith:yellowstone/spruce_big"
+      },
+      {
+        "chance": 0.075,
+        "feature": "terralith:yellowstone/birch_alt"
+      },
+      {
+        "chance": 0.075,
+        "feature": "terralith:yellowstone/birch"
+      }
+    ],
+    "default": "terralith:yosemite/oak"
+  }
+}

@@ -1,0 +1,19 @@
+{
+	"feature": "minecraft:bamboo_light",
+	"placement": [
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 4
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "MOTION_BLOCKING"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

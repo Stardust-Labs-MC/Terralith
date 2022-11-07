@@ -1,0 +1,65 @@
+{
+	"feature": "terralith:mountains/scarlet2/remove_some_snow",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 30
+		},
+		{
+			"type": "minecraft:count",
+			"count": 50
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:random_offset",
+			"xz_spread": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": 0,
+					"max_inclusive": 0
+				}
+			},
+			"y_spread": 0
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:not",
+						"predicate": {
+							"type": "minecraft:matching_blocks",
+							"offset": [
+								0,
+								-1,
+								0
+							],
+							"blocks": [
+								"minecraft:grass_block"
+							]
+						}
+					},
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							0,
+							0
+						],
+						"blocks": [
+							"minecraft:air",
+							"minecraft:snow"
+						]
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"feature": "terralith:snowy/max_spruce",
+	"placement": [
+		{
+			"type": "heightmap",
+			"heightmap": "MOTION_BLOCKING_NO_LEAVES"
+		},
+		{
+			"type": "minecraft:surface_water_depth_filter",
+			"max_water_depth": 0
+		}
+	]
+}

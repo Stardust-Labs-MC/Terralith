@@ -1,0 +1,8 @@
+{
+	"feature": "terralith:cave/frostfire/sculk_trap",
+	"placement": [
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

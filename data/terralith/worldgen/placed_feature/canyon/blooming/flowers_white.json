@@ -1,0 +1,19 @@
+{
+	"feature": "terralith:canyon/blooming/flowers_white",
+	"placement": [
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 2
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "MOTION_BLOCKING"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

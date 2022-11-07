@@ -1,0 +1,23 @@
+{
+	"feature": "terralith:taiga/lush/flowers",
+	"placement": [
+		{
+			"type": "count",
+			"count": 20
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 20
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

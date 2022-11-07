@@ -1,0 +1,112 @@
+{
+  "type": "minecraft:geode",
+  "config": {
+    "blocks": {
+      "filling_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:stone"
+        }
+      },
+      "inner_layer_provider": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:diamond_ore"
+            }
+          },
+          {
+            "weight": 1000,
+            "data": {
+              "Name": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "alternate_inner_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:amethyst_block"
+        }
+      },
+      "middle_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:air"
+        }
+      },
+      "outer_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:air"
+        }
+      },
+      "inner_placements": [
+        {
+          "Name": "minecraft:small_amethyst_bud",
+          "Properties": {
+            "waterlogged": "false",
+            "facing": "up"
+          }
+        },
+        {
+          "Name": "minecraft:medium_amethyst_bud",
+          "Properties": {
+            "waterlogged": "false",
+            "facing": "up"
+          }
+        },
+        {
+          "Name": "minecraft:large_amethyst_bud",
+          "Properties": {
+            "waterlogged": "false",
+            "facing": "up"
+          }
+        },
+        {
+          "Name": "minecraft:amethyst_cluster",
+          "Properties": {
+            "waterlogged": "false",
+            "facing": "up"
+          }
+        }
+      ],
+      "cannot_replace": "#minecraft:features_cannot_replace",
+      "invalid_blocks": "#minecraft:geode_invalid_blocks"
+    },
+    "layers": {
+      "filling": 1.7,
+      "inner_layer": 2.2,
+      "middle_layer": 2.9,
+      "outer_layer": 5.2
+    },
+    "crack": {
+      "generate_crack_chance": 0.5,
+      "base_crack_size": 3,
+      "crack_point_offset": 2
+    },
+    "noise_multiplier": 0.035,
+    "use_potential_placements_chance": 0.35,
+    "use_alternate_layer0_chance": 0.085,
+    "placements_require_layer0_alternate": true,
+    "distribution_points": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 6,
+        "max_inclusive": 8
+      }
+    },
+    "point_offset": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 3,
+        "max_inclusive": 8
+      }
+    },
+    "min_gen_offset": -24,
+    "max_gen_offset": 24,
+    "invalid_blocks_threshold": 255
+  }
+}

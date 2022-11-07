@@ -1,0 +1,19 @@
+{
+	"feature": "terralith:cherry/patch_podzol",
+	"placement": [
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 4
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

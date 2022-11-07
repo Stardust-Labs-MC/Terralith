@@ -1,0 +1,52 @@
+{
+    "type": "minecraft:mul",
+    "argument1": 1.6,
+    "argument2":
+{
+  "type": "minecraft:square",
+  "argument": 
+    {
+      "type":"add",
+      "argument1":
+
+      {
+      "type":"add",
+      "argument1":1,
+      "argument2":"terralith:overworld_large_biomes/dune/height_boost"
+      },
+    "argument2":{
+    "type":"mul",
+    "argument1":-0.6,
+    "argument2":{
+      "type": "minecraft:abs",
+      "argument": 
+
+      {
+
+      "type":"add",
+      "argument2":{
+        "type": "minecraft:noise",
+        "noise": "terralith:math/dune/twist",
+        "xz_scale": 0.2,
+        "y_scale": 0.125
+      },
+
+      "argument1":
+{
+   "type":"flat_cache","argument":{
+   "type":"cache_2d",
+   "argument":
+      {
+        "type": "minecraft:noise",
+        "noise": "terralith:math/dune/height",
+        "xz_scale": 0.15,
+        "y_scale": 0.00
+      }}}
+
+   }
+    }
+ }
+ }
+
+  }
+}

@@ -1,0 +1,53 @@
+{
+	"feature": "terralith:skylands/summer/trees",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 90,
+						"data": 15
+					},
+					{
+						"weight": 10,
+						"data": 16
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:replaceable"
+					},
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							-1,
+							0
+						],
+						"blocks": [
+							"minecraft:grass_block","moss_block"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

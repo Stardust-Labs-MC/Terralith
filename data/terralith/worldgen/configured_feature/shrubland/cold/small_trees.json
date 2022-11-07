@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [],
+    "default": "terralith:shrubland/cold/small_tree"
+  }
+}

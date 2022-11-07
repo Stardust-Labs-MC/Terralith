@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "minecraft:spruce_checked",
+        "chance": 0.666
+      },
+      {
+        "feature": "minecraft:fancy_oak_checked",
+        "chance": 0.1
+      }
+    ],
+    "default": "minecraft:oak_checked"
+  }
+}

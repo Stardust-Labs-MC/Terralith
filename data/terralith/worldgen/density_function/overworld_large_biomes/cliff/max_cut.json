@@ -1,0 +1,12 @@
+{
+   "argument":{
+      "argument":{
+         "noise":"terralith:math/cliff/max_cut",
+         "xz_scale":1.0,
+         "y_scale":0.0,
+         "type":"minecraft:noise"
+      },
+      "type":"cache_2d"
+   },
+   "type":"flat_cache"
+}

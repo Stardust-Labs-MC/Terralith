@@ -1,0 +1,73 @@
+{
+	"feature": {
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 32,
+    "xz_spread": 7,
+    "y_spread": 3,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 50,
+                "data": {
+                  "Name": "minecraft:grass"
+                }
+              },
+              {
+                "weight": 50,
+                "data": {
+                  "Name": "minecraft:fern"
+                }
+              },
+              {
+                "weight": 7,
+                "data": {
+                  "Name": "minecraft:large_fern",
+                  "Properties": {
+                    "half": "lower"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:air"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+,
+	"placement": [
+		{
+			"type": "minecraft:noise_threshold_count",
+			"noise_level": -0.8,
+			"below_noise": 11,
+			"above_noise": 14
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

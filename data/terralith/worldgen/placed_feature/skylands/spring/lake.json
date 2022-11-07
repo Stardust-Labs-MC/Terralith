@@ -1,0 +1,142 @@
+{
+  "feature": {
+    "type": "minecraft:vegetation_patch",
+    "config": {
+      "surface": "floor",
+      "depth": 3,
+      "vertical_range": 3,
+      "extra_bottom_block_chance": 0,
+      "extra_edge_column_chance": 0.5,
+      "vegetation_chance": 1,
+      "xz_radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 3
+        }
+      },
+      "replaceable": "#terralith:soil_stone",
+      "ground_state": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:air"
+        }
+      },
+      "vegetation_feature": {
+        "feature": {
+          "type": "minecraft:tree",
+          "config": {
+            "ignore_vines": false,
+            "force_dirt": false,
+            "minimum_size": {
+              "type": "minecraft:two_layers_feature_size",
+              "min_clipped_height": 0,
+              "limit": 0,
+              "lower_size": 0,
+              "upper_size": 0
+            },
+            "dirt_provider": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:stone"
+              }
+            },
+            "trunk_provider": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:water",
+                "Properties": {
+                  "level": "0"
+                }
+              }
+            },
+            "foliage_provider": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:air"
+              }
+            },
+            "trunk_placer": {
+              "type": "minecraft:straight_trunk_placer",
+              "base_height": 2,
+              "height_rand_a": 0,
+              "height_rand_b": 0
+            },
+            "foliage_placer": {
+              "type": "minecraft:random_spread_foliage_placer",
+              "radius": 0,
+              "offset": 0,
+              "foliage_height": 1,
+              "leaf_placement_attempts": 0
+            },
+            "decorators": []
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:environment_scan",
+            "direction_of_search": "down",
+            "max_steps": 4,
+            "target_condition": {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "blocks": [
+                "minecraft:stone"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 1
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": -8,
+          "max_inclusive": 8
+        }
+      },
+      "y_spread": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              -1,
+              0
+            ],
+            "blocks": [
+              "minecraft:grass_block"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type":"biome"
+    }
+  ]
+}

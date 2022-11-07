@@ -1,0 +1,46 @@
+{
+	"feature": "terralith:skylands/extend_down",
+	"placement": [
+		{
+			"type": "count",
+			"count": 128
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:random_offset",
+			"xz_spread": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": -6,
+					"max_inclusive": 6
+				}
+			},
+			"y_spread": 0
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"absolute": 170
+			}
+		},
+		{
+			"type": "minecraft:environment_scan",
+			"direction_of_search": "up",
+			"target_condition": {
+				"type": "minecraft:solid"
+			},
+			"allowed_search_condition": {
+				"type": "minecraft:matching_blocks",
+				"blocks": [
+					"minecraft:air"
+				]
+			},
+			"max_steps": 32
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"feature": "minecraft:swamp_oak",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 90,
+						"data": 2
+					},
+					{
+						"weight": 10,
+						"data": 3
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:surface_water_depth_filter",
+			"max_water_depth": 2
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "OCEAN_FLOOR"
+		}
+	]
+}

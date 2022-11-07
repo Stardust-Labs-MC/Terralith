@@ -1,0 +1,9 @@
+{
+	"feature": "terralith:swamp/vanilla/tall/swamp_willow",
+	"placement": [
+		{
+			"type": "count",
+			"count": 3
+		}
+	]
+}

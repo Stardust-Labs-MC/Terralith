@@ -1,0 +1,16 @@
+{
+	"feature": "minecraft:disk_gravel",
+	"placement": [
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 5
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "OCEAN_FLOOR_WG"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

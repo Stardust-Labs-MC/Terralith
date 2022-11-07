@@ -1,0 +1,89 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "ignore_vines": false,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 1,
+      "lower_size": 1,
+      "upper_size": 2
+    },
+    "sapling_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:oak_sapling",
+        "Properties": {
+          "stage": "0"
+        }
+      }
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:stone"
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:birch_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:birch_leaves",
+        "Properties": {
+          "persistent": "false",
+          "distance": "7"
+        }
+      }
+    },
+    "trunk_placer": {
+      "type": "minecraft:fancy_trunk_placer",
+      "base_height": 4,
+      "height_rand_a": 2,
+      "height_rand_b": 6
+    },
+    "foliage_placer": {
+      "type": "minecraft:pine_foliage_placer",
+      "radius": 3,
+      "offset": 4,
+      "height": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 3,
+          "max_inclusive": 4
+        }
+      }
+    },
+    "decorators": [
+      {
+        "type": "minecraft:alter_ground",
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:calcite"
+              }
+            },
+            {
+              "weight": 2,
+              "data": {
+                "Name": "minecraft:grass_block",
+                "Properties": {
+                  "snowy": "false"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

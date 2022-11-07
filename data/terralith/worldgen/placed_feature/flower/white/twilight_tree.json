@@ -1,0 +1,9 @@
+{
+	"feature": "terralith:flower/white/twilight_tree",
+	"placement": [
+		{
+			"type": "count",
+			"count": 2
+		}
+	]
+}

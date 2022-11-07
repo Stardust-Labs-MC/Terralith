@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:nether_forest_vegetation",
+  "config": {
+    "state_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 3,
+          "data": {
+            "Name": "minecraft:allium"
+          }
+        },
+        {
+          "weight": 4,
+          "data": {
+            "Name": "minecraft:lily_of_the_valley"
+          }
+        },
+        {
+          "weight": 50,
+          "data": {
+            "Name": "minecraft:blue_orchid"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:fern"
+          }
+        },
+        {
+          "weight": 30,
+          "data": {
+            "Name": "minecraft:grass"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:cornflower"
+          }
+        }
+      ]
+    },
+    "spread_width": 8,
+    "spread_height": 4
+  }
+}

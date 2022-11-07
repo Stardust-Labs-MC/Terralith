@@ -1,0 +1,15 @@
+{
+	"feature": "terralith:coastal/big_hawaii",
+	"placement": [
+		{
+			"type": "count",
+			"count": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": 2,
+					"max_inclusive": 6
+				}
+			}
+		}
+	]
+}

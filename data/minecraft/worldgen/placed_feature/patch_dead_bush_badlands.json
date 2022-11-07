@@ -1,0 +1,19 @@
+{
+	"feature": "minecraft:patch_dead_bush_badlands",
+	"placement": [
+		{
+			"type": "count",
+			"count": 20
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

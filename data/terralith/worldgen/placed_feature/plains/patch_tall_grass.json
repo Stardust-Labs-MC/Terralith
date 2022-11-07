@@ -1,0 +1,19 @@
+{
+	"feature": "terralith:plains/patch_tall_grass",
+	"placement": [
+		{
+			"type": "count",
+			"count": 7
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

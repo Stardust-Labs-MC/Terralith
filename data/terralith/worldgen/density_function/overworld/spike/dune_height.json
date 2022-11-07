@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:mul",
+    "argument1": 20.0,
+    "argument2":
+{
+  "type": "minecraft:cube",
+  "argument": {
+    "type":"blend_density",
+    "argument":{
+        "type": "minecraft:noise",
+        "noise": "terralith:math/spike/height",
+        "xz_scale": 0.5,
+        "y_scale": 2
+      }
+  }
+    
+
+  
+}
+}

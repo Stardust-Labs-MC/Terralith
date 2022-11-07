@@ -1,0 +1,47 @@
+{
+	"feature": "terralith:canyon/sandstone/scattered_palms",
+	"placement": [
+		{
+			"type": "count",
+			"count": 4
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:heightmap",
+			"heightmap":"WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 1,
+			"noise_factor": 156,
+			"noise_offset": 0.3
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 1,
+			"noise_factor": 30,
+			"noise_offset": -0.5
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					-1,
+					0
+				],
+				"blocks": [
+					"minecraft:sand",
+					"minecraft:moss_block",
+					"minecraft:grass_block"
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

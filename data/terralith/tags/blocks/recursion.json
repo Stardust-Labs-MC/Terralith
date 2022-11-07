@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stone",
+    "minecraft:granite",
+    "minecraft:diorite",
+    "minecraft:andesite",
+    "minecraft:tuff",
+    "minecraft:deepslate",
+    "minecraft:cobblestone",
+    "minecraft:mossy_cobblestone",
+    "minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:nether_wart_block",
+    "minecraft:slime_block"
+  ]
+}

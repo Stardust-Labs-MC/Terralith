@@ -1,0 +1,10 @@
+{
+  "config": {
+    "start_pool": "terralith:nothing",
+    "size": 1
+  },
+  "biomes": "minecraft:cold_ocean",
+  "adapt_noise": false,
+  "spawn_overrides": {},
+  "type": "minecraft:bastion_remnant"
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#terralith:soil_stone",
+    "minecraft:calcite",
+    "#terralith:terracotta",
+    "smooth_basalt",
+    "blackstone"
+  ]
+}

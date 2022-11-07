@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "terralith:highlands/alpine/spruce_pine",
+        "chance": 0.08
+      },
+      {
+        "feature": "terralith:highlands/alpine/pine",
+        "chance": 0.12
+      },
+      {
+        "feature": "terralith:highlands/steppe/bush_medium",
+        "chance": 0.7
+      }
+    ],
+    "default": "terralith:highlands/steppe/bush_small"
+  }
+}

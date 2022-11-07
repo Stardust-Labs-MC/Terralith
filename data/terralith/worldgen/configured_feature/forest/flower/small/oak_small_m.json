@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "ignore_vines": true,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 2,
+      "lower_size": 0,
+      "upper_size": 2
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:oak_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "trunk_placer": {
+      "type": "minecraft:fancy_trunk_placer",
+      "base_height": 5,
+      "height_rand_a": 2,
+      "height_rand_b": 2
+    },
+    "foliage_placer": {
+      "type": "minecraft:fancy_foliage_placer",
+      "radius": 2,
+      "offset": 3,
+      "height": 3
+    },
+    "decorators": [
+      {
+        "type": "minecraft:beehive",
+        "probability": 0.003
+      }
+    ],
+    "foliage_provider": {
+      "entries": [
+        {
+          "data": {
+            "Properties": {
+              "persistent": "false",
+              "distance": "7"
+            },
+            "Name": "minecraft:azalea_leaves"
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "Properties": {
+              "persistent": "false",
+              "distance": "7"
+            },
+            "Name": "minecraft:flowering_azalea_leaves"
+          },
+          "weight": 1
+        }
+      ],
+      "type": "minecraft:weighted_state_provider"
+    },
+    "force_dirt": false,
+    "sapling_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:oak_sapling",
+        "Properties": {
+          "stage": "0"
+        }
+      }
+    },
+    "dirt_provider": {
+      "state": {
+        "Name": "minecraft:dirt"
+      },
+      "type": "minecraft:simple_state_provider"
+    }
+  }
+}

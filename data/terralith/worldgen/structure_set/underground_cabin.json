@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "terralith:underground_cabin",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 69696969,
+    "spacing": 11,
+    "separation": 3,
+    "type": "minecraft:random_spread"
+  }
+}

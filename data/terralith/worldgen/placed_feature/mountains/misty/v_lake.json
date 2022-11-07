@@ -1,0 +1,35 @@
+{
+	"feature": "terralith:mountains/misty/v_lake",
+	"placement": [
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 3
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"absolute": 256
+			}
+		},
+		{
+			"type": "minecraft:environment_scan",
+			"direction_of_search": "down",
+			"target_condition": {
+				"type": "minecraft:solid"
+			},
+			"allowed_search_condition": {
+				"type": "minecraft:matching_blocks",
+				"blocks": [
+					"minecraft:air"
+				]
+			},
+			"max_steps": 32
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

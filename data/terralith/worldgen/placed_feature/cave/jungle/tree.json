@@ -1,0 +1,46 @@
+{
+  "feature": {
+    "type": "minecraft:random_selector",
+    "config": {
+      "features": [
+        {
+          "chance": 0.3,
+          "feature": {
+            "feature": "terralith:cave/jungle/tree_small",
+            "placement": []
+          }
+        },
+                {
+          "chance": 0.3,
+          "feature": {
+            "feature": "terralith:cave/jungle/tree_very_large",
+            "placement": []
+          }
+        }
+      ],
+      "default": {
+        "feature": "terralith:cave/jungle/tree_1",
+        "placement": []
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:would_survive",
+            "state": {
+              "Name": "minecraft:mangrove_propagule"
+            }
+          },
+          {
+            "type": "minecraft:replaceable"
+          }
+        ]
+      }
+    }
+  ]
+}

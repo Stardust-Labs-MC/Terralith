@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:alpha_islands",
+    "terralith:birch_taiga",
+    "terralith:lavender_forest",
+    "terralith:lavender_valley",
+    "terralith:mirage_isles",
+    "terralith:moonlight_grove",
+    "terralith:sakura_grove",
+    "terralith:sakura_valley",
+    "terralith:skylands",
+    "terralith:skylands_autumn",
+    "terralith:skylands_spring",
+    "terralith:temperate_highlands",
+    "terralith:white_cliffs",
+    "terralith:yosemite_lowlands"
+  ]
+}

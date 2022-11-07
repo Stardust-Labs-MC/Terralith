@@ -1,0 +1,33 @@
+{
+	"feature": "terralith:mountains/misty/tuff",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 50
+		},
+		{
+			"type": "minecraft:count",
+			"count": 10
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 20,
+			"noise_factor": 110,
+			"noise_offset": 0
+		},
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 50
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "OCEAN_FLOOR_WG"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

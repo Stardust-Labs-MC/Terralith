@@ -1,0 +1,78 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 32,
+    "xz_spread": 7,
+    "y_spread": 3,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 50,
+                "data": {
+                  "Name": "minecraft:grass"
+                }
+              },
+              {
+                "weight": 17,
+                "data": {
+                  "Name": "minecraft:fern"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:tall_grass",
+                  "Properties": {
+                    "half": "lower"
+                  }
+                }
+              },
+              {
+                "weight": 14,
+                "data": {
+                  "Name": "minecraft:tall_fern",
+                  "Properties": {
+                    "half": "lower"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:air"
+                ]
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:grass_block",
+                  "moss_block"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

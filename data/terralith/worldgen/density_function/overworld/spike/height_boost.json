@@ -1,0 +1,15 @@
+{
+
+  "argument":{
+
+      "argument1":{
+                                  "noise": "terralith:math/spike/height_boost",
+                                  "xz_scale":1.0,
+                                  "y_scale": 0.0,
+                                  "type": "minecraft:noise"
+},
+"argument2":0.0,
+"type":"add"
+},
+"type":"flat_cache"
+}

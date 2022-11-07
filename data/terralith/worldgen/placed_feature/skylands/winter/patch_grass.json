@@ -1,0 +1,19 @@
+{
+	"feature": "terralith:skylands/winter/patch_grass",
+	"placement": [
+		{
+			"type": "count",
+			"count": 50
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "MOTION_BLOCKING_NO_LEAVES"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"feature": "terralith:yosemite/waterfall",
+	"placement": [
+		{
+			"type": "count",
+			"count": 6
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": -1,
+			"noise_factor": 75,
+			"noise_offset": 0.6
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"absolute": 256
+			}
+		},
+		{
+			"type": "minecraft:environment_scan",
+			"direction_of_search": "down",
+			"target_condition": {
+				"type": "minecraft:solid"
+			},
+			"allowed_search_condition": {
+				"type": "minecraft:matching_blocks",
+				"blocks": [
+					"minecraft:air"
+				]
+			},
+			"max_steps": 32
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

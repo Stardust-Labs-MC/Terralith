@@ -1,0 +1,16 @@
+{
+	"feature": "terralith:flower/blue/orchids",
+	"placement": [
+		{
+			"type": "count",
+			"count": 16
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		}
+	]
+}

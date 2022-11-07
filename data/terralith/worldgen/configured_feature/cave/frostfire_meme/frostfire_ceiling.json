@@ -1,0 +1,149 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "surface": "ceiling",
+    "depth": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      }
+    },
+    "vertical_range": 1,
+    "extra_bottom_block_chance": 0.5,
+    "extra_edge_column_chance": 0.5,
+    "vegetation_chance": 0.4,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 5
+      }
+    },
+    "replaceable": "#minecraft:base_stone_overworld",
+    "ground_state": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 4,
+          "data": {
+            "Name": "minecraft:deepslate_tiles"
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:blue_ice"
+          }
+        }
+      ]
+    },
+    "vegetation_feature":{"placement":[],"feature": {
+      "type": "minecraft:random_selector",
+      "config": {
+        "features": [],
+        "default": {
+          "feature": {
+            "type": "minecraft:random_selector",
+            "config": {
+              "features": [
+                {
+                  "chance": 0.07,
+                  "feature": {
+                    "feature": {
+                      "type": "minecraft:block_column",
+                      "config": {
+                        "direction": "down",
+                        "allowed_placement": {
+                          "type": "minecraft:matching_blocks",
+                          "offset": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "blocks": [
+                            "minecraft:air",
+                            "minecraft:cave_air"
+                          ]
+                        },
+                        "prioritize_tip": true,
+                        "layers": [
+                          {
+                            "height": {
+                              "type": "minecraft:clamped_normal",
+                              "value": {
+                                "min_inclusive": 4,
+                                "max_inclusive": 50,
+                                "mean": 4,
+                                "deviation": 12
+                              }
+                            },
+                            "provider": {
+                              "type": "minecraft:simple_state_provider",
+                              "state": {
+                                "Name": "minecraft:chain",
+                                "Properties": {
+                                  "axis": "y",
+                                  "waterlogged": "false"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "height": 1,
+                            "provider": {
+                              "type": "minecraft:simple_state_provider",
+                              "state": {
+                                "Name": "minecraft:soul_lantern",
+                                "Properties": {
+                                  "hanging": "true",
+                                  "waterlogged": "false"
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "placement": []
+                  }
+                }
+              ],
+              "default": {
+                "feature": {
+                  "type": "minecraft:block_column",
+                  "config": {
+                    "direction": "down",
+                    "allowed_placement": {
+                      "type": "minecraft:true"
+                    },
+                    "prioritize_tip": false,
+                    "layers": [
+                      {
+                        "height": {
+                          "type": "minecraft:biased_to_bottom",
+                          "value": {
+                            "min_inclusive": 1,
+                            "max_inclusive": 5
+                          }
+                        },
+                        "provider": {
+                          "type": "minecraft:simple_state_provider",
+                          "state": {
+                            "Name": "minecraft:blue_ice"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                "placement": []
+              }
+            }
+          },
+          "placement": []
+        }
+      }
+    }}
+  }
+}

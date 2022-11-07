@@ -1,0 +1,117 @@
+{
+	"feature": "terralith:mountains/rocky/funny_snow_segwit_2x",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 70
+		},
+		{
+			"type": "minecraft:count",
+			"count": 10
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:random_offset",
+			"xz_spread": 1,
+			"y_spread": 0
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							-1,
+							0
+						],
+						"blocks": [
+							"minecraft:snow_block",
+							"minecraft:tuff",
+							"minecraft:cobbled_deepslate",
+							"minecraft:cobblestone"
+						]
+					},
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							0,
+							0
+						],
+						"blocks": [
+							"minecraft:air"
+						]
+					},
+					{
+						"type": "minecraft:not",
+						"predicate": {
+							"type": "minecraft:all_of",
+							"predicates": [
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										-1,
+										0,
+										0
+									],
+									"blocks": [
+										"minecraft:air",
+										"minecraft:snow"
+									]
+								},
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										1,
+										0,
+										0
+									],
+									"blocks": [
+										"minecraft:air",
+										"minecraft:snow"
+									]
+								},
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										0,
+										0,
+										-1
+									],
+									"blocks": [
+										"minecraft:air",
+										"minecraft:snow"
+									]
+								},
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										0,
+										0,
+										1
+									],
+									"blocks": [
+										"minecraft:air",
+										"minecraft:snow"
+									]
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

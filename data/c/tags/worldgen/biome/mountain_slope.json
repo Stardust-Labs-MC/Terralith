@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:alpine_grove",
+    "terralith:amethyst_canyon",
+    "terralith:ashen_savanna",
+    "terralith:blooming_valley",
+    "terralith:caldera",
+    "terralith:glacial_chasm",
+    "terralith:jungle_mountains",
+    "terralith:lavender_valley",
+    "terralith:moonlight_valley",
+    "terralith:rocky_jungle",
+    "terralith:rocky_mountains",
+    "terralith:sakura_valley",
+    "terralith:sandstone_valley",
+    "terralith:savanna_slopes",
+    "terralith:siberian_grove",
+    "terralith:stony_spires"
+  ]
+}

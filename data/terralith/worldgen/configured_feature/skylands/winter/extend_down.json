@@ -1,0 +1,439 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "surface": "ceiling",
+    "depth": 1,
+    "vertical_range": 7,
+    "extra_bottom_block_chance": 0,
+    "extra_edge_column_chance": 0.5,
+    "vegetation_chance": 0.8,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 4,
+        "max_inclusive": 8
+      }
+    },
+    "replaceable": "#terralith:island_blocks",
+    "ground_state": {
+      "type": "minecraft:dual_noise_provider",
+      "seed": 66,
+      "noise": {
+        "firstOctave": -2,
+        "amplitudes": [
+          1.5,
+          1.25,
+          2
+        ]
+      },
+      "scale": 0.65,
+      "variety": {
+        "min_inclusive": 1,
+        "max_inclusive": 5
+      },
+      "slow_noise": {
+        "firstOctave": -4,
+        "amplitudes": [
+          1.25,
+          1,
+          1.25,
+          3.25
+        ]
+      },
+      "slow_scale": 1,
+      "states": [
+        {
+          "Name": "minecraft:blue_ice"
+        },
+        {
+          "Name": "minecraft:packed_ice"
+        },
+        {
+          "Name": "minecraft:packed_ice"
+        },
+        {
+          "Name": "minecraft:blue_ice"
+        }
+      ]
+    },
+    "vegetation_feature": {
+      "feature": {
+        "type": "minecraft:random_selector",
+        "config": {
+          "features": [],
+          "default": {
+            "feature": {
+              "type": "minecraft:random_selector",
+              "config": {
+                "features": [
+                  {
+                    "chance": 0.76,
+                    "feature": {
+                      "feature": {
+                        "type": "minecraft:simple_block",
+                        "config": {
+                          "to_place": {
+                            "type": "minecraft:dual_noise_provider",
+                            "seed": 66,
+                            "noise": {
+                              "firstOctave": -2,
+                              "amplitudes": [
+                                1.5,
+                                1.25,
+                                2
+                              ]
+                            },
+                            "scale": 0.65,
+                            "variety": {
+                              "min_inclusive": 1,
+                              "max_inclusive": 5
+                            },
+                            "slow_noise": {
+                              "firstOctave": -4,
+                              "amplitudes": [
+                                1.25,
+                                1,
+                                1.25,
+                                3.25
+                              ]
+                            },
+                            "slow_scale": 1,
+                            "states": [
+                              {
+                                "Name": "minecraft:blue_ice"
+                              },
+                              {
+                                "Name": "minecraft:packed_ice"
+                              },
+                              {
+                                "Name": "minecraft:packed_ice"
+                              },
+                              {
+                                "Name": "minecraft:blue_ice"
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "placement": [
+                        {
+                          "type": "minecraft:block_predicate_filter",
+                          "predicate": {
+                            "type": "minecraft:all_of",
+                            "predicates": [
+                              {
+                                "type": "minecraft:not",
+                                "predicate": {
+                                  "type": "minecraft:all_of",
+                                  "predicates": [
+                                    {
+                                      "type": "minecraft:matching_blocks",
+                                      "offset": [
+                                        0,
+                                        1,
+                                        0
+                                      ],
+                                      "blocks": [
+                                        "minecraft:ice"
+                                      ]
+                                    },
+                                    {
+                                      "type": "minecraft:matching_blocks",
+                                      "offset": [
+                                        0,
+                                        2,
+                                        0
+                                      ],
+                                      "blocks": [
+                                        "minecraft:ice"
+                                      ]
+                                    },
+                                    {
+                                      "type": "minecraft:matching_blocks",
+                                      "offset": [
+                                        0,
+                                        3,
+                                        0
+                                      ],
+                                      "blocks": [
+                                        "minecraft:ice"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "minecraft:not",
+                                "predicate": {
+                                  "type": "minecraft:matching_blocks",
+                                  "offset": [
+                                    1,
+                                    1,
+                                    0
+                                  ],
+                                  "blocks": [
+                                    "minecraft:air"
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "minecraft:not",
+                                "predicate": {
+                                  "type": "minecraft:matching_blocks",
+                                  "offset": [
+                                    -1,
+                                    1,
+                                    0
+                                  ],
+                                  "blocks": [
+                                    "minecraft:air"
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "minecraft:not",
+                                "predicate": {
+                                  "type": "minecraft:matching_blocks",
+                                  "offset": [
+                                    0,
+                                    1,
+                                    -1
+                                  ],
+                                  "blocks": [
+                                    "minecraft:air"
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "minecraft:not",
+                                "predicate": {
+                                  "type": "minecraft:matching_blocks",
+                                  "offset": [
+                                    0,
+                                    1,
+                                    1
+                                  ],
+                                  "blocks": [
+                                    "minecraft:air"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "chance": 0.2,
+                    "feature": {
+                      "feature": {
+                        "type": "minecraft:block_column",
+                        "config": {
+                          "direction": "down",
+                          "allowed_placement": {
+                            "type": "minecraft:matching_blocks",
+                            "blocks": [
+                              "minecraft:air"
+                            ]
+                          },
+                          "prioritize_tip": false,
+                          "layers": [
+                            {
+                              "height": {
+                                "type": "minecraft:biased_to_bottom",
+                                "value": {
+                                  "min_inclusive": 1,
+                                  "max_inclusive": 15
+                                }
+                              },
+                              "provider": {
+                                "type": "minecraft:simple_state_provider",
+                                "state": {
+                                  "Name": "minecraft:ice"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "placement": [
+                        {
+                          "type": "minecraft:noise_based_count",
+                          "noise_to_count_ratio": 50,
+                          "noise_factor": 31,
+                          "noise_offset": 0
+                        },
+                        {
+                          "type": "minecraft:rarity_filter",
+                          "chance": 20
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "default": {
+                  "feature": {
+                    "type": "minecraft:simple_block",
+                    "config": {
+                      "to_place": {
+                        "type": "minecraft:dual_noise_provider",
+                        "seed": 66,
+                        "noise": {
+                          "firstOctave": -2,
+                          "amplitudes": [
+                            1.5,
+                            1.25,
+                            2
+                          ]
+                        },
+                        "scale": 0.65,
+                        "variety": {
+                          "min_inclusive": 1,
+                          "max_inclusive": 5
+                        },
+                        "slow_noise": {
+                          "firstOctave": -4,
+                          "amplitudes": [
+                            1.25,
+                            1,
+                            1.25,
+                            3.25
+                          ]
+                        },
+                        "slow_scale": 1,
+                        "states": [
+                          {
+                            "Name": "minecraft:blue_ice"
+                          },
+                          {
+                            "Name": "minecraft:packed_ice"
+                          },
+                          {
+                            "Name": "minecraft:packed_ice"
+                          },
+                          {
+                            "Name": "minecraft:blue_ice"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "placement": [
+                    {
+                      "type": "minecraft:block_predicate_filter",
+                      "predicate": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                          {
+                            "type": "minecraft:not",
+                            "predicate": {
+                              "type": "minecraft:all_of",
+                              "predicates": [
+                                {
+                                  "type": "minecraft:matching_blocks",
+                                  "offset": [
+                                    0,
+                                    1,
+                                    0
+                                  ],
+                                  "blocks": [
+                                    "minecraft:ice"
+                                  ]
+                                },
+                                {
+                                  "type": "minecraft:matching_blocks",
+                                  "offset": [
+                                    0,
+                                    2,
+                                    0
+                                  ],
+                                  "blocks": [
+                                    "minecraft:ice"
+                                  ]
+                                },
+                                {
+                                  "type": "minecraft:matching_blocks",
+                                  "offset": [
+                                    0,
+                                    3,
+                                    0
+                                  ],
+                                  "blocks": [
+                                    "minecraft:ice"
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "type": "minecraft:not",
+                            "predicate": {
+                              "type": "minecraft:matching_blocks",
+                              "offset": [
+                                1,
+                                2,
+                                0
+                              ],
+                              "blocks": [
+                                "minecraft:air"
+                              ]
+                            }
+                          },
+                          {
+                            "type": "minecraft:not",
+                            "predicate": {
+                              "type": "minecraft:matching_blocks",
+                              "offset": [
+                                -1,
+                                2,
+                                0
+                              ],
+                              "blocks": [
+                                "minecraft:air"
+                              ]
+                            }
+                          },
+                          {
+                            "type": "minecraft:not",
+                            "predicate": {
+                              "type": "minecraft:matching_blocks",
+                              "offset": [
+                                0,
+                                2,
+                                -1
+                              ],
+                              "blocks": [
+                                "minecraft:air"
+                              ]
+                            }
+                          },
+                          {
+                            "type": "minecraft:not",
+                            "predicate": {
+                              "type": "minecraft:matching_blocks",
+                              "offset": [
+                                0,
+                                2,
+                                1
+                              ],
+                              "blocks": [
+                                "minecraft:air"
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "placement": []
+          }
+        }
+      },
+      "placement": []
+    }
+  }
+}

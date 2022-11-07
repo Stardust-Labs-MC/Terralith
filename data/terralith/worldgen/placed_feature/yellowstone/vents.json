@@ -1,0 +1,74 @@
+{
+	"feature": "terralith:yellowstone/vents",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 100,
+						"data": 30
+					},
+					{
+						"weight": 0,
+						"data": 30
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "OCEAN_FLOOR"
+		},
+		{
+			"type": "environment_scan",
+			"direction_of_search": "down",
+			"max_steps": 6,
+			"target_condition": {
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							1,
+							0
+						],
+						"blocks": [
+							"minecraft:magma_block"
+						]
+					},
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							2,
+							0
+						],
+						"blocks": [
+							"minecraft:water"
+						]
+					},
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							5,
+							0
+						],
+						"blocks": [
+							"minecraft:air"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

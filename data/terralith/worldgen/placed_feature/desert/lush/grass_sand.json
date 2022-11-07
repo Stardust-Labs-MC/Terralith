@@ -1,0 +1,164 @@
+{
+  "feature": {
+    "type": "minecraft:random_patch",
+    "config": {
+      "tries": 6,
+      "xz_spread": 6,
+      "y_spread": 2,
+      "feature": {
+        "feature": {
+          "type": "minecraft:block_column",
+          "config": {
+            "direction": "up",
+            "allowed_placement": {
+              "type": "minecraft:true"
+            },
+            "prioritize_tip": false,
+            "layers": [
+              {
+                "height": 1,
+                "provider": {
+                  "type": "minecraft:dual_noise_provider",
+                  "seed": 62353,
+                  "noise": {
+                    "firstOctave": -3,
+                    "amplitudes": [
+                      1,
+                      1.75,
+                      2.75
+                    ]
+                  },
+                  "scale": 1,
+                  "variety": {
+                    "min_inclusive": 1,
+                    "max_inclusive": 19
+                  },
+                  "slow_noise": {
+                    "firstOctave": -5,
+                    "amplitudes": [
+                      1,
+                      0.25,
+                      0.25,
+                      1.875,
+                      6.75,
+                      14.5
+                    ]
+                  },
+                  "slow_scale": 1,
+                  "states": [
+                    {
+                      "Name": "minecraft:grass"
+                    },
+                    {
+                      "Name": "minecraft:grass"
+                    },
+                    {
+                      "Name": "minecraft:grass"
+                    },
+                    {
+                      "Name": "minecraft:fern"
+                    },
+                    {
+                      "Name": "minecraft:grass"
+                    },
+                    {
+                      "Name": "minecraft:grass"
+                    },
+                    {
+                      "Name": "minecraft:grass"
+                    },
+                                        {
+                      "Name": "minecraft:grass"
+                    },
+                    {
+                      "Name": "minecraft:air"
+                    },
+                    {
+                      "Name": "minecraft:dead_bush"
+                    },
+                    {
+                      "Name": "minecraft:air"
+                    },
+                    {
+                      "Name": "minecraft:air"
+                    },
+                    {
+                      "Name": "minecraft:air"
+                    },
+                    {
+                      "Name": "minecraft:dead_bush"
+                    },
+                    {
+                      "Name": "minecraft:air"
+                    },
+                                        {
+                      "Name": "minecraft:air"
+                    },
+                    {
+                      "Name": "minecraft:grass"
+                    },
+                    {
+                      "Name": "minecraft:fern"
+                    },
+                    {
+                      "Name": "minecraft:grass"
+                    }
+
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:all_of",
+              "predicates": [
+                {
+                  "type": "minecraft:matching_blocks",
+                  "offset": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:air"
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:sand"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 25
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

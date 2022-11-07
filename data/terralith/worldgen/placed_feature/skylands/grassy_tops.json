@@ -1,0 +1,68 @@
+{
+	"feature": "terralith:skylands/grassy_tops",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 100
+		},
+		{
+			"type": "minecraft:count",
+			"count": 20
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:random_offset",
+			"xz_spread": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": -6,
+					"max_inclusive": 6
+				}
+			},
+			"y_spread": 0
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "MOTION_BLOCKING_NO_LEAVES"
+		},
+		{
+			"type": "environment_scan",
+			"direction_of_search": "down",
+			"max_steps": 2,
+			"target_condition": {
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							0,
+							0
+						],
+						"blocks": [
+							"minecraft:stone"
+						]
+					},
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							1,
+							0
+						],
+						"blocks": [
+							"minecraft:air",
+							"minecraft:grass",
+							"minecraft:fern"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

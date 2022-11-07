@@ -1,0 +1,25 @@
+{
+	"feature": "minecraft:flower_plain",
+	"placement": [
+		{
+			"type": "minecraft:noise_threshold_count",
+			"noise_level": -0.8,
+			"below_noise": 15,
+			"above_noise": 4
+		},
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 32
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "MOTION_BLOCKING"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"feature": "terralith:dark/disk_soulsoil",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 0,
+						"data": 0
+					},
+					{
+						"weight": 100,
+						"data": 0
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 1,
+			"noise_factor": 175,
+			"noise_offset": 1
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "OCEAN_FLOOR_WG"
+		}
+	]
+}

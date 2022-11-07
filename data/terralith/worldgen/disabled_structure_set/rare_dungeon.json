@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "terralith:spire",
+      "weight": 1
+    } 
+  ],
+  "placement": {
+    "salt": 928472105,
+    "spacing": 36,
+    "separation": 18,
+    "type": "minecraft:random_spread"
+  }
+}

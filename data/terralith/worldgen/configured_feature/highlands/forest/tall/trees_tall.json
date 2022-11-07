@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.01,
+        "feature": "terralith:taiga/tall/pine_tall"
+      },
+      {
+        "chance": 0.75,
+        "feature": "terralith:taiga/tall/spruce_tall_m"
+      }
+    ],
+    "default": "terralith:taiga/tall/spruce_tall"
+  }
+}

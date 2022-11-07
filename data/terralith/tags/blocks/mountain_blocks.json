@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:base_stone_overworld",
+    "minecraft:grass_block",
+    "minecraft:dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:snow",
+    "minecraft:snow_block",
+    "minecraft:packed_ice",
+    "minecraft:blue_ice",
+    "minecraft:powder_snow",
+    "minecraft:smooth_basalt"
+  ]
+}

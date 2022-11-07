@@ -1,0 +1,45 @@
+{
+	"feature": "terralith:flower/blue/trees",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 90,
+						"data": 8
+					},
+					{
+						"weight": 10,
+						"data": 9
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					-1,
+					0
+				],
+				"blocks": [
+					"minecraft:grass_block"
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

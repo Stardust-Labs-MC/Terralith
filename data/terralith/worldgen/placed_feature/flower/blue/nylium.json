@@ -1,0 +1,30 @@
+{
+	"feature": "terralith:flower/blue/nylium",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 30
+		},
+		{
+			"type": "minecraft:count",
+			"count": 50
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 10,
+			"noise_factor": 70,
+			"noise_offset": -0.4
+		},
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 300
+		}
+	]
+}

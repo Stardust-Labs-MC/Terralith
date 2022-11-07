@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stone",
+    "minecraft:diorite",
+    "minecraft:andesite",
+    "minecraft:granite",
+    "minecraft:coal_ore",
+    "minecraft:iron_ore",
+    "minecraft:dirt",
+    "minecraft:grass_block",
+    "minecraft:grass",
+    "minecraft:fern",
+    "minecraft:green_candle",
+    "minecraft:gravel",
+    "minecraft:calcite",
+    "minecraft:copper_ore",
+    "minecraft:poppy",
+    "minecraft:dandelion",
+    "minecraft:sand",
+    "minecraft:cobblestone",
+    "minecraft:mossy_cobblestone",
+    "minecraft:chest",
+    "minecraft:spawner",
+    "minecraft:cave_air"
+  ]
+}

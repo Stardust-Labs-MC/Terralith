@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.55,
+        "feature": "terralith:mountains/emerald/trees/small/pine_small"
+      },
+      {
+        "chance": 0.1,
+        "feature": "terralith:mountains/emerald/trees/small/spruce_small_m"
+      }
+    ],
+    "default": "terralith:mountains/emerald/trees/small/spruce_small"
+  }
+}

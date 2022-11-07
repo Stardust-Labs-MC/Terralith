@@ -1,0 +1,48 @@
+{
+	"feature": "terralith:swamp/orchid/small/trees_small",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 90,
+						"data": 0
+					},
+					{
+						"weight": 70,
+						"data": 1
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "OCEAN_FLOOR_WG"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:replaceable"
+					},
+					{
+						"type": "minecraft:would_survive",
+						"state": {
+							"Name": "minecraft:fern"
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

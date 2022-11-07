@@ -1,0 +1,19 @@
+{
+	"feature": "terralith:canyon/red_sandstone/terracotta",
+	"placement": [
+		{
+			"type": "count",
+			"count": 80
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "OCEAN_FLOOR"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

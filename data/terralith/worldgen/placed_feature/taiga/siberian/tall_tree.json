@@ -1,0 +1,15 @@
+{
+	"feature": "terralith:taiga/siberian/tall_tree",
+	"placement": [
+		{
+			"type": "count",
+			"count": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": 1,
+					"max_inclusive": 4
+				}
+			}
+		}
+	]
+}

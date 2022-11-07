@@ -1,0 +1,48 @@
+{
+	"feature": "terralith:cave/ice/pools",
+	"placement": [
+		{
+			"type": "count",
+			"count": 128
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"above_bottom": 13
+				},
+				"max_inclusive": {
+					"absolute": 60
+				}
+			}
+		},
+		{
+			"type": "minecraft:environment_scan",
+			"direction_of_search": "down",
+			"target_condition": {
+				"type": "minecraft:solid"
+			},
+			"allowed_search_condition": {
+				"type": "minecraft:matching_blocks",
+				"blocks": [
+					"minecraft:air"
+				]
+			},
+			"max_steps": 15
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 10,
+			"noise_factor": 55,
+			"noise_offset": 0.25
+		},
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 2
+		}
+	]
+}

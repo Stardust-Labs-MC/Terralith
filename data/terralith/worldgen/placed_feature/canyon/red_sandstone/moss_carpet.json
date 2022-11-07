@@ -1,0 +1,67 @@
+{
+	"feature": "terralith:canyon/red_sandstone/moss_carpet",
+	"placement": [
+		{
+			"type": "count",
+			"count": 120
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					-1,
+					0
+				],
+				"blocks": [
+					"minecraft:moss_block"
+				]
+			}
+		},
+		{
+			"type": "minecraft:random_offset",
+			"xz_spread": {
+				"type": "minecraft:clamped_normal",
+				"value": {
+					"min_inclusive": -6,
+					"max_inclusive": 6,
+					"mean": 0,
+					"deviation": 3
+				}
+			},
+			"y_spread": 0
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					-1,
+					0
+				],
+				"blocks": [
+					"minecraft:red_sand",
+					"minecraft:clay",
+					"minecraft:red_sandstone",
+					"minecraft:smooth_red_sandstone"
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

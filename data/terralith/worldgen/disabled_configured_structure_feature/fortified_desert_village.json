@@ -1,0 +1,10 @@
+{
+  "config": {
+    "start_pool": "terralith:village/desert/starts",
+    "size": 5
+  },
+  "biomes": "desert",
+  "adapt_noise": true,
+  "spawn_overrides": {},
+  "type": "minecraft:village"
+}

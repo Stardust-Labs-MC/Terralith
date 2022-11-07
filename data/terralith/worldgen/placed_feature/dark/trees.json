@@ -1,0 +1,36 @@
+{
+	"feature": "terralith:dark/trees",
+	"placement": [
+		{
+			"type": "count",
+			"count": 155
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					-1,
+					0
+				],
+				"blocks": [
+					"minecraft:grass_block",
+					"minecraft:podzol",
+					"minecraft:dirt",
+					"minecraft:coarse_dirt"
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

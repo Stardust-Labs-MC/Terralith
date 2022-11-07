@@ -1,0 +1,13 @@
+{
+	"feature": "terralith:mountains/emerald/trees/tiny/spruce_tiny_m",
+	"placement": [
+		{
+			"type": "heightmap",
+			"heightmap": "OCEAN_FLOOR"
+		},
+		{
+			"type": "minecraft:surface_water_depth_filter",
+			"max_water_depth": 0
+		}
+	]
+}

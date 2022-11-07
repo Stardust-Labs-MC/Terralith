@@ -1,0 +1,36 @@
+{
+	"feature": "terralith:enchanted/springs",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 100,
+						"data": 70
+					},
+					{
+						"weight": 0,
+						"data": 70
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"absolute": 140
+				},
+				"max_inclusive": {
+					"absolute": 255
+				}
+			}
+		}
+	]
+}

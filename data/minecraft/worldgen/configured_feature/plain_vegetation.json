@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "minecraft:fancy_oak_bees_005",
+        "chance": 0.33333334
+      }
+    ],
+    "default": "minecraft:oak_bees_005"
+  }
+}

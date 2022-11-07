@@ -1,0 +1,27 @@
+{
+	"feature": "minecraft:vines",
+	"placement": [
+		{
+			"type": "count",
+			"count": 127
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"min_inclusive": {
+					"absolute": 64
+				},
+				"max_inclusive": {
+					"absolute": 100
+				},
+				"type": "minecraft:uniform"
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

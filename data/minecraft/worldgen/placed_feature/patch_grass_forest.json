@@ -1,0 +1,19 @@
+{
+	"feature": "minecraft:patch_grass_forest",
+	"placement": [
+		{
+			"type": "count",
+			"count": 2
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

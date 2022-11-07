@@ -1,0 +1,49 @@
+{
+	"feature": "terralith:cave/frostfire/columns",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 50,
+						"data": 6
+					},
+					{
+						"weight": 50,
+						"data": 9
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"above_bottom": 0
+				},
+				"max_inclusive": {
+					"absolute": 30
+				}
+			}
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 14,
+			"noise_factor": 66,
+			"noise_offset": 1
+		},
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 14
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

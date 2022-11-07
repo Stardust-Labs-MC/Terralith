@@ -1,0 +1,31 @@
+{
+  "values": [
+    "minecraft:snowy_plains",
+    "minecraft:ice_spikes",
+    "minecraft:frozen_peaks",
+    "minecraft:jagged_peaks",
+    "minecraft:snowy_slopes",
+    "minecraft:frozen_ocean",
+    "minecraft:deep_frozen_ocean",
+    "minecraft:grove",
+    "minecraft:deep_dark",
+    "minecraft:frozen_river",
+    "minecraft:snowy_taiga",
+    "minecraft:snowy_beach",
+    "#minecraft:is_end",
+    "terralith:alpha_islands_winter",
+"terralith:alpine_grove",
+"terralith:emerald_peaks",
+"terralith:frozen_cliffs",
+"terralith:glacial_chasm",
+"terralith:gravel_desert",
+"terralith:ice_marsh",
+"terralith:scarlet_mountains",
+"terralith:skylands_winter",
+"terralith:snowy_badlands",
+"terralith:snowy_maple_forest",
+"terralith:snowy_shield",
+"terralith:wintry_forest",
+"terralith:wintry_lowlands"
+  ]
+}

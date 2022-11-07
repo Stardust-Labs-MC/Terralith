@@ -1,0 +1,27 @@
+{
+	"feature": "terralith:volcano/spring_lava",
+	"placement": [
+		{
+			"type": "count",
+			"count": 42
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"min_inclusive": {
+					"absolute": 110
+				},
+				"max_inclusive": {
+					"absolute": 290
+				},
+				"type": "minecraft:uniform"
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

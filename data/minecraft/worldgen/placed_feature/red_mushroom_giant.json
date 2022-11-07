@@ -1,0 +1,12 @@
+{
+	"feature": "minecraft:red_mushroom_taiga",
+	"placement": [
+		{
+			"type": "count",
+			"count": 3
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

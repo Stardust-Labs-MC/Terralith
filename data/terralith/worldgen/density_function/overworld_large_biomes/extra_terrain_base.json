@@ -1,0 +1,12 @@
+{
+    "type": "cache_once",
+    "argument": {
+        "type": "max",
+        "argument1": "terralith:overworld_large_biomes/arch/total",
+        "argument2": {
+            "type": "max",
+            "argument1": "terralith:overworld_large_biomes/dune/total",
+            "argument2": "terralith:overworld_large_biomes/spikes/tendrils"
+        }
+    }
+}

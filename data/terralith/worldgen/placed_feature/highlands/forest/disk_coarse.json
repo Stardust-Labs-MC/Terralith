@@ -1,0 +1,16 @@
+{
+	"feature": "terralith:highlands/forest/disk_coarse",
+	"placement": [
+		{
+			"type": "count",
+			"count": 6
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "OCEAN_FLOOR"
+		}
+	]
+}

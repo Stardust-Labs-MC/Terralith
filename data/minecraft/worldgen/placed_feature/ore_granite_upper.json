@@ -1,0 +1,27 @@
+{
+	"feature": "minecraft:ore_granite_upper",
+	"placement": [
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 1000000
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"min_inclusive": {
+					"absolute": 64
+				},
+				"max_inclusive": {
+					"absolute": 128
+				},
+				"type": "minecraft:uniform"
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

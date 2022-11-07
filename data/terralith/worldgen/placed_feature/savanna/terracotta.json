@@ -1,0 +1,23 @@
+{
+	"feature": "terralith:savanna/terracotta",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 22
+		},
+		{
+			"type": "minecraft:count",
+			"count": 74
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

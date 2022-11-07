@@ -1,0 +1,19 @@
+{
+    "type": "mul",
+    "argument1": {
+      "type": "y_clamped_gradient",
+      "from_y": -64,
+      "to_y": 320,
+      "from_value": 1.5,
+      "to_value": -3
+    },
+    "argument2": 
+
+    {"type":"flat_cache",
+  "argument":{
+      "type": "noise",
+      "noise": "terralith:math/spikes/shift2",
+      "xz_scale": 1.0,
+      "y_scale": 0
+    }}
+  }

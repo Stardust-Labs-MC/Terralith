@@ -1,0 +1,179 @@
+{
+	"feature": "terralith:taiga/birch/trees_small",
+	"placement": [
+		{
+			"type": "count",
+			"count": 8
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:would_survive",
+				"state": {
+					"Name": "minecraft:fern"
+				}
+			}
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:not",
+						"predicate": {
+							"type": "minecraft:any_of",
+							"predicates": [
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										1,
+										0,
+										0
+									],
+									"blocks": [
+										"minecraft:calcite",
+										"minecraft:stone",
+										"minecraft:diorite",
+										"birch_log",
+										"oak_log"
+									]
+								},
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										-1,
+										0,
+										0
+									],
+									"blocks": [
+										"minecraft:calcite",
+										"minecraft:stone",
+										"minecraft:diorite",
+										"birch_log",
+										"oak_log"
+									]
+								},
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										0,
+										0,
+										1
+									],
+									"blocks": [
+										"minecraft:calcite",
+										"minecraft:stone",
+										"minecraft:diorite",
+										"birch_log",
+										"oak_log"
+									]
+								},
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										0,
+										0,
+										-1
+									],
+									"blocks": [
+										"minecraft:calcite",
+										"minecraft:stone",
+										"minecraft:diorite",
+										"birch_log",
+										"oak_log"
+									]
+								},
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										1,
+										0,
+										1
+									],
+									"blocks": [
+										"minecraft:calcite",
+										"minecraft:stone",
+										"minecraft:diorite",
+										"birch_log",
+										"oak_log"
+									]
+								},
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										1,
+										0,
+										-1
+									],
+									"blocks": [
+										"minecraft:calcite",
+										"minecraft:stone",
+										"minecraft:diorite",
+										"birch_log",
+										"oak_log"
+									]
+								},
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										-1,
+										0,
+										1
+									],
+									"blocks": [
+										"minecraft:calcite",
+										"minecraft:stone",
+										"minecraft:diorite",
+										"birch_log",
+										"oak_log"
+									]
+								},
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										-1,
+										0,
+										-1
+									],
+									"blocks": [
+										"minecraft:calcite",
+										"minecraft:stone",
+										"minecraft:diorite",
+										"birch_log",
+										"oak_log"
+									]
+								},
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										0,
+										0,
+										0
+									],
+									"blocks": [
+										"minecraft:calcite",
+										"minecraft:stone",
+										"minecraft:diorite",
+										"birch_log",
+										"oak_log"
+									]
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

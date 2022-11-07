@@ -1,0 +1,11 @@
+{
+    "type":"cache_once",
+    "argument":
+
+{
+    "type": "min",
+    "argument1":"terralith:overworld_large_biomes/cliff/carve",
+    "argument2":64
+}
+
+}

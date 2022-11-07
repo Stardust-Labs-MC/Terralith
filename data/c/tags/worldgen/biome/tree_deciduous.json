@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:alpha_islands",
+    "terralith:alpha_islands_winter",
+    "terralith:alpine_highlands",
+    "terralith:birch_taiga",
+    "terralith:haze_mountain",
+    "terralith:ice_marsh",
+    "terralith:lavender_forest",
+    "terralith:lavender_valley",
+    "terralith:mirage_isles",
+    "terralith:sakura_grove",
+    "terralith:skylands_autumn",
+    "terralith:skylands_spring",
+    "terralith:temperate_highlands",
+    "terralith:white_cliffs"
+  ]
+}

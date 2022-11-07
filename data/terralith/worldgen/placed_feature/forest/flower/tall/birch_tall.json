@@ -1,0 +1,13 @@
+{
+	"feature": "terralith:forest/flower/tall/birch_tall",
+	"placement": [
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE"
+		},
+		{
+			"type": "minecraft:surface_water_depth_filter",
+			"max_water_depth": 0
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"feature": "terralith:cherry/bamboo",
+	"placement": [
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 50,
+			"noise_factor": 80,
+			"noise_offset": 0.8
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+				{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 20,
+			"noise_factor": 80,
+			"noise_offset": 0.0
+		},
+		{
+			"type": "minecraft:rarity_filter","chance": 250
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{"type":"biome"}
+	]
+}

@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "ignore_vines": true,
+    "force_dirt": true,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 1,
+      "lower_size": 0,
+      "upper_size": 1
+    },
+    "sapling_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:oak_sapling",
+        "Properties": {
+          "stage": "0"
+        }
+      }
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:mushroom_stem",
+        "Properties": {
+          "up": "true",
+          "down": "true",
+          "north": "true",
+          "south": "true",
+          "east": "true",
+          "west": "true"
+        }
+      }
+    },
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 0,
+          "data": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "weight": 50,
+          "data": {
+            "Name": "minecraft:red_mushroom_block",
+            "Properties": {
+              "up": "true",
+              "down": "true",
+              "north": "true",
+              "south": "true",
+              "east": "true",
+              "west": "true"
+            }
+          }
+        }
+      ]
+    },
+    "trunk_placer": {
+      "type": "minecraft:mega_jungle_trunk_placer",
+      "base_height": 7,
+      "height_rand_a": 6,
+      "height_rand_b": 6
+    },
+    "foliage_placer": {
+      "type": "minecraft:blob_foliage_placer",
+      "radius": 4,
+      "offset": 1,
+      "height": 4
+    },
+    "decorators": []
+  }
+}

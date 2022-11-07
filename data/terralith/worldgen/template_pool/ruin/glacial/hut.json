@@ -1,0 +1,33 @@
+{
+  "name": "you_are_reading_my_code_lmao",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "terralith:ruin/glacial/interior1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "terralith:ruin/glacial/interior2",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "terralith:ruin/glacial/interior216",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

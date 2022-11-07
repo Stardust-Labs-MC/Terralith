@@ -1,0 +1,9 @@
+{
+	"feature": "terralith:dark/twilight_tree",
+	"placement": [
+		{
+			"type": "count",
+			"count": 3
+		}
+	]
+}

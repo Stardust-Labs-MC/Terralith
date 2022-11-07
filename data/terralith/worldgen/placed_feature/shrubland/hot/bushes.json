@@ -1,0 +1,42 @@
+{
+	"feature": "terralith:shrubland/hot/bushes",
+	"placement": [
+		{
+			"type": "count",
+			"count": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": 2,
+					"max_inclusive": 3
+				}
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:replaceable"
+					},
+					{
+						"type": "minecraft:would_survive",
+						"state": {
+							"Name": "minecraft:fern"
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

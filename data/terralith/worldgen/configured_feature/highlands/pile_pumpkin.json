@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:block_pile",
+  "config": {
+    "state_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:pumpkin"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:carved_pumpkin",
+            "Properties": {
+              "facing": "north"
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:carved_pumpkin",
+            "Properties": {
+              "facing": "south"
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:carved_pumpkin",
+            "Properties": {
+              "facing": "west"
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:carved_pumpkin",
+            "Properties": {
+              "facing": "east"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

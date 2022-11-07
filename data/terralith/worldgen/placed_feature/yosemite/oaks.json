@@ -1,0 +1,48 @@
+{
+	"feature": "terralith:yosemite/oaks",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 50,
+						"data": 7
+					},
+					{
+						"weight": 50,
+						"data": 8
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:replaceable"
+					},
+					{
+						"type": "minecraft:would_survive",
+						"state": {
+							"Name": "minecraft:fern"
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

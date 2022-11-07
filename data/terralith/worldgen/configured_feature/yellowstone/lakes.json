@@ -1,0 +1,363 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [],
+    "default": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:water",
+              "Properties": {
+                "level": "0"
+              }
+            }
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "count",
+          "count": {
+            "type": "minecraft:uniform",
+            "value": {
+              "min_inclusive": 5,
+              "max_inclusive": 5
+            }
+          }
+        },
+        {
+          "type": "minecraft:random_offset",
+          "xz_spread": {
+            "type": "minecraft:uniform",
+            "value": {
+              "min_inclusive": -4,
+              "max_inclusive": 4
+            }
+          },
+          "y_spread": 0
+        },
+        {
+          "type": "environment_scan",
+          "direction_of_search": "down",
+          "max_steps": 6,
+          "target_condition": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:any_of",
+                  "predicates": [
+                    {
+                      "type": "minecraft:matching_blocks",
+                      "offset": [
+                        -1,
+                        0,
+                        0
+                      ],
+                      "blocks": [
+                        "minecraft:smooth_basalt",
+                        "minecraft:red_sand",
+                        "minecraft:blackstone",
+                        "minecraft:air",
+                        "lava"
+                      ]
+                    },
+                    {
+                      "type": "minecraft:matching_blocks",
+                      "offset": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "blocks": [
+                        "minecraft:smooth_basalt",
+                        "minecraft:red_sand",
+                        "minecraft:blackstone",
+                        "minecraft:air",
+                        "lava"
+                      ]
+                    },
+                    {
+                      "type": "minecraft:matching_blocks",
+                      "offset": [
+                        0,
+                        0,
+                        -1
+                      ],
+                      "blocks": [
+                        "minecraft:smooth_basalt",
+                        "minecraft:red_sand",
+                        "minecraft:blackstone",
+                        "minecraft:air",
+                        "lava"
+                      ]
+                    },
+                    {
+                      "type": "minecraft:matching_blocks",
+                      "offset": [
+                        0,
+                        0,
+                        1
+                      ],
+                      "blocks": [
+                        "minecraft:smooth_basalt",
+                        "minecraft:red_sand",
+                        "minecraft:blackstone",
+                        "minecraft:air",
+                        "lava"
+                      ]
+                    },
+                    {
+                      "type": "minecraft:matching_blocks",
+                      "offset": [
+                        -1,
+                        0,
+                        -1
+                      ],
+                      "blocks": [
+                        "minecraft:smooth_basalt",
+                        "minecraft:red_sand",
+                        "minecraft:blackstone",
+                        "minecraft:air",
+                        "lava"
+                      ]
+                    },
+                    {
+                      "type": "minecraft:matching_blocks",
+                      "offset": [
+                        1,
+                        0,
+                        1
+                      ],
+                      "blocks": [
+                        "minecraft:smooth_basalt",
+                        "minecraft:red_sand",
+                        "minecraft:blackstone",
+                        "minecraft:air",
+                        "lava"
+                      ]
+                    },
+                    {
+                      "type": "minecraft:matching_blocks",
+                      "offset": [
+                        1,
+                        0,
+                        -1
+                      ],
+                      "blocks": [
+                        "minecraft:smooth_basalt",
+                        "minecraft:red_sand",
+                        "minecraft:blackstone",
+                        "minecraft:air",
+                        "lava"
+                      ]
+                    },
+                    {
+                      "type": "minecraft:matching_blocks",
+                      "offset": [
+                        -1,
+                        0,
+                        1
+                      ],
+                      "blocks": [
+                        "minecraft:smooth_basalt",
+                        "minecraft:red_sand",
+                        "minecraft:blackstone",
+                        "minecraft:air",
+                        "lava"
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:yellow_terracotta",
+                  "minecraft:magma_block"
+                ]
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:any_of",
+                  "predicates": [
+                    {
+                      "type": "minecraft:matching_blocks",
+                      "offset": [
+                        -1,
+                        1,
+                        0
+                      ],
+                      "blocks": [
+                        "minecraft:yellow_terracotta",
+                        "minecraft:red_sand",
+                        "minecraft:blackstone",
+                        "minecraft:calcite",
+                        "minecraft:grass_block",
+                        "minecraft:dirt",
+                        "minecraft:coarse_dirt",
+                        "minecraft:gravel",
+                        "minecraft:smooth_basalt",
+                        "lava"
+                      ]
+                    },
+                    {
+                      "type": "minecraft:matching_blocks",
+                      "offset": [
+                        1,
+                        1,
+                        0
+                      ],
+                      "blocks": [
+                        "minecraft:yellow_terracotta",
+                        "minecraft:red_sand",
+                        "minecraft:blackstone",
+                        "minecraft:calcite",
+                        "minecraft:grass_block",
+                        "minecraft:dirt",
+                        "minecraft:coarse_dirt",
+                        "minecraft:gravel",
+                        "minecraft:smooth_basalt",
+                        "lava"
+                      ]
+                    },
+                    {
+                      "type": "minecraft:matching_blocks",
+                      "offset": [
+                        0,
+                        1,
+                        -1
+                      ],
+                      "blocks": [
+                        "minecraft:yellow_terracotta",
+                        "minecraft:red_sand",
+                        "minecraft:blackstone",
+                        "minecraft:calcite",
+                        "minecraft:grass_block",
+                        "minecraft:dirt",
+                        "minecraft:coarse_dirt",
+                        "minecraft:gravel",
+                        "minecraft:smooth_basalt",
+                        "lava"
+                      ]
+                    },
+                    {
+                      "type": "minecraft:matching_blocks",
+                      "offset": [
+                        0,
+                        1,
+                        1
+                      ],
+                      "blocks": [
+                        "minecraft:yellow_terracotta",
+                        "minecraft:red_sand",
+                        "minecraft:blackstone",
+                        "minecraft:calcite",
+                        "minecraft:grass_block",
+                        "minecraft:dirt",
+                        "minecraft:coarse_dirt",
+                        "minecraft:gravel",
+                        "minecraft:smooth_basalt",
+                        "lava"
+                      ]
+                    },
+                    {
+                      "type": "minecraft:matching_blocks",
+                      "offset": [
+                        -1,
+                        1,
+                        -1
+                      ],
+                      "blocks": [
+                        "minecraft:yellow_terracotta",
+                        "minecraft:red_sand",
+                        "minecraft:blackstone",
+                        "minecraft:calcite",
+                        "minecraft:grass_block",
+                        "minecraft:dirt",
+                        "minecraft:coarse_dirt",
+                        "minecraft:gravel",
+                        "minecraft:smooth_basalt",
+                        "lava"
+                      ]
+                    },
+                    {
+                      "type": "minecraft:matching_blocks",
+                      "offset": [
+                        -1,
+                        1,
+                        1
+                      ],
+                      "blocks": [
+                        "minecraft:yellow_terracotta",
+                        "minecraft:red_sand",
+                        "minecraft:blackstone",
+                        "minecraft:calcite",
+                        "minecraft:grass_block",
+                        "minecraft:dirt",
+                        "minecraft:coarse_dirt",
+                        "minecraft:gravel",
+                        "minecraft:smooth_basalt",
+                        "lava"
+                      ]
+                    },
+                    {
+                      "type": "minecraft:matching_blocks",
+                      "offset": [
+                        1,
+                        1,
+                        -1
+                      ],
+                      "blocks": [
+                        "minecraft:yellow_terracotta",
+                        "minecraft:red_sand",
+                        "minecraft:blackstone",
+                        "minecraft:calcite",
+                        "minecraft:grass_block",
+                        "minecraft:dirt",
+                        "minecraft:coarse_dirt",
+                        "minecraft:gravel",
+                        "minecraft:smooth_basalt",
+                        "lava"
+                      ]
+                    },
+                    {
+                      "type": "minecraft:matching_blocks",
+                      "offset": [
+                        1,
+                        1,
+                        1
+                      ],
+                      "blocks": [
+                        "minecraft:yellow_terracotta",
+                        "minecraft:red_sand",
+                        "minecraft:blackstone",
+                        "minecraft:calcite",
+                        "minecraft:grass_block",
+                        "minecraft:dirt",
+                        "minecraft:coarse_dirt",
+                        "minecraft:gravel",
+                        "minecraft:smooth_basalt",
+                        "lava"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.025,
+        "feature": "minecraft:huge_brown_mushroom"
+      },
+      {
+        "chance": 0.0125,
+        "feature": "terralith:dark/brown_mushroom"
+      },
+      {
+        "chance": 0.0125,
+        "feature": "terralith:dark/brown_mushroom_2"
+      },
+      {
+        "chance": 0.025,
+        "feature": "minecraft:huge_red_mushroom"
+      },
+      {
+        "chance": 0.025,
+        "feature": "terralith:dark/red_mushroom"
+      },
+      {
+        "chance": 0.34,
+        "feature": {
+          "feature": "terralith:dark/dark_oak",
+          "placement": [
+            {
+              "type": "heightmap",
+              "heightmap": "WORLD_SURFACE"
+            }
+          ]
+        }
+      },
+      {
+        "chance": 0.175,
+        "feature": "terralith:dark/birch"
+      },
+      {
+        "chance": 0.34,
+        "feature": "terralith:dark/twilight_tree"
+      }
+    ],
+    "default": "terralith:dark/oak"
+  }
+}

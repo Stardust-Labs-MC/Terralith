@@ -1,0 +1,19 @@
+{
+	"feature": "terralith:cherry/sugarcane",
+	"placement": [
+		{
+			"type": "count",
+			"count": 3
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

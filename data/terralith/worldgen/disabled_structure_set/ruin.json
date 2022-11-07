@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "terralith:glacial_hut",
+      "weight": 1
+    } 
+  ],
+  "placement": {
+    "salt": 3141592653589,
+    "spacing": 27,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

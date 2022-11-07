@@ -1,0 +1,214 @@
+{
+  "feature": {
+  "type": "minecraft:geode",
+  "config": {
+    "blocks": {
+      "filling_provider": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "weight": 2,
+            "data": {
+              "Name": "minecraft:andesite"
+            }
+          }
+        ]
+      },
+      "inner_layer_provider": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "weight": 2,
+            "data": {
+              "Name": "minecraft:andesite"
+            }
+          }
+        ]
+      },
+      "alternate_inner_layer_provider": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "weight": 2,
+            "data": {
+              "Name": "minecraft:andesite"
+            }
+          }
+        ]
+      },
+      "middle_layer_provider": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "weight": 2,
+            "data": {
+              "Name": "minecraft:andesite"
+            }
+          }
+        ]
+      },
+      "outer_layer_provider": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "weight": 2,
+            "data": {
+              "Name": "minecraft:andesite"
+            }
+          }
+        ]
+      },
+      "inner_placements": [
+        {
+          "Name": "minecraft:andesite"
+        }
+      ],
+      "cannot_replace": "#terralith:anti_calcite",
+      "invalid_blocks": "#terralith:calcite"
+    },
+    "layers": {
+      "filling": 0.5,
+      "inner_layer": 1,
+      "middle_layer": 1.15,
+      "outer_layer": 1.85
+    },
+    "crack": {
+      "generate_crack_chance": 0,
+      "base_crack_size": 0,
+      "crack_point_offset": 0
+    },
+    "noise_multiplier": 0.08,
+    "use_potential_placements_chance": 0,
+    "use_alternate_layer0_chance": 0,
+    "placements_require_layer0_alternate": false,
+    "outer_wall_distance": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 5
+      }
+    },
+    "distribution_points": {
+      "type": "minecraft:biased_to_bottom",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      }
+    },
+    "point_offset": {
+      "type": "minecraft:biased_to_bottom",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 4
+      }
+    },
+    "min_gen_offset": -12,
+    "max_gen_offset": 12,
+    "invalid_blocks_threshold": 1
+  }
+},
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 4
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -64
+        },
+        "max_inclusive": {
+          "absolute": 96
+        }
+      }
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "up",
+      "max_steps": 32,
+      "target_condition": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              1,
+              0
+            ],
+            "blocks": [
+              "minecraft:andesite"
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "blocks": [
+              "minecraft:air",
+              "minecraft:cave_air"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 6,
+      "target_condition": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              3,
+              0
+            ],
+            "blocks": [
+              "minecraft:grass_block","sand"
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              2,
+              0
+            ],
+            "blocks": [
+              "minecraft:dirt","sand","stone"
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              1,
+              0
+            ],
+            "blocks": [
+              "minecraft:dirt","sand","stone"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

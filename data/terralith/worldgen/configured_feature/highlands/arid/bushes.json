@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "terralith:highlands/arid/tree",
+        "chance": 0.1
+      },
+      {
+        "feature": "terralith:highlands/arid/bush_medium",
+        "chance": 0.5
+      }
+    ],
+    "default": "terralith:highlands/arid/bush_small"
+  }
+}

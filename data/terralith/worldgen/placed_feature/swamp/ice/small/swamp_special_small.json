@@ -1,0 +1,9 @@
+{
+	"feature": "terralith:swamp/ice/small/swamp_special_small",
+	"placement": [
+		{
+			"type": "count",
+			"count": 8
+		}
+	]
+}

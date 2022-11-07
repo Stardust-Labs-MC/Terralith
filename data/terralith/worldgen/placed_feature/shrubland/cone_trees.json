@@ -1,0 +1,44 @@
+{
+	"feature": "terralith:shrubland/cone_trees",
+	"placement": [
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 5
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 100,
+						"data": 4
+					},
+					{
+						"weight": 0,
+						"data": 4
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:would_survive",
+				"state": {
+					"Name": "minecraft:fern"
+				}
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

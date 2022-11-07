@@ -1,0 +1,102 @@
+{
+  "feature": {
+    "type": "minecraft:random_patch",
+    "config": {
+      "tries": 16,
+      "xz_spread": 5,
+      "y_spread": 2,
+      "feature": {
+        "feature": {
+          "type": "minecraft:block_column",
+          "config": {
+            "direction": "up",
+            "allowed_placement": {
+              "type": "minecraft:matching_blocks",
+              "blocks": [
+                "minecraft:air"
+              ]
+            },
+            "prioritize_tip": true,
+            "layers": [
+              {
+                "height": {
+                  "type": "minecraft:biased_to_bottom",
+                  "value": {
+                    "min_inclusive": 1,
+                    "max_inclusive": 5
+                  }
+                },
+                "provider": {
+                  "type": "minecraft:noise_provider",
+                  "seed": 0,
+                  "noise": {
+                    "firstOctave": -3,
+                    "amplitudes": [
+                      1,
+                      1
+                    ]
+                  },
+                  "scale": 1,
+                  "states": [
+                    {
+                      "Name": "minecraft:cactus",
+                      "Properties": {
+                        "age": "13"
+                      }
+                    },
+                    {
+                      "Name": "minecraft:cactus",
+                      "Properties": {
+                        "age": "11"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:all_of",
+              "predicates": [
+                {
+                  "type": "minecraft:would_survive",
+                  "state": {
+                    "Name": "minecraft:cactus",
+                    "Properties": {}
+                  }
+                },
+                {
+                  "type": "minecraft:replaceable"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 16
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 2
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

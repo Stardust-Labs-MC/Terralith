@@ -1,0 +1,16 @@
+{
+	"feature": "terralith:highlands/pile_pumpkin",
+	"placement": [
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 100
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "MOTION_BLOCKING"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"feature": "terralith:skylands/island_small",
+	"placement": [
+		{
+			"type": "count",
+			"count": 0
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "count",
+			"count": 1
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"absolute": 201
+				},
+				"max_inclusive": {
+					"absolute": 203
+				}
+			}
+		}
+	]
+}

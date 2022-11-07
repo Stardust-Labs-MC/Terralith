@@ -1,0 +1,27 @@
+{
+	"feature": "terralith:cherry/clay_beaches",
+	"placement": [
+		{
+			"type": "count",
+			"count": 128
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 1,
+			"noise_factor": 175,
+			"noise_offset": -0.1
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"absolute": 61
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

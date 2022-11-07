@@ -1,0 +1,40 @@
+{
+	"feature": "terralith:highlands/temperate/trees_neg",
+	"placement": [
+		{
+			"type": "count",
+			"count": 2
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE"
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": -9,
+			"noise_factor": 157,
+			"noise_offset": 0
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					-1,
+					0
+				],
+				"blocks": [
+					"minecraft:grass_block",
+					"dirt"
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

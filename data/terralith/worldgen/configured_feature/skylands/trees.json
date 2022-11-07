@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.03,
+        "feature": "terralith:skylands/mega_tree"
+      },
+      {
+        "chance": 0.05,
+        "feature": "terralith:skylands/cloud_tree_birch"
+      },
+      {
+        "chance": 0.5,
+        "feature": "terralith:nothing"
+      },
+      {
+        "chance": 0.22,
+        "feature": "terralith:skylands/big_cone_tree"
+      },
+      {
+        "chance": 0.17,
+        "feature": "terralith:skylands/mid_tree"
+      }
+    ],
+    "default": "terralith:nothing"
+  }
+}

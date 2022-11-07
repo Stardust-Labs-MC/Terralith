@@ -1,0 +1,183 @@
+{
+  "max_exclusive": 0.0,
+  "when_in_range": 64.0,
+  "when_out_of_range": {
+    "argument1": {
+      "argument": {
+        "max_exclusive": 321.0,
+        "when_in_range": {
+          "argument1": -0.075,
+          "argument2": {
+            "argument1": 0.1,
+            "argument2": {
+              "noise": "minecraft:noodle_thickness",
+              "xz_scale": 1.0,
+              "y_scale": 1.0,
+              "type": "minecraft:noise"
+            },
+            "type": "minecraft:mul"
+          },
+          "type": "minecraft:add"
+        },
+        "when_out_of_range": 0.0,
+        "input": "minecraft:y",
+        "min_inclusive": -60.0,
+        "type": "minecraft:range_choice"
+      },
+      "type": "minecraft:interpolated"
+    },
+    "argument2": {
+      "argument1": 1.5,
+      "argument2": {
+        "argument1": {
+        "argument1":{
+        
+
+          "argument": {
+            "argument":{
+            "type":"add",
+            "argument1": {
+              "max_exclusive": 321.0,
+              "when_in_range": {
+                "noise": "terralith:math/web/web4",
+                "xz_scale": 2.6666666666666665,
+                "y_scale": 2.6666666666666665,
+                "type": "minecraft:noise"
+              },
+              "when_out_of_range": 0.0,
+              "input": "minecraft:y",
+              "min_inclusive": -60.0,
+              "type": "minecraft:range_choice"
+            },
+            "argument2":{
+                "noise": "terralith:math/web/web_set1",
+                "xz_scale": 1,
+                "y_scale": 1,
+                "type": "minecraft:noise"
+              }
+          },
+            "type": "minecraft:interpolated"
+          },
+          "type": "minecraft:abs"
+        },
+        "argument2":{
+        
+
+          "argument": {
+            "argument":{
+            "type":"add",
+            "argument1": {
+              "max_exclusive": 321.0,
+              "when_in_range": {
+                "noise": "terralith:math/web/web3",
+                "xz_scale": 2.6666666666666665,
+                "y_scale": 2.6666666666666665,
+                "type": "minecraft:noise"
+              },
+              "when_out_of_range": 0.0,
+              "input": "minecraft:y",
+              "min_inclusive": -60.0,
+              "type": "minecraft:range_choice"
+            },
+            "argument2":{
+                "noise": "terralith:math/web/web_set2",
+                "xz_scale": 1,
+                "y_scale": 1,
+                "type": "minecraft:noise"
+              }
+          },
+            "type": "minecraft:interpolated"
+          },
+          "type": "minecraft:abs"
+        },
+        "type":"min"
+      },
+        "argument2": 
+        {
+        "argument1":{
+        
+
+          "argument": {
+            "argument":{
+            "type":"add",
+            "argument1": {
+              "max_exclusive": 321.0,
+              "when_in_range": {
+                "noise": "terralith:math/web/web1",
+                "xz_scale": 2.6666666666666665,
+                "y_scale": 2.6666666666666665,
+                "type": "minecraft:noise"
+              },
+              "when_out_of_range": 0.0,
+              "input": "minecraft:y",
+              "min_inclusive": -60.0,
+              "type": "minecraft:range_choice"
+            },
+            "argument2":{
+                "noise": "terralith:math/web/web_set3",
+                "xz_scale": 1,
+                "y_scale": 1,
+                "type": "minecraft:noise"
+              }
+          },
+            "type": "minecraft:interpolated"
+          },
+          "type": "minecraft:abs"
+        },
+        "argument2":{
+        
+
+          "argument": {
+            "argument":{
+            "type":"add",
+            "argument1": {
+              "max_exclusive": 321.0,
+              "when_in_range": {
+                "noise": "terralith:math/web/web2",
+                "xz_scale": 2.6666666666666665,
+                "y_scale": 2.6666666666666665,
+                "type": "minecraft:noise"
+              },
+              "when_out_of_range": 0.0,
+              "input": "minecraft:y",
+              "min_inclusive": -60.0,
+              "type": "minecraft:range_choice"
+            },
+            "argument2":{
+                "noise": "terralith:math/web/web_set4",
+                "xz_scale": 1,
+                "y_scale": 1,
+                "type": "minecraft:noise"
+              }
+          },
+            "type": "minecraft:interpolated"
+          },
+          "type": "minecraft:abs"
+        },
+        "type":"min"
+      },
+        "type": "minecraft:max"
+      },
+      "type": "minecraft:mul"
+    },
+    "type": "minecraft:add"
+  },
+  "input": {
+    "argument": {
+      "max_exclusive": 321.0,
+      "when_in_range": {
+        "noise": "minecraft:noodle",
+        "xz_scale": 1.0,
+        "y_scale": 1.0,
+        "type": "minecraft:noise"
+      },
+      "when_out_of_range": -1.0,
+      "input": "minecraft:y",
+      "min_inclusive": -60.0,
+      "type": "minecraft:range_choice"
+    },
+    "type": "minecraft:interpolated"
+  },
+  "min_inclusive": -1000000.0,
+  "type": "minecraft:range_choice"
+}

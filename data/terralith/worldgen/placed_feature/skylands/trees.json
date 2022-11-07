@@ -1,0 +1,107 @@
+{
+	"feature": "terralith:skylands/trees",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 90,
+						"data": 55
+					},
+					{
+						"weight": 10,
+						"data": 56
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:surface_water_depth_filter",
+			"max_water_depth": 0
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "OCEAN_FLOOR"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							-1,
+							0
+						],
+						"blocks": [
+							"minecraft:grass_block",
+							"minecraft:dirt"
+						]
+					},
+					{
+						"type": "minecraft:not",
+						"predicate": {
+							"type": "minecraft:any_of",
+							"predicates": [
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										3,
+										-1,
+										0
+									],
+									"blocks": [
+										"minecraft:stone"
+									]
+								},
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										-3,
+										-1,
+										0
+									],
+									"blocks": [
+										"minecraft:stone"
+									]
+								},
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										0,
+										-1,
+										-3
+									],
+									"blocks": [
+										"minecraft:stone"
+									]
+								},
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										0,
+										-1,
+										3
+									],
+									"blocks": [
+										"minecraft:stone"
+									]
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

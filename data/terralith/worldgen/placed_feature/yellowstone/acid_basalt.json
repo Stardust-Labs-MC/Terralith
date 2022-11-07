@@ -1,0 +1,39 @@
+{
+	"feature": "terralith:yellowstone/acid_basalt",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 0,
+						"data": 128
+					},
+					{
+						"weight": 100,
+						"data": 228
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "uniform",
+				"min_inclusive": {
+					"absolute": 61
+				},
+				"max_inclusive": {
+					"absolute": 63
+				}
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

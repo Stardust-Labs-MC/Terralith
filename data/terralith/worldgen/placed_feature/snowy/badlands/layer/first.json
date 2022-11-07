@@ -1,0 +1,128 @@
+{
+	"feature": "terralith:snowy/badlands/layer/first",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 110
+		},
+		{
+			"type": "minecraft:count",
+			"count": 10
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							-1,
+							0
+						],
+						"blocks": [
+							"minecraft:grass_block",
+							"snow_block",
+							"blackstone",
+							"terracotta",
+							"yellow_terracotta",
+							"white_terracotta",
+							"orange_terracotta",
+							"brown_terracotta",
+							"red_terracotta"
+						]
+					},
+					{
+						"type": "minecraft:any_of",
+						"predicates": [
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									1,
+									0,
+									0
+								],
+								"blocks": [
+									"minecraft:grass_block",
+									"snow_block",
+									"blackstone",
+									"terracotta",
+									"yellow_terracotta",
+									"white_terracotta",
+									"orange_terracotta",
+									"brown_terracotta",
+									"red_terracotta"
+								]
+							},
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									0,
+									0,
+									1
+								],
+								"blocks": [
+									"minecraft:grass_block",
+									"snow_block",
+									"blackstone",
+									"terracotta",
+									"yellow_terracotta",
+									"white_terracotta",
+									"orange_terracotta",
+									"brown_terracotta",
+									"red_terracotta"
+								]
+							},
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									-1,
+									0,
+									0
+								],
+								"blocks": [
+									"minecraft:grass_block",
+									"snow_block",
+									"blackstone",
+									"terracotta",
+									"yellow_terracotta",
+									"white_terracotta",
+									"orange_terracotta",
+									"brown_terracotta",
+									"red_terracotta"
+								]
+							},
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									0,
+									0,
+									-1
+								],
+								"blocks": [
+									"minecraft:grass_block",
+									"snow_block",
+									"blackstone",
+									"terracotta",
+									"yellow_terracotta",
+									"white_terracotta",
+									"orange_terracotta",
+									"brown_terracotta",
+									"red_terracotta"
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	]
+}

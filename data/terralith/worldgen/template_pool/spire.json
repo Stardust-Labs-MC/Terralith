@@ -1,0 +1,15 @@
+{
+  "name": "terralith:village/desert/roads",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "terralith:spire",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

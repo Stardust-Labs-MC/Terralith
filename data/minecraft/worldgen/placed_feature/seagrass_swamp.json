@@ -1,0 +1,19 @@
+{
+	"feature": "minecraft:seagrass_swamp",
+	"placement": [
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "OCEAN_FLOOR_WG"
+		},
+		{
+			"type": "count",
+			"count": 64
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

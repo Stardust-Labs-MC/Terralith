@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 9,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:netherrack",
+          "probability": 0.5
+        },
+        "state": {
+          "Name": "minecraft:snow_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:deepslate",
+          "probability": 0.5
+        },
+        "state": {
+          "Name": "minecraft:snow_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:blackstone",
+          "probability": 0.5
+        },
+        "state": {
+          "Name": "minecraft:snow_block"
+        }
+      }
+    ]
+  }
+}

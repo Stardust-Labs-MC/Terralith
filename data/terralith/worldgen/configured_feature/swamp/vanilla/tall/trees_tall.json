@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.1,
+        "feature": "terralith:swamp/vanilla/tall/swamp_special_tall"
+      },
+      {
+        "chance": 0.2,
+        "feature": "terralith:swamp/vanilla/tall/swamp_giant_tall"
+      },
+      {
+        "chance": 0,
+        "feature": "terralith:swamp/vanilla/tall/swamp_willow"
+      }
+    ],
+    "default": "terralith:swamp/vanilla/tall/swamp_tall"
+  }
+}

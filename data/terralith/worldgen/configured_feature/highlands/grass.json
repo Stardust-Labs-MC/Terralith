@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 32,
+    "xz_spread": 7,
+    "y_spread": 3,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 50,
+                "data": {
+                  "Name": "minecraft:grass"
+                }
+              },
+              {
+                "weight": 6,
+                "data": {
+                  "Name": "minecraft:fern"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:large_fern",
+                  "Properties": {
+                    "half": "lower"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:air"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

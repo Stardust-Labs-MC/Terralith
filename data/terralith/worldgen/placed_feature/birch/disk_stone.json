@@ -1,0 +1,19 @@
+{
+	"feature": "terralith:birch/disk_stone",
+	"placement": [
+		{
+			"type": "count",
+			"count": 64
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "OCEAN_FLOOR_WG"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"feature": "terralith:flower/blue/flowers",
+	"placement": [
+		{
+			"type": "count",
+			"count": 9
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

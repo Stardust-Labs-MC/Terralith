@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:no_op",
+  "config": {
+    "state": {
+      "Name": "minecraft:packed_ice"
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 5
+      }
+    },
+    "can_origin_replace": "minecraft:water","half_height": 2,
+    "targets": [
+      {
+        "Name": "minecraft:snow_block"
+      },
+      {
+        "Name": "minecraft:calcite"
+      },
+      {
+        "Name": "minecraft:stone"
+      },
+      {
+        "Name": "minecraft:deepslate",
+        "Properties": {
+          "axis": "y"
+        }
+      },
+      {
+        "Name": "minecraft:granite"
+      },
+      {
+        "Name": "minecraft:andesite"
+      },
+      {
+        "Name": "minecraft:diorite"
+      }
+    ]
+  }
+}

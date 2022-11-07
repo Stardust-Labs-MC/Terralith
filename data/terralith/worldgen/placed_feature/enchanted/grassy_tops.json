@@ -1,0 +1,28 @@
+{
+	"feature": "terralith:enchanted/grassy_tops",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 100,
+						"data": 255
+					},
+					{
+						"weight": 0,
+						"data": 255
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE"
+		}
+	]
+}

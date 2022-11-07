@@ -1,0 +1,35 @@
+{
+	"feature": "terralith:yosemite/patch_dirt",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 30
+		},
+		{
+			"type": "minecraft:count",
+			"count": 30
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 1,
+			"noise_factor": 400,
+			"noise_offset": 1
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 98,
+			"noise_factor": 34,
+			"noise_offset": -0.6
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

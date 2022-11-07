@@ -1,0 +1,82 @@
+{
+	"feature": "terralith:taiga/birch/boulder",
+	"placement": [
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 2
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 1,
+			"noise_factor": 180,
+			"noise_offset": 0.75
+		},
+		{
+			"type": "environment_scan",
+			"direction_of_search": "down",
+			"max_steps": 6,
+			"target_condition": {
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							4,
+							0
+						],
+						"blocks": [
+							"minecraft:air"
+						]
+					},
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							3,
+							0
+						],
+						"blocks": [
+							"minecraft:grass_block",
+							"stone"
+						]
+					},
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							2,
+							0
+						],
+						"blocks": [
+							"minecraft:dirt",
+							"stone"
+						]
+					},
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							1,
+							0
+						],
+						"blocks": [
+							"minecraft:dirt",
+							"stone"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

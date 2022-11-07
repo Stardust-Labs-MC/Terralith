@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.55,
+        "feature": "terralith:highlands/temperate/small/pine_small"
+      },
+      {
+        "chance": 0.1,
+        "feature": "terralith:highlands/temperate/small/spruce_small_m"
+      }
+    ],
+    "default": "terralith:highlands/temperate/small/spruce_small"
+  }
+}

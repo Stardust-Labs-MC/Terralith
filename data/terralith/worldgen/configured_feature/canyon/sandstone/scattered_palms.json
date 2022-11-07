@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.03,
+        "feature": {
+          "feature": "terralith:canyon/sandstone/palm_tall",
+          "placement": [
+            {
+              "type": "count",
+              "count": 20
+            }
+          ]
+        }
+      },
+      {
+        "chance": 0.3,
+        "feature": {
+          "feature": "terralith:canyon/sandstone/palm_medium",
+          "placement": [
+            {
+              "type": "count",
+              "count": 20
+            }
+          ]
+        }
+      }
+    ],
+    "default": "terralith:canyon/sandstone/palm_1"
+  }
+}

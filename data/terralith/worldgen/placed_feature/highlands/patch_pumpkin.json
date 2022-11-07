@@ -1,0 +1,16 @@
+{
+	"feature": "terralith:highlands/patch_pumpkin",
+	"placement": [
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 60
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "MOTION_BLOCKING"
+		}
+	]
+}

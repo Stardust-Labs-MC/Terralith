@@ -1,0 +1,16 @@
+{
+	"feature": "terralith:cave/thermal/lakes",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 14
+		},
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 15
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

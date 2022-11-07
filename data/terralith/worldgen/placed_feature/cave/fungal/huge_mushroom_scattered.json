@@ -1,0 +1,127 @@
+{
+  "feature": {
+    "type": "minecraft:random_selector",
+    "config": {
+      "features": [
+                        {
+          "chance": 0.0075,
+          "feature": "terralith:mushroom/bone_1"
+        },
+        {
+          "chance": 0.0125,
+          "feature": "terralith:mushroom/bone_2"
+        },
+                {
+          "chance": 0.05,
+          "feature": "terralith:mushroom/cloud_shroom_brown"
+        },
+        {
+          "chance": 0.05,
+          "feature": "terralith:mushroom/cloud_shroom_red"
+        },
+                        {
+          "chance": 0.05,
+          "feature": "terralith:mushroom/cloud_shroom_brown_2"
+        },
+        {
+          "chance": 0.05,
+          "feature": "terralith:mushroom/cloud_shroom_red_2"
+        },
+        {
+          "chance": 0.075,
+          "feature": "terralith:mushroom/brown_mushroom_small"
+        },
+        {
+          "chance": 0.075,
+          "feature": "terralith:mushroom/red_mushroom_small"
+        },
+        {
+          "chance": 0.05,
+          "feature": "minecraft:huge_red_mushroom"
+        },
+        {
+          "chance": 0.05,
+          "feature": "minecraft:huge_brown_mushroom"
+        },
+        {
+          "chance": 0.075,
+          "feature": "terralith:mushroom/red_mushroom"
+        },
+        {
+          "chance": 0.075,
+          "feature": "terralith:mushroom/brown_mushroom"
+        },
+        {
+          "chance": 0.05,
+          "feature": "terralith:mushroom/red_mushroom_2"
+        },
+        {
+          "chance": 0.05,
+          "feature": "terralith:mushroom/brown_mushroom_2"
+        },
+        {
+          "chance": 0.05,
+          "feature": "terralith:dark/brown_mushroom"
+        },
+                {
+          "chance": 0.05,
+          "feature": "terralith:dark/red_mushroom"
+        },
+        {
+          "chance": 0.025,
+          "feature": "terralith:dark/brown_mushroom_2"
+        },
+        {
+          "chance": 0.025,
+          "feature": "terralith:dark/red_mushroom_2"
+        }
+      ],
+      "default": "terralith:nothing"
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 20
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:replaceable"
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "blocks": [
+              "minecraft:air",
+              "cave_air"
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              -1,
+              0
+            ],
+            "blocks": [
+              "minecraft:coarse_dirt",
+              "minecraft:gravel",
+              "minecraft:rooted_dirt"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

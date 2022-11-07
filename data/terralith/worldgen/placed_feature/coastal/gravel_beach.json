@@ -1,0 +1,42 @@
+{
+	"feature": "terralith:coastal/gravel_beach",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 0,
+						"data": 128
+					},
+					{
+						"weight": 100,
+						"data": 128
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 1,
+			"noise_factor": 175,
+			"noise_offset": 1
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"absolute": 64
+				},
+				"max_inclusive": {
+					"absolute": 68
+				}
+			}
+		}
+	]
+}

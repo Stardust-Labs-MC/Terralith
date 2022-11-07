@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "terralith:swamp/vanilla/small/trees_small",
+        "placement": []
+      },
+      {
+        "feature": "terralith:swamp/vanilla/mid/trees_mid",
+        "placement": []
+      },
+      {
+        "feature": "terralith:swamp/vanilla/tall/trees_tall",
+        "placement": []
+      }
+    ]
+  }
+}

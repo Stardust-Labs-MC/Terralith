@@ -1,0 +1,36 @@
+{
+	"feature": "terralith:yellowstone/spruce_big",
+	"placement": [
+		{
+			"type": "count",
+			"count": 90
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"absolute": 64
+				},
+				"max_inclusive": {
+					"absolute": 100
+				}
+			}
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:would_survive",
+				"state": {
+					"Name": "minecraft:fern"
+				}
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"feature": "minecraft:seagrass_normal",
+	"placement": [
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "OCEAN_FLOOR_WG"
+		},
+		{
+			"type": "count",
+			"count": 48
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

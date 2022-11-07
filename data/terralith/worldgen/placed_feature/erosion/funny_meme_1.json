@@ -1,0 +1,125 @@
+{
+  "feature": {
+    "type": "minecraft:block_column",
+    "config": {
+      "direction": "up",
+      "allowed_placement": {
+        "type": "minecraft:true"
+      },
+      "prioritize_tip": false,
+      "layers": [
+        {
+          "height": 192,
+          "provider": {
+            "type": "minecraft:noise_provider",
+            "seed": 1,
+            "noise": {
+              "firstOctave": -7,
+              "amplitudes": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            "scale": 1,
+            "states": [
+              {
+                "Name": "minecraft:air"
+              },
+              {
+                "Name": "minecraft:air"
+              },
+              {
+                "Name": "minecraft:air"
+              },
+              {
+                "Name": "minecraft:air"
+              },
+              {
+                "Name": "minecraft:air"
+              },
+              {
+                "Name": "minecraft:air"
+              },
+              {
+                "Name": "minecraft:air"
+              },
+              {
+                "Name": "minecraft:air"
+              },
+              {
+                "Name": "minecraft:air"
+              },
+              {
+                "Name": "minecraft:air"
+              },
+                        {
+            "Name": "minecraft:air"
+          },
+                    {
+            "Name": "minecraft:air"
+          },
+              {"Name":"minecraft:yellow_stained_glass"},
+              {
+                "Name": "minecraft:air"
+              },
+                        {
+            "Name": "minecraft:air"
+          },
+                    {
+            "Name": "minecraft:air"
+          },
+              {
+                "Name": "minecraft:air"
+              },
+              {
+                "Name": "minecraft:air"
+              },
+              {
+                "Name": "minecraft:air"
+              },
+              {
+                "Name": "minecraft:air"
+              },
+              {
+                "Name": "minecraft:air"
+              },
+              {
+                "Name": "minecraft:air"
+              },
+              {
+                "Name": "minecraft:air"
+              },
+              {
+                "Name": "minecraft:air"
+              },
+              {
+                "Name": "minecraft:air"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 6
+    },
+    {
+      "type": "minecraft:count",
+      "count": 256
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "absolute": 63
+      }
+    }
+  ]
+}

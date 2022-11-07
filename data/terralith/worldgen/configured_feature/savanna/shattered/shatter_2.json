@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "minecraft:netherrack_replace_blobs",
+          "config": {
+            "state": {
+              "Name": "minecraft:coarse_dirt"
+            },
+            "target": {
+              "Name": "minecraft:grass_block",
+              "Properties": {
+                "snowy": "false"
+              }
+            },
+            "radius": 0
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

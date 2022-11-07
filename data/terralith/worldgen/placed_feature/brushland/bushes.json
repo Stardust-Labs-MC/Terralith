@@ -1,0 +1,47 @@
+{
+	"feature": "terralith:brushland/bushes",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 90,
+						"data": 13
+					},
+					{
+						"weight": 10,
+						"data": 14
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:surface_water_depth_filter",
+			"max_water_depth": 0
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "OCEAN_FLOOR"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"state": {
+					"Properties": {
+						"stage": "0"
+					},
+					"Name": "minecraft:oak_sapling"
+				},
+				"type": "minecraft:would_survive"
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.135,
+        "feature": "terralith:flower/white/birch_bending"
+      },
+      {
+        "chance": 0.14,
+        "feature": "terralith:flower/white/twilight_tree"
+      },
+      {
+        "chance": 0.16,
+        "feature": "terralith:flower/white/cloud_tree_bending"
+      }
+    ],
+    "default": "terralith:flower/white/cloud_tree"
+  }
+}

@@ -1,0 +1,63 @@
+{
+	"feature": "terralith:swamp/vanilla/dripleaf",
+	"placement": [
+		{
+			"type": "count_on_every_layer",
+			"count": 46
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 1,
+			"noise_factor": 30,
+			"noise_offset": -0.1
+		},
+		{
+			"type": "minecraft:environment_scan",
+			"direction_of_search":"down",
+			"max_steps":1,
+			"target_condition": {
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							1,
+							0
+						],
+						"blocks": [
+							"minecraft:air"
+						]
+					},
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							0,
+							0
+						],
+						"blocks": [
+							"minecraft:water"
+						]
+					},
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							-1,
+							0
+						],
+						"blocks": [
+							"minecraft:clay",
+							"minecraft:dirt",
+							"blackstone"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

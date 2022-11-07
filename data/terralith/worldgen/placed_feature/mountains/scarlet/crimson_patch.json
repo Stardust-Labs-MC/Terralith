@@ -1,0 +1,19 @@
+{
+	"feature": "terralith:mountains/scarlet/crimson_patch",
+	"placement": [
+		{
+			"type": "count",
+			"count": 12
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

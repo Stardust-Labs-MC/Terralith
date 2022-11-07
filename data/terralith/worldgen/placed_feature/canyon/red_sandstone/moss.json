@@ -1,0 +1,19 @@
+{
+	"feature": "terralith:canyon/red_sandstone/moss",
+	"placement": [
+		{
+			"type": "count",
+			"count": 255
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "OCEAN_FLOOR"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

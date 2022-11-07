@@ -1,0 +1,58 @@
+{"type":"flat_cache",
+  "argument":{"type":"cache_2d",
+    "argument":{
+    "type": "minecraft:range_choice",
+    "input": "minecraft:overworld/ridges",
+    "min_inclusive": -0.73,
+    "max_exclusive": 0.73,
+    "when_in_range": 0,
+    "when_out_of_range": {
+      "type": "minecraft:range_choice",
+    "input": "minecraft:overworld_large_biomes/continents",
+    "min_inclusive": -0.11,
+    "max_exclusive": 1000000,
+    "when_in_range": {
+      "type": "minecraft:range_choice",
+    "input": "minecraft:overworld_large_biomes/erosion",
+    "min_inclusive": -1000000,
+    "max_exclusive": -0.375,
+    "when_in_range": {
+      "type": "minecraft:range_choice",
+    "input": "minecraft:overworld_large_biomes/temperature",
+    "min_inclusive": -0.45,
+    "max_exclusive": -0.155,
+    "when_in_range": {
+      "type": "minecraft:range_choice",
+    "input": "minecraft:overworld_large_biomes/vegetation",
+    "min_inclusive": -0.585,
+    "max_exclusive": 0.3,
+    "when_in_range": 
+
+    {
+      "type":"max",
+      "argument1":-0.12,
+      "argument2":
+    {
+      "type":"mul",
+      "argument1":-1.45,
+      "argument2":{
+      "type":"add",
+      "argument1":-0.73,
+      "argument2":{"type":"abs","argument":"minecraft:overworld/ridges"}
+    }
+    }
+  
+    
+    },
+    "when_out_of_range": 0
+    
+    },
+    "when_out_of_range": 0
+    },
+    "when_out_of_range": 0
+    },
+    "when_out_of_range": 0
+    }
+}}}
+
+

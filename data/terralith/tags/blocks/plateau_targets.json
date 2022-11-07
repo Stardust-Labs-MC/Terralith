@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "air",
+    "cave_air",
+    "water",
+    "grass",
+    "tall_grass",
+    "fern"
+  ]
+}

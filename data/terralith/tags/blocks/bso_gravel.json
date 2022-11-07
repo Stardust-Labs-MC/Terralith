@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#base_stone_overworld",
+    "dripstone_block",
+    "gravel"
+  ]
+}

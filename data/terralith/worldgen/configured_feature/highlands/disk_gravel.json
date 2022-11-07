@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [],
+    "default": {
+      "feature": {
+        "type": "minecraft:disk",
+        "config": {
+          "half_height": 2,
+          "radius": {
+            "type": "minecraft:uniform",
+            "value": {
+              "min_inclusive": 4,
+              "max_inclusive": 8
+            }
+          },
+          "state_provider": {
+            "fallback": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:gravel"
+              }
+            },
+            "rules": []
+          },
+          "target": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:dirt",
+              "minecraft:grass_block"
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_fluids",
+            "fluids": "minecraft:water"
+          }
+        }
+      ]
+    }
+  }
+}

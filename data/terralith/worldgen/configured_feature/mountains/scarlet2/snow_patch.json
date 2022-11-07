@@ -1,0 +1,88 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 35,
+    "xz_spread": 3,
+    "y_spread": 3,
+    "feature": {
+      "feature": {
+        "type": "minecraft:ore",
+        "config": {
+          "size": 23,
+          "discard_chance_on_air_exposure": 0,
+          "targets": [
+            {
+              "target": {
+                "predicate_type": "minecraft:random_block_match",
+                "block": "minecraft:crimson_nylium",
+                "probability": 0.4
+              },
+              "state": {
+                "Name": "minecraft:snow_block"
+              }
+            },
+            {
+              "target": {
+                "predicate_type": "minecraft:random_block_match",
+                "block": "minecraft:netherrack",
+                "probability": 0.4
+              },
+              "state": {
+                "Name": "minecraft:snow_block"
+              }
+            },
+            {
+              "target": {
+                "predicate_type": "minecraft:random_block_match",
+                "block": "minecraft:blackstone",
+                "probability": 0.5
+              },
+              "state": {
+                "Name": "minecraft:snow_block"
+              }
+            },
+            {
+              "target": {
+                "predicate_type": "minecraft:random_block_match",
+                "block": "minecraft:deepslate",
+                "probability": 0.6
+              },
+              "state": {
+                "Name": "minecraft:snow_block"
+              }
+            }
+          ]
+        }
+      },
+      "placement": [
+        {
+          "type": "heightmap",
+          "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+          "type": "minecraft:random_offset",
+          "xz_spread": 0,
+          "y_spread": {
+            "type": "minecraft:uniform",
+            "value": {
+              "min_inclusive": -3,
+              "max_inclusive": 0
+            }
+          }
+        },
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "blocks": [
+                "minecraft:air"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

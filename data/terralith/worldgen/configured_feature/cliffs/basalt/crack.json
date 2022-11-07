@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 26,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:basalt",
+          "probability": 0.78
+        },
+        "state": {
+          "Name": "minecraft:smooth_basalt"
+        }
+      }
+    ]
+  }
+}

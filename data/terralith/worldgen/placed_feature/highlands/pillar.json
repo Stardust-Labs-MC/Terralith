@@ -1,0 +1,31 @@
+{
+	"feature": "terralith:highlands/pillar",
+	"placement": [
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 35
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "count",
+			"count": {
+				"type": "minecraft:clamped_normal",
+				"value": {
+					"min_inclusive": 5,
+					"max_inclusive": 15,
+					"mean": 7,
+					"deviation": 4
+				}
+			}
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"feature": "minecraft:ore_dirt",
+	"placement": [
+		{
+			"type": "count",
+			"count": 7
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"min_inclusive": {
+					"absolute": 0
+				},
+				"max_inclusive": {
+					"absolute": 160
+				},
+				"type": "minecraft:uniform"
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

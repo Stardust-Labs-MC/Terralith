@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:taiga",
+    "terralith:highlands",
+    "terralith:forested_highlands",
+    "terralith:siberian_taiga",
+    "terralith:shield",
+    "terralith:shield_clearing",
+    "terralith:cold_shrubland",
+    "terralith:rocky_shrubland",
+    "terralith:lush_valley",
+    "terralith:alpine_highlands"
+  ]
+}

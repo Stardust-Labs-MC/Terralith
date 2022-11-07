@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 20,
+    "xz_spread": 7,
+    "y_spread": 3,
+    "feature": {
+      "feature": {
+        "type": "minecraft:block_column",
+        "config": {
+          "direction": "up",
+          "allowed_placement": {
+            "type": "minecraft:would_survive",
+            "state": {
+              "Name": "minecraft:sugar_cane",
+              "Properties": {
+                "age": "0"
+              }
+            }
+          },
+          "prioritize_tip": false,
+          "layers": [
+            {
+              "height": {
+                "type": "minecraft:biased_to_bottom",
+                "value": {
+                  "min_inclusive": 1,
+                  "max_inclusive": 4
+                }
+              },
+              "provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:sugar_cane",
+                  "Properties": {
+                    "age": "0"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:would_survive",
+            "state": {
+              "Name": "minecraft:sugar_cane",
+              "Properties": {
+                "age": "0"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

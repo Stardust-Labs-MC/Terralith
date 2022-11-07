@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.1,
+        "feature": "terralith:cherry/tree_huge"
+      },
+      {
+        "chance": 0.7,
+        "feature": "terralith:cherry/tree_medium"
+      },
+      {
+        "chance": 0.2,
+        "feature": "terralith:cherry/bush"
+      }
+    ],
+    "default": "terralith:cherry/tree_huge"
+  }
+}

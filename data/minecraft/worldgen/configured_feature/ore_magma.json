@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "block": "minecraft:netherrack",
+          "predicate_type": "minecraft:block_match"
+        },
+        "state": {
+          "Name": "minecraft:magma_block"
+        }
+      }
+    ],
+    "size": 33,
+    "discard_chance_on_air_exposure": 0
+  }
+}

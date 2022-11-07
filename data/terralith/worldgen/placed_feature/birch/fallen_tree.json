@@ -1,0 +1,38 @@
+{
+	"feature": "terralith:birch/fallen_tree_base",
+	"placement": [
+		{
+			"type": "count",
+			"count": 1
+		},
+		{
+			"type": "rarity_filter",
+			"chance": 2
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					-1,
+					0
+				],
+				"blocks": [
+					"minecraft:grass_block",
+					"dirt"
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}
