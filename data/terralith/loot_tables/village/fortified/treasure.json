@@ -1,53 +1,105 @@
 {
-  "type": "minecraft:chest",
-  "pools": [{
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "terralith:random_traveler_map"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.1
-        }
-      ]
-    },
+  "pools": [
     {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "weight": 1,
-          "name": "terralith:village/fortified/treasure/golem"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 1,
-          "name": "terralith:village/fortified/treasure/emerald"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 1,
-          "name": "terralith:village/fortified/treasure/diamond"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
+      "rolls": {
+        "min": 3,
+        "max": 5
+      },
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 70,
+          "name": "minecraft:cobbled_deepslate",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 7,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:raw_iron",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:raw_gold",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 60,
           "name": "minecraft:emerald",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 8,
-                "max": 16
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 60,
+          "name": "minecraft:iron_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 9
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:chain",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 60,
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
               }
             }
           ]
@@ -56,19 +108,46 @@
     },
     {
       "rolls": {
-        "type": "minecraft:uniform",
-        "min": 3,
-        "max": 6
+        "min": 2,
+        "max": 3
       },
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:lantern",
+          "weight": 70,
+          "name": "minecraft:iron_ingot",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 80,
+          "name": "minecraft:obsidian",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 14
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
                 "min": 1,
                 "max": 3
               }
@@ -77,59 +156,117 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:oak_leaves",
+          "weight": 10,
+          "name": "minecraft:emerald_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:gold_ingot",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 3
               }
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 3
+      },
+      "entries": [
         {
           "type": "minecraft:item",
+          "weight": 100,
           "name": "minecraft:vine",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1,
-                "max": 3
+                "max": 4
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:chain",
+          "weight": 80,
+          "name": "minecraft:oak_leaves",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_nugget",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 3,
                 "max": 6
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 60,
+          "name": "minecraft:carved_pumpkin"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 60,
+          "name": "minecraft:lantern",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:dark_oak_sapling",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 60,
+          "name": "minecraft:oak_sapling"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:enchanted_golden_apple"
         }
       ]
     }

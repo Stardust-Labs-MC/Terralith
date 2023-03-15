@@ -1,1 +1,0 @@
-#execute as @a if score @s terralith.reset matches 2 run function terralith:utility/reset_spawn

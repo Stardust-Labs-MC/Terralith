@@ -1,20 +1,6 @@
 {
   "type": "minecraft:chest",
-  "pools": [{
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "terralith:random_traveler_map"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.1
-        }
-      ]
-    },
+  "pools": [
     {
       "rolls": 1,
       "entries": [

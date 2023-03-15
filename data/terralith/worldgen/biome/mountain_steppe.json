@@ -196,6 +196,6 @@
   "player_spawn_friendly": true,
   "precipitation": "rain",
   "temperature": 0.4025,
-  "downfall": 0.45, //0.4175
+  "downfall": 0.45,
   "category": "plains"
 }

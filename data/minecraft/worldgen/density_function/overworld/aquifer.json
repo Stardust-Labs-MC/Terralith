@@ -1,9 +1,16 @@
 {
-      "type":"cache_once",
-      "argument":{
-      "noise": "minecraft:aquifer_fluid_level_floodedness",
-      "xz_scale": 1.0,
-      "y_scale": 1.4,
-      "type": "minecraft:noise"
-}
+      "type": "minecraft:cache_once",
+      "argument": {
+            "type": "minecraft:range_choice",
+            "input": "terralith:overworld/cliff/spline",
+            "min_inclusive": -1000000,
+            "max_exclusive": 2,
+            "when_in_range": 1,
+            "when_out_of_range": {
+                  "type": "minecraft:noise",
+                  "noise": "minecraft:aquifer_fluid_level_floodedness",
+                  "xz_scale": 1,
+                  "y_scale": 1.4
+            }
+      }
 }

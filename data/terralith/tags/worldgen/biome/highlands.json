@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "terralith:highlands",
+        "terralith:arid_highlands",
+        "terralith:alpine_highlands",
+        "terralith:forested_highlands",
+        "terralith:temperate_highlands"
+    ]
+}

@@ -26,16 +26,12 @@
   },
   "features": [
     [
-      //"terralith:canyon/generic/slab_stone"
       "terralith:erosion/wind_line",
       "terralith:erosion/wind_line_special",
-      //"terralith:erosion/diorite_line"
       "terralith:erosion/tuff_line",
       "terralith:erosion/cobble_line",
       "terralith:erosion/moss_line",
       "terralith:erosion/slabs"
-      //"terralith:erosion/wind_line_flow",
-      //"terralith:erosion/granite_line_flow"
     ],
     [
       "minecraft:lake_lava_underground",

@@ -6,9 +6,9 @@
       "block_search_extent": 8,
       "offset": 2
     },
-    "grass_color": 6265718, //7646088
+    "grass_color": 6265718,
     "sky_color": 10599601,
-    "foliage_color": 6065735, //3177527 //6203012
+    "foliage_color": 6065735,
     "fog_color": 10660776,
     "water_color": 6388580,
     "water_fog_color": 2302743

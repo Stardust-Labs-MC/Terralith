@@ -11,7 +11,7 @@
     "water_color": 4445678,
     "water_fog_color": 329011,
     "grass_color": 10217152,
-    "foliage_color": 16755660 //16747695
+    "foliage_color": 16755660
   },
   "carvers": {
     "air": [
@@ -154,7 +154,6 @@
         "maxCount": 1
       }
     ],
-    "creature": [],
     "ambient": [
       {
         "type": "minecraft:bat",

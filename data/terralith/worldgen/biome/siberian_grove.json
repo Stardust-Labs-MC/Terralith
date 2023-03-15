@@ -209,9 +209,8 @@
   },
   "spawn_costs": {},
   "player_spawn_friendly": true,
-  "precipitation": "rain",
-  "temperature": 0.23,
-  "temperature_modifier":"frozen",
+  "precipitation": "snow",
+  "temperature": 0.13,
   "downfall": 0.8,
   "category": "taiga"
 }

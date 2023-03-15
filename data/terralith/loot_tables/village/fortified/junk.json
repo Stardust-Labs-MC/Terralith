@@ -4,21 +4,6 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "name": "terralith:random_traveler_map"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.01
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
           "type": "minecraft:item",
           "name": "minecraft:diamond_hoe",
           "functions": [

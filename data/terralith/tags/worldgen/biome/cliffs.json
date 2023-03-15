@@ -1,0 +1,10 @@
+{
+    "reset": false,
+    "values": [
+        "terralith:basalt_cliffs",
+        "terralith:frozen_cliffs",
+        "terralith:granite_cliffs",
+        "terralith:white_cliffs",
+        "terralith:yosemite_cliffs"
+    ]
+}

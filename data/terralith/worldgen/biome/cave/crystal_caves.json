@@ -93,7 +93,6 @@
       "minecraft:lake_lava_surface"
     ],
     [
-      //"minecraft:amethyst_geode",
       "terralith:cave/crystal/mega_geode_extra"
     ],
     [
@@ -111,7 +110,6 @@
       "minecraft:ore_diorite_lower",
       "minecraft:ore_andesite_upper",
       "minecraft:ore_andesite_lower",
-      //"minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
       "minecraft:ore_iron_upper",
@@ -139,9 +137,7 @@
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
-    [
-      //"minecraft:glow_lichen"
-    ],
+    [ ],
     [
       "minecraft:freeze_top_layer"
     ]

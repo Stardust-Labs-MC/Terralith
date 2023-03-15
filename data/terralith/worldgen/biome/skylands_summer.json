@@ -85,7 +85,6 @@
       "minecraft:glow_lichen",
       "terralith:skylands/summer/trees",
       "terralith:skylands/summer/cactus",
-      //"terralith:skylands/trees",
       "terralith:skylands/summer/tall_flowers",
       "minecraft:patch_grass_badlands",
       "minecraft:brown_mushroom_normal",
@@ -154,7 +153,6 @@
         "maxCount": 1
       }
     ],
-    "creature": [],
     "ambient": [
       {
         "type": "minecraft:bat",

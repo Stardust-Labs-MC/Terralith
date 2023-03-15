@@ -1,10 +1,10 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#terralith:has_structure/underground_cabin",
+  "biomes": "#terralith:has_structure/oak_cabin",
   "step": "surface_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_box",
-  "start_pool": "terralith:underground/cabin",
+  "start_pool": "terralith:underground/oak_cabin",
   "size": 6,
   "start_height": {
     "type": "minecraft:uniform",

@@ -163,7 +163,7 @@
   "spawn_costs": {},
   "player_spawn_friendly": false,
   "precipitation": "none",
-  "temperature": 1,
+  "temperature": 0.3,
   "downfall": 0.3,
   "category": "mountain"
 }

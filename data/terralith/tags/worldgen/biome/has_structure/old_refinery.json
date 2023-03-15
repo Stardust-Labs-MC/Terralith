@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:cave/fungal_caves",
+    "terralith:cave/infested_caves",
+    "terralith:cave/deep_caves"
+  ]
+}

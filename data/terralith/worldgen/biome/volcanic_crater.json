@@ -4,7 +4,7 @@
   "precipitation": "rain",
   "category": "mountain",
   "effects": {
-    "sky_color": 5725286, //dark gray
+    "sky_color": 5725286,
     "fog_color": 9148579,
     "water_color": 4159204,
     "water_fog_color": 329011,
@@ -119,7 +119,6 @@
       "terralith:volcano/lava_lakes",
       "terralith:volcano/lava_flow",
       "terralith:volcano/top_secret_do_not_touch"
-      //"terralith:volcano/flood_fill"
     ],
     [
       "minecraft:lake_lava_underground",

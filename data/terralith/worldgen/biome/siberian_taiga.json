@@ -6,7 +6,7 @@
       "block_search_extent": 8,
       "offset": 2
     },
-    "grass_color": 6463095, //6465918,//8173970 //8173975
+    "grass_color": 6463095,
     "sky_color": 10858685, 
     "fog_color": 14145761,
     "foliage_color": 15435072,
@@ -208,9 +208,8 @@
   },
   "spawn_costs": {},
   "player_spawn_friendly": true,
-  "precipitation": "rain",
-  "temperature": 0.3,
-  "temperature_modifier":"frozen",
+  "precipitation": "snow",
+  "temperature": 0.2,
   "downfall": 1.2,
   "category": "taiga"
 }

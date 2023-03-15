@@ -2,21 +2,6 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "terralith:traveler_map_set/hot_biomes"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.8
-        }
-      ]
-    },
-    {
       "rolls": 3,
       "entries": [
         {

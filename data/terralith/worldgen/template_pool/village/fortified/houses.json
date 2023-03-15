@@ -180,7 +180,25 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "terralith:village/fortified/houses/generic_big5",
+        "location": "terralith:village/fortified/houses/barn",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "terralith:village/fortified/houses/graveyard",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "terralith:village/fortified/houses/big1",
         "processors": "minecraft:empty"
       }
     }
