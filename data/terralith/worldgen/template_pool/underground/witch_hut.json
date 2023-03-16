@@ -1,5 +1,5 @@
 {
-  "name": "bad luck",
+  "name": "bad_luck",
   "fallback": "minecraft:empty",
   "elements": [
     {

@@ -12,20 +12,13 @@ Overlord:
 - Kuma
 
 Inferno:
-- M3lon
-- The Lumberjack
 - Esron
 - CyroInferno
-- Blu
 - blaze
-- DaUltraMarine
 - chimericdream
-- SoundMeister_
 - Brian Saviano
-- LucidReverical
 
 Sentry:
-- Greed
 - fortis
 - yonderbean
 - ShadowNguyen
@@ -33,40 +26,26 @@ Sentry:
 - Oogab00ga94
 - Razaekel
 - Nik
-- matt -_-
+- Murdii
 - Jwaffles
 - FixingGlobe
 - jackdshoe
-- Dettlaff van der Eretein
-- CAVMOT
 - Janetyqua
-- LeoTheRavioli
 - swuff★
-- catter
-- vedran
 - Encrypted
-- Matt
 - moomakai
-- char
 - Ravs
-- Kali
 - Rhinorulz
 - BlackHawk185
 - APR1L
-- joemassdsd
 - theAstra
-- ⧎1905.08669
-- Ender
 - Cr1ms0n
-- viviandarkbloom
 - Hecking Rat
-- GreatBlackShark
-- timtijmen
 - NonplussedUltra
 - LKv
 - flydrcar
 - TiTAN
-- Finder17
+- finder17(Einherjar)
 
 Blaze:
 - Zapdos
@@ -74,14 +53,9 @@ Blaze:
 - Hound
 - btwimacat_meow
 - plasmarob
-- gaarai
 - Redhawk
 - Defenfiver
-- Xeflogna
-- Angryelmo
-- Hoponopono
 - Charleston
-- Olofson
 - SirFluffyPuffs
 - Trashbag
 - SirFluffyPuffs
