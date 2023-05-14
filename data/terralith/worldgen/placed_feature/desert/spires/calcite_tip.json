@@ -21,7 +21,7 @@
           "max_inclusive": 5
         }
       },
-      "replaceable": "#terralith:sandy_blocks",
+      "replaceable": "terralith:sandy_blocks",
       "ground_state": {
         "type": "minecraft:simple_state_provider",
         "state": {

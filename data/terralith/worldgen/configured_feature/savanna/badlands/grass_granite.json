@@ -20,7 +20,7 @@
         "max_inclusive": 4
       }
     },
-    "replaceable": "#terralith:savanna_granite",
+    "replaceable": "terralith:savanna_granite",
     "ground_state": {
       "type": "minecraft:dual_noise_provider",
       "seed": 99,

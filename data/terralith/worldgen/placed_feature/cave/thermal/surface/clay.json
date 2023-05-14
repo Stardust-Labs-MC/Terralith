@@ -21,7 +21,7 @@
           "max_inclusive": 3
         }
       },
-      "replaceable": "#terralith:stone",
+      "replaceable": "terralith:stone",
       "ground_state": {
         "type": "minecraft:noise_provider",
         "seed": 69696969,

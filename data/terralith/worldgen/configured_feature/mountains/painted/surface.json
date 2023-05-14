@@ -20,7 +20,7 @@
         "max_inclusive": 3
       }
     },
-    "replaceable": "#terralith:painted_mountain",
+    "replaceable": "terralith:painted_mountain",
     "ground_state": {
       "type": "minecraft:noise_provider",
       "seed": 1,

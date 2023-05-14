@@ -14,7 +14,7 @@
         "max_inclusive": 2
       }
     },
-    "replaceable": "#terralith:grass_only",
+    "replaceable": "terralith:grass_only",
     "ground_state": {
       "type": "minecraft:simple_state_provider",
       "state": {

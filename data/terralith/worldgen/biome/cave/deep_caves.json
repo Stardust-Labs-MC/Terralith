@@ -1,5 +1,5 @@
 {
-  "temperature": 0.6,
+  "temperature": 1,
   "downfall": 0.3,
   "precipitation": "rain",
   "category": "underground",
@@ -13,6 +13,16 @@
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
+    },
+    "additions_sound": {
+      "sound": "block.amethyst_block.chime",
+      "tick_chance": 0.01
+    },
+    "particle": {
+      "options": {
+        "type": "end_rod"
+      },
+      "probability": 0.0001
     }
   },
   "spawners": {
@@ -99,18 +109,27 @@
   },
   "features": [
     [
+      "terralith:cave/crystal/crystal_geode_start",
+      "terralith:cave/crystal/crystal_growth",
+      "terralith:cave/crystal/amethyst/crystal_up",
+      "terralith:cave/crystal/amethyst/crystal_down",
+      "terralith:cave/crystal/amethyst/crystal_north",
+      "terralith:cave/crystal/amethyst/crystal_south",
+      "terralith:cave/crystal/amethyst/crystal_east",
+      "terralith:cave/crystal/amethyst/crystal_west"
     ],
     [
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
     ],
     [
-      "minecraft:amethyst_geode",
+      //"minecraft:amethyst_geode",
       "terralith:cave/generic/mega_geode"
     ],
     [
       "minecraft:monster_room",
-      "minecraft:monster_room_deep"
+      "minecraft:monster_room_deep",
+      "terralith:cave/generic/deep_dungeon"
     ],
     [],
     [],
@@ -123,7 +142,7 @@
       "minecraft:ore_diorite_lower",
       "minecraft:ore_andesite_upper",
       "minecraft:ore_andesite_lower",
-      "minecraft:ore_tuff",
+      //"minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
       "minecraft:ore_iron_upper",
@@ -152,7 +171,7 @@
       "minecraft:spring_lava"
     ],
     [
-      "minecraft:glow_lichen"
+      //"minecraft:glow_lichen"
     ],
     [
       "minecraft:freeze_top_layer"

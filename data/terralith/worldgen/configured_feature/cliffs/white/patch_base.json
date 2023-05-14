@@ -24,7 +24,7 @@
     },
     "surface": "floor",
     "depth": 2,
-    "replaceable": "#terralith:calcite_moss",
+    "replaceable": "terralith:calcite_moss",
     "ground_state": {
       "state": {
         "Name": "minecraft:moss_block"

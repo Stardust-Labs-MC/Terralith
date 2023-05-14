@@ -26,7 +26,7 @@
         "distribution": [
           {
             "weight": 100,
-            "data": 180
+            "data": 256
           }
         ]
       }

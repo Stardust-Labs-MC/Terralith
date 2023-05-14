@@ -14,7 +14,7 @@
         "max_inclusive": 8
       }
     },
-    "replaceable": "#terralith:island_blocks",
+    "replaceable": "terralith:island_blocks",
     "ground_state": {
       "type": "minecraft:dual_noise_provider",
       "seed": 66,

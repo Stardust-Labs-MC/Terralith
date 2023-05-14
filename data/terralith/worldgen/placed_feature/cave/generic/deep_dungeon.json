@@ -1,0 +1,93 @@
+{
+  "feature": {
+    "type": "minecraft:fossil",
+    "config": {
+      "max_empty_corners_allowed": 2,
+      "fossil_structures": [
+        "terralith:cave/dungeon1"
+      ],
+      "overlay_structures": [
+        "terralith:cave/dungeon1"
+      ],
+      "fossil_processors": {
+        "processors": [
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:blockstate_match",
+                  "block_state": {
+                    "Name": "minecraft:air"
+                  }
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "output_state": {
+                  "Name": "minecraft:air"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "overlay_processors": {
+        "processors": [
+          {
+            "processor_type": "minecraft:protected_blocks",
+            "value": "terralith:spawner"
+          },
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:blockstate_match",
+                  "block_state": {
+                    "Name": "minecraft:air"
+                  }
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "output_state": {
+                  "Name": "minecraft:air"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 2147483647
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0,
+          "max_inclusive": 4
+        }
+      },
+      "y_spread": 0
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -32
+        },
+        "max_inclusive": {
+          "absolute": -16
+        }
+      }
+    }
+  ]
+}

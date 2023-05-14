@@ -21,7 +21,7 @@
           "max_inclusive": 2
         }
       },
-      "replaceable": "#minecraft:lush_ground_replaceable",
+      "replaceable": "minecraft:lush_ground_replaceable",
       "ground_state": {
         "type": "minecraft:noise_provider",
         "seed": 0,

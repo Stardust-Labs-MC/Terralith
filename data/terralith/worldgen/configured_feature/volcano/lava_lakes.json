@@ -59,7 +59,7 @@
                         0
                       ],
                       "blocks": [
-                        "minecraft:gravel","minecraft:blackstone",
+                        "minecraft:gravel",
                         "minecraft:air",
                         "water"
                       ]
@@ -72,7 +72,7 @@
                         0
                       ],
                       "blocks": [
-                        "minecraft:gravel","minecraft:blackstone",
+                        "minecraft:gravel",
                         "minecraft:air",
                         "water"
                       ]
@@ -85,7 +85,7 @@
                         -1
                       ],
                       "blocks": [
-                        "minecraft:gravel","minecraft:blackstone",
+                        "minecraft:gravel",
                         "minecraft:air",
                         "water"
                       ]
@@ -98,7 +98,7 @@
                         1
                       ],
                       "blocks": [
-                        "minecraft:gravel","minecraft:blackstone",
+                        "minecraft:gravel",
                         "minecraft:air",
                         "water"
                       ]
@@ -111,7 +111,7 @@
                         -1
                       ],
                       "blocks": [
-                        "minecraft:gravel","minecraft:blackstone",
+                        "minecraft:gravel",
                         "minecraft:air",
                         "water"
                       ]
@@ -124,7 +124,7 @@
                         1
                       ],
                       "blocks": [
-                        "minecraft:gravel","minecraft:blackstone",
+                        "minecraft:gravel",
                         "minecraft:air",
                         "water"
                       ]
@@ -137,7 +137,7 @@
                         -1
                       ],
                       "blocks": [
-                        "minecraft:gravel","minecraft:blackstone",
+                        "minecraft:gravel",
                         "minecraft:air",
                         "water"
                       ]
@@ -150,7 +150,7 @@
                         1
                       ],
                       "blocks": [
-                        "minecraft:gravel","minecraft:blackstone",
+                        "minecraft:gravel",
                         "minecraft:air",
                         "water"
                       ]
@@ -167,7 +167,8 @@
                 ],
                 "blocks": [
                   "minecraft:smooth_basalt",
-                  "minecraft:basalt"
+                  "minecraft:basalt",
+                  "blackstone"
                 ]
               },
               {

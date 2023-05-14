@@ -13,7 +13,7 @@
           "extra_edge_column_chance": 0,
           "vegetation_chance": 1,
           "xz_radius": 0,
-          "replaceable": "#terralith:volcano_blocks",
+          "replaceable": "terralith:volcano_blocks",
           "ground_state": {
             "type": "minecraft:simple_state_provider",
             "state": {
@@ -116,6 +116,7 @@
                   0
                 ],
                 "blocks": [
+                  "minecraft:blackstone",
                   "minecraft:basalt",
                   "minecraft:smooth_basalt"
                 ]
@@ -128,6 +129,7 @@
                   0
                 ],
                 "blocks": [
+                  "minecraft:blackstone",
                   "minecraft:basalt",
                   "minecraft:smooth_basalt"
                 ]

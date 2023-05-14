@@ -1,4 +1,5 @@
-{"parameters": {
+
+  {"parameters": {
             "erosion": [
               -1.0,
               1.0
@@ -270,6 +271,36 @@
         {
           "parameters": {
             "erosion": [
+              -1.0,
+              1.0
+            ],
+            "depth": [
+              0.225,
+              0.8
+            ],
+            "weirdness": [
+              -1.0,
+              1.0
+            ],
+            "offset": 0.23,
+            "temperature": [
+              0.6,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "continentalness": [
+              0.4,
+              1.0
+            ]
+          },
+          "biome": "terralith:cave/desert_caves"
+        },
+        {
+          "parameters": {
+            "erosion": [
               0.0,
               1.0
             ],
@@ -296,6 +327,36 @@
             ]
           },
           "biome": "terralith:cave/frostfire_caves"
+        },
+                {
+          "parameters": {
+            "erosion": [
+              -1.0,
+              0.0
+            ],
+            "depth": [
+              0.4,
+              2.0
+            ],
+            "weirdness": [
+              0.8,
+              2.0
+            ],
+            "offset": 0.05,
+            "temperature": [
+              0.2,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              0.0
+            ],
+            "continentalness": [
+              -1.0,
+              -0.725
+            ]
+          },
+          "biome": "terralith:cave/crystal_caves"
         },
         {
           "parameters": {

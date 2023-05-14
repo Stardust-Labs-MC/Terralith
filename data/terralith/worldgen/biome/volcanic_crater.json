@@ -112,10 +112,6 @@
   },
   "features": [
     [
-      "terralith:volcano/crater_fixer",
-      "terralith:volcano/craterifier",
-      "terralith:volcano/magma_barrier",
-      "terralith:volcano/magma_veins",
       "terralith:volcano/lava_lakes",
       "terralith:volcano/lava_flow",
       "terralith:volcano/top_secret_do_not_touch"
@@ -131,11 +127,12 @@
     ],
     [
       "minecraft:monster_room",
-      "minecraft:monster_room_deep"
+      "minecraft:monster_room_deep","terralith:cave/generic/deep_dungeon"
     ],
     [],
     [],
     [
+      "minecraft:ore_gravel",
       "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
       "minecraft:ore_diorite_upper",
@@ -143,6 +140,7 @@
       "minecraft:ore_andesite_upper",
       "minecraft:ore_andesite_lower",
       "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
       "minecraft:ore_iron_upper",
       "minecraft:ore_iron_middle",

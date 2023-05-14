@@ -1,9 +1,14 @@
 {
-  "type": "minecraft:bastion_remnant",
-  "biomes": [],
-  "spawn_overrides": {},
   "config": {
-    "start_pool": "minecraft:bastion/starts",
-    "size": 6
-  }
+    "height": {
+      "min_inclusive": {
+        "absolute": 32
+      },
+      "max_inclusive": {
+        "below_top": 2
+      },
+      "type": "minecraft:uniform"
+    }
+  },
+  "type": "minecraft:nether_fossil"
 }

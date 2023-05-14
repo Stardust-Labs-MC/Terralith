@@ -20,7 +20,7 @@
         "max_inclusive": 4
       }
     },
-    "replaceable": "#terralith:sandstones",
+    "replaceable": "terralith:sandstones",
     "ground_state": {
       "type": "minecraft:dual_noise_provider",
       "seed": 2,

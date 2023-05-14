@@ -14,7 +14,7 @@
         "max_inclusive": 8
       }
     },
-    "replaceable": "#terralith:taiga/soil_stone",
+    "replaceable": "terralith:taiga/soil_stone",
     "ground_state": {
       "type": "minecraft:simple_state_provider",
       "state": {

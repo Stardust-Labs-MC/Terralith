@@ -123,8 +123,8 @@
           "Name": "minecraft:calcite"
         }
       ],
-      "cannot_replace": "#terralith:island_ban_winter",
-      "invalid_blocks": "#minecraft:features_cannot_replace"
+      "cannot_replace": "terralith:island_ban_winter",
+      "invalid_blocks": "minecraft:features_cannot_replace"
     },
     "layers": {
       "filling": 3,

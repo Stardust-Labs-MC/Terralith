@@ -5,8 +5,8 @@
     "depth": {
       "type": "minecraft:uniform",
       "value": {
-        "min_inclusive": 4,
-        "max_inclusive": 6
+        "min_inclusive": 9,
+        "max_inclusive": 10
       }
     },
     "vertical_range": 5,
@@ -20,9 +20,9 @@
         "max_inclusive": 5
       }
     },
-    "replaceable": "#minecraft:base_stone_overworld",
+    "replaceable": "minecraft:base_stone_overworld",
     "ground_state": {
-      "type": "minecraft:noise_provider",
+      "type": "minecraft:dual_noise_provider",
       "seed": 4,
       "noise": {
         "firstOctave": -3,
@@ -36,7 +36,7 @@
         "min_inclusive": 1,
         "max_inclusive": 1
       },
-      "noise": {
+      "slow_noise": {
         "firstOctave": -6,
         "amplitudes": [
           1,

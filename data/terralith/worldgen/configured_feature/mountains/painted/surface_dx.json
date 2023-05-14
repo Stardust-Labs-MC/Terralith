@@ -20,7 +20,7 @@
         "max_inclusive": 3
       }
     },
-    "replaceable": "#terralith:terracotta",
+    "replaceable": "terralith:painted_mountain",
     "ground_state": {
       "type": "minecraft:noise_provider",
       "seed": 1,
@@ -385,8 +385,7 @@
         }
       ]
     },
-    "vegetation_feature":{
-      "placement":[],"feature": {
+    "vegetation_feature":{"placement":[],"feature": {
       "type": "minecraft:random_selector",
       "config": {
         "features": [],

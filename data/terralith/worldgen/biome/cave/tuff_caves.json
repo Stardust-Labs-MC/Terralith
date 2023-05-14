@@ -38,7 +38,7 @@
     ],
     [
       "minecraft:monster_room",
-      "minecraft:monster_room_deep"
+      "minecraft:monster_room_deep","terralith:cave/generic/deep_dungeon"
     ],
     [],
     [],

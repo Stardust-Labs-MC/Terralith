@@ -131,8 +131,8 @@
           "Properties": {}
         }
       ],
-      "cannot_replace": "#terralith:island_ban",
-      "invalid_blocks": "#minecraft:features_cannot_replace"
+      "cannot_replace": "terralith:island_ban",
+      "invalid_blocks": "minecraft:features_cannot_replace"
     },
     "layers": {
       "filling": 3,

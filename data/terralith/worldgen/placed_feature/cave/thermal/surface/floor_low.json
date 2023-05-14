@@ -21,7 +21,7 @@
           "max_inclusive": 5
         }
       },
-      "replaceable": "#terralith:deepslate",
+      "replaceable": "terralith:deepslate",
       "ground_state": {
         "type": "minecraft:noise_provider",
         "seed": 111,

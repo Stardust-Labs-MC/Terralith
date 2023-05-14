@@ -14,7 +14,7 @@
         "max_inclusive": 8
       }
     },
-    "replaceable": "#terralith:calcite",
+    "replaceable": "terralith:calcite",
     "ground_state": {
       "type": "minecraft:simple_state_provider",
       "state": {

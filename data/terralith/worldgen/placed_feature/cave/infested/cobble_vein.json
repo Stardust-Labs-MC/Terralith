@@ -1,42 +1,111 @@
 {
   "feature": {
-    "type": "minecraft:scattered_ore",
+    "type": "minecraft:simple_block",
     "config": {
-      "size": 64,
-      "discard_chance_on_air_exposure": 0,
-      "targets": [
-                {
-          "target": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:stone",
-            "probability": 0.35
-          },
-          "state": {
-            "Name": "minecraft:mossy_cobblestone"
-          }
+      "to_place": {
+        "type": "minecraft:noise_provider",
+        "seed": 2,
+        "noise": {
+          "firstOctave": -7,
+          "amplitudes": [
+            1,
+            1,
+            1,
+            1
+          ]
         },
-        {
-          "target": {
-            "predicate_type": "minecraft:block_match",
-            "block": "minecraft:stone"
+        "scale": 1,
+        "states": [
+          {
+            "Name": "minecraft:stone"
           },
-          "state": {
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
             "Name": "minecraft:cobblestone"
-          }
-        },
-        {
-          "target": {
-            "predicate_type": "minecraft:block_match",
-            "block": "minecraft:deepslate"
           },
-          "state": {
-            "Name": "minecraft:cobbled_deepslate"
+          {
+            "Name": "minecraft:mossy_cobblestone"
+          },
+                    {
+            "Name": "minecraft:cobblestone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
           }
-        }
-      ]
+        ]
+      }
     }
   },
   "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 6
+    },
     {
       "type": "minecraft:count",
       "count": 256
@@ -49,7 +118,7 @@
       "height": {
         "type": "minecraft:uniform",
         "min_inclusive": {
-          "absolute": -64
+          "absolute": -62
         },
         "max_inclusive": {
           "absolute": 192
@@ -59,65 +128,44 @@
     {
       "type": "minecraft:block_predicate_filter",
       "predicate": {
-        "type": "minecraft:any_of",
-        "predicates": [
-          {
-            "type": "minecraft:matching_blocks",
-            "offset": [
-              0,
-              6,
-              0
-            ],
-            "blocks": "minecraft:air"
-          },
-          {
-            "type": "minecraft:matching_blocks",
-            "offset": [
-              -6,
-              0,
-              0
-            ],
-            "blocks": "minecraft:air"
-          },
-          {
-            "type": "minecraft:matching_blocks",
-            "offset": [
-              6,
-              0,
-              0
-            ],
-            "blocks": "minecraft:air"
-          },
-          {
-            "type": "minecraft:matching_blocks",
-            "offset": [
-              0,
-              0,
-              -6
-            ],
-            "blocks": "minecraft:air"
-          },
-          {
-            "type": "minecraft:matching_blocks",
-            "offset": [
-              0,
-              0,
-              6
-            ],
-            "blocks": "minecraft:air"
-          },
-          {
-            "type": "minecraft:matching_blocks",
-            "offset": [
-              0,
-              -6,
-              0
-            ],
-            "blocks": "minecraft:air"
-          }
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:stone"
         ]
       }
     },
-    {"type":"biome"}
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:count",
+      "count": 20
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": -5,
+          "max_inclusive": 5
+        }
+      },
+      "y_spread": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": -5,
+          "max_inclusive": 5
+        }
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:stone"
+        ]
+      }
+    }
   ]
 }

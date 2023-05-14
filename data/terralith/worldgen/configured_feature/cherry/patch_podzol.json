@@ -14,7 +14,7 @@
         "max_inclusive": 8
       }
     },
-    "replaceable": "#terralith:soil",
+    "replaceable": "terralith:soil",
     "ground_state": {
       "type": "minecraft:weighted_state_provider",
       "entries": [

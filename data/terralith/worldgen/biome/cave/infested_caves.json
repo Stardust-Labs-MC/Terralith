@@ -27,6 +27,9 @@
   },
   "features": [
     [
+      "terralith:cave/infested/cobble_vein",
+      "terralith:cave/infested/deep_vein",
+      "terralith:cave/infested/mossy_vein"
     ],
     [
       "minecraft:lake_lava_underground",
@@ -38,7 +41,7 @@
     ],
     [
       "minecraft:monster_room",
-      "minecraft:monster_room_deep",
+      "minecraft:monster_room_deep","terralith:cave/generic/deep_dungeon",
       "terralith:cave/infested/dungeon_extra"
     ],
     [
@@ -75,8 +78,7 @@
       "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel",
-      "terralith:cave/infested/cobble_vein"
+      "minecraft:disk_gravel"
     ],
     [
       "minecraft:ore_infested"

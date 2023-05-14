@@ -14,7 +14,7 @@
         "max_inclusive": 2
       }
     },
-    "replaceable": "#terralith:soil_stone",
+    "replaceable": "terralith:soil_stone",
     "ground_state": {
       "type": "minecraft:simple_state_provider",
       "state": {

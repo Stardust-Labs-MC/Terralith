@@ -14,7 +14,7 @@
         "max_inclusive": 1
       }
     },
-    "replaceable": "#terralith:cobblestone_snow",
+    "replaceable": "terralith:cobblestone_snow",
     "ground_state": {
       "type": "minecraft:noise_provider",
       "seed": 0,

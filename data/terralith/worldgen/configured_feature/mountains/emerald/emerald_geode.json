@@ -43,8 +43,8 @@
           "Name": "minecraft:deepslate_emerald_ore"
         }
       ],
-      "cannot_replace": "#terralith:stop_emerald_geode",
-      "invalid_blocks": "#terralith:stop_emerald_geode"
+      "cannot_replace": "terralith:stop_emerald_geode",
+      "invalid_blocks": "terralith:stop_emerald_geode"
     },
     "layers": {
       "filling": 1.7,

@@ -20,7 +20,7 @@
         "max_inclusive": 4
       }
     },
-    "replaceable": "#terralith:gravel_stone",
+    "replaceable": "terralith:gravel_stone",
     "ground_state": {
       "type": "minecraft:dual_noise_provider",
       "seed": 99,

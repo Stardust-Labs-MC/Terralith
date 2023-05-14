@@ -20,7 +20,7 @@
         "max_inclusive": 4
       }
     },
-    "replaceable": "#terralith:savanna_terracotta",
+    "replaceable": "terralith:savanna_terracotta",
     "ground_state": {
       "type": "minecraft:dual_noise_provider",
       "seed": 99,

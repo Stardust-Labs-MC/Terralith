@@ -298,8 +298,8 @@
             "Name": "minecraft:cobblestone"
           }
         ],
-        "cannot_replace": "#terralith:anti_calcite",
-        "invalid_blocks": "#terralith:calcite"
+        "cannot_replace": "terralith:anti_calcite",
+        "invalid_blocks": "terralith:calcite"
       },
       "layers": {
         "filling": 1,
