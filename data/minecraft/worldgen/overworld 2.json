@@ -27,7 +27,7 @@
                     "argument1": 
                     //{
                     "minecraft:overworld/sloped_cheese",
-                    //"argument2":"terralith:overworld/skylands/noise",
+                    //"argument2":"terralith:skylands/noise",
                     //"type":"max"
                     //},
                     "argument2": {
@@ -256,8 +256,8 @@
           "argument1": {
             "argument1": {
     "type":"add",
-    "argument1":"terralith:overworld/special/caldera_aquifier",
-    "argument2":"terralith:overworld/special/crater_aquifier"
+    "argument1":"terralith:special/caldera_aquifier",
+    "argument2":"terralith:special/crater_aquifier"
 
     },
             "argument2": "minecraft:overworld/depth",
@@ -290,17 +290,17 @@
       "y_scale": 0.5,
       "type": "minecraft:noise"
     },
-    "argument2":"terralith:overworld/special/crater_barrier",
+    "argument2":"terralith:special/crater_barrier",
     "type":"max"
 
   },
     "fluid_level_floodedness": {
     "type":"max",
     "argument1":"minecraft:overworld/aquifer_special",
-    "argument2":"terralith:overworld/special/force_caldera"
+    "argument2":"terralith:special/force_caldera"
 
     },
-    "fluid_level_spread": "terralith:overworld/special/aquifer_spread"
+    "fluid_level_spread": "terralith:special/aquifer_spread"
   },
   "noise": {
     "min_y": -64,

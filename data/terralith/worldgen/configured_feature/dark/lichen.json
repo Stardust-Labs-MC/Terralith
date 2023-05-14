@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:multiface_growth",
+  "type": "minecraft:glow_lichen",
   "config": {
     "search_range": 13,
     "chance_of_spreading": 0.3,
@@ -7,8 +7,9 @@
     "can_place_on_ceiling": true,
     "can_place_on_wall": true,
     "can_be_placed_on": [
-      "minecraft:grass_block",
-      "minecraft:dark_oak_log"
+"minecraft:grass_block",
+        "minecraft:dark_oak_log"
+      
     ]
   }
 }

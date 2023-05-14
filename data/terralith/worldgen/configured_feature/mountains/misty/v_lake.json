@@ -22,52 +22,49 @@
         "Properties": {}
       }
     },
-    "vegetation_feature": {
-      "placement": [],
-      "feature": {
-        "type": "minecraft:tree",
-        "config": {
-          "ignore_vines": true,
-          "force_dirt": false,
-          "minimum_size": {
-            "type": "minecraft:two_layers_feature_size"
-          },
-          "dirt_provider": {
-            "type": "minecraft:simple_state_provider",
-            "state": {
-              "Name": "minecraft:dirt"
+    "vegetation_feature":{"placement":[],"feature": {
+      "type": "minecraft:tree",
+      "config": {
+        "ignore_vines": true,
+        "force_dirt": false,
+        "minimum_size": {
+          "type": "minecraft:two_layers_feature_size"
+        },
+        "dirt_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:dirt"
+          }
+        },
+        "trunk_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:water",
+            "Properties": {
+              "level": "0"
             }
-          },
-          "trunk_provider": {
-            "type": "minecraft:simple_state_provider",
-            "state": {
-              "Name": "minecraft:water",
-              "Properties": {
-                "level": "0"
-              }
-            }
-          },
-          "foliage_provider": {
-            "type": "minecraft:simple_state_provider",
-            "state": {
-              "Name": "minecraft:air"
-            }
-          },
-          "trunk_placer": {
-            "type": "minecraft:straight_trunk_placer",
-            "base_height": 2,
-            "height_rand_a": 0,
-            "height_rand_b": 0
-          },
-          "foliage_placer": {
-            "type": "minecraft:blob_foliage_placer",
-            "radius": 0,
-            "offset": 0,
-            "height": 0
-          },
-          "decorators": []
-        }
+          }
+        },
+        "foliage_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:air"
+          }
+        },
+        "trunk_placer": {
+          "type": "minecraft:straight_trunk_placer",
+          "base_height": 2,
+          "height_rand_a": 0,
+          "height_rand_b": 0
+        },
+        "foliage_placer": {
+          "type": "minecraft:blob_foliage_placer",
+          "radius": 0,
+          "offset": 0,
+          "height": 0
+        },
+        "decorators": []
       }
     }
-  }
+  }}
 }

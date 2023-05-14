@@ -1,47 +1,30 @@
 {
-  "type": "minecraft:random_selector",
+  "type": "minecraft:disk",
   "config": {
-    "features": [],
-    "default": {
-      "feature": {
-        "type": "minecraft:disk",
-        "config": {
-          "half_height": 4,
-          "radius": {
-            "type": "minecraft:biased_to_bottom",
-            "value": {
-              "min_inclusive": 2,
-              "max_inclusive": 6
-            }
-          },
-          "state_provider": {
-            "fallback": {
-              "type": "minecraft:simple_state_provider",
-              "state": {
-                "Name": "minecraft:sand"
-              }
-            },
-            "rules": []
-          },
-          "target": {
-            "type": "minecraft:matching_blocks",
-            "blocks": [
-              "minecraft:gravel",
-              "minecraft:dirt",
-              "minecraft:grass_block"
-            ]
-          }
-        }
+    "state": {
+      "Name": "minecraft:sand"
+    },
+    "radius": {
+      "type": "minecraft:biased_to_bottom",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 6
+      }
+    },
+    "half_height": 4,
+    "targets": [
+      {
+        "Name": "minecraft:gravel"
       },
-      "placement": [
-        {
-          "type": "minecraft:block_predicate_filter",
-          "predicate": {
-            "type": "minecraft:matching_fluids",
-            "fluids": "minecraft:water"
-          }
+      {
+        "Name": "minecraft:dirt"
+      },
+      {
+        "Name": "minecraft:grass_block",
+        "Properties": {
+          "snowy": "false"
         }
-      ]
-    }
+      }
+    ]
   }
 }

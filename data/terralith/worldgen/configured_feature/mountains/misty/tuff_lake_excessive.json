@@ -21,36 +21,33 @@
         "Name": "minecraft:cobbled_deepslate"
       }
     },
-    "vegetation_feature": {
-      "placement": [],
-      "feature": {
-        "type": "minecraft:random_selector",
-        "config": {
-          "features": [],
-          "default": {
-            "feature": {
-              "type": "minecraft:scattered_ore",
-              "config": {
-                "size": 50,
-                "discard_chance_on_air_exposure": 0,
-                "targets": [
-                  {
-                    "target": {
-                      "predicate_type": "minecraft:random_block_match",
-                      "block": "minecraft:tuff",
-                      "probability": 0.4
-                    },
-                    "state": {
-                      "Name": "minecraft:cobbled_deepslate"
-                    }
+    "vegetation_feature":{"placement":[],"feature": {
+      "type": "minecraft:random_selector",
+      "config": {
+        "features": [],
+        "default": {
+          "feature": {
+            "type": "minecraft:scattered_ore",
+            "config": {
+              "size": 50,
+              "discard_chance_on_air_exposure": 0,
+              "targets": [
+                {
+                  "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:tuff",
+                    "probability": 0.4
+                  },
+                  "state": {
+                    "Name": "minecraft:cobbled_deepslate"
                   }
-                ]
-              }
-            },
-            "placement": []
-          }
+                }
+              ]
+            }
+          },
+          "placement": []
         }
       }
     }
-  }
+  }}
 }

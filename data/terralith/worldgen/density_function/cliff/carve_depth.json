@@ -1,0 +1,23 @@
+{
+   "type":"cache_once",
+   "argument":{
+      "type":"mul",
+      "argument1":{
+         "type":"add",
+         "argument1":-2.325,
+         "argument2":{
+   "argument":{
+      "argument":{
+         "noise":"terralith:math/cliff/slope",
+         "xz_scale":1.0,
+         "y_scale":0.0,
+         "type":"minecraft:noise"
+      },
+      "type":"cache_2d"
+   },
+   "type":"flat_cache"
+}
+      },
+      "argument2":"terralith:cliff/cliff_depth"
+   }
+}

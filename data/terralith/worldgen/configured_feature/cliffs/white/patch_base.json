@@ -12,18 +12,15 @@
     "extra_edge_column_chance": 0.3,
     "extra_bottom_block_chance": 0,
     "vertical_range": 5,
-    "vegetation_feature": {
-      "placement": [],
-      "feature": {
-        "type": "minecraft:random_selector",
-        "config": {
-          "features": [],
-          "default": {
-            "feature": "terralith:cliffs/white/moss_vegetation",
-            "placement": []
-          }
+    "vegetation_feature":{"placement":[],"feature": {
+      "type": "minecraft:random_selector",
+      "config": {
+        "features": [],
+        "default": {
+          "feature": "terralith:cliffs/white/moss_vegetation",
+          "placement": []
         }
-      }
+      }}
     },
     "surface": "floor",
     "depth": 2,

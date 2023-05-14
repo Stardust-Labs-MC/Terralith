@@ -1,6 +1,21 @@
 {
   "type": "minecraft:chest",
   "pools": [
+        {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "terralith:traveler_map_set/cool_high_erosion"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 1.0
+        }
+      ]
+    },
     {
       "rolls": 5,
       "entries": [
@@ -459,7 +474,7 @@
             }
           ]
         },
-        {
+                {
           "type": "minecraft:item",
           "weight": 2,
           "name": "minecraft:cooked_chicken",

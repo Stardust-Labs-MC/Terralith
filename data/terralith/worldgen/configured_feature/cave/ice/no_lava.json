@@ -2,7 +2,7 @@
   "type": "minecraft:netherrack_replace_blobs",
   "config": {
     "state": {
-      "Name": "minecraft:deepslate"
+      "Name": "minecraft:deepslate_tiles"
     },
     "target": {
       "Name": "minecraft:lava",

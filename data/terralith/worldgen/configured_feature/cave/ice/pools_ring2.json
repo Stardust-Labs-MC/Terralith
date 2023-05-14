@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:no_op",
+  "type": "minecraft:disk",
   "config": {
     "state": {
       "Name": "minecraft:packed_ice"
@@ -11,7 +11,7 @@
         "max_inclusive": 5
       }
     },
-    "can_origin_replace": "minecraft:water","half_height": 2,
+    "half_height": 2,
     "targets": [
       {
         "Name": "minecraft:snow_block"

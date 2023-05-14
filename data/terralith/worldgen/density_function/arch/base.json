@@ -1,0 +1,96 @@
+{
+    "argument1":{
+    "argument1": {
+      "argument1": 
+
+      {
+      "argument":
+      {"type":"flat_cache",
+        "argument":{
+        "type":"cache_2d",
+        "argument":{
+              
+          "xz_scale": 1.0,
+          "y_scale": 0.0,
+          "type": "minecraft:noise",
+        "noise": "terralith:math/arch/shape"
+      }}},
+      "type":"abs"
+  },
+      "argument2": {
+        "argument1": {
+
+            "argument1":0.05,
+            "argument2":{
+                "argument1":"overworld/depth",
+                "argument2":0.0275,
+                "type":"mul"
+
+              },
+            "type":"add"
+            },
+        "argument2": "terralith:arch/thickness",
+        "type": "minecraft:mul"
+      },
+      "type": "minecraft:add"
+    },
+    "argument2": {
+      "argument":{
+        "argument1": {
+          "argument": {
+            "argument1": {
+              "argument1": "terralith:arch/height_spline",
+              "argument2": {
+                "argument1": 9.0,
+                "argument2": {
+                  "noise": "minecraft:spaghetti_2d_elevation",
+                  "xz_scale": 2.0,
+                  "y_scale": 0.5,
+                  "type": "minecraft:noise"
+                },
+                "type": "minecraft:mul"
+              },
+              "type": "minecraft:add"
+            },
+            "argument2": 
+            {
+
+            "argument1":{
+              "from_y": -64,
+              "to_y": 320,
+              "from_value": 6.5,
+              "to_value": -13.5,
+              "type": "minecraft:y_clamped_gradient"
+            },
+            "argument2":{
+                "argument1":"overworld/depth",
+                "argument2":0.00001,
+                "type":"mul"
+
+              },
+            "type":"add"
+            },
+            "type": "minecraft:add"
+          },
+          "type": "minecraft:abs"
+        },
+        "argument2": {
+
+            "argument1":-1.3,
+            "argument2":{
+                "argument1":"overworld/depth",
+                "argument2":-0.4,
+                "type":"mul"
+
+              },
+            "type":"add"
+            },
+        "type": "minecraft:add"
+    },
+    "type":"cube"
+
+    },
+    "type": "minecraft:max"
+  },
+  "argument2":-1,
+  "type":"mul"}

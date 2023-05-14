@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:bastion_remnant",
+  "biomes": [],
+  "spawn_overrides": {},
+  "config": {
+    "start_pool": "minecraft:bastion/starts",
+    "size": 6
+  }
+}

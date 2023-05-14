@@ -36,10 +36,10 @@
             }
           }
         },
-        {
+                {
           "type": "minecraft:environment_scan",
-          "direction_of_search": "down",
-          "max_steps": 16,
+          "direction_of_search":"down",
+          "max_steps":16,
           "target_condition": {
             "type": "minecraft:all_of",
             "predicates": [
@@ -55,8 +55,7 @@
                   "minecraft:dirt",
                   "coarse_dirt"
                 ]
-              }
-            ]
+              }]
           }
         },
         {

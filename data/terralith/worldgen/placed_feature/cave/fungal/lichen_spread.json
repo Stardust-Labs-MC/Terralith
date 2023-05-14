@@ -1,6 +1,6 @@
 {
   "feature": {
-    "type": "minecraft:multiface_growth",
+    "type": "minecraft:glow_lichen",
     "config": {
       "search_range": 6,
       "chance_of_spreading": 0.3,
@@ -9,8 +9,7 @@
       "can_place_on_wall": true,
       "can_be_placed_on": [
         "stone","red_mushroom_block","brown_mushroom_block","mushroom_stem","andesite","diorite","granite","deepslate","rooted_dirt","coarse_dirt","gravel"
-      ],
-      "block":"glow_lichen"
+      ]
     }
   },
   "placement": [

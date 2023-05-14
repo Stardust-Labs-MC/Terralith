@@ -49,7 +49,7 @@
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 0 //8
+      "count": 8
     },
     {
       "type": "minecraft:count",

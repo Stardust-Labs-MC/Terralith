@@ -1,0 +1,11 @@
+
+
+
+{
+      "type": "minecraft:range_choice",
+    "input": "terralith:spike/size_spline",
+    "min_inclusive": -1,
+    "max_exclusive": 1000000,
+    "when_in_range": "terralith:spike/noise",
+    "when_out_of_range": -64
+    }

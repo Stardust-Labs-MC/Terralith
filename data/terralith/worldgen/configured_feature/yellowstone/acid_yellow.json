@@ -1,47 +1,48 @@
 {
-  "type": "minecraft:random_selector",
+  "type": "minecraft:disk",
   "config": {
-    "features": [],
-    "default": {
-      "feature": {
-        "type": "minecraft:disk",
-        "config": {
-          "half_height": 0,
-          "radius": 1,
-          "state_provider": {
-            "fallback": {
-              "type": "minecraft:simple_state_provider",
-              "state": {
-                "Name": "minecraft:yellow_terracotta"
-              }
-            },
-            "rules": []
-          },
-          "target": {
-            "type": "minecraft:matching_blocks",
-            "blocks": [
-              "minecraft:gravel",
-              "minecraft:sand",
-              "minecraft:coarse_dirt",
-              "minecraft:dirt",
-              "minecraft:grass_block",
-              "minecraft:calcite",
-              "minecraft:red_sand",
-              "minecraft:blackstone",
-              "minecraft:basalt"
-            ]
-          }
+    "state": {
+      "Name": "minecraft:yellow_terracotta"
+    },
+    "radius": 1,
+    "half_height": 0,
+    "targets": [
+      {
+        "Name": "minecraft:gravel"
+      },
+      {
+        "Name": "minecraft:sand"
+      },
+      {
+        "Name": "minecraft:coarse_dirt"
+      },
+      {
+        "Name": "minecraft:dirt"
+      },
+      {
+        "Name": "minecraft:grass_block",
+        "Properties": {
+          "snowy": "false"
         }
       },
-      "placement": [
-        {
-          "type": "minecraft:block_predicate_filter",
-          "predicate": {
-            "type": "minecraft:matching_fluids",
-            "fluids": "minecraft:water"
-          }
+      {
+        "Name": "minecraft:calcite"
+      },
+      {
+        "Name": "minecraft:red_sand"
+      },
+      {
+        "Name": "minecraft:blackstone"
+      },
+      {
+        "Name": "minecraft:basalt",
+        "Properties": {
+          "axis": "y"
         }
-      ]
-    }
+      },
+      {
+        "Name": "minecraft:gravel"
+      }
+    ]
   }
 }

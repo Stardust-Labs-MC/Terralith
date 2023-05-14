@@ -3,12 +3,17 @@
     "argument1": {
       "argument1": {
         "argument1": 0.37,
-        "argument2": {
+        "argument2": 
+        
+        
+        {
           "noise": "minecraft:cave_entrance",
           "xz_scale": 0.75,
           "y_scale": 0.5,
           "type": "minecraft:noise"
         },
+
+
         "type": "minecraft:add"
       },
       "argument2": {

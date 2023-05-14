@@ -2,6 +2,21 @@
   "type": "minecraft:chest",
   "pools": [
     {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "terralith:traveler_map_set/hot_biomes"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.1
+        }
+      ]
+    },
+    {
       "rolls": 3,
       "entries": [
         {
@@ -160,7 +175,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
+          "weight":1,
           "name": "minecraft:diamond",
           "functions": [
             {
@@ -179,7 +194,7 @@
           ]
         },
         {
-          "weight": 3,
+          "weight":3,
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
           "functions": [
@@ -199,7 +214,7 @@
           ]
         },
         {
-          "weight": 4,
+          "weight":4,
           "type": "minecraft:item",
           "name": "minecraft:iron_block",
           "functions": [
@@ -219,7 +234,7 @@
           ]
         },
         {
-          "weight": 1,
+          "weight":1,
           "type": "minecraft:item",
           "name": "minecraft:copper_block",
           "functions": [
@@ -239,7 +254,7 @@
           ]
         },
         {
-          "weight": 1,
+          "weight":1,
           "type": "minecraft:item",
           "name": "minecraft:weathered_copper",
           "functions": [
@@ -259,7 +274,7 @@
           ]
         },
         {
-          "weight": 1,
+          "weight":1,
           "type": "minecraft:item",
           "name": "minecraft:exposed_copper",
           "functions": [
@@ -279,7 +294,7 @@
           ]
         },
         {
-          "weight": 1,
+          "weight":1,
           "type": "minecraft:item",
           "name": "minecraft:oxidized_copper",
           "functions": [

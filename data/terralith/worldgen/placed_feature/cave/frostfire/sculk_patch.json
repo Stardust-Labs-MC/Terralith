@@ -8,11 +8,11 @@
 				"distribution": [
 					{
 						"weight": 50,
-						"data": 157
+						"data": 9
 					},
 					{
 						"weight": 50,
-						"data": 170
+						"data": 11
 					}
 				]
 			}
@@ -31,6 +31,20 @@
 					"absolute": 30
 				}
 			}
+		},
+		{
+			"type": "minecraft:environment_scan",
+			"direction_of_search": "down",
+			"target_condition": {
+				"type": "minecraft:solid"
+			},
+			"allowed_search_condition": {
+				"type": "minecraft:matching_blocks",
+				"blocks": [
+					"minecraft:air"
+				]
+			},
+			"max_steps": 30
 		},
 		{
 			"type": "minecraft:biome"

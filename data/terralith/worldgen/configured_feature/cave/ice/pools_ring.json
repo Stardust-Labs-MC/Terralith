@@ -76,7 +76,7 @@
             "max_inclusive": 3
           }
         },
-        "can_origin_replace": "minecraft:water","half_height": 3,
+        "half_height": 3,
         "targets": [
           {
             "Name": "minecraft:snow_block"

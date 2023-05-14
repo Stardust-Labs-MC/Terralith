@@ -1,48 +1,33 @@
 {
-  "type": "minecraft:random_selector",
+  "type": "minecraft:disk",
   "config": {
-    "features": [],
-    "default": {
-      "feature": {
-        "type": "minecraft:disk",
-        "config": {
-          "half_height": 4,
-          "radius": {
-            "type": "minecraft:uniform",
-            "value": {
-              "min_inclusive": 2,
-              "max_inclusive": 4
-            }
-          },
-          "state_provider": {
-            "fallback": {
-              "type": "minecraft:simple_state_provider",
-              "state": {
-                "Name": "minecraft:brown_terracotta"
-              }
-            },
-            "rules": []
-          },
-          "target": {
-            "type": "minecraft:matching_blocks",
-            "blocks": [
-              "minecraft:podzol",
-              "minecraft:coarse_dirt",
-              "minecraft:dirt",
-              "minecraft:brown_terracotta"
-            ]
-          }
+    "state": {
+      "Name": "minecraft:brown_terracotta"
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 4
+      }
+    },
+    "half_height": 4,
+    "targets": [
+      {
+        "Name": "minecraft:podzol",
+        "Properties": {
+          "snowy": "false"
         }
       },
-      "placement": [
-        {
-          "type": "minecraft:block_predicate_filter",
-          "predicate": {
-            "type": "minecraft:matching_fluids",
-            "fluids": "minecraft:water"
-          }
-        }
-      ]
-    }
+      {
+        "Name": "minecraft:coarse_dirt"
+      },
+      {
+        "Name": "minecraft:dirt"
+      },
+      {
+        "Name": "minecraft:brown_terracotta"
+      }
+    ]
   }
 }

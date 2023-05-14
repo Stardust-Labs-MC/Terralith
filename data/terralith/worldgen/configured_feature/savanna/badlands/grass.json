@@ -167,18 +167,15 @@
         }
       ]
     },
-    "vegetation_feature": {
-      "placement": [],
-      "feature": {
-        "type": "minecraft:random_selector",
-        "config": {
-          "features": [],
-          "default": {
-            "feature": "minecraft:moss_vegetation",
-            "placement": []
-          }
+    "vegetation_feature":{"placement":[],"feature": {
+      "type": "minecraft:random_selector",
+      "config": {
+        "features": [],
+        "default": {
+          "feature": "minecraft:moss_vegetation",
+          "placement": []
         }
       }
     }
-  }
+  }}
 }

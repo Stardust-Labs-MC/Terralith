@@ -29,7 +29,6 @@
       }
     },
     "probability": 0,//0.01,
-    "replaceable": "#minecraft:overworld_carver_replaceables",
     "y": {
       "min_inclusive": {
         "absolute": 10

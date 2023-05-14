@@ -20,53 +20,50 @@
               "Name": "minecraft:air"
             }
           },
-          "vegetation_feature": {
-            "placement": [],
-            "feature": {
-              "type": "minecraft:tree",
-              "config": {
-                "ignore_vines": true,
-                "force_dirt": false,
-                "minimum_size": {
-                  "type": "minecraft:two_layers_feature_size"
-                },
-                "dirt_provider": {
-                  "type": "minecraft:simple_state_provider",
-                  "state": {
-                    "Name": "minecraft:blackstone"
+          "vegetation_feature":{"placement":[],"feature": {
+            "type": "minecraft:tree",
+            "config": {
+              "ignore_vines": true,
+              "force_dirt": false,
+              "minimum_size": {
+                "type": "minecraft:two_layers_feature_size"
+              },
+              "dirt_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:blackstone"
+                }
+              },
+              "trunk_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:lava",
+                  "Properties": {
+                    "level": "0"
                   }
-                },
-                "trunk_provider": {
-                  "type": "minecraft:simple_state_provider",
-                  "state": {
-                    "Name": "minecraft:lava",
-                    "Properties": {
-                      "level": "0"
-                    }
-                  }
-                },
-                "foliage_provider": {
-                  "type": "minecraft:simple_state_provider",
-                  "state": {
-                    "Name": "minecraft:air"
-                  }
-                },
-                "trunk_placer": {
-                  "type": "minecraft:straight_trunk_placer",
-                  "base_height": 1,
-                  "height_rand_a": 0,
-                  "height_rand_b": 0
-                },
-                "foliage_placer": {
-                  "type": "minecraft:pine_foliage_placer",
-                  "radius": 0,
-                  "offset": 0,
-                  "height": 0
-                },
-                "decorators": []
-              }
+                }
+              },
+              "foliage_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:air"
+                }
+              },
+              "trunk_placer": {
+                "type": "minecraft:straight_trunk_placer",
+                "base_height": 1,
+                "height_rand_a": 0,
+                "height_rand_b": 0
+              },
+              "foliage_placer": {
+                "type": "minecraft:pine_foliage_placer",
+                "radius": 0,
+                "offset": 0,
+                "height": 0
+              },
+              "decorators": []
             }
-          }
+          }}
         }
       },
       "placement": [
@@ -120,8 +117,7 @@
                 ],
                 "blocks": [
                   "minecraft:basalt",
-                  "minecraft:smooth_basalt",
-                  "blackstone"
+                  "minecraft:smooth_basalt"
                 ]
               },
               {
@@ -133,8 +129,7 @@
                 ],
                 "blocks": [
                   "minecraft:basalt",
-                  "minecraft:smooth_basalt",
-                  "blackstone"
+                  "minecraft:smooth_basalt"
                 ]
               },
               {

@@ -26,7 +26,7 @@
               {
                 "Name": "minecraft:stone"
               },
-              {
+                            {
                 "Name": "minecraft:stone"
               },
               {
@@ -38,7 +38,7 @@
               {
                 "Name": "minecraft:granite"
               },
-              {
+                            {
                 "Name": "minecraft:granite"
               },
               {
@@ -75,6 +75,7 @@
           "predicate": {
             "type": "minecraft:all_of",
             "predicates": [
+
               {
                 "type": "minecraft:matching_blocks",
                 "offset": [

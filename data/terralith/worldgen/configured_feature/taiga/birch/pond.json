@@ -21,56 +21,53 @@
         "Name": "minecraft:cobblestone"
       }
     },
-    "vegetation_feature": {
-      "placement": [],
-      "feature": {
-        "type": "minecraft:random_selector",
-        "config": {
-          "features": [],
-          "default": {
-            "feature": {
-              "type": "minecraft:ore",
-              "config": {
-                "size": 27,
-                "discard_chance_on_air_exposure": 0,
-                "targets": [
-                  {
-                    "target": {
-                      "predicate_type": "minecraft:random_block_match",
-                      "block": "minecraft:grass_block",
-                      "probability": 0.65
-                    },
-                    "state": {
-                      "Name": "minecraft:cobblestone"
-                    }
+    "vegetation_feature":{"placement":[],"feature": {
+      "type": "minecraft:random_selector",
+      "config": {
+        "features": [],
+        "default": {
+          "feature": {
+            "type": "minecraft:ore",
+            "config": {
+              "size": 27,
+              "discard_chance_on_air_exposure": 0,
+              "targets": [
+                {
+                  "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:grass_block",
+                    "probability": 0.65
                   },
-                  {
-                    "target": {
-                      "predicate_type": "minecraft:random_block_match",
-                      "block": "minecraft:coarse_dirt",
-                      "probability": 0.65
-                    },
-                    "state": {
-                      "Name": "minecraft:cobblestone"
-                    }
-                  },
-                  {
-                    "target": {
-                      "predicate_type": "minecraft:random_block_match",
-                      "block": "minecraft:podzol",
-                      "probability": 0.65
-                    },
-                    "state": {
-                      "Name": "minecraft:cobblestone"
-                    }
+                  "state": {
+                    "Name": "minecraft:cobblestone"
                   }
-                ]
-              }
-            },
-            "placement": []
-          }
+                },
+                {
+                  "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:coarse_dirt",
+                    "probability": 0.65
+                  },
+                  "state": {
+                    "Name": "minecraft:cobblestone"
+                  }
+                },
+                {
+                  "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:podzol",
+                    "probability": 0.65
+                  },
+                  "state": {
+                    "Name": "minecraft:cobblestone"
+                  }
+                }
+              ]
+            }
+          },
+          "placement": []
         }
       }
     }
-  }
+  }}
 }

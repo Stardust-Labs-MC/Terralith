@@ -1,52 +1,48 @@
 {
-  "type": "minecraft:random_selector",
+  "type": "minecraft:disk",
   "config": {
-    "features": [],
-    "default": {
-      "feature": {
-        "type": "minecraft:disk",
-        "config": {
-          "half_height": 1,
-          "radius": {
-            "type": "minecraft:uniform",
-            "value": {
-              "min_inclusive": 2,
-              "max_inclusive": 3
-            }
-          },
-          "state_provider": {
-            "fallback": {
-              "type": "minecraft:simple_state_provider",
-              "state": {
-                "Name": "minecraft:red_sand"
-              }
-            },
-            "rules": []
-          },
-          "target": {
-            "type": "minecraft:matching_blocks",
-            "blocks": [
-              "minecraft:gravel",
-              "minecraft:sand",
-              "minecraft:coarse_dirt",
-              "minecraft:dirt",
-              "minecraft:grass_block",
-              "minecraft:calcite",
-              "minecraft:blackstone",
-              "minecraft:smooth_basalt"
-            ]
-          }
+    "state": {
+      "Name": "minecraft:red_sand"
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      }
+    },
+    "half_height": 1,
+    "targets": [
+      {
+        "Name": "minecraft:gravel"
+      },
+      {
+        "Name": "minecraft:sand"
+      },
+      {
+        "Name": "minecraft:coarse_dirt"
+      },
+      {
+        "Name": "minecraft:dirt"
+      },
+      {
+        "Name": "minecraft:grass_block",
+        "Properties": {
+          "snowy": "false"
         }
       },
-      "placement": [
-        {
-          "type": "minecraft:block_predicate_filter",
-          "predicate": {
-            "type": "minecraft:matching_fluids",
-            "fluids": "minecraft:water"
-          }
-        }
-      ]
-    }
+      {
+        "Name": "minecraft:calcite"
+      },
+      {
+        "Name": "minecraft:blackstone"
+      },
+      {
+        "Name": "minecraft:smooth_basalt"
+      },
+      {
+        "Name": "minecraft:gravel"
+      }
+    ]
   }
 }

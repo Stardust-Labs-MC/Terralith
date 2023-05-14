@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "terralith:zpointer/terralith_volcanic_peaks",
+              "decoration": "target_x",
+              "zoom": 5,
+              "search_radius": 400,
+              "skip_existing_chunks": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Traveler's Map - Volcanic Peaks",
+                "color": "#77ccff",
+                "bold": false,
+                "italic": false,
+                "underlined": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Terralith",
+                  "color": "#115060",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "%DISABLE_MAP"
+                  },
+                  "score": "tr.disable_maps"
+                },
+                "range": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

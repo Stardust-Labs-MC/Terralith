@@ -6,7 +6,7 @@
         "feature": {
           "type": "minecraft:random_patch",
           "config": {
-            "tries": 11,
+            "tries": 7,
             "xz_spread": 7,
             "y_spread": 3,
             "feature": {
@@ -17,10 +17,9 @@
                     "type": "minecraft:noise_provider",
                     "seed": 0,
                     "noise": {
-                      "firstOctave": -5,
+                      "firstOctave": -4,
                       "amplitudes": [
-                        0.5,
-                        2,
+                        1,
                         1
                       ]
                     },
@@ -31,9 +30,6 @@
                       },
                       {
                         "Name": "minecraft:pink_tulip"
-                      },
-                      {
-                        "Name": "minecraft:white_tulip"
                       }
                     ]
                   }

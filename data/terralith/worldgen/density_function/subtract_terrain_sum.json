@@ -1,0 +1,11 @@
+{"type":"cache_once",
+    "argument":
+{
+    "type": "minecraft:range_choice",
+    "input": "terralith:subtract_terrain_base",
+    "min_inclusive": -1000000,
+    "max_exclusive": 2.0,
+    "when_in_range": "terralith:cliff/carve",
+    "when_out_of_range": 64 //UNRECOVERABLY_DENSE. sad
+}
+}

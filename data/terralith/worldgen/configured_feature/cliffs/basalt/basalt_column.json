@@ -33,32 +33,32 @@
                   "absolute": 80
                 }
               },
-              {
-                "type": "minecraft:environment_scan",
-                "direction_of_search": "down",
-                "max_steps": 32,
-                "target_condition": {
-                  "type": "minecraft:matching_blocks",
-                  "offset": [
-                    0,
-                    -1,
-                    0
-                  ],
-                  "blocks": [
-                    "minecraft:basalt",
-                    "minecraft:smooth_basalt",
-                    "minecraft:sand",
-                    "minecraft:gravel"
-                  ]
-                },
-                "allowed_search_condition": {
-                  "type": "minecraft:matching_blocks",
-                  "blocks": [
-                    "minecraft:air",
-                    "minecraft:water"
-                  ]
-                }
-              },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 32,
+      "target_condition": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "blocks": [
+          "minecraft:basalt",
+          "minecraft:smooth_basalt",
+          "minecraft:sand",
+          "minecraft:gravel"
+        ]
+      },
+      "allowed_search_condition": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:air",
+          "minecraft:water"
+        ]
+      }
+    },
               {
                 "type": "minecraft:block_predicate_filter",
                 "predicate": {

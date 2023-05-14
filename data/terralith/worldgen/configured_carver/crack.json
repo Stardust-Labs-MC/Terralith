@@ -28,7 +28,6 @@
         "Name": "minecraft:oak_button"
       }
     },
-    "replaceable": "#minecraft:overworld_carver_replaceables",
     "probability": 0.005,
     "y": {
       "min_inclusive": {

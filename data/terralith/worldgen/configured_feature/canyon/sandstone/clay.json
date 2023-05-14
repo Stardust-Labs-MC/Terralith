@@ -1,49 +1,39 @@
 {
-  "type": "minecraft:random_selector",
+  "type": "minecraft:disk",
   "config": {
-    "features": [],
-    "default": {
-      "feature": {
-        "type": "minecraft:disk",
-        "config": {
-          "half_height": 2,
-          "radius": {
-            "type": "minecraft:uniform",
-            "value": {
-              "min_inclusive": 1,
-              "max_inclusive": 2
-            }
-          },
-          "state_provider": {
-            "fallback": {
-              "type": "minecraft:simple_state_provider",
-              "state": {
-                "Name": "minecraft:clay"
-              }
-            },
-            "rules": []
-          },
-          "target": {
-            "type": "minecraft:matching_blocks",
-            "blocks": [
-              "minecraft:stone",
-              "minecraft:moss_block",
-              "minecraft:sand",
-              "minecraft:sandstone",
-              "minecraft:smooth_sandstone"
-            ]
-          }
+    "state": {
+      "Name": "minecraft:clay"
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      }
+    },
+    "half_height": 2,
+    "targets": [
+      {
+        "Name": "minecraft:stone"
+      },
+      {
+        "Name": "minecraft:moss_block"
+      },
+      {
+        "Name": "minecraft:sand"
+      },
+      {
+        "Name": "minecraft:sandstone",
+        "Properties": {
+          "snowy": "false"
         }
       },
-      "placement": [
-        {
-          "type": "minecraft:block_predicate_filter",
-          "predicate": {
-            "type": "minecraft:matching_fluids",
-            "fluids": "minecraft:water"
-          }
+      {
+        "Name": "minecraft:smooth_sandstone",
+        "Properties": {
+          "snowy": "false"
         }
-      ]
-    }
+      }
+    ]
   }
 }

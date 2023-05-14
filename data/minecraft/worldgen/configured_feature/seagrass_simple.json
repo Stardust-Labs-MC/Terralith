@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "state": {
+        "Name": "minecraft:seagrass"
+      },
+      "type": "minecraft:simple_state_provider"
+    }
+  }
+}

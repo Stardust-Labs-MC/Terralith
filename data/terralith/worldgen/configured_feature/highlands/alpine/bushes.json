@@ -2,7 +2,7 @@
   "type": "minecraft:random_selector",
   "config": {
     "features": [
-      {
+            {
         "feature": "terralith:highlands/alpine/spruce_pine",
         "chance": 0.08
       },

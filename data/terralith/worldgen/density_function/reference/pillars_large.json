@@ -1,0 +1,15 @@
+
+{
+                      "type": "minecraft:range_choice",
+                      "input": "terralith:reference/pillars_large_base",
+                      "min_inclusive": -1000000,
+                      "max_exclusive": 0.01,
+                      "when_in_range": 0.0,
+                      "when_out_of_range": 
+
+
+
+                      {"type":"mul",
+                      "argument1":1.0,
+                  "argument2":"terralith:reference/pillars_large_base"}
+}

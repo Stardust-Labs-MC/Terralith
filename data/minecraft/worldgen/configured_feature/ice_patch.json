@@ -1,56 +1,48 @@
 {
-  "type": "minecraft:random_selector",
+  "type": "minecraft:ice_patch",
   "config": {
-    "features": [],
-    "default": {
-      "feature": {
-        "type": "minecraft:disk",
-        "config": {
-          "half_height": 1,
-          "radius": {
-            "type": "minecraft:uniform",
-            "value": {
-              "min_inclusive": 2,
-              "max_inclusive": 3
-            }
-          },
-          "state_provider": {
-            "fallback": {
-              "type": "minecraft:simple_state_provider",
-              "state": {
-                "Name": "minecraft:packed_ice"
-              }
-            },
-            "rules": []
-          },
-          "target": {
-            "type": "minecraft:matching_blocks",
-            "blocks": [
-              "minecraft:dirt",
-              "minecraft:grass_block",
-              "minecraft:podzol",
-              "minecraft:coarse_dirt",
-              "minecraft:mycelium",
-              "minecraft:snow_block",
-              "minecraft:ice"
-            ]
-          }
-        }
+    "state": {
+      "Name": "minecraft:packed_ice"
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      }
+    },
+    "half_height": 1,
+    "targets": [
+      {
+        "Name": "minecraft:dirt"
       },
-      "placement": [
-        {
-          "type": "minecraft:random_offset",
-          "xz_spread": 0,
-          "y_spread": -1
+      {
+        "Properties": {
+          "snowy": "false"
         },
-        {
-          "type": "minecraft:block_predicate_filter",
-          "predicate": {
-            "type": "minecraft:matching_blocks",
-            "blocks": "minecraft:snow"
-          }
-        }
-      ]
-    }
+        "Name": "minecraft:grass_block"
+      },
+      {
+        "Properties": {
+          "snowy": "false"
+        },
+        "Name": "minecraft:podzol"
+      },
+      {
+        "Name": "minecraft:coarse_dirt"
+      },
+      {
+        "Properties": {
+          "snowy": "false"
+        },
+        "Name": "minecraft:mycelium"
+      },
+      {
+        "Name": "minecraft:snow_block"
+      },
+      {
+        "Name": "minecraft:ice"
+      }
+    ]
   }
 }
