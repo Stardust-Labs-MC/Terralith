@@ -1,8 +1,0 @@
-{
-	"feature": "terralith:cave/ice/pools_ring",
-	"placement": [
-		{
-			"type": "minecraft:biome"
-		}
-	]
-}

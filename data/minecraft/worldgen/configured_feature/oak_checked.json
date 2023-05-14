@@ -1,7 +1,0 @@
-{
-  "type": "minecraft:random_selector",
-  "config": {
-    "features": [],
-    "default": "minecraft:oak"
-  }
-}

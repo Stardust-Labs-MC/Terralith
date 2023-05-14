@@ -1,9 +1,0 @@
-{
-	"feature": "terralith:swamp/vanilla/small/swamp_special_small",
-	"placement": [
-		{
-			"type": "count",
-			"count": 8
-		}
-	]
-}

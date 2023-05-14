@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "minecraft:smooth_sandstone",
-    "sandstone",
-    "andesite","granite","diorite"
-  ]
-}
