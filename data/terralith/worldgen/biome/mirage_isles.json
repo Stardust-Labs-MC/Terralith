@@ -1,154 +1,154 @@
 {
-  "effects": {
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2
+    "effects": {
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "particle": {
+            "options": {
+                "type": "minecraft:end_rod"
+            },
+            "probability": 0.0005
+        },
+        "sky_color": 12626175,
+        "fog_color": 12638463,
+        "foliage_color": 6809288,
+        "grass_color": 2798279,
+        "water_color": 10655972,
+        "water_fog_color": 329011
     },
-    "particle": {
-      "options": {
-        "type": "minecraft:end_rod"
-      },
-      "probability": 0.0005
+    "carvers": {
+        "air": [
+            "minecraft:cave",
+            "minecraft:cave_extra_underground",
+            "minecraft:canyon",
+            "terralith:deep_ravine"
+        ]
     },
-    "sky_color": 12626175,
-    "fog_color": 12638463,
-    "foliage_color": 6809288,
-    "grass_color": 2798279,
-    "water_color": 10655972,
-    "water_fog_color": 329011
-  },
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon","terralith:deep_ravine"
-    ]
-  },
-  "features": [
-    [
-      "terralith:canyon/generic/cliff"
+    "features": [
+        [
+            "terralith:canyon/generic/cliff"
+        ],
+        [
+            "minecraft:lake_lava_underground",
+            "minecraft:lake_lava_surface"
+        ],
+        [
+            "minecraft:amethyst_geode",
+            "terralith:cave/generic/mega_geode"
+        ],
+        [
+            "minecraft:monster_room",
+            "minecraft:monster_room_deep"
+        ],
+        [],
+        [],
+        [
+            "minecraft:ore_dirt",
+            "minecraft:ore_gravel",
+            "minecraft:ore_granite_upper",
+            "minecraft:ore_granite_lower",
+            "minecraft:ore_diorite_upper",
+            "minecraft:ore_diorite_lower",
+            "minecraft:ore_andesite_upper",
+            "minecraft:ore_andesite_lower",
+            "minecraft:ore_tuff",
+            "minecraft:ore_coal_upper",
+            "minecraft:ore_coal_lower",
+            "minecraft:ore_iron_upper",
+            "minecraft:ore_iron_middle",
+            "minecraft:ore_iron_small",
+            "minecraft:ore_gold",
+            "minecraft:ore_gold_lower",
+            "minecraft:ore_redstone",
+            "minecraft:ore_redstone_lower",
+            "minecraft:ore_diamond",
+            "minecraft:ore_diamond_large",
+            "minecraft:ore_diamond_buried",
+            "minecraft:ore_lapis",
+            "minecraft:ore_lapis_buried",
+            "minecraft:ore_copper",
+            "minecraft:underwater_magma"
+        ],
+        [],
+        [
+            "minecraft:spring_water",
+            "minecraft:spring_lava"
+        ],
+        [
+            "terralith:enchanted/shrooms",
+            "terralith:enchanted/shrooms_brown",
+            "terralith:enchanted/small_shrooms",
+            "terralith:enchanted/small_shrooms_brown",
+            "terralith:enchanted/trees",
+            "minecraft:glow_lichen",
+            "minecraft:forest_flower_vegetation",
+            "minecraft:flower_default",
+            "minecraft:patch_grass_forest",
+            "minecraft:brown_mushroom_normal",
+            "minecraft:red_mushroom_normal",
+            "minecraft:patch_sugar_cane",
+            "minecraft:patch_pumpkin"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
     ],
-    [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
-    ],
-    [
-      "minecraft:amethyst_geode",
-      "terralith:cave/generic/mega_geode"
-    ],
-    [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
-    [],
-    [],
-    [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
-      "minecraft:ore_granite_upper",
-      "minecraft:ore_granite_lower",
-      "minecraft:ore_diorite_upper",
-      "minecraft:ore_diorite_lower",
-      "minecraft:ore_andesite_upper",
-      "minecraft:ore_andesite_lower",
-      "minecraft:ore_tuff",
-      "minecraft:ore_coal_upper",
-      "minecraft:ore_coal_lower",
-      "minecraft:ore_iron_upper",
-      "minecraft:ore_iron_middle",
-      "minecraft:ore_iron_small",
-      "minecraft:ore_gold",
-      "minecraft:ore_gold_lower",
-      "minecraft:ore_redstone",
-      "minecraft:ore_redstone_lower",
-      "minecraft:ore_diamond",
-      "minecraft:ore_diamond_large",
-      "minecraft:ore_diamond_buried",
-      "minecraft:ore_lapis",
-      "minecraft:ore_lapis_buried",
-      "minecraft:ore_copper",
-      "minecraft:underwater_magma"
-    ],
-    [],
-    [
-      "minecraft:spring_water",
-      "minecraft:spring_lava"
-    ],
-    [
-      "terralith:enchanted/shrooms",
-      "terralith:enchanted/shrooms_brown",
-      "terralith:enchanted/small_shrooms",
-      "terralith:enchanted/small_shrooms_brown",
-      "terralith:enchanted/trees",
-      "minecraft:glow_lichen",
-      "minecraft:forest_flower_vegetation",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_forest",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
-    ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
-  ],
-  "spawners": {
-    "monster": [
-    ],
-    "creature": [
-      {
-        "type": "minecraft:sheep",
-        "weight": 12,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:pig",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:chicken",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:cow",
-        "weight": 8,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
-    "ambient": [
-      {
-        "type": "minecraft:bat",
-        "weight": 10,
-        "minCount": 8,
-        "maxCount": 8
-      }
-    ],
-    "axolotls": [],
-    "underground_water_creature": [
-      {
-        "type": "minecraft:glow_squid",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 6
-      }
-    ],
-    "water_creature": [],
-    "water_ambient": [],
-    "misc": []
-  },
-  "spawn_costs": {},
-  "player_spawn_friendly": false,
-  "precipitation": "rain",
-  "temperature": 0.7,
-  "downfall": 0.8,
-  "category": "forest"
+    "spawners": {
+        "monster": [],
+        "creature": [
+            {
+                "type": "minecraft:sheep",
+                "weight": 12,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:pig",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:chicken",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:cow",
+                "weight": 8,
+                "minCount": 4,
+                "maxCount": 4
+            }
+        ],
+        "ambient": [
+            {
+                "type": "minecraft:bat",
+                "weight": 10,
+                "minCount": 8,
+                "maxCount": 8
+            }
+        ],
+        "axolotls": [],
+        "underground_water_creature": [
+            {
+                "type": "minecraft:glow_squid",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 6
+            }
+        ],
+        "water_creature": [],
+        "water_ambient": [],
+        "misc": []
+    },
+    "spawn_costs": {},
+    "player_spawn_friendly": false,
+    "temperature": 0.7,
+    "downfall": 0.8,
+    "category": "forest",
+    "has_precipitation": true
 }
