@@ -1,5 +1,5 @@
 {
-  "biomes": "desert",
+  "biomes": "#terralith:has_structure/fortified_desert_village",
   "spawn_overrides": {},
   "type": "minecraft:jigsaw",
   "start_pool": "terralith:village/desert/starts",
