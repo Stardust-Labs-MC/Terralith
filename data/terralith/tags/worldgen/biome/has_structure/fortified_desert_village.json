@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-"minecraft:desert",
-"terralith:desert_oasis",
-"terralith:lush_desert"
+    "minecraft:desert",
+    "terralith:desert_oasis",
+    "terralith:lush_desert"
   ]
 }
