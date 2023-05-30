@@ -1,0 +1,10 @@
+{
+  "config": {
+    "start_pool": "terralith:ruin/glacial/hut",
+    "size": 4
+  },
+  "biomes": "terralith:glacial_chasm",
+  "adapt_noise": true,
+  "spawn_overrides": {},
+  "type": "minecraft:village"
+}

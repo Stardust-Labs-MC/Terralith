@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "terralith_loader",
+  "version": "1.0.0",
+  "name": "Terralith Loader",
+  "description": "This only loads Terralith",
+  "authors": [
+    "Cristelknight"
+  ],
+  "icon": "pack.png",
+  "environment": "*",
+  "depends": {
+    "terralith": "*"
+  },
+  "custom": {
+		"modmenu": {
+			"badges": [
+				"library"
+			],
+			"parent": "terralith"
+		}
+	},
+  "jars": [
+    {
+      "file": "META-INF/jars/terralith-fabric.jar"
+    }
+  ]
+}

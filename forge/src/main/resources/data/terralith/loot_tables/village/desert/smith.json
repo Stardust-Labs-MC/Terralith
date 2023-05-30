@@ -1,0 +1,33 @@
+{
+  "pools": [{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "terralith:random_traveler_map"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 19,
+          "name": "terralith:village/fortified/smith/novice"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "terralith:village/fortified/smith/expert"
+        }
+      ]
+    }
+  ]
+}

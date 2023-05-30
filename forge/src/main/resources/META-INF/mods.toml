@@ -1,0 +1,33 @@
+modLoader = "javafml"
+loaderVersion = "[40,)"
+license = "Stardust Labs License"
+
+[[mods]]
+modId = "terralith"
+version = "${version}"
+displayName = "Terralith"
+displayURL = "https://www.stardustlabs.net/"
+authors = "Stardust Labs & Cristelknight"
+description = "Terralith ~ Overworld Evolved (${version} for 1.18.2)"
+logoFile = "pack.png"
+
+[[dependencies.terralith]]
+  modId = "forge"
+  mandatory = true
+  versionRange = "[40,)"
+  ordering = "NONE"
+  side = "BOTH"
+
+[[dependencies.terralith]]
+   modId = "minecraft"
+   mandatory = true
+   versionRange = "[1.18.2]"
+   ordering = "NONE"
+   side = "BOTH"
+
+[[dependencies.terralith]]
+   modId = "cristellib"
+   mandatory = true
+   versionRange = "[1.0.0,)"
+   ordering = "NONE"
+   side = "BOTH"

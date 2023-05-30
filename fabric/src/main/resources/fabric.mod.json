@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "terralith",
+  "version": "${version}",
+  "name": "Terralith",
+  "description": "Terralith ~ Overworld Evolved (${version} for 1.18.2)",
+  "authors": [
+    "Stardust Labs",
+    "Cristelknight"
+  ],
+  "contact": {
+    "homepage": "https://www.stardustlabs.net/",
+    "sources": "https://github.com/Stardust-Labs-MC/Terralith",
+    "issues": "https://github.com/Stardust-Labs-MC/Terralith/issues",
+    "discord": "https://discord.gg/zweCAdd"
+  },
+  "license": "Stardust Labs License",
+  "icon": "pack.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.stardustlabs.terralith.fabric.TerralithFabric"
+    ],
+    "terrablender": [
+      "net.stardustlabs.terralith.fabric.terrablender.TerrablenderInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.12.7",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "unfixed-seeds": ">=1.0.1",
+	"cristellib": "*"
+  },
+  "mixins": [
+    "terralith-common.mixins.json"
+  ],
+  "custom": {
+    "modmenu": {
+      "links": {
+		"modmenu.twitter": "https://twitter.com/stardustlabs",
+        "modmenu.discord": "https://discord.gg/stardustlabs",
+		"modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/terralith",
+		"modmenu.modrinth": "https://modrinth.com/mod/terralith",
+		"modmenu.github_releases": "https://github.com/Stardust-Labs-MC/Terralith/releases",
+		"modmenu.wiki": "https://stardustlabs.miraheze.org/wiki/Terralith"
+      }
+    }
+  }
+}

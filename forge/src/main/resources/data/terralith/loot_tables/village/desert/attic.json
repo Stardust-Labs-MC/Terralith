@@ -1,0 +1,47 @@
+{
+    "pools": [
+        {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "terralith:random_traveler_map"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.1
+        }
+      ]
+    },
+        {
+            "rolls": {
+                "min": 2,
+                "max": 7
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cobweb"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bowl"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:spider_eye"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:glass_bottle"
+                }
+            ]
+        }
+    ]
+}
