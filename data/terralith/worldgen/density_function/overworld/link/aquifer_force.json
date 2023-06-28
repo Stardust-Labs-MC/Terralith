@@ -1,0 +1,6 @@
+{
+    "noise": "terralith:math/aquifer/is_forced",
+    "xz_scale": 1.0,
+    "y_scale": 0.5,
+    "type": "minecraft:noise"
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#base_stone_overworld",
+    "sand",
+    "red_sand",
+    "red_sandstone",
+    "sandstone",
+    "smooth_basalt"
+  ]
+}

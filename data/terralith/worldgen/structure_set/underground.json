@@ -1,0 +1,34 @@
+{
+  "structures": [
+    {
+      "structure": "terralith:underground/oak_cabin",
+      "weight": 11
+    },
+    {
+      "structure": "terralith:underground/giant_bee_hive",
+      "weight": 2
+    },
+    {
+      "structure": "terralith:underground/mining_outpost",
+      "weight": 13
+    },
+    {
+      "structure": "terralith:underground/old_refinery",
+      "weight": 5
+    },
+    {
+      "structure": "terralith:underground/sunken_tower",
+      "weight": 5
+    },
+    {
+      "structure": "terralith:underground/witch_hut",
+      "weight": 4
+    }
+  ],
+  "placement": {
+    "salt": 69696969,
+    "spacing": 11,
+    "separation": 3,
+    "type": "minecraft:random_spread"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.2,
+        "feature": "terralith:forest/flower/mid/birch_mid"
+      },
+      {
+        "chance": 0.4,
+        "feature": "terralith:forest/flower/mid/oak_mid_m"
+      }
+    ],
+    "default": "terralith:forest/flower/mid/oak_mid"
+  }
+}

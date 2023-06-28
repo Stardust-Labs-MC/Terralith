@@ -1,0 +1,15 @@
+{
+  "name": "death_potion",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "terralith:underground/old_refinery",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

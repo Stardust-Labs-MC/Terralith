@@ -1,0 +1,135 @@
+{
+    "effects": {
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "particle": {
+            "options": {
+                "type": "minecraft:dust_color_transition",
+                "fromColor": [
+                    0.5,
+                    1,
+                    1
+                ],
+                "toColor": [
+                    0,
+                    0,
+                    1
+                ],
+                "scale": 1
+            },
+            "probability": 0.001
+        },
+        "sky_color": 0,
+        "fog_color": 0,
+        "water_color": 1787600,
+        "water_fog_color": 329011
+    },
+    "surface_builder": "minecraft:stone",
+    "carvers": {
+        "air": [
+            "minecraft:cave",
+            "minecraft:cave_extra_underground",
+            "minecraft:canyon",
+            "terralith:deep_ravine"
+        ]
+    },
+    "features": [
+        [],
+        [
+            "terralith:cave/frostfire/columns",
+            "terralith:cave/frostfire/sculk_patch",
+            "terralith:cave/frostfire/frostfire_patch",
+            "terralith:cave/frostfire/frostfire_ceiling"
+        ],
+        [
+            "minecraft:amethyst_geode",
+            "terralith:cave/generic/mega_geode",
+            "minecraft:large_dripstone"
+        ],
+        [
+            "minecraft:monster_room"
+        ],
+        [],
+        [],
+        [
+            "minecraft:ore_dirt",
+            "minecraft:ore_granite_upper",
+            "minecraft:ore_granite_lower",
+            "minecraft:ore_diorite_upper",
+            "minecraft:ore_diorite_lower",
+            "minecraft:ore_andesite_upper",
+            "minecraft:ore_andesite_lower",
+            "minecraft:ore_tuff",
+            "minecraft:ore_coal_upper",
+            "minecraft:ore_coal_lower",
+            "minecraft:ore_iron_upper",
+            "minecraft:ore_iron_middle",
+            "minecraft:ore_iron_small",
+            "minecraft:ore_gold",
+            "minecraft:ore_redstone",
+            "minecraft:ore_redstone_lower",
+            "minecraft:ore_diamond",
+            "minecraft:ore_diamond_large",
+            "minecraft:ore_lapis",
+            "minecraft:ore_lapis_buried",
+            "minecraft:ore_copper",
+            "minecraft:underwater_magma",
+            "minecraft:disk_sand",
+            "minecraft:disk_clay",
+            "minecraft:disk_gravel"
+        ],
+        [
+            "terralith:cave/ice/pools_ring",
+            "terralith:cave/ice/pools_ring2",
+            "terralith:cave/ice/replacer",
+            "terralith:cave/ice/crystal_inside"
+        ],
+        [
+            "terralith:cave/ice/no_lava",
+            "terralith:cave/frostfire/replacer",
+            "minecraft:patch_tall_grass_2",
+            "minecraft:glow_lichen",
+            "minecraft:plain_vegetation",
+            "minecraft:flower_plain_decorated",
+            "minecraft:patch_grass_plain",
+            "minecraft:brown_mushroom_normal",
+            "minecraft:red_mushroom_normal",
+            "minecraft:patch_sugar_cane",
+            "minecraft:patch_pumpkin"
+        ]
+    ],
+    "spawners": {
+        "monster": [
+            {
+                "type": "minecraft:skeleton",
+                "weight": 100,
+                "minCount": 4,
+                "maxCount": 4
+            }
+        ],
+        "creature": [],
+        "ambient": [],
+        "axolotls": [],
+        "underground_water_creature": [
+            {
+                "type": "minecraft:glow_squid",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 6
+            }
+        ],
+        "water_creature": [],
+        "water_ambient": [],
+        "misc": []
+    },
+    "spawn_costs": {},
+    "player_spawn_friendly": false,
+    "temperature": 0.8,
+    "downfall": 0.4,
+    "category": "underground",
+    "has_precipitation": true
+}

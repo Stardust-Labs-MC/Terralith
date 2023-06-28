@@ -1,0 +1,16 @@
+{
+  "feature": "minecraft:azalea_tree",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:moss_block",
+          "minecraft:sand",
+          "grass_block"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:noise_provider",
+      "seed": 0,
+      "noise": {
+        "firstOctave": -4,
+        "amplitudes": [
+          1,
+          1
+        ]
+      },
+      "scale": 0.89,
+      "states": [
+        {
+          "Name": "minecraft:snow",
+          "Properties": {
+            "layers": "1"
+          }
+        },
+        {
+          "Name": "minecraft:snow",
+          "Properties": {
+            "layers": "2"
+          }
+        },
+        {
+          "Name": "minecraft:snow",
+          "Properties": {
+            "layers": "3"
+          }
+        },
+        {
+          "Name": "minecraft:snow",
+          "Properties": {
+            "layers": "2"
+          }
+        },
+        {
+          "Name": "minecraft:snow",
+          "Properties": {
+            "layers": "1"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+      "type": "spline",
+      "min_value": -1,
+      "max_value": 0.64,
+      "spline": {
+            "coordinate": "terralith:overworld/reference/total_cheese",
+            "points": [
+                  {
+                        "location": 0.0,
+                        "derivative": 0,
+                        "value": {
+                              "coordinate": "terralith:overworld/link/aquifer_force",
+                              "points": [
+                                    {
+                                          "location": -0.25,
+                                          "derivative": 0,
+                                          "value": 0.64
+                                    },
+                                    {
+                                          "location": 0.0,
+                                          "derivative": 0,
+                                          "value": 0.0
+                                    },
+                                    {
+                                          "location": 0.05,
+                                          "derivative": 0,
+                                          "value": -1.0
+                                    }
+                              ]
+                        }
+                  },
+                  {
+                        "location": 0.02,
+                        "derivative": 0,
+                        "value": 0.0
+                  },
+                  {
+                        "location": 0.05,
+                        "derivative": 0,
+                        "value": -1.0
+                  }
+            ]
+      }
+}

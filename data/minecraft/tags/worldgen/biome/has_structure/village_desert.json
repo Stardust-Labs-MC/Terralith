@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:desert",
+    "terralith:sandstone_valley",
+    "terralith:desert_oasis"
+  ]
+}

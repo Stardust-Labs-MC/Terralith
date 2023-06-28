@@ -1,0 +1,91 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "minecraft:netherrack_replace_blobs",
+          "config": {
+            "state": {
+              "Name": "minecraft:white_terracotta"
+            },
+            "target": {
+              "Name": "minecraft:terracotta"
+            },
+            "radius": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": 7,
+                "max_inclusive": 12
+              }
+            }
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:netherrack_replace_blobs",
+          "config": {
+            "state": {
+              "Name": "minecraft:brown_terracotta"
+            },
+            "target": {
+              "Name": "minecraft:yellow_terracotta"
+            },
+            "radius": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": 7,
+                "max_inclusive": 12
+              }
+            }
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:netherrack_replace_blobs",
+          "config": {
+            "state": {
+              "Name": "minecraft:light_gray_terracotta"
+            },
+            "target": {
+              "Name": "minecraft:orange_terracotta"
+            },
+            "radius": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": 7,
+                "max_inclusive": 12
+              }
+            }
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:netherrack_replace_blobs",
+          "config": {
+            "state": {
+              "Name": "minecraft:black_terracotta"
+            },
+            "target": {
+              "Name": "minecraft:red_terracotta"
+            },
+            "radius": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": 7,
+                "max_inclusive": 12
+              }
+            }
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

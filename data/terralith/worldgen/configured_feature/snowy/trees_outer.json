@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0,
+        "feature": "terralith:snowy/mega_spruce"
+      }
+    ],
+    "default": "terralith:snowy/spruce_tiny"
+  }
+}

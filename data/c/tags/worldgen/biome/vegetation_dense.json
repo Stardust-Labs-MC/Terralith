@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:jungle_mountains",
+    "terralith:lush_valley",
+    "terralith:skylands_winter",
+    "terralith:tropical_jungle",
+    "terralith:wintry_forest",
+    "terralith:wintry_lowlands"
+  ]
+}

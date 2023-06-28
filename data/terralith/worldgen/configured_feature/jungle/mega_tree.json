@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.008,
+        "feature": "terralith:jungle/mega/giant_tree/branch"
+      },
+      {
+        "chance": 0.004,
+        "feature": "terralith:jungle/mega/giant_tree/branch_2"
+      },
+      {
+        "chance": 0.04,
+        "feature": "terralith:jungle/mega/giant_tree/top"
+      },
+      {
+        "chance": 0,
+        "feature": "terralith:nothing"
+      }
+    ],
+    "default": "terralith:jungle/mega/giant_tree/trunk"
+  }
+}

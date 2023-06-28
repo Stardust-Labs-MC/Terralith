@@ -1,0 +1,101 @@
+{
+	"feature": "terralith:cliffs/white/calcitifier",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 70
+		},
+		{
+			"type": "minecraft:count",
+			"count": 10
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"absolute": 62
+				},
+				"max_inclusive": {
+					"absolute": 164
+				}
+			}
+		},
+		{
+			"type": "environment_scan",
+			"direction_of_search": "down",
+			"max_steps": 32,
+			"target_condition": {
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							0,
+							0
+						],
+						"blocks": [
+							"minecraft:stone"
+						]
+					},
+					{
+						"type": "minecraft:any_of",
+						"predicates": [
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									5,
+									0,
+									0
+								],
+								"blocks": [
+									"minecraft:air"
+								]
+							},
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									0,
+									0,
+									5
+								],
+								"blocks": [
+									"minecraft:air"
+								]
+							},
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									-5,
+									0,
+									0
+								],
+								"blocks": [
+									"minecraft:air"
+								]
+							},
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									0,
+									0,
+									-5
+								],
+								"blocks": [
+									"minecraft:air"
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

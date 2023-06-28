@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:spring_feature",
+  "config": {
+    "state": {
+      "Name": "minecraft:lava",
+      "Properties": {
+        "falling": "true"
+      }
+    },
+    "rock_count": 4,
+    "hole_count": 1,
+    "requires_block_below": false,
+    "valid_blocks": [
+      "minecraft:blackstone",
+      "minecraft:magma_block"
+    ]
+  }
+}

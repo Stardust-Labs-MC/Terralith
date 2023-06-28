@@ -1,0 +1,8 @@
+{
+	"feature": "terralith:cave/ice/replacer",
+	"placement": [
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

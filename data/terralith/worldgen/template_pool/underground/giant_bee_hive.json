@@ -1,0 +1,24 @@
+{
+  "name": "ya_like_jazz",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "terralith:underground/giant_bee_hive_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "terralith:underground/giant_bee_hive_2",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

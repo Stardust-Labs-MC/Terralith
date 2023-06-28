@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.2,
+        "feature": "terralith:flower/blue/birch_tree"
+      },
+      {
+        "chance": 0.2,
+        "feature": "terralith:flower/blue/blue_tree"
+      }
+    ],
+    "default": "terralith:flower/blue/main_tree"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "terralith:underground/frosted_dungeon",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 6942069,
+    "spacing": 9,
+    "separation": 6,
+    "type": "minecraft:random_spread"
+  }
+}

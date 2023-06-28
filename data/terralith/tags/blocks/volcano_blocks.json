@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:base_stone_overworld",
+    "minecraft:dirt",
+    "minecraft:grass_block",
+    "minecraft:sand",
+    "minecraft:basalt",
+    "minecraft:blackstone",
+    "minecraft:gravel",
+    "minecraft:smooth_basalt",
+    "minecraft:water"
+  ]
+}

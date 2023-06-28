@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 50,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.2
+        },
+        "state": {
+          "Name": "minecraft:tuff"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:grass_block",
+          "probability": 0.13
+        },
+        "state": {
+          "Name": "minecraft:tuff"
+        }
+      }
+    ]
+  }
+}

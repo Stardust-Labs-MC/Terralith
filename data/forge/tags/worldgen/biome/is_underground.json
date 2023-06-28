@@ -1,0 +1,18 @@
+{
+  "values": [
+    "terralith:cave/andesite_caves",
+    "terralith:cave/crystal_caves",
+    "terralith:cave/deep_caves",
+    "terralith:cave/desert_caves",
+    "terralith:cave/diorite_caves",
+    "terralith:cave/frostfire_caves",
+    "terralith:cave/fungal_caves",
+    "terralith:cave/granite_caves",
+    "terralith:cave/ice_caves",
+    "terralith:cave/infested_caves",
+    "terralith:cave/mantle_caves",
+    "terralith:cave/thermal_caves",
+    "terralith:cave/tuff_caves",
+    "terralith:cave/underground_jungle"
+  ]
+}

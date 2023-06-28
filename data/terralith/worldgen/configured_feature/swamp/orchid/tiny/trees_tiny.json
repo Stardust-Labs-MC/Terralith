@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.2,
+        "feature": "terralith:swamp/orchid/tiny/swamp_special_tiny"
+      }
+    ],
+    "default": "terralith:swamp/orchid/tiny/swamp_tiny"
+  }
+}

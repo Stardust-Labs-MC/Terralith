@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:large_dripstone",
+  "config": {
+    "floor_to_ceiling_search_range": 80,
+    "column_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 5,
+        "max_inclusive": 13
+      }
+    },
+    "height_scale": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1.35,
+        "max_exclusive": 4
+      }
+    },
+    "max_column_radius_to_cave_height_ratio": 0.4,
+    "stalactite_bluntness": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 0.2,
+        "max_exclusive": 1.5
+      }
+    },
+    "stalagmite_bluntness": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 0.2,
+        "max_exclusive": 1
+      }
+    },
+    "wind_speed": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 0,
+        "max_exclusive": 0.4
+      }
+    },
+    "min_radius_for_wind": 0,
+    "min_bluntness_for_wind": 0
+  }
+}

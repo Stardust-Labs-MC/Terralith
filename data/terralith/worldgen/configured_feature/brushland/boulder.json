@@ -1,0 +1,138 @@
+{
+  "type": "minecraft:geode",
+  "config": {
+    "blocks": {
+      "filling_provider": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "weight": 2,
+            "data": {
+              "Name": "minecraft:stone"
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "inner_layer_provider": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "weight": 2,
+            "data": {
+              "Name": "minecraft:stone"
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "alternate_inner_layer_provider": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "weight": 2,
+            "data": {
+              "Name": "minecraft:stone"
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "middle_layer_provider": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "weight": 2,
+            "data": {
+              "Name": "minecraft:stone"
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "outer_layer_provider": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "weight": 2,
+            "data": {
+              "Name": "minecraft:stone"
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "inner_placements": [
+        {
+          "Name": "minecraft:stone"
+        }
+      ],
+      "cannot_replace": "#terralith:anti_calcite",
+      "invalid_blocks": "#terralith:calcite"
+    },
+    "layers": {
+      "filling": 0.5,
+      "inner_layer": 1,
+      "middle_layer": 1.25,
+      "outer_layer": 1.96
+    },
+    "crack": {
+      "generate_crack_chance": 0,
+      "base_crack_size": 0,
+      "crack_point_offset": 0
+    },
+    "noise_multiplier": 0.07,
+    "use_potential_placements_chance": 0,
+    "use_alternate_layer0_chance": 0,
+    "placements_require_layer0_alternate": false,
+    "outer_wall_distance": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 4
+      }
+    },
+    "distribution_points": {
+      "type": "minecraft:biased_to_bottom",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      }
+    },
+    "point_offset": {
+      "type": "minecraft:biased_to_bottom",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 3
+      }
+    },
+    "min_gen_offset": -12,
+    "max_gen_offset": 12,
+    "invalid_blocks_threshold": 1
+  }
+}

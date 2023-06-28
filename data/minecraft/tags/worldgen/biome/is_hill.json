@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:windswept_hills",
+    "minecraft:windswept_forest",
+    "minecraft:windswept_gravelly_hills",
+    "terralith:fractured_savanna",
+    "terralith:cloud_forest",
+    "terralith:jungle_mountains",
+    "terralith:haze_mountain"
+  ]
+}

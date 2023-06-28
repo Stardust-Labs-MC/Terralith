@@ -1,0 +1,31 @@
+{
+  "values": [
+    "minecraft:desert",
+    "minecraft:warm_ocean",
+    "#minecraft:is_jungle",
+    "#minecraft:is_savanna",
+    "#minecraft:is_nether",
+    "#minecraft:is_badlands",
+    "minecraft:mangrove_swamp",
+    "terralith:arid_highlands",
+"terralith:ashen_savanna",
+"terralith:brushland",
+"terralith:fractured_savanna",
+"terralith:savanna_badlands",
+"terralith:savanna_slopes",
+"terralith:shrubland",
+"terralith:ancient_sands",
+"terralith:desert_canyon",
+"terralith:desert_oasis",
+"terralith:desert_spires",
+"terralith:red_oasis",
+"terralith:sandstone_valley",
+"terralith:lush_desert",
+"terralith:hot_shrubland",
+"terralith:skylands_summer",
+"terralith:warm_river",
+"terralith:white_mesa",
+"terralith:volcanic_peaks",
+"terralith:volcanic_crater"
+  ]
+}

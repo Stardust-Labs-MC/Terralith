@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:bedrock",
+    "minecraft:spawner",
+    "minecraft:chest",
+    "minecraft:end_portal_frame",
+    "air","cave_air","water","lava","amethyst_block","amethyst_cluster","small_amethyst_bud","large_amethyst_bud","medium_amethyst_bud"
+  ]
+}

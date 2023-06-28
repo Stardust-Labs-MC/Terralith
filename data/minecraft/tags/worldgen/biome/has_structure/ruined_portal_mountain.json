@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_badlands",
+    "#minecraft:is_hill",
+    "minecraft:savanna_plateau",
+    "minecraft:windswept_savanna",
+    "terralith:fractured_savanna",
+    "minecraft:stony_shore",
+    "#minecraft:is_mountain"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:alpine_highlands",
+    "terralith:bryce_canyon",
+    "terralith:cloud_forest",
+    "terralith:forested_highlands",
+    "terralith:lush_valley",
+    "terralith:scarlet_mountains",
+    "terralith:shield",
+    "terralith:siberian_grove",
+    "terralith:siberian_taiga",
+    "terralith:skylands_winter",
+    "terralith:snowy_maple_forest",
+    "terralith:valley_clearing",
+    "terralith:wintry_forest",
+    "terralith:wintry_lowlands"
+  ]
+}

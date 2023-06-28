@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:redstone_torch",
+    "minecraft:cobweb",
+    "minecraft:fire",
+    "minecraft:soul_fire",
+    "minecraft:blackstone_slab",
+    "minecraft:crimson_fence",
+    "minecraft:lantern",
+    "minecraft:red_nether_brick_slab",
+    "minecraft:lava"
+  ]
+}

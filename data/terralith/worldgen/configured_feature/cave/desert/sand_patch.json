@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "surface": "floor",
+    "depth": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      }
+    },
+    "vertical_range": 2,
+    "extra_bottom_block_chance": 0.001,
+    "extra_edge_column_chance": 0.5,
+    "vegetation_chance": 0,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 0,
+        "max_inclusive": 2
+      }
+    },
+    "replaceable": "#terralith:sandy_blocks",
+    "ground_state": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:sand"
+      }
+    },
+    "vegetation_feature":{"placement":[],"feature": {
+      "type": "minecraft:random_selector",
+      "config": {
+        "features": [],
+        "default": {
+          "feature": "terralith:nothing",
+          "placement": []
+        }
+      }
+    }}
+  }
+}

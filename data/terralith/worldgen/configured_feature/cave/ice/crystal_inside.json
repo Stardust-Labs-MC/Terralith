@@ -1,0 +1,85 @@
+{
+  "type": "minecraft:no_op",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 221,
+        "extra_count": 0,
+        "extra_chance": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:no_op",
+      "config": {
+        "decorator": {
+          "type": "minecraft:no_op",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:no_op",
+              "config": {
+                "outer": {
+                  "type": "minecraft:no_op",
+                  "config": {
+                    "outer": {
+                      "type": "minecraft:nope",
+                      "config": {
+                        "noise_to_count_ratio": 1,
+                        "noise_factor": 807,
+                        "noise_offset": -0.05
+                      }
+                    },
+                    "inner": {
+                      "type": "minecraft:nope",
+                      "config": {
+                        "noise_to_count_ratio": 1,
+                        "noise_factor": 457,
+                        "noise_offset": -0.05
+                      }
+                    }
+                  }
+                },
+                "inner": {
+                  "type": "minecraft:range",
+                  "config": {
+                    "height": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": {
+                        "above_bottom": 8
+                      },
+                      "max_inclusive": {
+                        "absolute": 46
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 64,
+            "discard_chance_on_air_exposure": 1,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:block_match",
+                  "block": "minecraft:packed_ice"
+                },
+                "state": {
+                  "Name": "minecraft:blue_ice"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

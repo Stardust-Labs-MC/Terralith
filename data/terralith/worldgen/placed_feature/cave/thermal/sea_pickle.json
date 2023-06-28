@@ -1,0 +1,110 @@
+{
+  "feature": {
+    "type": "minecraft:simple_block",
+    "config": {
+      "to_place": {
+        "type": "minecraft:noise_provider",
+        "seed": 1,
+        "noise": {
+          "firstOctave": -3,
+          "amplitudes": [
+            1,
+            1.3
+          ]
+        },
+        "scale": 1,
+        "states": [
+          {
+            "Name": "minecraft:water",
+            "Properties": {
+              "level": "0"
+            }
+          },
+          {
+            "Name": "minecraft:water",
+            "Properties": {
+              "level": "0"
+            }
+          },
+          {
+            "Name": "minecraft:sea_pickle",
+            "Properties": {
+              "waterlogged": "true",
+              "pickles": "1"
+            }
+          },
+          {
+            "Name": "minecraft:sea_pickle",
+            "Properties": {
+              "waterlogged": "true",
+              "pickles": "2"
+            }
+          },
+          {
+            "Name": "minecraft:sea_pickle",
+            "Properties": {
+              "waterlogged": "true",
+              "pickles": "3"
+            }
+          },
+          {
+            "Name": "minecraft:sea_pickle",
+            "Properties": {
+              "waterlogged": "true",
+              "pickles": "4"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 15
+    },
+    {
+      "type": "minecraft:noise_based_count",
+      "noise_to_count_ratio": 1,
+      "noise_factor": 30,
+      "noise_offset": 1
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 6,
+      "target_condition": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "blocks": [
+              "minecraft:water"
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              -1,
+              0
+            ],
+            "blocks": [
+              "minecraft:clay",
+              "minecraft:dirt",
+              "minecraft:blackstone"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

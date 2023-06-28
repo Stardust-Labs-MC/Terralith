@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.1,
+        "feature": "terralith:coastal/fancy_oak"
+      },
+      {
+        "chance": 0.5,
+        "feature": "minecraft:jungle_bush"
+      },
+      {
+        "chance": 0.1,
+        "feature": "terralith:coastal/big_hawaii"
+      },
+      {
+        "chance": 0.1333333,
+        "feature": "terralith:coastal/bending_acacia"
+      }
+    ],
+    "default": "minecraft:jungle_tree"
+  }
+}

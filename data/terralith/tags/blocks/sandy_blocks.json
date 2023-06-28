@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:smooth_sandstone",
+    "minecraft:sandstone",
+    "minecraft:red_sandstone",
+    "minecraft:smooth_red_sandstone",
+    "sand",
+    "red_sand"
+  ]
+}

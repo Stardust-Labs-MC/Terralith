@@ -1,0 +1,318 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.1,
+        "feature": {
+          "feature": {
+            "type": "minecraft:tree",
+            "config": {
+              "ignore_vines": true,
+              "minimum_size": {
+                "type": "minecraft:two_layers_feature_size",
+                "min_clipped_height": 0,
+                "limit": 0,
+                "lower_size": 0,
+                "upper_size": 0
+              },
+              "dirt_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:dirt"
+                }
+              },
+              "trunk_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:acacia_wood"
+                }
+              },
+              "foliage_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:acacia_wood"
+                }
+              },
+              "trunk_placer": {
+                "type": "minecraft:straight_trunk_placer",
+                "base_height": 11,
+                "height_rand_a": 2,
+                "height_rand_b": 0
+              },
+              "foliage_placer": {
+                "type": "minecraft:fancy_foliage_placer",
+                "radius": 1,
+                "offset": 0,
+                "height": 16
+              },
+              "decorators": []
+            }
+          },
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.1,
+        "feature": {
+          "feature": {
+            "type": "minecraft:tree",
+            "config": {
+              "ignore_vines": true,
+              "force_dirt": false,
+              "minimum_size": {
+                "type": "minecraft:two_layers_feature_size",
+                "min_clipped_height": 0,
+                "limit": 0,
+                "lower_size": 0,
+                "upper_size": 0
+              },
+              "dirt_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:dirt"
+                }
+              },
+              "trunk_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:acacia_wood"
+                }
+              },
+              "foliage_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:acacia_wood"
+                }
+              },
+              "trunk_placer": {
+                "type": "minecraft:straight_trunk_placer",
+                "base_height": 1,
+                "height_rand_a": 12,
+                "height_rand_b": 0
+              },
+              "foliage_placer": {
+                "type": "minecraft:blob_foliage_placer",
+                "radius": 2,
+                "offset": 1,
+                "height": 2
+              },
+              "decorators": []
+            }
+          },
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.2,
+        "feature": {
+          "feature": {
+            "type": "minecraft:tree",
+            "config": {
+              "ignore_vines": true,
+              "force_dirt": false,
+              "minimum_size": {
+                "type": "minecraft:two_layers_feature_size",
+                "min_clipped_height": 0,
+                "limit": 0,
+                "lower_size": 0,
+                "upper_size": 0
+              },
+              "dirt_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:dirt"
+                }
+              },
+              "trunk_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:acacia_wood"
+                }
+              },
+              "foliage_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:acacia_wood"
+                }
+              },
+              "trunk_placer": {
+                "type": "minecraft:straight_trunk_placer",
+                "base_height": 1,
+                "height_rand_a": 4,
+                "height_rand_b": 1
+              },
+              "foliage_placer": {
+                "type": "minecraft:mega_pine_foliage_placer",
+                "radius": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 1,
+                    "max_inclusive": 1
+                  }
+                },
+                "offset": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 1,
+                    "max_inclusive": 3
+                  }
+                },
+                "crown_height": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 7,
+                    "max_inclusive": 12
+                  }
+                }
+              },
+              "decorators": []
+            }
+          },
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.00125,
+        "feature": {
+          "feature": {
+            "type": "minecraft:tree",
+            "config": {
+              "ignore_vines": false,
+              "force_dirt": true,
+              "minimum_size": {
+                "type": "minecraft:two_layers_feature_size",
+                "min_clipped_height": 0,
+                "limit": 0,
+                "lower_size": 0,
+                "upper_size": 0
+              },
+              "dirt_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:dirt"
+                }
+              },
+              "trunk_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:acacia_wood",
+                  "Properties": {
+                    "axis": "y"
+                  }
+                }
+              },
+              "foliage_provider": {
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                  {
+                    "weight": 5,
+                    "data": {
+                      "Name": "minecraft:acacia_leaves",
+                      "Properties": {
+                        "distance": "7",
+                        "persistent": "false"
+                      }
+                    }
+                  },
+                  {
+                    "weight": 2,
+                    "data": {
+                      "Name": "minecraft:air"
+                    }
+                  }
+                ]
+              },
+              "trunk_placer": {
+                "type": "minecraft:fancy_trunk_placer",
+                "base_height": 25,
+                "height_rand_a": 2,
+                "height_rand_b": 2
+              },
+              "foliage_placer": {
+                "type": "minecraft:fancy_foliage_placer",
+                "radius": 2,
+                "offset": 1,
+                "height": 2
+              },
+              "decorators": []
+            }
+          },
+          "placement": []
+        }
+      }
+    ],
+    "default": {
+      "feature": {
+        "type": "minecraft:tree",
+        "config": {
+          "ignore_vines": false,
+          "force_dirt": true,
+          "minimum_size": {
+            "type": "minecraft:two_layers_feature_size",
+            "min_clipped_height": 0,
+            "limit": 0,
+            "lower_size": 0,
+            "upper_size": 0
+          },
+          "dirt_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:dirt"
+            }
+          },
+          "trunk_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:acacia_wood",
+              "Properties": {
+                "axis": "y"
+              }
+            }
+          },
+          "foliage_provider": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 5,
+                "data": {
+                  "Name": "minecraft:acacia_leaves",
+                  "Properties": {
+                    "distance": "7",
+                    "persistent": "false"
+                  }
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "minecraft:air"
+                }
+              }
+            ]
+          },
+          "trunk_placer": {
+            "type": "minecraft:forking_trunk_placer",
+            "base_height": 19,
+            "height_rand_a": 2,
+            "height_rand_b": 2
+          },
+          "foliage_placer": {
+            "type": "minecraft:fancy_foliage_placer",
+            "radius": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": 2,
+                "max_inclusive": 3
+              }
+            },
+            "offset": 0,
+            "height": 2
+          },
+          "decorators": []
+        }
+      },
+      "placement": []
+    }
+  }
+}

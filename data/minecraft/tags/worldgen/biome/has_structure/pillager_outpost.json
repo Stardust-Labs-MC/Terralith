@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:desert",
+    "minecraft:plains",
+    "minecraft:savanna",
+    "minecraft:snowy_plains",
+    "minecraft:taiga",
+    "#minecraft:is_mountain",
+    "minecraft:grove",
+    "terralith:yellowstone",
+    "terralith:shield",
+    "terralith:lush_valley",
+    "terralith:sakura_valley",
+    "terralith:sakura_grove",
+    "terralith:lavender_forest"
+  ]
+}

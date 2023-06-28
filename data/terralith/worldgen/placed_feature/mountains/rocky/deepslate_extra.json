@@ -1,0 +1,8 @@
+{
+	"feature": "terralith:mountains/rocky/deepslate_extra",
+	"placement": [
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

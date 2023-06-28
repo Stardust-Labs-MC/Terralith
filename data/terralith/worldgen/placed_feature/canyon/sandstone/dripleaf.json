@@ -1,0 +1,19 @@
+{
+	"feature": "terralith:canyon/sandstone/dripleaf",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 32
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:heightmap",
+			"heightmap": "OCEAN_FLOOR"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

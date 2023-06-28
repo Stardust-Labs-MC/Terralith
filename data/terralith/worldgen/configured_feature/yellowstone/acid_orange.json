@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [],
+    "default": {
+      "feature": {
+        "type": "minecraft:disk",
+        "config": {
+          "half_height": 1,
+          "radius": {
+            "type": "minecraft:uniform",
+            "value": {
+              "min_inclusive": 2,
+              "max_inclusive": 3
+            }
+          },
+          "state_provider": {
+            "fallback": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:red_sand"
+              }
+            },
+            "rules": []
+          },
+          "target": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:gravel",
+              "minecraft:sand",
+              "minecraft:coarse_dirt",
+              "minecraft:dirt",
+              "minecraft:grass_block",
+              "minecraft:calcite",
+              "minecraft:blackstone",
+              "minecraft:smooth_basalt"
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_fluids",
+            "fluids": "minecraft:water"
+          }
+        }
+      ]
+    }
+  }
+}

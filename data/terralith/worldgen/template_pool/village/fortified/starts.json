@@ -1,0 +1,21 @@
+{
+  "name": "terralith:village/fortified/starts",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "terralith:village/fortified/start_castle",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

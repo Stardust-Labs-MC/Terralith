@@ -1,0 +1,15 @@
+{
+  "biomes": "#terralith:has_structure/fortified_village",
+  "spawn_overrides": {},
+  "type": "minecraft:jigsaw",
+  "start_pool": "terralith:village/fortified/starts",
+  "size": 6,
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "start_height": {
+    "absolute": 0
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "max_distance_from_center": 80,
+  "use_expansion_hack": true
+}

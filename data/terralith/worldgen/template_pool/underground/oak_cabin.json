@@ -1,0 +1,24 @@
+  {
+  "name": "lmao_stop_reading_me",
+  "fallback": "minecraft:empty",
+  "elements": [
+   {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "terralith:underground/large_ruined_oak_cabin",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "terralith:underground/small_ruined_oak_cabin",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

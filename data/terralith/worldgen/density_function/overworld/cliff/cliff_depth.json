@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:y_clamped_gradient",
+    "from_y": -64,
+    "to_y": 320,
+    "from_value": 1.5,
+    "to_value": -1.5
+  },
+  "argument2": {
+    "type": "minecraft:flat_cache",
+    "argument": {
+      "type": "minecraft:cache_2d",
+      "argument": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:mul",
+          "argument1": {
+            "type": "minecraft:blend_offset"
+          },
+          "argument2": {
+            "type": "minecraft:add",
+            "argument1": 1,
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": -1,
+              "argument2": {
+                "type": "minecraft:cache_once",
+                "argument": {
+                  "type": "minecraft:blend_alpha"
+                }
+              }
+            }
+          }
+        },
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": "terralith:overworld/cliff/modified_continents",
+          "argument2": {
+            "type": "minecraft:cache_once",
+            "argument": {
+              "type": "minecraft:blend_alpha"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+	"feature": "terralith:swamp/vanilla/tiny/swamp_special_tiny",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 8
+		}
+	]
+}

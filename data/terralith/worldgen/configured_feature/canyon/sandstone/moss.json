@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [],
+    "default": {
+      "feature": {
+        "type": "minecraft:disk",
+        "config": {
+          "half_height": 2,
+          "radius": {
+            "type": "minecraft:biased_to_bottom",
+            "value": {
+              "min_inclusive": 3,
+              "max_inclusive": 5
+            }
+          },
+          "state_provider": {
+            "fallback": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:moss_block"
+              }
+            },
+            "rules": []
+          },
+          "target": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:sand",
+              "minecraft:sandstone",
+              "minecraft:smooth_sandstone"
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_fluids",
+            "fluids": "minecraft:water"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+	"description": "macaco",
+	"values": [
+		"minecraft:magenta_terracotta",
+		"minecraft:pink_terracotta",
+		"minecraft:red_terracotta",
+		"minecraft:granite",
+		"minecraft:sand",
+		"minecraft:lime_terracotta",
+		"minecraft:green_terracotta",
+		"minecraft:grass_block",
+		"minecraft:dirt"
+	]
+}

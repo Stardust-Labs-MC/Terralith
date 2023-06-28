@@ -1,0 +1,92 @@
+{
+  "feature": {
+    "type": "minecraft:simple_block",
+    "config": {
+      "to_place": {
+        "type": "minecraft:noise_provider",
+        "seed": 0,
+        "noise": {
+          "firstOctave": -4,
+          "amplitudes": [
+            1,
+            0.5,
+            1.1
+          ]
+        },
+        "scale": 1,
+        "states": [
+          {
+            "Name": "minecraft:magma_block"
+          },
+                    {
+            "Name": "minecraft:magma_block"
+          },
+                    {
+            "Name": "minecraft:lava"
+          },
+                    {
+            "Name": "minecraft:lava"
+          },
+          {
+            "Name": "minecraft:blackstone"
+          },
+                    {
+            "Name": "minecraft:lava"
+          },
+                    {
+            "Name": "minecraft:lava"
+          },
+                    {
+            "Name": "minecraft:lava"
+          },
+                    {
+            "Name": "minecraft:lava"
+          }
+        ]
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 8
+    },
+    {
+      "type": "minecraft:count",
+      "count": 256
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": -4,
+          "max_inclusive": 4
+        }
+      },
+      "y_spread": -1
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "blocks": "minecraft:lava"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "type": "minecraft:geode",
+  "config": {
+    "blocks": {
+      "filling_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:air"
+        }
+      },
+      "inner_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:cobbled_deepslate"
+        }
+      },
+      "alternate_inner_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:deepslate_emerald_ore"
+        }
+      },
+      "middle_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:calcite"
+        }
+      },
+      "outer_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:smooth_basalt"
+        }
+      },
+      "inner_placements": [
+        {
+          "Name": "minecraft:deepslate_emerald_ore"
+        },
+        {
+          "Name": "minecraft:deepslate_emerald_ore"
+        },
+        {
+          "Name": "minecraft:deepslate_emerald_ore"
+        }
+      ],
+      "cannot_replace": "#terralith:stop_emerald_geode",
+      "invalid_blocks": "#terralith:stop_emerald_geode"
+    },
+    "layers": {
+      "filling": 1.7,
+      "inner_layer": 2.2,
+      "middle_layer": 3.2,
+      "outer_layer": 4.2
+    },
+    "crack": {
+      "generate_crack_chance": 0.95,
+      "base_crack_size": 2,
+      "crack_point_offset": 2
+    },
+    "noise_multiplier": 0.05,
+    "use_potential_placements_chance": 1,
+    "use_alternate_layer0_chance": 0.15,
+    "placements_require_layer0_alternate": true,
+    "outer_wall_distance": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 4,
+        "max_inclusive": 6
+      }
+    },
+    "distribution_points": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 4
+      }
+    },
+    "point_offset": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      }
+    },
+    "min_gen_offset": -16,
+    "max_gen_offset": 16,
+    "invalid_blocks_threshold": 4
+  }
+}

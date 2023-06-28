@@ -1,0 +1,16 @@
+{
+  "values": [
+    "terralith:alpine_highlands",
+	  "terralith:arid_highlands",
+    "terralith:blooming_plateau",
+    "terralith:bryce_canyon",
+    "terralith:highlands",
+    "terralith:savanna_badlands",
+    "terralith:shield",
+    "terralith:shield_clearing",
+    "terralith:steppe",
+    "terralith:white_mesa",
+    "terralith:yellowstone",
+    "terralith:yosemite_cliffs"
+  ]
+}

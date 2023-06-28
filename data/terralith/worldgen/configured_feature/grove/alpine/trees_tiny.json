@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.8,
+        "feature": "terralith:taiga/tiny/pine_tiny"
+      },
+      {
+        "chance": 0.2,
+        "feature": "terralith:taiga/tiny/spruce_tiny_m"
+      }
+    ],
+    "default": "terralith:taiga/tiny/spruce_tiny"
+  }
+}

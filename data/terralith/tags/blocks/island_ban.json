@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "grass_block",
+    "farmland",
+    "grass","tall_grass","wheat","water","sunflower","sand","moss_block","stone","cave_air"
+  ]
+}

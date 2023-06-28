@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:grass_block",
+    "minecraft:dirt",
+    "minecraft:coarse_dirt",
+    "#minecraft:base_stone_overworld",
+    "minecraft:dripstone_block",
+    "#terralith:terracotta"
+  ]
+}

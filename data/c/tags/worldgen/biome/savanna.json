@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:arid_highlands",
+    "terralith:ashen_savanna",
+    "terralith:brushland",
+    "terralith:fractured_savanna",
+    "terralith:hot_shrubland",
+    "terralith:savanna_badlands",
+    "terralith:savanna_slopes",
+    "terralith:shrubland"
+  ]
+}

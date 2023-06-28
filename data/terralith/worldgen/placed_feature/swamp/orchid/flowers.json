@@ -1,0 +1,122 @@
+{
+  "feature": {
+    "type": "minecraft:random_patch",
+    "config": {
+      "tries": 25,
+      "xz_spread": 6,
+      "y_spread": 3,
+      "feature": {
+        "feature": {
+          "type": "minecraft:simple_block",
+          "config": {
+            "to_place": {
+              "type": "minecraft:dual_noise_provider",
+              "seed": 0,
+              "noise": {
+                "firstOctave": -3,
+                "amplitudes": [
+                  1.5,
+                  1
+                ]
+              },
+              "scale": 1,
+              "variety": {
+                "min_inclusive": 1,
+                "max_inclusive": 10
+              },
+              "slow_noise": {
+                "firstOctave": -6,
+                "amplitudes": [
+                  1.5,
+                  0.85,
+                  1.75
+                ]
+              },
+              "slow_scale": 1,
+              "states": [
+                {
+                  "Name": "minecraft:dandelion"
+                },
+                {
+                  "Name": "minecraft:dandelion"
+                },
+                {
+                  "Name": "minecraft:blue_orchid"
+                },
+                {
+                  "Name": "minecraft:blue_orchid"
+                },
+                {
+                  "Name": "minecraft:blue_orchid"
+                },
+                {
+                  "Name": "minecraft:blue_orchid"
+                },
+                {
+                  "Name": "minecraft:blue_orchid"
+                },
+                {
+                  "Name": "minecraft:blue_orchid"
+                },
+                {
+                  "Name": "minecraft:cornflower"
+                },
+                {
+                  "Name": "minecraft:cornflower"
+                }
+              ]
+            }
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:all_of",
+              "predicates": [
+                {
+                  "type": "minecraft:matching_blocks",
+                  "offset": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:air"
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:grass_block"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 3
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

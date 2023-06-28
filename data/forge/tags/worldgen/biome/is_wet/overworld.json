@@ -1,0 +1,23 @@
+{
+  "values": [
+    "terralith:amethyst_canyon",
+    "terralith:amethyst_rainforest",
+    "terralith:blooming_valley",
+    "terralith:caldera",
+    "terralith:desert_oasis",
+    "terralith:fractured_savanna",
+    "terralith:granite_cliffs",
+    "terralith:gravel_beach",
+    "terralith:ice_marsh",
+    "terralith:jungle_mountains",
+    "terralith:mirage_isles",
+    "terralith:orchid_swamp",
+    "terralith:red_oasis",
+    "terralith:rocky_jungle",
+    "terralith:tropical_jungle",
+    "terralith:white_cliffs",
+    "terralith:yellowstone",
+    "terralith:cave/thermal_caves",
+    "terralith:cave/underground_jungle"
+  ]
+}

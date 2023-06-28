@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+"minecraft:plains",
+"minecraft:sunflower_plains",
+"terralith:temperate_highlands",
+"terralith:forested_highlands",
+"terralith:alpine_highlands",
+"terralith:brushland",
+"minecraft:meadow"
+  ]
+}

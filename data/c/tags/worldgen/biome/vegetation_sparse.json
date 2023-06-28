@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+	  "terralith:alpine_grove",
+    "terralith:arid_highlands",
+    "terralith:brushland",
+    "terralith:cold_shrubland",
+    "terralith:highlands",
+    "terralith:hot_shrubland",
+    "terralith:rocky_shrubland",
+    "terralith:savanna_badlands",
+    "terralith:savanna_slopes",
+    "terralith:shield_clearing",
+    "terralith:steppe",
+    "terralith:valley_clearing",
+    "terralith:windswept_spires",
+    "terralith:yosemite_cliffs"
+  ]
+}

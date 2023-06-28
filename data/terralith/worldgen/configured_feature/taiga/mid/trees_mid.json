@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.3,
+        "feature": "terralith:taiga/mid/pine_mid"
+      },
+      {
+        "chance": 0.2,
+        "feature": "terralith:taiga/mid/spruce_mid_m"
+      }
+    ],
+    "default": "terralith:taiga/mid/spruce_mid"
+  }
+}

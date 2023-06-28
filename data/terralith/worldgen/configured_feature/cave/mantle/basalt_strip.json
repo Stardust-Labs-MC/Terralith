@@ -1,0 +1,135 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "surface": "floor",
+    "depth": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 4,
+        "max_inclusive": 6
+      }
+    },
+    "vertical_range": 5,
+    "extra_bottom_block_chance": 0.5,
+    "extra_edge_column_chance": 0.5,
+    "vegetation_chance": 0.001,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 5
+      }
+    },
+    "replaceable": "#minecraft:base_stone_overworld",
+    "ground_state": {
+      "type": "minecraft:noise_provider",
+      "seed": 4,
+      "noise": {
+        "firstOctave": -3,
+        "amplitudes": [
+          0,
+          0
+        ]
+      },
+      "scale": 1,
+      "variety": {
+        "min_inclusive": 1,
+        "max_inclusive": 1
+      },
+      "noise": {
+        "firstOctave": -6,
+        "amplitudes": [
+          1,
+          1,
+          0,
+          0,
+          1.5,
+          1.75,
+          2.65
+        ]
+      },
+      "slow_scale": 1,
+      "states": [
+        {
+          "Name": "minecraft:blackstone"
+        },
+        {
+          "Name": "minecraft:blackstone"
+        },
+        {
+          "Name": "minecraft:blackstone"
+        },
+        {
+          "Name": "minecraft:blackstone"
+        },
+        {
+          "Name": "minecraft:blackstone"
+        },
+        {
+          "Name": "minecraft:blackstone"
+        },
+        {
+          "Name": "minecraft:blackstone"
+        },
+        {
+          "Name": "minecraft:blackstone"
+        },
+        {
+          "Name": "minecraft:blackstone"
+        },
+        {
+          "Name": "minecraft:smooth_basalt"
+        },
+        {
+          "Name": "minecraft:smooth_basalt"
+        },
+        {
+          "Name": "minecraft:blackstone"
+        },
+        {
+          "Name": "minecraft:blackstone"
+        },
+        {
+          "Name": "minecraft:blackstone"
+        },
+        {
+          "Name": "minecraft:blackstone"
+        },
+        {
+          "Name": "minecraft:blackstone"
+        },
+        {
+          "Name": "minecraft:blackstone"
+        },
+        {
+          "Name": "minecraft:blackstone"
+        },
+        {
+          "Name": "minecraft:blackstone"
+        },
+        {
+          "Name": "minecraft:blackstone"
+        }
+      ]
+    },
+    "vegetation_feature":{"placement":[],"feature": {
+      "type": "minecraft:simple_block",
+      "config": {
+        "to_place": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:fire",
+            "Properties": {
+              "age": "0",
+              "east": "false",
+              "north": "false",
+              "south": "false",
+              "up": "false",
+              "west": "false"
+            }
+          }
+        }
+      }
+    }
+  }}
+}

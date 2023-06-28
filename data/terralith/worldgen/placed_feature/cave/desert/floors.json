@@ -1,0 +1,59 @@
+{
+	"feature": "terralith:cave/desert/floors",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 100,
+						"data": 200
+					},
+					{
+						"weight": 0,
+						"data": 200
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"absolute": 0
+				},
+				"max_inclusive": {
+					"absolute": 200
+				}
+			}
+		},
+		{
+			"type": "minecraft:surface_relative_threshold_filter",
+			"heightmap": "WORLD_SURFACE_WG",
+			"min_inclusive": -256,
+			"max_inclusive": -12
+		},
+		{
+			"type": "minecraft:environment_scan",
+			"direction_of_search": "down",
+			"target_condition": {
+				"type": "minecraft:solid"
+			},
+			"allowed_search_condition": {
+				"type": "minecraft:matching_blocks",
+				"blocks": [
+					"minecraft:air"
+				]
+			},
+			"max_steps": 13
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

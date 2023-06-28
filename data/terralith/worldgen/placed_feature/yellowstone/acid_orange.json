@@ -1,0 +1,31 @@
+{
+	"feature": "terralith:yellowstone/acid_orange",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 4
+		},
+		{
+			"type": "minecraft:count",
+			"count": 82
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "uniform",
+				"min_inclusive": {
+					"absolute": 61
+				},
+				"max_inclusive": {
+					"absolute": 63
+				}
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+  "feature": {
+    "type": "minecraft:tree",
+    "config": {
+      "ignore_vines": true,
+      "minimum_size": {
+        "type": "minecraft:two_layers_feature_size",
+        "limit": 1,
+        "lower_size": 0,
+        "upper_size": 1
+      },
+      "dirt_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:coarse_dirt"
+        }
+      },
+      "trunk_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:bone_block",
+          "Properties": {
+            "axis": "y"
+          }
+        }
+      },
+      "foliage_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:air",
+          "Properties": {}
+        }
+      },
+      "trunk_placer": {
+        "type": "minecraft:forking_trunk_placer",
+        "base_height": 3,
+        "height_rand_a": 2,
+        "height_rand_b": 1
+      },
+      "foliage_placer": {
+        "type": "minecraft:random_spread_foliage_placer",
+        "radius": 0,
+        "offset": 0,
+        "foliage_height": 1,
+        "leaf_placement_attempts": 0
+      },
+      "decorators": []
+    }
+  },
+  "placement": []
+}

@@ -1,0 +1,54 @@
+This License describes how all Stardust Labs datapacks and mods and their code may (and, conversely, may not) be used. This License is subject to change by Starmute and Stardust Labs at their SOLE DISCRETION at any time. This License was last altered on February 5, 2023.
+
+
+PERMITTED USES
+===================
+
+	- You are permitted to use any Stardust Labs datapacks and/or mods for whatever personal purpose you desire. You can use it on a singleplayer world and modify it as much as you want, as long as you don't distribute modified versions of the datapacks and/or mods.
+
+	- You are permitted to use Stardust Labs datapacks or mods on any Minecraft server, public or private. It is recommended, but not required, that you give credit to Stardust Labs or note somewhere on your server that said datapack or mod is in use. Furthermore:
+
+		* You are additionally permitted to use Stardust Labs datapacks and mods in any MODIFIED form on any Minecraft server, public or private, provided that you do not distribute any modified versions of said datapacks or mods.
+
+	- You are permitted to use Stardust Labs datapacks or mods in their UNMODIFIED form as part of a publicly distributed modpack. If you do so, you MUST give credit to Stardust Labs and include a link to the relevant datapack or mod. The datapack or mod must be used in its whole form (besides any compatibility addons for other datapacks.)
+
+	- You are permitted to use Stardust Labs datapacks or mods as part of for-profit endeavors such as servers and modpacks, as long as the other guidelines of this License have been followed, appropriate credit has been given, and as long as you have not been specifically prohibited from doing so.
+
+
+
+PROHIBITED USES
+====================
+
+	- You are forbidden to reupload, republish, or redistribute any Stardust Labs datapack or mod in a standalone format.
+
+	- You are forbidden to reupload, republish, or redistribute any modified version of any Stardust Labs datapack or mod on its own.
+
+	- You are forbidden to use any Stardust Labs datapack in any publicly distributed "datapack-pack" without Starmute's express permission. A "datapack-pack" is a collection of datapacks offered for download in a bundled form, which is distinct from a modpack because it can be used on an unmodified client.
+
+	- You are forbidden to use any modified version of any Stardust Labs datapack as part of any publicly distributed modpack or "datapack-pack" without permission. This includes cases where the datapack is required to be downloaded separately, with parts being overridden. There are three exceptions to this:
+
+		i) Adding structures to the pack or altering structure generation (besides altering the datapack's own structures) is allowed.
+
+		ii) Modifying loot tables is allowed unconditionally.
+
+		* It is recommended that, if parts of a Stardust Labs datapack need to be modified, an add-on datapack is created, without use of any code owned by Stardust Labs, to override the necessary data.
+
+	- You are forbidden to use portions of any Stardust Labs datapack or mod's code as part of any other datapack, "datapack-pack", modpack or mod without express permission. You are free to read the code and use it as a resource to learn from, but copying parts of it into another project is not allowed. There is one exception for this:
+
+		i) Making compatibility addons between Stardust Labs datapacks and other datapacks is allowed.
+
+	- All parties (including individuals, companies, organizations and any other groups), without permission from Stardust Labs, are expressly forbidden from using Stardust Labs properties, textures, code, and other works, as part of a training dataset for artificial intelligence, neural networks, or other generative systems. Additionally, any and all code, textures, and all other products (digitial or physical), created and owned by Stardust Labs or its members, may not be used to configure, test, debug, or augment any artificial intelligence, neural network, or other generative system.
+
+		* This prohibition applies even if the resulting system does not store, refer to or directly call from code, textures, or other works owned by Stardust Labs.
+
+		* In short: You are banned from using anything created by Stardust Labs as part of any AI project.
+
+EXEMPTIONS
+=============
+	
+	- Stardust Labs reserves the right to prohibit certain individuals and groups from profiting off of these Projects at our SOLE DISCRETION. However, no individual or group will be prohibited from using these Projects for personal purposes, or any purpose that does not involve profit, as long as the other guidelines of this License have been followed.
+
+OFFICIAL PERMISSION
+==========================
+
+It should be assumed that, given Stardust Labs holds full copyright over all parts of its datapacks, that any part of this License can be overriden on an individual basis with the permission of Stardust Labs. Stardust Labs reserves the right to create and distribute modified versions of these datapacks or mods at any time, for any reason, whether personal or commissioned.

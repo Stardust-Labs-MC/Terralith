@@ -1,0 +1,193 @@
+{
+  "feature": {
+    "type": "minecraft:simple_block",
+    "config": {
+      "to_place": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:granite"
+        }
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 128,
+          "max_inclusive": 256
+        }
+      }
+    },
+        {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 6,
+          "max_inclusive": 8
+        }
+      }
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": -1,
+          "max_inclusive": 1
+        }
+      },
+      "y_spread": 0
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": -1,
+          "max_inclusive": 1
+        }
+      },
+      "y_spread": 0
+    },
+        {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": -1,
+          "max_inclusive": 1
+        }
+      },
+      "y_spread": 0
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": -1,
+          "max_inclusive": 1
+        }
+      },
+      "y_spread": 0
+    },
+        {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": -1,
+          "max_inclusive": 1
+        }
+      },
+      "y_spread": 0
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:clamped_normal",
+        "value": {
+          "min_inclusive": -1,
+          "max_inclusive": 1,
+          "mean": 0,
+          "deviation": 0.65
+        }
+      },
+      "y_spread": 0
+    },
+        {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:clamped_normal",
+        "value": {
+          "min_inclusive": -1,
+          "max_inclusive": 1,
+          "mean": 0,
+          "deviation": 0.65
+        }
+      },
+      "y_spread": 0
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 32,
+      "target_condition": {
+        "type": "minecraft:not",
+        "predicate": {
+          "type": "minecraft:replaceable"
+        }
+      },
+      "allowed_search_condition": {
+        "type": "minecraft:true"
+      }
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "up",
+      "max_steps": 32,
+      "target_condition": {
+        "type": "minecraft:replaceable"
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:not",
+        "predicate": {
+          "type": "minecraft:any_of",
+          "predicates": [
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                -1,
+                -4,
+                0
+              ],
+              "blocks": [
+                "minecraft:air","water"
+              ]
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                1,
+                -4,
+                0
+              ],
+              "blocks": [
+                "minecraft:air","water"
+              ]
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                0,
+                -4,
+                1
+              ],
+              "blocks": [
+                "minecraft:air","water"
+              ]
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                0,
+                -4,
+                -1
+              ],
+              "blocks": [
+                "minecraft:air","water"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

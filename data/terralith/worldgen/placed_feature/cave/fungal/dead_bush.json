@@ -1,0 +1,135 @@
+{
+  "feature": {
+    "type": "minecraft:random_patch",
+    "config": {
+      "tries": 3,
+      "xz_spread": 4,
+      "y_spread": 3,
+      "feature": {
+        "feature": {
+          "type": "minecraft:block_column",
+          "config": {
+            "direction": "up",
+            "allowed_placement": {
+              "type": "minecraft:true"
+            },
+            "prioritize_tip": false,
+            "layers": [
+              {
+                "height": 1,
+                "provider": {
+                  "type": "minecraft:dual_noise_provider",
+                  "seed": 0,
+                  "noise": {
+                    "firstOctave": -3,
+                    "amplitudes": [
+                      0.25,
+                      1.25
+                    ]
+                  },
+                  "scale": 1,
+                  "variety": {
+                    "min_inclusive": 1,
+                    "max_inclusive": 8
+                  },
+                  "slow_noise": {
+                    "firstOctave": -4,
+                    "amplitudes": [
+                      1,
+                      1
+                    ]
+                  },
+                  "slow_scale": 1,
+                  "states": [
+                    {
+                      "Name": "minecraft:dead_bush"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:all_of",
+              "predicates": [
+                {
+                  "type": "minecraft:not",
+                  "predicate": {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      0,
+                      -1,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:stone",
+                      "minecraft:deepslate",
+                      "minecraft:granite",
+                      "minecraft:andesite",
+                      "minecraft:diorite"
+                    ]
+                  }
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "offset": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:air",
+                    "minecraft:cave_air"
+                  ]
+                },
+                {
+                  "type": "minecraft:any_of",
+                  "predicates": [
+                    {
+                      "type": "minecraft:would_survive",
+                      "state": {
+                        "Name": "minecraft:dead_bush"
+                      }
+                    },
+                    {
+                      "type": "minecraft:matching_blocks",
+                      "offset": [
+                        0,
+                        -1,
+                        0
+                      ],
+                      "blocks": [
+                        "minecraft:rooted_dirt",
+                        "minecraft:gravel",
+                        "minecraft:coarse_dirt"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 3,
+          "max_inclusive": 4
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

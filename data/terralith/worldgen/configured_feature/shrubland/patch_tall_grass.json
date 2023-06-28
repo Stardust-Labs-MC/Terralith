@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:no_op",
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "can_replace": false,
+                "project": false,
+                "need_water": false,
+                "xspread": 9,
+                "yspread": 3,
+                "zspread": 9,
+                "whitelist": [],
+                "blacklist": [],
+                "tries": 64,
+                "state_provider": {
+                  "state": {
+                    "Properties": {
+                      "half": "lower"
+                    },
+                    "Name": "minecraft:tall_grass"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "block_placer": {
+                  "type": "minecraft:double_plant_placer"
+                }
+              },
+              "type": "minecraft:random_patch"
+            },
+            "decorator": {
+              "config": {},
+              "type": "minecraft:nope"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {
+                "heightmap": "WORLD_SURFACE_WG"
+              },
+              "type": "minecraft:heightmap"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 7
+      },
+      "type": "minecraft:count"
+    }
+  }
+}

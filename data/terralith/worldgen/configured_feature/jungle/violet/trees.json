@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.2,
+        "feature": "minecraft:jungle_bush"
+      },
+      {
+        "chance": 0.1,
+        "feature": "terralith:jungle/violet/big_hawaii"
+      },
+      {
+        "chance": 0.2,
+        "feature": "terralith:jungle/violet/tree_2x2_azalea"
+      },
+      {
+        "chance": 0.2,
+        "feature": "terralith:jungle/violet/tree_2x2_azalea_flowering"
+      },
+      {
+        "chance": 0.2,
+        "feature": "terralith:jungle/violet/tree_2x2"
+      },
+      {
+        "chance": 0.1333333,
+        "feature": "terralith:jungle/violet/bending_acacia"
+      },
+      {
+        "chance": 0.1,
+        "feature": "terralith:jungle/violet/small_azalea"
+      }
+    ],
+    "default": "terralith:jungle/violet/acacia_azalea"
+  }
+}

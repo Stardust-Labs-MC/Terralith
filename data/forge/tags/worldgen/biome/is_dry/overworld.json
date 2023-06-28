@@ -1,0 +1,28 @@
+{
+  "values": [
+    "terralith:alpine_highlands",
+    "terralith:ancient_sands",
+    "terralith:arid_highlands",
+    "terralith:ashen_savanna",
+    "terralith:basalt_cliffs",
+    "terralith:brushland",
+    "terralith:bryce_canyon",
+    "terralith:desert_canyon",
+    "terralith:desert_spires",
+    "terralith:hot_shrubland",
+    "terralith:lush_desert",
+    "terralith:painted_mountains",
+    "terralith:rocky_shrubland",
+    "terralith:sandstone_valley",
+    "terralith:savanna_badlands",
+    "terralith:savanna_slopes",
+    "terralith:shrubland",
+    "terralith:siberian_taiga",
+    "terralith:snowy_badlands",
+    "terralith:stony_spires",
+    "terralith:valley_clearing",
+    "terralith:warped_mesa",
+    "terralith:white_mesa",
+    "terralith:cave/desert_caves"
+  ]
+}

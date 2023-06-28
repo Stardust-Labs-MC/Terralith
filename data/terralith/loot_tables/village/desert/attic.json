@@ -1,0 +1,32 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 7
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:cobweb"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:bowl"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:spider_eye"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:glass_bottle"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "feature": {
+    "type": "minecraft:dripstone_cluster",
+    "config": {
+      "floor_to_ceiling_search_range": 40,
+      "height": {
+        "type": "minecraft:biased_to_bottom",
+        "value": {
+          "min_inclusive": 1,
+          "max_inclusive": 3
+        }
+      },
+      "radius": {
+        "type": "minecraft:biased_to_bottom",
+        "value": {
+          "min_inclusive": 1,
+          "max_inclusive": 2
+        }
+      },
+      "max_stalagmite_stalactite_height_diff": 2,
+      "height_deviation": 1,
+      "dripstone_block_layer_thickness": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0,
+          "max_inclusive": 0
+        }
+      },
+      "density": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0.4,
+          "max_exclusive": 1
+        }
+      },
+      "wetness": 0,
+      "chance_of_dripstone_column_at_max_distance_from_center": 0.4,
+      "max_distance_from_edge_affecting_chance_of_dripstone_column": 2,
+      "max_distance_from_center_affecting_height_bias": 2
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 30
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "up",
+      "max_steps": 32,
+      "target_condition": {
+        "type": "minecraft:all_of",
+        "predicates": [
+        	          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              -1,
+              0
+            ],
+            "blocks": [
+              "minecraft:air"
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "blocks": [
+              "minecraft:air"
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              1,
+              0
+            ],
+            "blocks": [
+              "minecraft:dripstone_block"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {"type":"minecraft:biome"}
+  ]
+}

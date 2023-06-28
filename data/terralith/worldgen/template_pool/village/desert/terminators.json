@@ -1,0 +1,42 @@
+{
+  "name": "terralith:village/desert/roads",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "terralith:village/desert/terminators/term1",
+        "processors": "terralith:village/desert/road"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "terralith:village/desert/terminators/term2",
+        "processors": "terralith:village/desert/road"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "terralith:village/desert/terminators/term3",
+        "processors": "terralith:village/desert/road"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "terralith:village/desert/terminators/term4",
+        "processors": "terralith:village/desert/road"
+      }
+    }
+  ]
+}

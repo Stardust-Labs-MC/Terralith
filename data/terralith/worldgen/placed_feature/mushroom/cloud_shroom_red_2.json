@@ -1,0 +1,62 @@
+{
+  "feature": {
+    "type": "minecraft:tree",
+    "config": {
+      "ignore_vines": true,
+      "minimum_size": {
+        "type": "minecraft:two_layers_feature_size",
+        "limit": 1,
+        "lower_size": 1,
+        "upper_size": 1
+      },
+      "dirt_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:coarse_dirt"
+        }
+      },
+      "trunk_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:mushroom_stem",
+          "Properties": {
+            "down": "false",
+            "up": "false",
+            "east": "true",
+            "north": "true",
+            "south": "true",
+            "west": "true"
+          }
+        }
+      },
+      "foliage_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:red_mushroom_block",
+          "Properties": {
+            "down": "true",
+            "east": "true",
+            "north": "true",
+            "south": "true",
+            "up": "true",
+            "west": "true"
+          }
+        }
+      },
+      "trunk_placer": {
+        "type": "minecraft:forking_trunk_placer",
+        "base_height": 4,
+        "height_rand_a": 2,
+        "height_rand_b": 1
+      },
+      "foliage_placer": {
+        "type": "minecraft:blob_foliage_placer",
+        "radius": 2,
+        "offset": 2,
+        "height": 2
+      },
+      "decorators": []
+    }
+  },
+  "placement": []
+}

@@ -1,0 +1,117 @@
+{
+  "feature": {
+    "type": "minecraft:vegetation_patch",
+    "config": {
+      "surface": "floor",
+      "depth": {
+        "type": "minecraft:biased_to_bottom",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 4
+        }
+      },
+      "vertical_range": 3,
+      "extra_bottom_block_chance": 0.01,
+      "extra_edge_column_chance": 0.5,
+      "vegetation_chance": 0,
+      "xz_radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 3,
+          "max_inclusive": 4
+        }
+      },
+      "replaceable": "#minecraft:lush_ground_replaceable",
+      "ground_state": {
+        "type": "minecraft:dual_noise_provider",
+        "seed": 1,
+        "noise": {
+          "firstOctave": -4,
+          "amplitudes": [
+            0.3,
+            0.5,
+            0.275,
+            0.75
+          ]
+        },
+        "scale": 1,
+        "variety": {
+          "min_inclusive": 1,
+          "max_inclusive": 15
+        },
+        "slow_noise": {
+          "firstOctave": -6,
+          "amplitudes": [
+            1.25,
+            1,
+            0.5
+          ]
+        },
+        "slow_scale": 1,
+        "states": [
+          {
+            "Name": "minecraft:gravel"
+          },
+          {
+            "Name": "minecraft:gravel"
+          },
+          {
+            "Name": "minecraft:coarse_dirt"
+          },
+          {
+            "Name": "minecraft:coarse_dirt"
+          },
+          {
+            "Name": "minecraft:rooted_dirt"
+          },
+          {
+            "Name": "minecraft:coarse_dirt"
+          },
+          {
+            "Name": "minecraft:coarse_dirt"
+          },
+          {
+            "Name": "minecraft:rooted_dirt"
+          },
+          {
+            "Name": "minecraft:rooted_dirt"
+          },
+          {
+            "Name": "minecraft:coarse_dirt"
+          },
+          {
+            "Name": "minecraft:coarse_dirt"
+          },
+          {
+            "Name": "minecraft:gravel"
+          },
+          {
+            "Name": "minecraft:coarse_dirt"
+          },
+          {
+            "Name": "minecraft:gravel"
+          },
+          {
+            "Name": "minecraft:gravel"
+          }
+        ]
+      },
+      "vegetation_feature":{"placement":[],"feature": "terralith:nothing"
+    }}
+  },
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 7,
+          "max_inclusive": 12
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

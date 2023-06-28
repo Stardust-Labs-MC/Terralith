@@ -1,0 +1,8 @@
+{
+	"feature": "terralith:mountains/scarlet/crimson_spread",
+	"placement": [
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

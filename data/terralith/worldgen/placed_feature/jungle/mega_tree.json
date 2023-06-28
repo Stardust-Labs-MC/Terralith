@@ -1,0 +1,31 @@
+{
+	"feature": "terralith:jungle/mega_tree",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 20
+		},
+		{
+			"type": "minecraft:count",
+			"count": 50
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					-1,
+					0
+				],
+				"blocks": [
+					"minecraft:dirt",
+					"minecraft:grass_block",
+					"minecraft:rooted_dirt",
+					"minecraft:podzol",
+					"minecraft:coarse_dirt"
+				]
+			}
+		}
+	]
+}

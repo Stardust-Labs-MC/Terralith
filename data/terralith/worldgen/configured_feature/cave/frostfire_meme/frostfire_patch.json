@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "surface": "floor",
+    "depth": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      }
+    },
+    "vertical_range": 1,
+    "extra_bottom_block_chance": 0.5,
+    "extra_edge_column_chance": 0.5,
+    "vegetation_chance": 0.05,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 5
+      }
+    },
+    "replaceable": "#minecraft:base_stone_overworld",
+    "ground_state": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:deepslate_tiles"
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:blue_ice"
+          }
+        }
+      ]
+    },
+    "vegetation_feature":{"placement":[],"feature": {
+      "type": "minecraft:simple_block",
+      "config": {
+        "to_place": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:soul_fire"
+          }
+        }
+      }
+    }}
+  }
+}

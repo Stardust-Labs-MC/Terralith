@@ -1,0 +1,51 @@
+{
+	"feature": "terralith:cave/desert/noise_reducer",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 50
+		},
+		{
+			"type": "minecraft:count",
+			"count": 15
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"absolute": 0
+				},
+				"max_inclusive": {
+					"absolute": 200
+				}
+			}
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					0,
+					0
+				],
+				"blocks": [
+					"minecraft:coal_ore",
+					"minecraft:copper_ore",
+					"minecraft:diamond_ore",
+					"minecraft:gold_ore",
+					"minecraft:iron_ore",
+					"minecraft:lapis_ore",
+					"minecraft:redstone_ore"
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

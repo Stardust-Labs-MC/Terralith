@@ -1,0 +1,115 @@
+{
+  "type": "minecraft:geode",
+  "config": {
+    "min_gen_offset": -22,
+    "max_gen_offset": 22,
+    "noise_multiplier": 0.041375,
+    "invalid_blocks_threshold": 0,
+    "outer_wall_distance": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 10
+      }
+    },
+    "distribution_points": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 5,
+        "max_inclusive": 5
+      }
+    },
+    "point_offset": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      }
+    },
+    "use_potential_placements_chance": 0.25,
+    "use_alternate_layer0_chance": 0.083,
+    "placements_require_layer0_alternate": false,
+    "blocks": {
+      "outer_layer_provider": {
+        "state": {
+          "Name": "minecraft:deepslate"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "inner_placements": [
+        {
+          "Properties": {
+            "waterlogged": "false",
+            "facing": "up"
+          },
+          "Name": "minecraft:small_amethyst_bud"
+        },
+        {
+          "Properties": {
+            "waterlogged": "false",
+            "facing": "up"
+          },
+          "Name": "minecraft:medium_amethyst_bud"
+        },
+        {
+          "Properties": {
+            "waterlogged": "false",
+            "facing": "up"
+          },
+          "Name": "minecraft:large_amethyst_bud"
+        },
+        {
+          "Properties": {
+            "waterlogged": "false",
+            "facing": "up"
+          },
+          "Name": "minecraft:amethyst_cluster"
+        }
+      ],
+      "cannot_replace": "#minecraft:features_cannot_replace",
+      "invalid_blocks": "#minecraft:geode_invalid_blocks",
+      "filling_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "inner_layer_provider": {
+        "state": {
+          "Name": "minecraft:amethyst_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "alternate_inner_layer_provider": {
+        "state": {
+          "Name": "minecraft:budding_amethyst"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "middle_layer_provider": {
+        "state": {
+          "Name": "minecraft:calcite"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "layers": {
+      "filling": 2.9,
+      "inner_layer": 4.0,
+      "middle_layer": 4.8,
+      "outer_layer": 6.3
+    },
+
+    /*"layers": {
+      "filling": 2.35,
+      "inner_layer": 3.085,
+      "middle_layer": 3.65,
+      "outer_layer": 5.2
+    },*/
+    "crack": {
+      "generate_crack_chance": 0.95,
+      "base_crack_size": 3.15,
+      "crack_point_offset": 2.25
+    }
+  }
+}
