@@ -13,7 +13,7 @@
     "music": {
       "min_delay": 12000,
       "max_delay": 24000,
-      "replace_current_music": "false",
+      "replace_current_music": false,
       "sound": "minecraft:music.overworld.forest"
     }
   },
