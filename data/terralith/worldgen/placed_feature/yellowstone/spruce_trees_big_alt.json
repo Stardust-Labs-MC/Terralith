@@ -2,7 +2,7 @@
 	"feature": "terralith:yellowstone/spruce_big_alt",
 	"placement": [
 		{
-			"type": "count",
+			"type": "minecraft:count",
 			"count": 110
 		},
 		{

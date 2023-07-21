@@ -16,7 +16,7 @@
       },
       "placement": [
         {
-          "type": "count",
+          "type": "minecraft:count",
           "count": 10
         },
         {
@@ -31,7 +31,7 @@
           "y_spread": 0
         },
         {
-          "type": "heightmap",
+          "type": "minecraft:heightmap",
           "heightmap": "WORLD_SURFACE_WG"
         },
         {

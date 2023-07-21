@@ -1,0 +1,231 @@
+{
+  "type": "minecraft:flower",
+  "config": {
+    "tries": 64,
+    "xz_spread": 7,
+    "y_spread": 3,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 40,
+                "data": {
+                  "Name": "minecraft:allium"
+                }
+              },
+              {
+                "weight": 24,
+                "data": {
+                  "Name": "minecraft:pink_tulip"
+                }
+              },
+              {
+                "weight": 8,
+                "data": {
+                  "Name": "minecraft:white_tulip"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:pink_petals",
+                  "Properties": {
+                    "facing": "north",
+                    "flower_amount": "1"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:pink_petals",
+                  "Properties": {
+                    "facing": "east",
+                    "flower_amount": "1"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:pink_petals",
+                  "Properties": {
+                    "facing": "south",
+                    "flower_amount": "1"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:pink_petals",
+                  "Properties": {
+                    "facing": "west",
+                    "flower_amount": "1"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:pink_petals",
+                  "Properties": {
+                    "facing": "north",
+                    "flower_amount": "2"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:pink_petals",
+                  "Properties": {
+                    "facing": "east",
+                    "flower_amount": "2"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:pink_petals",
+                  "Properties": {
+                    "facing": "south",
+                    "flower_amount": "2"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:pink_petals",
+                  "Properties": {
+                    "facing": "west",
+                    "flower_amount": "2"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:pink_petals",
+                  "Properties": {
+                    "facing": "north",
+                    "flower_amount": "3"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:pink_petals",
+                  "Properties": {
+                    "facing": "east",
+                    "flower_amount": "3"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:pink_petals",
+                  "Properties": {
+                    "facing": "south",
+                    "flower_amount": "3"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:pink_petals",
+                  "Properties": {
+                    "facing": "west",
+                    "flower_amount": "3"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:pink_petals",
+                  "Properties": {
+                    "facing": "north",
+                    "flower_amount": "4"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:pink_petals",
+                  "Properties": {
+                    "facing": "east",
+                    "flower_amount": "4"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:pink_petals",
+                  "Properties": {
+                    "facing": "south",
+                    "flower_amount": "4"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:pink_petals",
+                  "Properties": {
+                    "facing": "west",
+                    "flower_amount": "4"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_fluids",
+                  "offset": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "fluids": [
+                    "minecraft:water"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:replaceable"
+              },
+              {
+                "type": "minecraft:would_survive",
+                "state": {
+                  "Name": "minecraft:fern"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

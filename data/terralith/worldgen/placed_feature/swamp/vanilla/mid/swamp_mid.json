@@ -2,7 +2,7 @@
 	"feature": "terralith:swamp/vanilla/mid/swamp_mid",
 	"placement": [
 		{
-			"type": "heightmap",
+			"type": "minecraft:heightmap",
 			"heightmap": "OCEAN_FLOOR_WG"
 		},
 		{

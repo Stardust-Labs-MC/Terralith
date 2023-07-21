@@ -2,7 +2,7 @@
 	"feature": "minecraft:ore_andesite_lower",
 	"placement": [
 		{
-			"type": "count",
+			"type": "minecraft:count",
 			"count": 0
 		},
 		{

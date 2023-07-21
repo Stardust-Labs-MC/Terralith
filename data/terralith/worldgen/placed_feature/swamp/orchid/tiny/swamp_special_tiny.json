@@ -2,7 +2,7 @@
 	"feature": "terralith:swamp/orchid/tiny/swamp_special_tiny",
 	"placement": [
 		{
-			"type": "count",
+			"type": "minecraft:count",
 			"count": 8
 		}
 	]

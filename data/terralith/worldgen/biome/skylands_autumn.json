@@ -17,7 +17,8 @@
     "air": [
       "minecraft:cave",
       "minecraft:cave_extra_underground",
-      "minecraft:canyon","terralith:deep_ravine"
+      "minecraft:canyon",
+      "terralith:deep_ravine"
     ]
   },
   "features": [
@@ -152,7 +153,32 @@
         "maxCount": 1
       }
     ],
-    "creature": [],
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "weight": 12,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 8,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:goat",
+        "weight": 4,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:fox",
+        "weight": 4,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ],
     "ambient": [
       {
         "type": "minecraft:bat",
@@ -192,38 +218,12 @@
         "maxCount": 6
       }
     ],
-    "misc": [],
-    "creature": [
-      {
-        "type": "minecraft:sheep",
-        "weight": 12,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:cow",
-        "weight": 8,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:goat",
-        "weight": 4,
-        "minCount": 2,
-        "maxCount": 3
-      },
-      {
-        "type": "minecraft:fox",
-        "weight": 4,
-        "minCount": 2,
-        "maxCount": 3
-      }
-    ]
+    "misc": []
   },
   "spawn_costs": {},
   "player_spawn_friendly": false,
-  "precipitation": "rain",
   "temperature": 0.5,
   "downfall": 0.5,
-  "category": "ocean"
+  "category": "ocean",
+  "has_precipitation": true
 }

@@ -1,6 +1,19 @@
 {
 	"pack": {
-		"pack_format": 10,
-		"description": "Terralith - Overworld Evolved"
+		"pack_format": 15,
+		"description": [
+			{
+				"text": "Terralith",
+				"color": "#1eb2bc"
+			},
+			{
+				"text": " - Overworld Evolved\nCreated by ",
+				"color": "gray"
+			},
+			{
+				"text": "Stardust Labs",
+				"color": "#683edd"
+			}
+		]
 	}
 }

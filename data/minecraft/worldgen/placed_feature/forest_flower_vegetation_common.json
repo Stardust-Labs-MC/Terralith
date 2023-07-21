@@ -9,11 +9,11 @@
 			"type": "minecraft:in_square"
 		},
 		{
-			"type": "heightmap",
+			"type": "minecraft:heightmap",
 			"heightmap": "MOTION_BLOCKING"
 		},
 		{
-			"type": "count",
+			"type": "minecraft:count",
 			"count": {
 				"type": "minecraft:clamped",
 				"value": {

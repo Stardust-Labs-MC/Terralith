@@ -11,13 +11,20 @@
     "water_color": 5076668,
     "water_fog_color": 329011,
     "foliage_color": 10387789,
-    "grass_color": 9470285
+    "grass_color": 9470285,
+    "music": {
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.badlands"
+    }
   },
   "carvers": {
     "air": [
       "minecraft:cave",
       "minecraft:cave_extra_underground",
-      "minecraft:canyon","terralith:deep_ravine"
+      "minecraft:canyon",
+      "terralith:deep_ravine"
     ]
   },
   "features": [
@@ -162,8 +169,8 @@
   },
   "spawn_costs": {},
   "player_spawn_friendly": false,
-  "precipitation": "none",
   "temperature": 2,
   "downfall": 0,
-  "category": "mesa"
+  "category": "mesa",
+  "has_precipitation": false
 }

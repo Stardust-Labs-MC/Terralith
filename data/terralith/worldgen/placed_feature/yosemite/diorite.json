@@ -33,7 +33,7 @@
 			"noise_offset": 0.2
 		},
 		{
-			"type": "heightmap",
+			"type": "minecraft:heightmap",
 			"heightmap": "WORLD_SURFACE_WG"
 		},
 		{

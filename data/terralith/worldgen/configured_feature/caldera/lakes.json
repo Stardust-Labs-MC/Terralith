@@ -19,7 +19,7 @@
       },
       "placement": [
         {
-          "type": "count",
+          "type": "minecraft:count",
           "count": {
             "type": "minecraft:uniform",
             "value": {

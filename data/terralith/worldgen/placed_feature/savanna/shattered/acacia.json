@@ -2,7 +2,7 @@
 	"feature": "terralith:savanna/shattered/acacia",
 	"placement": [
 		{
-			"type": "count",
+			"type": "minecraft:count",
 			"count": {
 				"type": "minecraft:uniform",
 				"value": {

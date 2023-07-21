@@ -8,14 +8,15 @@
     },
     "sky_color": 7842047,
     "fog_color": 12638463,
-        "water_color": 10128356,
+    "water_color": 10128356,
     "water_fog_color": 329011
   },
   "carvers": {
     "air": [
       "minecraft:cave",
       "minecraft:cave_extra_underground",
-      "minecraft:canyon","terralith:deep_ravine"
+      "minecraft:canyon",
+      "terralith:deep_ravine"
     ]
   },
   "features": [
@@ -23,7 +24,6 @@
       "terralith:mushroom/destroy_cliff"
     ],
     [
-      
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
     ],
@@ -117,8 +117,8 @@
     "misc": []
   },
   "spawn_costs": {},
-  "precipitation": "rain",
   "temperature": 0.9,
   "downfall": 1.0,
-  "category": "mushroom"
+  "category": "mushroom",
+  "has_precipitation": true
 }

@@ -7,7 +7,7 @@
       "offset": 2
     },
     "grass_color": 6463095,
-    "sky_color": 10858685, 
+    "sky_color": 10858685,
     "fog_color": 14145761,
     "foliage_color": 15435072,
     "water_color": 6388624,
@@ -17,13 +17,14 @@
     "air": [
       "minecraft:cave",
       "minecraft:cave_extra_underground",
-      "minecraft:canyon","terralith:deep_ravine"
+      "minecraft:canyon",
+      "terralith:deep_ravine"
     ]
   },
   "features": [
     [],
     [
-            "terralith:taiga/siberian/trees_new",
+      "terralith:taiga/siberian/trees_new",
       "terralith:taiga/siberian/trees_new_orange",
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
@@ -208,8 +209,8 @@
   },
   "spawn_costs": {},
   "player_spawn_friendly": true,
-  "precipitation": "snow",
   "temperature": 0.2,
   "downfall": 1.2,
-  "category": "taiga"
+  "category": "taiga",
+  "has_precipitation": true
 }

@@ -7,11 +7,11 @@
 				"type": "minecraft:weighted_list",
 				"distribution": [
 					{
-						"weight": 90,
+						"weight": 9,
 						"data": 10
 					},
 					{
-						"weight": 10,
+						"weight": 1,
 						"data": 11
 					}
 				]
@@ -25,7 +25,7 @@
 			"max_water_depth": 0
 		},
 		{
-			"type": "heightmap",
+			"type": "minecraft:heightmap",
 			"heightmap": "MOTION_BLOCKING"
 		}
 	]

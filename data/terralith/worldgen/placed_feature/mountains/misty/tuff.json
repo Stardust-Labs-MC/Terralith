@@ -23,7 +23,7 @@
 			"chance": 50
 		},
 		{
-			"type": "heightmap",
+			"type": "minecraft:heightmap",
 			"heightmap": "OCEAN_FLOOR_WG"
 		},
 		{

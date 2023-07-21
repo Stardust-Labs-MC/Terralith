@@ -2,7 +2,7 @@
 	"feature": "terralith:flower/white/twilight_tree",
 	"placement": [
 		{
-			"type": "count",
+			"type": "minecraft:count",
 			"count": 2
 		}
 	]

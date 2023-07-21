@@ -2,14 +2,14 @@
 	"feature": "terralith:cliffs/white/patch_base",
 	"placement": [
 		{
-			"type": "count",
+			"type": "minecraft:count",
 			"count": 27
 		},
 		{
 			"type": "minecraft:in_square"
 		},
 		{
-			"type": "heightmap",
+			"type": "minecraft:heightmap",
 			"heightmap": "WORLD_SURFACE_WG"
 		},
 		{

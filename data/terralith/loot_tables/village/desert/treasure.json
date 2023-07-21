@@ -7,17 +7,17 @@
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "terralith:village/fortified/treasure/golem"
+          "name": "terralith:village/treasure/golem"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "terralith:village/fortified/treasure/emerald"
+          "name": "terralith:village/treasure/emerald"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "terralith:village/fortified/treasure/diamond"
+          "name": "terralith:village/treasure/diamond"
         }
       ]
     },
@@ -26,6 +26,7 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 18,
           "name": "minecraft:emerald",
           "functions": [
             {
@@ -37,6 +38,11 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:dune_armor_trim_smithing_template"
         }
       ]
     },

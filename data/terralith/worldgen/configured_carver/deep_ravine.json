@@ -23,13 +23,6 @@
         "max_exclusive": 1
       }
     },
-    "vertical_rotation": {
-      "type": "minecraft:uniform",
-      "value": {
-        "min_inclusive": -0.185,
-        "max_exclusive": 0.185
-      }
-    },
     "replaceable": "#minecraft:overworld_carver_replaceables",
     "shape": {
       "distance_factor": {

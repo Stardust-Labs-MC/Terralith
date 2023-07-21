@@ -2,7 +2,7 @@
 	"feature": "terralith:swamp/vanilla/tall/swamp_special_tall",
 	"placement": [
 		{
-			"type": "count",
+			"type": "minecraft:count",
 			"count": 8
 		}
 	]

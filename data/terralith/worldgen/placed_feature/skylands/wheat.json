@@ -31,7 +31,7 @@
 			"chance": 20
 		},
 		{
-			"type": "heightmap",
+			"type": "minecraft:heightmap",
 			"heightmap": "MOTION_BLOCKING_NO_LEAVES"
 		},
 		{

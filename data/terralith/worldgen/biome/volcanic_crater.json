@@ -1,7 +1,6 @@
 {
   "temperature": 1,
   "downfall": 0.3,
-  "precipitation": "rain",
   "category": "mountain",
   "effects": {
     "sky_color": 5725286,
@@ -107,7 +106,8 @@
     "air": [
       "minecraft:cave",
       "minecraft:cave_extra_underground",
-      "minecraft:canyon","terralith:deep_ravine"
+      "minecraft:canyon",
+      "terralith:deep_ravine"
     ]
   },
   "features": [
@@ -175,5 +175,6 @@
     [
       "minecraft:freeze_top_layer"
     ]
-  ]
+  ],
+  "has_precipitation": true
 }

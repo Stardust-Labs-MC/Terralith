@@ -2,7 +2,7 @@
 	"feature": "minecraft:classic_vines_cave_feature",
 	"placement": [
 		{
-			"type": "count",
+			"type": "minecraft:count",
 			"count": 216
 		},
 		{

@@ -1,12 +1,12 @@
 {
-  "name": "starmute:generic",
+  "name": "apollo_was_here_lmao",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
         "location": "terralith:null_structure",
-        "processors": "minecraft:bastion_generic_degradation",
+        "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }

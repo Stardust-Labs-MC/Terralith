@@ -2,7 +2,7 @@
 	"feature": "minecraft:moss_patch",
 	"placement": [
 		{
-			"type": "count",
+			"type": "minecraft:count",
 			"count": 104
 		},
 		{

@@ -21,7 +21,8 @@
     "air": [
       "minecraft:cave",
       "minecraft:cave_extra_underground",
-      "minecraft:canyon","terralith:deep_ravine"
+      "minecraft:canyon",
+      "terralith:deep_ravine"
     ]
   },
   "features": [
@@ -162,8 +163,8 @@
   },
   "spawn_costs": {},
   "player_spawn_friendly": false,
-  "precipitation": "none",
   "temperature": 0.3,
   "downfall": 0.3,
-  "category": "mountain"
+  "category": "mountain",
+  "has_precipitation": false
 }

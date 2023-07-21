@@ -2,7 +2,7 @@
 	"feature": "terralith:snowy/mega_spruce",
 	"placement": [
 		{
-			"type": "heightmap",
+			"type": "minecraft:heightmap",
 			"heightmap": "MOTION_BLOCKING_NO_LEAVES"
 		},
 		{

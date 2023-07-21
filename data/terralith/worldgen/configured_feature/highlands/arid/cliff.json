@@ -16,7 +16,7 @@
       },
       "placement": [
         {
-          "type": "count",
+          "type": "minecraft:count",
           "count": 255
         },
         {

@@ -12,7 +12,13 @@
     "grass_color": 11599739,
     "foliage_color": 7929657,
     "water_color": 2576383,
-    "water_fog_color": 329011
+    "water_fog_color": 329011,
+    "music": {
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.forest"
+    }
   },
   "surface_builder": "minecraft:grass",
   "carvers": {
@@ -144,9 +150,9 @@
   },
   "spawn_costs": {},
   "player_spawn_friendly": true,
-  "precipitation": "rain",
   "temperature": 0.7,
   "downfall": 0.8,
   "category": "forest",
-  "depth": -0.08
+  "depth": -0.08,
+  "has_precipitation": true
 }

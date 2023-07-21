@@ -15,7 +15,8 @@
     "air": [
       "minecraft:cave",
       "minecraft:cave_extra_underground",
-      "minecraft:canyon","terralith:deep_ravine"
+      "minecraft:canyon",
+      "terralith:deep_ravine"
     ]
   },
   "features": [
@@ -197,8 +198,8 @@
   },
   "spawn_costs": {},
   "player_spawn_friendly": true,
-  "precipitation": "rain",
   "temperature": 0.8,
   "downfall": 0.4,
-  "category": "plains"
+  "category": "plains",
+  "has_precipitation": true
 }

@@ -2,7 +2,7 @@
 	"feature": "terralith:canyon/red_sandstone/lake_palms",
 	"placement": [
 		{
-			"type": "count",
+			"type": "minecraft:count",
 			"count": 6
 		},
 		{

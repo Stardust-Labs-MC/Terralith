@@ -2,7 +2,7 @@
 	"feature": "terralith:taiga/tiny/pine_tiny",
 	"placement": [
 		{
-			"type": "heightmap",
+			"type": "minecraft:heightmap",
 			"heightmap": "OCEAN_FLOOR_WG"
 		},
 		{

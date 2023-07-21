@@ -1,99 +1,21 @@
 {
+  "temperature": 0.7,
+  "downfall": 0.8,
+  "has_precipitation": true,
   "effects": {
+    "sky_color": 10864127,
+    "fog_color": 13822975,
+    "water_color": 4962255,
+    "water_fog_color": 329011,
+    "grass_color": 7982981,
+    "foliage_color": 16755660,
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
-    },
-    "sky_color": 10864127,
-    "fog_color": 13822975,
-    "foliage_color": 16747695,
-    "grass_color": 7982981,
-    "water_color": 4962255,
-    "water_fog_color": 329011
+    }
   },
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon","terralith:deep_ravine"
-    ]
-  },
-  "features": [
-    [
-    ],
-    [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
-    ],
-    [
-      "minecraft:amethyst_geode",
-      "terralith:cave/generic/mega_geode"
-    ],
-    [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
-    [
-      "terralith:cherry/clay_beaches",
-      "terralith:cherry/patch_podzol"
-    ],
-    [],
-    [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
-      "minecraft:ore_granite_upper",
-      "minecraft:ore_granite_lower",
-      "minecraft:ore_diorite_upper",
-      "minecraft:ore_diorite_lower",
-      "minecraft:ore_andesite_upper",
-      "minecraft:ore_andesite_lower",
-      "minecraft:ore_tuff",
-      "minecraft:ore_coal_upper",
-      "minecraft:ore_coal_lower",
-      "minecraft:ore_iron_upper",
-      "minecraft:ore_iron_middle",
-      "minecraft:ore_iron_small",
-      "minecraft:ore_gold",
-      "minecraft:ore_gold_lower",
-      "minecraft:ore_redstone",
-      "minecraft:ore_redstone_lower",
-      "minecraft:ore_diamond",
-      "minecraft:ore_diamond_large",
-      "minecraft:ore_diamond_buried",
-      "minecraft:ore_lapis",
-      "minecraft:ore_lapis_buried",
-      "minecraft:ore_copper",
-      "minecraft:underwater_magma",
-      "minecraft:disk_sand",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel"
-    ],
-    [],
-    [
-      "minecraft:spring_water",
-      "minecraft:spring_lava"
-    ],
-    [
-      "terralith:cherry/birch",
-      "terralith:cherry/birch_sparse",
-      "terralith:cherry/flowers",
-      "terralith:cherry/sugarcane",
-      "terralith:cherry/cherry_trees",
-      "terralith:cherry/cherry_trees_light",
-      "terralith:cherry/bamboo",
-      "minecraft:glow_lichen",
-      "minecraft:patch_grass_jungle",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
-    ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
-  ],
   "spawners": {
     "monster": [
       {
@@ -199,9 +121,85 @@
     "misc": []
   },
   "spawn_costs": {},
-  "player_spawn_friendly": false,
-  "precipitation": "rain",
-  "temperature": 0.7,
-  "downfall": 0.8,
-  "category": "forest"
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon",
+      "terralith:deep_ravine"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
+    [
+      "minecraft:amethyst_geode",
+      "terralith:cave/generic/mega_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [
+      "terralith:sakura/clay_beaches",
+      "terralith:sakura/patch_podzol"
+    ],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "terralith:sakura/birch",
+      "terralith:sakura/birch_sparse",
+      "terralith:sakura/flowers",
+      "terralith:sakura/sugarcane",
+      "terralith:sakura/cherry_trees",
+      "terralith:sakura/cherry_trees_light",
+      "terralith:sakura/bamboo",
+      "minecraft:glow_lichen",
+      "minecraft:patch_grass_jungle",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
 }

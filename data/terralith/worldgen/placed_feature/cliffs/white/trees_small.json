@@ -2,14 +2,14 @@
 	"feature": "terralith:cliffs/white/birch_alt",
 	"placement": [
 		{
-			"type": "count",
+			"type": "minecraft:count",
 			"count": 2
 		},
 		{
 			"type": "minecraft:in_square"
 		},
 		{
-			"type": "heightmap",
+			"type": "minecraft:heightmap",
 			"heightmap": "WORLD_SURFACE_WG"
 		},
 		{

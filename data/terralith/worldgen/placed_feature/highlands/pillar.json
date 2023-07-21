@@ -9,7 +9,7 @@
 			"type": "minecraft:in_square"
 		},
 		{
-			"type": "count",
+			"type": "minecraft:count",
 			"count": {
 				"type": "minecraft:clamped_normal",
 				"value": {
@@ -21,7 +21,7 @@
 			}
 		},
 		{
-			"type": "heightmap",
+			"type": "minecraft:heightmap",
 			"heightmap": "WORLD_SURFACE"
 		},
 		{

@@ -2,7 +2,7 @@
 	"feature": "terralith:forest/flower/small/birch_small",
 	"placement": [
 		{
-			"type": "heightmap",
+			"type": "minecraft:heightmap",
 			"heightmap": "WORLD_SURFACE"
 		},
 		{

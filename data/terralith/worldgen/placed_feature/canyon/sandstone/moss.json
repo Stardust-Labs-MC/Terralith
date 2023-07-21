@@ -2,14 +2,14 @@
 	"feature": "terralith:canyon/sandstone/moss",
 	"placement": [
 		{
-			"type": "count",
+			"type": "minecraft:count",
 			"count": 255
 		},
 		{
 			"type": "minecraft:in_square"
 		},
 		{
-			"type": "heightmap",
+			"type": "minecraft:heightmap",
 			"heightmap": "OCEAN_FLOOR"
 		},
 		{
