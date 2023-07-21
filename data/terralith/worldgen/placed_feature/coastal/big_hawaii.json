@@ -2,7 +2,7 @@
 	"feature": "terralith:coastal/big_hawaii",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": {
 				"type": "minecraft:uniform",
 				"value": {

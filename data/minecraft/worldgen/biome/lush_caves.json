@@ -21,8 +21,7 @@
     "air": [
       "minecraft:cave",
       "minecraft:cave_extra_underground",
-      "minecraft:canyon",
-      "terralith:deep_ravine"
+      "minecraft:canyon","terralith:deep_ravine"
     ]
   },
   "features": [
@@ -32,6 +31,7 @@
       "terralith:cave/fuck_art_just_need_performance/split/granite"
     ],
     [
+      
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
     ],
@@ -86,7 +86,7 @@
       "minecraft:spring_lava"
     ],
     [
-      "terralith:cave/generic/noise_reducer",
+            "terralith:cave/generic/noise_reducer",
       "terralith:cave/generic/noise_reducer_small",
       "minecraft:glow_lichen",
       "minecraft:patch_tall_grass_2",
@@ -190,8 +190,8 @@
     "misc": []
   },
   "spawn_costs": {},
+  "precipitation": "rain",
   "temperature": 0.5,
   "downfall": 0.5,
-  "category": "underground",
-  "has_precipitation": true
+  "category": "underground"
 }

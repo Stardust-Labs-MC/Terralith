@@ -7,11 +7,11 @@
 				"type": "minecraft:weighted_list",
 				"distribution": [
 					{
-						"weight": 9,
+						"weight": 90,
 						"data": 10
 					},
 					{
-						"weight": 1,
+						"weight": 10,
 						"data": 11
 					}
 				]
@@ -25,7 +25,7 @@
 			"max_water_depth": 0
 		},
 		{
-			"type": "minecraft:heightmap",
+			"type": "heightmap",
 			"heightmap": "OCEAN_FLOOR"
 		}
 	]

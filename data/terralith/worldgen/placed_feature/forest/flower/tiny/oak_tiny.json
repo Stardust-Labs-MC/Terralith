@@ -2,7 +2,7 @@
 	"feature": "terralith:forest/flower/tiny/oak_tiny",
 	"placement": [
 		{
-			"type": "minecraft:heightmap",
+			"type": "heightmap",
 			"heightmap": "WORLD_SURFACE"
 		},
 		{

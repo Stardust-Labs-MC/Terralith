@@ -2,7 +2,7 @@
 	"feature": "terralith:shrubland/hot/tiny_trees",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 5
 		},
 		{

@@ -17,8 +17,7 @@
     "air": [
       "minecraft:cave",
       "minecraft:cave_extra_underground",
-      "minecraft:canyon",
-      "terralith:deep_ravine"
+      "minecraft:canyon","terralith:deep_ravine"
     ]
   },
   "features": [
@@ -82,7 +81,7 @@
       "terralith:skylands/waterfall",
       "terralith:skylands/spring/lake",
       "terralith:skylands/spring/lichen",
-      "terralith:sakura/birch_sparse",
+      "terralith:cherry/birch_sparse",
       "terralith:skylands/spring/flowers",
       "terralith:skylands/patch_grass",
       "minecraft:glow_lichen",
@@ -218,8 +217,8 @@
   },
   "spawn_costs": {},
   "player_spawn_friendly": false,
+  "precipitation": "rain",
   "temperature": 0.5,
   "downfall": 0.5,
-  "category": "ocean",
-  "has_precipitation": true
+  "category": "ocean"
 }

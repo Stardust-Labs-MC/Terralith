@@ -11,20 +11,13 @@
     "foliage_color": 13150207,
     "grass_color": 7394436,
     "water_color": 4445678,
-    "water_fog_color": 329011,
-    "music": {
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false,
-      "sound": "minecraft:music.overworld.jungle"
-    }
+    "water_fog_color": 329011
   },
   "carvers": {
     "air": [
       "minecraft:cave",
       "minecraft:cave_extra_underground",
-      "minecraft:canyon",
-      "terralith:deep_ravine"
+      "minecraft:canyon","terralith:deep_ravine"
     ]
   },
   "features": [
@@ -221,8 +214,8 @@
   },
   "spawn_costs": {},
   "player_spawn_friendly": true,
+  "precipitation": "rain",
   "temperature": 0.95,
   "downfall": 0.9,
-  "category": "jungle",
-  "has_precipitation": true
+  "category": "jungle"
 }

@@ -25,7 +25,7 @@
 			"max_water_depth": 2
 		},
 		{
-			"type": "minecraft:heightmap",
+			"type": "heightmap",
 			"heightmap": "OCEAN_FLOOR"
 		}
 	]

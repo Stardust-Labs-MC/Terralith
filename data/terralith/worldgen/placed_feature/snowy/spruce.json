@@ -2,7 +2,7 @@
 	"feature": "terralith:snowy/spruce",
 	"placement": [
 		{
-			"type": "minecraft:heightmap",
+			"type": "heightmap",
 			"heightmap": "OCEAN_FLOOR"
 		},
 		{

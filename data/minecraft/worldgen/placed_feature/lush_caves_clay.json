@@ -2,7 +2,7 @@
 	"feature": "minecraft:lush_caves_clay",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 52
 		},
 		{

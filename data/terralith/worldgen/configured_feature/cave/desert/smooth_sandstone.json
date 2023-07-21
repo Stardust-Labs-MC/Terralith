@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "state": {
+      "Name": "minecraft:smooth_sandstone"
+    },
+    "target": {
+      "Name": "minecraft:stone"
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 6,
+        "max_inclusive": 12
+      }
+    }
+  }
+}

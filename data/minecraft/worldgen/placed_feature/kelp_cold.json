@@ -1,0 +1,21 @@
+{
+	"feature": "minecraft:kelp_cold",
+	"placement": [
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 120,
+			"noise_factor": 80,
+			"noise_offset": 0
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "OCEAN_FLOOR_WG"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

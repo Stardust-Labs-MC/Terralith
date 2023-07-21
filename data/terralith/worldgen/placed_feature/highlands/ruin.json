@@ -1,0 +1,49 @@
+{
+  "feature": {
+    "type": "minecraft:fossil",
+    "config": {
+      "max_empty_corners_allowed": 7,
+      "fossil_structures": [
+        "terralith:highlands/ruin1"
+      ],
+      "overlay_structures": [
+        "terralith:highlands/ruin1"
+      ],
+      "fossil_processors": {
+        "processors": [
+          {
+            "processor_type": "minecraft:nop"
+          }
+        ]
+      },
+      "overlay_processors": {
+        "processors": [
+          {
+            "processor_type": "minecraft:nop"
+          }
+        ]
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 50
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": -8,
+          "max_inclusive": -8
+        }
+      },
+      "y_spread": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    }
+  ]
+}

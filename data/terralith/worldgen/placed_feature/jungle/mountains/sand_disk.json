@@ -1,0 +1,28 @@
+{
+	"feature": "terralith:jungle/mountains/sand_disk",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 100,
+						"data": 200
+					},
+					{
+						"weight": 0,
+						"data": 200
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "OCEAN_FLOOR_WG"
+		}
+	]
+}

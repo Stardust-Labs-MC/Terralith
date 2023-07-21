@@ -2,14 +2,14 @@
 	"feature": "terralith:flower/white/flowers",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 6
 		},
 		{
 			"type": "minecraft:in_square"
 		},
 		{
-			"type": "minecraft:heightmap",
+			"type": "heightmap",
 			"heightmap": "WORLD_SURFACE_WG"
 		},
 		{

@@ -2,11 +2,11 @@
 	"feature": "terralith:skylands/winter/island",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 10
 		},
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 1
 		},
 		{

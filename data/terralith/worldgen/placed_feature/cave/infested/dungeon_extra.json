@@ -2,7 +2,7 @@
 	"feature": "minecraft:monster_room_deep",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 12
 		},
 		{

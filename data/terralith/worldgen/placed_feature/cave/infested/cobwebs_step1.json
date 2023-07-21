@@ -1,0 +1,145 @@
+{
+  "feature": {
+    "type": "minecraft:simple_block",
+    "config": {
+      "to_place": {
+        "type": "minecraft:noise_provider",
+        "seed": 1512,
+        "noise": {
+          "firstOctave": -5,
+          "amplitudes": [
+            1,
+            1
+          ]
+        },
+        "scale": 1,
+        "states": [
+          {
+            "Name": "minecraft:cave_air"
+          },
+          {
+            "Name": "minecraft:cave_air"
+          },
+          {
+            "Name": "minecraft:cave_air"
+          },
+          {
+            "Name": "minecraft:cave_air"
+          },
+          {
+            "Name": "minecraft:cave_air"
+          },
+          {
+            "Name": "minecraft:cave_air"
+          },
+          {
+            "Name": "minecraft:cave_air"
+          },
+          {
+            "Name": "minecraft:cave_air"
+          },
+          {
+            "Name": "minecraft:cave_air"
+          },
+          {
+            "Name": "minecraft:void_air"
+          },
+          {
+            "Name": "minecraft:cave_air"
+          },
+          {
+            "Name": "minecraft:cave_air"
+          },
+          {
+            "Name": "minecraft:cave_air"
+          },
+          {
+            "Name": "minecraft:cave_air"
+          },
+          {
+            "Name": "minecraft:cave_air"
+          },
+          {
+            "Name": "minecraft:cave_air"
+          },
+          {
+            "Name": "minecraft:cave_air"
+          },
+          {
+            "Name": "minecraft:cave_air"
+          },
+          {
+            "Name": "minecraft:cave_air"
+          }
+        ]
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 10
+    },
+    {
+      "type": "minecraft:count",
+      "count": 256
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -62
+        },
+        "max_inclusive": {
+          "absolute": 192
+        }
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:air"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:count",
+      "count": 75
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": -5,
+          "max_inclusive": 5
+        }
+      },
+      "y_spread": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": -5,
+          "max_inclusive": 5
+        }
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:air"
+        ]
+      }
+    }
+  ]
+}

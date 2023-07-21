@@ -56,7 +56,7 @@
       },
       "placement": [
         {
-          "type": "minecraft:heightmap",
+          "type": "heightmap",
           "heightmap": "WORLD_SURFACE_WG"
         },
         {

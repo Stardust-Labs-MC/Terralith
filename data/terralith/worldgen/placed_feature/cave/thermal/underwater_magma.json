@@ -2,7 +2,7 @@
 	"feature": "minecraft:underwater_magma",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": {
 				"type": "minecraft:uniform",
 				"value": {

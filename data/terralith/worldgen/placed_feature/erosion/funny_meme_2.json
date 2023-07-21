@@ -1,0 +1,136 @@
+{
+  "feature": {
+    "type": "minecraft:simple_block",
+    "config": {
+      "to_place": {
+        "type": "minecraft:noise_provider",
+        "seed": 2,
+        "noise": {
+          "firstOctave": -9,
+          "amplitudes": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "scale": 1,
+        "states": [
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+                    {
+            "Name": "minecraft:air"
+          },
+                    {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:purple_stained_glass"
+          },
+                    {
+            "Name": "minecraft:air"
+          },
+                    {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          }
+        ]
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 13
+    },
+    {
+      "type": "minecraft:count",
+      "count": 256
+    },
+    {
+      "type": "minecraft:count",
+      "count": 256
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 62
+        },
+        "max_inclusive": {
+          "absolute": 257
+        }
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:yellow_stained_glass"
+        ]
+      }
+    }
+  ]
+}

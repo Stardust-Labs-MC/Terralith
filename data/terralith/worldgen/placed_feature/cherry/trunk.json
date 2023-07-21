@@ -1,0 +1,9 @@
+{
+	"feature": "terralith:cherry/trunk",
+	"placement": [
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		}
+	]
+}

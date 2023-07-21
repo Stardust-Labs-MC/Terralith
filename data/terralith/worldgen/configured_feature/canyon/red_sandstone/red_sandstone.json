@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 64,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:stone"
+        },
+        "state": {
+          "Name": "minecraft:red_sandstone"
+        }
+      }
+    ]
+  }
+}

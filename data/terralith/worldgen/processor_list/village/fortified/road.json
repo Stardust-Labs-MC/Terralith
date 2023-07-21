@@ -73,14 +73,6 @@
           }
         }
       ]
-    },
-    {
-      "processor_type": "minecraft:capped", // This just prevents loading of the pack on 1.19.4 because stuff breaks if tried
-      "limit": 1,
-      "delegate": {
-        "processor_type": "minecraft:rule",
-        "rules": []
-      }
     }
   ]
 }

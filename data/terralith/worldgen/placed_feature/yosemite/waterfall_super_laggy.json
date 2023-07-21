@@ -1,0 +1,44 @@
+{
+	"feature": "terralith:yosemite/waterfall_super_laggy",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 100
+		},
+		{
+			"type": "minecraft:count",
+			"count": 20
+		},
+		{
+			"type": "minecraft:count",
+			"count": 30
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"absolute": 110
+				},
+				"max_inclusive": {
+					"absolute": 210
+				}
+			}
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 1,
+			"noise_factor": 75,
+			"noise_offset": 1
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": -1,
+			"noise_factor": 75,
+			"noise_offset": 0.6
+		}
+	]
+}

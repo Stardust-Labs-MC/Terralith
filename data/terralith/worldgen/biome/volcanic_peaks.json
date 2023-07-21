@@ -16,15 +16,14 @@
     "fog_color": 14145761,
     "water_color": 4159204,
     "water_fog_color": 329011,
-    "grass_color": 12630956,
-    "foliage_color": 12763305
+    "grass_color":12630956,
+    "foliage_color":12763305
   },
   "carvers": {
     "air": [
       "minecraft:cave",
       "minecraft:cave_extra_underground",
-      "minecraft:canyon",
-      "terralith:deep_ravine"
+      "minecraft:canyon","terralith:deep_ravine"
     ]
   },
   "features": [
@@ -161,8 +160,8 @@
   },
   "spawn_costs": {},
   "player_spawn_friendly": false,
+  "precipitation": "rain",
   "temperature": 1,
   "downfall": 0.3,
-  "category": "mountain",
-  "has_precipitation": true
+  "category": "mountain"
 }

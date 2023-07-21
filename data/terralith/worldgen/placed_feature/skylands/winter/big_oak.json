@@ -2,7 +2,7 @@
 	"feature": "terralith:skylands/winter/big_oak",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 1
 		}
 	]

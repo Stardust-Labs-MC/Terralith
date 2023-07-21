@@ -2,7 +2,7 @@
 	"feature": "minecraft:flower_forest",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 3
 		},
 		{
@@ -13,7 +13,7 @@
 			"type": "minecraft:in_square"
 		},
 		{
-			"type": "minecraft:heightmap",
+			"type": "heightmap",
 			"heightmap": "MOTION_BLOCKING"
 		},
 		{

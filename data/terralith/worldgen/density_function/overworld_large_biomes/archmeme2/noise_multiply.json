@@ -1,0 +1,17 @@
+{
+  "argument": {
+    "argument1": 0,
+    "argument2": {
+      "type":"add",
+      "argument1":0.5,
+      "argument2":{
+        "noise": "terralith:math/arch/noise_multiplier",
+        "xz_scale": 1.0,
+        "y_scale": 0.0,
+        "type": "minecraft:noise"
+      }
+    },
+    "type": "minecraft:max"
+  },
+  "type": "minecraft:cache_2d"
+}

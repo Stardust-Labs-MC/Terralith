@@ -1,0 +1,148 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.02,
+        "feature": {
+          "feature": {
+            "type": "minecraft:tree",
+            "config": {
+              "ignore_vines": true,
+              "force_dirt": true,
+              "minimum_size": {
+                "type": "minecraft:two_layers_feature_size",
+                "min_clipped_height": 0,
+                "limit": 0,
+                "lower_size": 0,
+                "upper_size": 0
+              },
+              "sapling_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:oak_sapling",
+                  "Properties": {
+                    "stage": "0"
+                  }
+                }
+              },
+              "dirt_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:dirt"
+                }
+              },
+              "trunk_provider": {
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                  {
+                    "weight": 6,
+                    "data": {
+                      "Name": "minecraft:green_terracotta"
+                    }
+                  }
+                ]
+              },
+              "foliage_provider": {
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                  {
+                    "weight": 6,
+                    "data": {
+                      "Name": "minecraft:honey_block"
+                    }
+                  },
+                  {
+                    "weight": 6,
+                    "data": {
+                      "Name": "minecraft:air"
+                    }
+                  }
+                ]
+              },
+              "trunk_placer": {
+                "type": "minecraft:forking_trunk_placer",
+                "base_height": 18,
+                "height_rand_a": 1,
+                "height_rand_b": 1
+              },
+              "foliage_placer": {
+                "type": "minecraft:fancy_foliage_placer",
+                "radius": 1,
+                "offset": 0,
+                "height": 2
+              },
+              "decorators": []
+            }
+          },
+          "placement": []
+        }
+      }
+    ],
+    "default": {
+      "feature": {
+        "type": "minecraft:tree",
+        "config": {
+          "ignore_vines": true,
+          "force_dirt": true,
+          "minimum_size": {
+            "type": "minecraft:two_layers_feature_size",
+            "limit": 0,
+            "lower_size": 0,
+            "upper_size": 0
+          },
+          "sapling_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:oak_sapling",
+              "Properties": {
+                "stage": "0"
+              }
+            }
+          },
+          "dirt_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:dirt"
+            }
+          },
+          "trunk_provider": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 6,
+                "data": {
+                  "Name": "minecraft:green_terracotta"
+                }
+              }
+            ]
+          },
+          "foliage_provider": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 50,
+                "data": {
+                  "Name": "minecraft:pink_terracotta"
+                }
+              }
+            ]
+          },
+          "trunk_placer": {
+            "type": "minecraft:straight_trunk_placer",
+            "base_height": 14,
+            "height_rand_a": 0,
+            "height_rand_b": 0
+          },
+          "foliage_placer": {
+            "type": "minecraft:acacia_foliage_placer",
+            "radius": 4,
+            "offset": 0
+          },
+          "decorators": []
+        }
+      },
+      "placement": []
+    }
+  }
+}

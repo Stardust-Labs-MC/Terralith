@@ -2,7 +2,7 @@
 	"feature": "terralith:mountains/emerald/trees/small/spruce_small_m",
 	"placement": [
 		{
-			"type": "minecraft:heightmap",
+			"type": "heightmap",
 			"heightmap": "OCEAN_FLOOR"
 		},
 		{

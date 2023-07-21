@@ -1,0 +1,86 @@
+{
+  "feature": {
+    "type": "minecraft:geode",
+    "config": {
+      "blocks": {
+        "filling_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:stone"
+          }
+        },
+        "inner_layer_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:stone"
+          }
+        },
+        "alternate_inner_layer_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:stone"
+          }
+        },
+        "middle_layer_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:stone"
+          }
+        },
+        "outer_layer_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:stone"
+          }
+        },
+        "inner_placements": [
+          {
+            "Name": "minecraft:stone"
+          }
+        ],
+        "cannot_replace": "#minecraft:jungle_logs",
+        "invalid_blocks": "#minecraft:iron_ores"
+      },
+      "layers": {
+        "filling": 10,
+        "inner_layer": 20,
+        "middle_layer": 30,
+        "outer_layer": 40
+      },
+      "crack": {
+        "generate_crack_chance": 1,
+        "base_crack_size": 3,
+        "crack_point_offset": 2
+      },
+      "noise_multiplier": 0.005,
+      "use_potential_placements_chance": 0,
+      "use_alternate_layer0_chance": 0,
+      "placements_require_layer0_alternate": false,
+      "outer_wall_distance": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 1,
+          "max_inclusive": 9
+        }
+      },
+      "distribution_points": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 8,
+          "max_inclusive": 8
+        }
+      },
+      "point_offset": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 3,
+          "max_inclusive": 7
+        }
+      },
+      "min_gen_offset": -64,
+      "max_gen_offset": 64,
+      "invalid_blocks_threshold": 128
+    }
+  },
+  "placement": []
+}

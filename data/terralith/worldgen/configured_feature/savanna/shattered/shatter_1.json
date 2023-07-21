@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "minecraft:netherrack_replace_blobs",
+          "config": {
+            "state": {
+              "Name": "minecraft:dripstone_block"
+            },
+            "target": {
+              "Name": "minecraft:stone"
+            },
+            "radius": 0
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:netherrack_replace_blobs",
+          "config": {
+            "state": {
+              "Name": "minecraft:dripstone_block",
+              "Properties": {
+                "axis": "y"
+              }
+            },
+            "target": {
+              "Name": "minecraft:coarse_dirt"
+            },
+            "radius": 0
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

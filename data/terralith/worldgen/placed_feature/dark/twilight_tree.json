@@ -2,7 +2,7 @@
 	"feature": "terralith:dark/twilight_tree",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 3
 		}
 	]

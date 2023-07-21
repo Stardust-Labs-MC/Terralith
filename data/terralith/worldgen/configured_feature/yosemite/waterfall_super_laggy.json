@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:spring_feature",
+  "config": {
+    "state": {
+      "Name": "minecraft:water",
+      "Properties": {
+        "falling": "false"
+      }
+    },
+    "rock_count": 5,
+    "hole_count": 2,
+    "requires_block_below": false,
+    "valid_blocks": [
+      "minecraft:water",
+      "minecraft:dirt",
+      "minecraft:grass_block",
+      "minecraft:calcite",
+      "minecraft:diorite",
+      "minecraft:stone",
+      "minecraft:air"
+    ]
+  }
+}

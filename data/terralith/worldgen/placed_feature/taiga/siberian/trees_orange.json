@@ -94,7 +94,7 @@
 			"type": "minecraft:in_square"
 		},
 		{
-			"type": "minecraft:heightmap",
+			"type": "heightmap",
 			"heightmap": "WORLD_SURFACE"
 		},
 		{
@@ -127,7 +127,7 @@
 			}
 		},
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": {
 				"type": "minecraft:uniform",
 				"value": {

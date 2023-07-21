@@ -1,0 +1,10 @@
+{
+  "type":"add",
+  "argument1":128,
+  "argument2":{
+    "type":"mul",
+    "argument1":"minecraft:overworld_large_biomes/depth",
+    "argument2":128
+
+  }
+}

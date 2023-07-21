@@ -31,7 +31,7 @@
 			"chance": 200
 		},
 		{
-			"type": "minecraft:heightmap",
+			"type": "heightmap",
 			"heightmap": "WORLD_SURFACE_WG"
 		}
 	]

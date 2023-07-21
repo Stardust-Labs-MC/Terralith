@@ -2,14 +2,14 @@
 	"feature": "minecraft:ice_patch",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 2
 		},
 		{
 			"type": "minecraft:in_square"
 		},
 		{
-			"type": "minecraft:heightmap",
+			"type": "heightmap",
 			"heightmap": "MOTION_BLOCKING"
 		},
 		{

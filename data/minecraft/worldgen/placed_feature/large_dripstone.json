@@ -2,7 +2,7 @@
 	"feature": "minecraft:large_dripstone",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": {
 				"type": "minecraft:uniform",
 				"value": {

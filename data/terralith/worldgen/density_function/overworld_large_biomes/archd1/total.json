@@ -1,0 +1,15 @@
+{
+    
+    "type": "minecraft:range_choice",
+    "input": "terralith:overworld_large_biomes/arch/height_spline",
+    "min_inclusive": -10,
+    "max_exclusive": 1000000,
+    "when_in_range": "terralith:overworld_large_biomes/arch/base",
+    "when_out_of_range": -64
+}
+
+
+
+
+
+

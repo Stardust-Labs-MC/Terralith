@@ -1,0 +1,171 @@
+{
+  "feature": {
+    "type": "minecraft:simple_block",
+    "config": {
+      "to_place": {
+        "type": "minecraft:noise_provider",
+        "seed": 2,
+        "noise": {
+          "firstOctave": -7,
+          "amplitudes": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "scale": 1,
+        "states": [
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:cobblestone"
+          },
+          {
+            "Name": "minecraft:mossy_cobblestone"
+          },
+                    {
+            "Name": "minecraft:cobblestone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          }
+        ]
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 6
+    },
+    {
+      "type": "minecraft:count",
+      "count": 256
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -62
+        },
+        "max_inclusive": {
+          "absolute": 192
+        }
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:stone"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:count",
+      "count": 20
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": -5,
+          "max_inclusive": 5
+        }
+      },
+      "y_spread": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": -5,
+          "max_inclusive": 5
+        }
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:stone"
+        ]
+      }
+    }
+  ]
+}

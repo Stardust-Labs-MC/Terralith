@@ -38,7 +38,7 @@
           "y_spread": 0
         },
         {
-          "type": "minecraft:heightmap",
+          "type": "heightmap",
           "heightmap": "WORLD_SURFACE_WG"
         },
         {

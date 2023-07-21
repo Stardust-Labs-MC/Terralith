@@ -2,7 +2,7 @@
 	"feature": "terralith:cave/thermal/dripleaf",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 20
 		},
 		{

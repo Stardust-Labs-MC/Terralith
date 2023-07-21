@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "terralith:taiga/tiny/trees_tiny",
+        "placement": []
+      },
+      {
+        "feature": "terralith:taiga/small/trees_small",
+        "placement": []
+      },
+      {
+        "feature": "terralith:taiga/mid/trees_mid",
+        "placement": []
+      },
+      {
+        "feature": "terralith:taiga/tall/trees_tall",
+        "placement": []
+      }
+    ]
+  }
+}

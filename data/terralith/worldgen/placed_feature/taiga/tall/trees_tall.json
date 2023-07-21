@@ -7,11 +7,11 @@
 				"type": "minecraft:weighted_list",
 				"distribution": [
 					{
-						"weight": 9,
+						"weight": 90,
 						"data": 10
 					},
 					{
-						"weight": 1,
+						"weight": 10,
 						"data": 11
 					}
 				]
@@ -21,7 +21,7 @@
 			"type": "minecraft:in_square"
 		},
 		{
-			"type": "minecraft:heightmap",
+			"type": "heightmap",
 			"heightmap": "WORLD_SURFACE_WG"
 		},
 		{

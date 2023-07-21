@@ -2,11 +2,11 @@
 	"feature": "terralith:skylands/island",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 12
 		},
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 1
 		},
 		{

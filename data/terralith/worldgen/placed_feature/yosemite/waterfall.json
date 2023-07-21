@@ -2,7 +2,7 @@
 	"feature": "terralith:yosemite/waterfall",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 6
 		},
 		{

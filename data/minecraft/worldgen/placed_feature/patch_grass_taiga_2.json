@@ -1,0 +1,15 @@
+{
+	"feature": "minecraft:patch_grass_taiga_2",
+	"placement": [
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

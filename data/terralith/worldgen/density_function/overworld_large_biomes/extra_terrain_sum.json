@@ -1,0 +1,11 @@
+{
+	"type":"cache_once",
+	"argument":{
+    "type": "minecraft:range_choice",
+    "input": "terralith:overworld_large_biomes/extra_terrain_base",
+    "min_inclusive": -1.0,
+    "max_exclusive": 1000000,
+    "when_in_range": "terralith:overworld_large_biomes/extra_terrain_base",
+    "when_out_of_range": -64 //UNRECOVERABLY_THIN. sad
+}
+}

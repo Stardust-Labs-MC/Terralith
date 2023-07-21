@@ -8,7 +8,7 @@
           "feature": "terralith:canyon/sandstone/palm_tall",
           "placement": [
             {
-              "type": "minecraft:count",
+              "type": "count",
               "count": 20
             }
           ]
@@ -20,7 +20,7 @@
           "feature": "terralith:canyon/sandstone/palm_medium",
           "placement": [
             {
-              "type": "minecraft:count",
+              "type": "count",
               "count": 20
             }
           ]

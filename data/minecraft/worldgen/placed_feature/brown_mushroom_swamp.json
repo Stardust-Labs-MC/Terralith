@@ -2,7 +2,7 @@
 	"feature": "minecraft:brown_mushroom_taiga",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 8
 		},
 		{

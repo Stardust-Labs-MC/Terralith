@@ -2,7 +2,7 @@
 	"feature": "terralith:snowy/max_spruce",
 	"placement": [
 		{
-			"type": "minecraft:heightmap",
+			"type": "heightmap",
 			"heightmap": "MOTION_BLOCKING_NO_LEAVES"
 		},
 		{

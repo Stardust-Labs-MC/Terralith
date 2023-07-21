@@ -1,0 +1,19 @@
+{
+	"feature": "minecraft:patch_grass_savanna",
+	"placement": [
+		{
+			"type": "count",
+			"count": 20
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

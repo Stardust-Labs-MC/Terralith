@@ -2,7 +2,7 @@
 	"feature": "terralith:swamp/ice/tiny/swamp_special_tiny",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 3
 		}
 	]

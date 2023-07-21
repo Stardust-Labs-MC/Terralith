@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "ignore_vines": true,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "min_clipped_height": 0,
+      "limit": 0,
+      "lower_size": 0,
+      "upper_size": 0
+    },
+    "sapling_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:oak_sapling",
+        "Properties": {
+          "stage": "0"
+        }
+      }
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:stone"
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dark_oak_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 50,
+          "data": {
+            "Name": "minecraft:jungle_leaves",
+            "Properties": {
+              "persistent": "true",
+              "distance": "7"
+            }
+          }
+        },
+        {
+          "weight": 600,
+          "data": {
+            "Name": "minecraft:dark_oak_leaves",
+            "Properties": {
+              "distance": "7",
+              "persistent": "true"
+            }
+          }
+        }
+      ]
+    },
+    "trunk_placer": {
+      "type": "minecraft:fancy_trunk_placer",
+      "base_height": 32,
+      "height_rand_a": 2,
+      "height_rand_b": 20
+    },
+    "foliage_placer": {
+      "type": "minecraft:fancy_foliage_placer",
+      "radius": 0,
+      "offset": 0,
+      "height": 4
+    },
+    "decorators": []
+  }
+}

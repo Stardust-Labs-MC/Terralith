@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:delta_feature",
+  "config": {
+    "contents": {
+      "Name": "minecraft:warped_nylium"
+    },
+    "rim": {
+      "Name": "minecraft:stone"
+    },
+    "size": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 3,
+        "max_inclusive": 9
+      }
+    },
+    "rim_size": 0
+  }
+}

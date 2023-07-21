@@ -2,7 +2,7 @@
 	"feature": "terralith:volcano/spring_lava",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 42
 		},
 		{

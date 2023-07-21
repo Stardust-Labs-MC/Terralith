@@ -1,5 +1,5 @@
 {
-	"feature": "terralith:sakura/cherry_trees_light",
+	"feature": "terralith:cherry/cherry_trees_light",
 	"placement": [
 		{
 			"type": "minecraft:count",
@@ -21,7 +21,7 @@
 			"type": "minecraft:in_square"
 		},
 		{
-			"type": "minecraft:heightmap",
+			"type": "heightmap",
 			"heightmap": "WORLD_SURFACE"
 		},
 		{

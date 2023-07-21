@@ -1,0 +1,23 @@
+{
+  "type": "flat_cache",
+  "argument": {
+    "type": "spline",
+    "min_value": -2.0,
+    "max_value": 3.0,
+    "spline": {
+      "coordinate": "minecraft:overworld_large_biomes/continents",
+      "points": [
+        {
+          "location": -0.91,
+          "derivative": 1,
+          "value": -1.05
+        },
+        {
+          "location": -0.8,
+          "derivative": 1,
+          "value": -0.8
+        }
+      ]
+    }
+  }
+}

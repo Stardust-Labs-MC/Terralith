@@ -72,7 +72,7 @@
           },
           "placement": [
             {
-              "type": "minecraft:heightmap",
+              "type": "heightmap",
               "heightmap": "OCEAN_FLOOR_WG"
             },
             {
@@ -163,11 +163,11 @@
       },
       "placement": [
         {
-          "type": "minecraft:count",
+          "type": "count",
           "count": 1
         },
         {
-          "type": "minecraft:heightmap",
+          "type": "heightmap",
           "heightmap": "OCEAN_FLOOR_WG"
         },
         {

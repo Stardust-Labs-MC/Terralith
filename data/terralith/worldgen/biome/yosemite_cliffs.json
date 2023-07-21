@@ -15,8 +15,7 @@
     "air": [
       "minecraft:cave",
       "minecraft:cave_extra_underground",
-      "minecraft:canyon",
-      "terralith:deep_ravine"
+      "minecraft:canyon","terralith:deep_ravine"
     ]
   },
   "features": [
@@ -206,8 +205,8 @@
   },
   "spawn_costs": {},
   "player_spawn_friendly": true,
+  "precipitation": "rain",
   "temperature": 0.375,
   "downfall": 0.8,
-  "category": "taiga",
-  "has_precipitation": true
+  "category": "taiga"
 }

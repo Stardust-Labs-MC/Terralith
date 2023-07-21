@@ -1,0 +1,19 @@
+{
+	"feature": "minecraft:ice_spike",
+	"placement": [
+		{
+			"type": "count",
+			"count": 3
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "MOTION_BLOCKING"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

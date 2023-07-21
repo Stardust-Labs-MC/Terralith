@@ -2,14 +2,14 @@
 	"feature": "terralith:highlands/lichen",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 2
 		},
 		{
 			"type": "minecraft:in_square"
 		},
 		{
-			"type": "minecraft:heightmap",
+			"type": "heightmap",
 			"heightmap": "OCEAN_FLOOR_WG"
 		},
 		{

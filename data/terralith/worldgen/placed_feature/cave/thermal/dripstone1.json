@@ -1,0 +1,52 @@
+{
+  "feature": {
+    "type": "minecraft:pointed_dripstone",
+    "config": {
+      "chance_of_taller_dripstone": 1,
+      "chance_of_directional_spread": 0.3,
+      "chance_of_spread_radius2": 0.2,
+      "chance_of_spread_radius3": 0.1
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 60
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "up",
+      "max_steps": 32,
+      "target_condition": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "blocks": [
+              "minecraft:air"
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              1,
+              0
+            ],
+            "blocks": [
+              "minecraft:dripstone_block"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    }
+  ]
+}

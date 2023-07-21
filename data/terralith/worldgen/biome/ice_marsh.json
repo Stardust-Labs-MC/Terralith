@@ -12,20 +12,13 @@
     "foliage_color": 10387789,
     "fog_color": 10660776,
     "water_color": 6388594,
-    "water_fog_color": 2302743,
-    "music": {
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false,
-      "sound": "minecraft:music.overworld.swamp"
-    }
+    "water_fog_color": 2302743
   },
   "carvers": {
     "air": [
       "minecraft:cave",
       "minecraft:cave_extra_underground",
-      "minecraft:canyon",
-      "terralith:deep_ravine"
+      "minecraft:canyon","terralith:deep_ravine"
     ]
   },
   "features": [
@@ -213,9 +206,9 @@
   },
   "spawn_costs": {},
   "player_spawn_friendly": false,
+  "precipitation": "snow",
   "temperature": 0.14,
   "temperature_modifier": "frozen",
   "downfall": 0.9,
-  "category": "swamp",
-  "has_precipitation": true
+  "category": "swamp"
 }

@@ -2,14 +2,14 @@
 	"feature": "terralith:canyon/red_sandstone/lilypad",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 8
 		},
 		{
 			"type": "minecraft:in_square"
 		},
 		{
-			"type": "minecraft:heightmap",
+			"type": "heightmap",
 			"heightmap": "WORLD_SURFACE_WG"
 		},
 		{

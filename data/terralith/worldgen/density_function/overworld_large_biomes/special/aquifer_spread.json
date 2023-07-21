@@ -1,0 +1,6 @@
+{
+      "noise": "minecraft:aquifer_fluid_level_spread",
+      "xz_scale": 1.0,
+      "y_scale": 0.7142857142857143,
+      "type": "minecraft:noise"
+    }

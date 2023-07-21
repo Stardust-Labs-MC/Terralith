@@ -2,7 +2,7 @@
 	"feature": "terralith:canyon/sandstone/scattered_palms",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 4
 		},
 		{

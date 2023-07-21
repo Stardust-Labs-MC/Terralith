@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:range_choice",
+    "input": "minecraft:overworld_large_biomes/continents",
+    "min_inclusive": -1000000,
+    "max_exclusive": -0.8,
+    "when_in_range": {
+      "type": "minecraft:range_choice",
+      "input": {
+        "type": "cache_once",
+        "argument": "minecraft:overworld_large_biomes/base_erosion"
+      },
+      "min_inclusive": 0.4,
+      "max_exclusive": 1000000,
+      "when_in_range": {
+        "type": "minecraft:add",
+        "argument1": 0.4,
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": 1.485,
+          "argument2": {
+            "type": "minecraft:add",
+            "argument1": -0.4,
+            "argument2": "minecraft:overworld_large_biomes/base_erosion"
+          }
+        }
+      },
+      "when_out_of_range": "minecraft:overworld_large_biomes/base_erosion"
+    },
+    "when_out_of_range": "minecraft:overworld_large_biomes/base_erosion"
+  }
+}

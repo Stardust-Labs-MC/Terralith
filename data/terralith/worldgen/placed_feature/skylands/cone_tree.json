@@ -1,0 +1,9 @@
+{
+	"feature": "terralith:skylands/cone_tree",
+	"placement": [
+		{
+			"type": "count",
+			"count": 28
+		}
+	]
+}

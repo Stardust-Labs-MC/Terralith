@@ -2,7 +2,7 @@
 	"feature": "terralith:swamp/vanilla/mid/swamp_special_mid",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 8
 		}
 	]

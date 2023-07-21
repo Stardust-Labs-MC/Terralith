@@ -2,7 +2,7 @@
 	"feature": "terralith:swamp/vanilla/dripleaf",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 37
 		},
 		{

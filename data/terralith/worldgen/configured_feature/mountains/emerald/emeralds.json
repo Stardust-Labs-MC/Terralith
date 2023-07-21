@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 58,
+    "discard_chance_on_air_exposure": 0.4,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:tuff",
+          "probability": 0.025
+        },
+        "state": {
+          "Name": "minecraft:deepslate_emerald_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:stone",
+          "probability": 0.025
+        },
+        "state": {
+          "Name": "minecraft:emerald_ore"
+        }
+      }
+    ]
+  }
+}

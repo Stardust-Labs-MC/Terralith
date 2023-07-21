@@ -2,14 +2,14 @@
 	"feature": "terralith:plains/patch_grass",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 20
 		},
 		{
 			"type": "minecraft:in_square"
 		},
 		{
-			"type": "minecraft:heightmap",
+			"type": "heightmap",
 			"heightmap": "WORLD_SURFACE_WG"
 		},
 		{

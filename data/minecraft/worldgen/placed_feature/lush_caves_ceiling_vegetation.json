@@ -2,7 +2,7 @@
 	"feature": "minecraft:moss_patch_ceiling",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 104
 		},
 		{

@@ -2,7 +2,7 @@
 	"feature": "minecraft:ore_granite_lower",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 0
 		},
 		{

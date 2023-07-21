@@ -1,0 +1,28 @@
+{
+	"feature": "terralith:flower/blue/nylium_delta",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 100,
+						"data": 7
+					},
+					{
+						"weight": 0,
+						"data": 7
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		}
+	]
+}

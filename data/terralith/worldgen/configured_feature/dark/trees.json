@@ -28,7 +28,7 @@
           "feature": "terralith:dark/dark_oak",
           "placement": [
             {
-              "type": "minecraft:heightmap",
+              "type": "heightmap",
               "heightmap": "WORLD_SURFACE"
             }
           ]

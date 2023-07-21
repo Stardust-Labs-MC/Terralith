@@ -2,7 +2,7 @@
 	"feature": "terralith:shrubland/cold/tiny_trees",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 3
 		},
 		{
@@ -15,7 +15,7 @@
 			"noise_offset": 0
 		},
 		{
-			"type": "minecraft:heightmap",
+			"type": "heightmap",
 			"heightmap": "WORLD_SURFACE_WG"
 		},
 		{

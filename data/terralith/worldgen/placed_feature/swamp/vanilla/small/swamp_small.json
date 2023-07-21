@@ -2,7 +2,7 @@
 	"feature": "terralith:swamp/vanilla/small/swamp_small",
 	"placement": [
 		{
-			"type": "minecraft:heightmap",
+			"type": "heightmap",
 			"heightmap": "OCEAN_FLOOR_WG"
 		},
 		{

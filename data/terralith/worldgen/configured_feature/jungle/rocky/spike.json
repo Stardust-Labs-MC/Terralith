@@ -1,0 +1,141 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [],
+    "default": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:noise_provider",
+            "seed": 0,
+            "noise": {
+              "firstOctave": -7,
+              "amplitudes": [
+                1,
+                1,
+                2,
+                3,
+                0,
+                0,
+                2
+              ]
+            },
+            "scale": 1,
+            "states": [
+              {
+                "Name": "minecraft:granite"
+              },
+              {
+                "Name": "minecraft:dripstone_block"
+              },
+              {
+                "Name": "minecraft:dripstone_block"
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 80
+        },
+        {
+          "type": "minecraft:count",
+          "count": 16
+        },
+        {
+          "type": "minecraft:random_offset",
+          "xz_spread": {
+            "type": "minecraft:uniform",
+            "value": {
+              "min_inclusive": -3,
+              "max_inclusive": 3
+            }
+          },
+          "y_spread": {
+            "type": "minecraft:uniform",
+            "value": {
+              "min_inclusive": -5,
+              "max_inclusive": 5
+            }
+          }
+        },
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:granite",
+                  "minecraft:dripstone_block"
+                ]
+              },
+              {
+                "type": "minecraft:any_of",
+                "predicates": [
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      1,
+                      -2,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:dripstone_block",
+                      "minecraft:granite"
+                    ]
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      0,
+                      -2,
+                      1
+                    ],
+                    "blocks": [
+                      "minecraft:dripstone_block",
+                      "minecraft:granite"
+                    ]
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      -1,
+                      -2,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:dripstone_block",
+                      "minecraft:granite"
+                    ]
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      0,
+                      -2,
+                      -1
+                    ],
+                    "blocks": [
+                      "minecraft:dripstone_block",
+                      "minecraft:granite"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

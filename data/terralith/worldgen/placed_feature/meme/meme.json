@@ -1,0 +1,99 @@
+{
+  "feature": {
+    "type": "minecraft:flower",
+    "config": {
+      "tries": 888,
+      "xz_spread": 15,
+      "y_spread": 3,
+      "feature": {
+        "feature": {
+          "type": "minecraft:random_selector",
+          "config": {
+            "features": [
+              {
+                "chance": 0.5,
+                "feature": {
+                  "feature": {
+                    "type": "minecraft:replace_single_block",
+                    "config": {
+                      "targets": [
+                        {
+                          "target": {
+                            "predicate_type": "minecraft:tag_match",
+                            "tag": "minecraft:saplings"
+                          },
+                          "state": {
+                            "Name": "minecraft:air"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "placement": []
+                }
+              }
+            ],
+            "default": "terralith:swamp/vanilla/mid/swamp_mid"
+          }
+        },
+        "placement": [
+        	{
+            "type": "minecraft:count",
+            "count": 27
+          },
+          {
+            "type": "minecraft:random_offset",
+            "xz_spread": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": -1,
+                "max_inclusive": 1
+              }
+            },
+            "y_spread": 0
+          },
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "blocks": [
+                "minecraft:oak_sapling"
+              ]
+            }
+          },
+          {
+            "type": "minecraft:count",
+            "count": 27
+          },
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "blocks": [
+                "minecraft:oak_sapling","air"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 0
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "absolute": -780
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

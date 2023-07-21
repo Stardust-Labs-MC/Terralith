@@ -1,0 +1,97 @@
+{
+  "type": "minecraft:no_op",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 10,
+            "max_inclusive": 15
+          }
+        }
+      }
+    },
+    "feature": {
+      "type": "minecraft:no_op",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:no_op",
+          "config": {
+            "decorator": {
+              "type": "minecraft:no_op",
+              "config": {
+                "outer": {
+                  "type": "minecraft:range",
+                  "config": {
+                    "height": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": {
+                        "above_bottom": 8
+                      },
+                      "max_inclusive": {
+                        "absolute": 60
+                      }
+                    }
+                  }
+                },
+                "inner": {
+                  "type": "minecraft:no_op",
+                  "config": {
+                    "outer": {
+                      "type": "minecraft:nope",
+                      "config": {
+                        "noise_to_count_ratio": 1,
+                        "noise_factor": 807,
+                        "noise_offset": -0.05
+                      }
+                    },
+                    "inner": {
+                      "type": "minecraft:nope",
+                      "config": {
+                        "noise_to_count_ratio": 1,
+                        "noise_factor": 457,
+                        "noise_offset": -0.05
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:vegetation_patch",
+              "config": {
+                "surface": "floor",
+                "depth": 1,
+                "vertical_range": 1,
+                "extra_bottom_block_chance": 0,
+                "extra_edge_column_chance": 1,
+                "vegetation_chance": 0,
+                "xz_radius": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 1,
+                    "max_inclusive": 7
+                  }
+                },
+                "replaceable": "#minecraft:base_stone_overworld",
+                "ground_state": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:blue_ice"
+                  }
+                },
+                "vegetation_feature": "terralith:cave/ice/pillar"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

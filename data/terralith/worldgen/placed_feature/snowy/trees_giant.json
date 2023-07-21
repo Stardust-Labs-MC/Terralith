@@ -21,7 +21,7 @@
 			"type": "minecraft:in_square"
 		},
 		{
-			"type": "minecraft:heightmap",
+			"type": "heightmap",
 			"heightmap": "MOTION_BLOCKING"
 		},
 		{

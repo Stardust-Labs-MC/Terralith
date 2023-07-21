@@ -183,7 +183,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 80,
+          "weight": 100,
           "name": "minecraft:vine",
           "functions": [
             {
@@ -197,7 +197,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 60,
+          "weight": 80,
           "name": "minecraft:oak_leaves",
           "functions": [
             {
@@ -211,12 +211,12 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 60,
           "name": "minecraft:carved_pumpkin"
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 60,
           "name": "minecraft:lantern",
           "functions": [
             {
@@ -244,12 +244,12 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 60,
           "name": "minecraft:oak_sapling"
         },
         {
           "type": "minecraft:item",
-          "weight": 40,
+          "weight": 50,
           "name": "minecraft:apple",
           "functions": [
             {
@@ -265,13 +265,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
+          "weight": 1,
           "name": "minecraft:enchanted_golden_apple"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "name": "minecraft:sentry_armor_trim_smithing_template"
         }
       ]
     }

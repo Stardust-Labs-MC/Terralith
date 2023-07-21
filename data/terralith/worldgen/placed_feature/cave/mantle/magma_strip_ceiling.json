@@ -1,0 +1,50 @@
+{
+	"feature": "terralith:cave/mantle/magma_strip_ceiling",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 100,
+						"data": 140
+					},
+					{
+						"weight": 0,
+						"data": 140
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"above_bottom": 0
+				},
+				"max_inclusive": {
+					"absolute": 64
+				}
+			}
+		},
+		{
+			"type": "minecraft:environment_scan",
+			"direction_of_search": "up",
+			"target_condition": {
+				"type": "minecraft:solid"
+			},
+			"allowed_search_condition": {
+				"type": "minecraft:matching_blocks",
+				"blocks": [
+					"minecraft:air"
+				]
+			},
+			"max_steps": 30
+		}
+	]
+}

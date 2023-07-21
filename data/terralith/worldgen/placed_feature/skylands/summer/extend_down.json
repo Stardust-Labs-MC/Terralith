@@ -2,7 +2,7 @@
 	"feature": "terralith:skylands/extend_down",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 128
 		},
 		{

@@ -2,14 +2,14 @@
 	"feature": "terralith:highlands/temperate/trees_pos",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 1
 		},
 		{
 			"type": "minecraft:in_square"
 		},
 		{
-			"type": "minecraft:heightmap",
+			"type": "heightmap",
 			"heightmap": "WORLD_SURFACE"
 		},
 		{

@@ -1,0 +1,28 @@
+{
+	"feature": "terralith:mountains/painted/surface",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 100,
+						"data": 40
+					},
+					{
+						"weight": 0,
+						"data": 40
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "MOTION_BLOCKING_NO_LEAVES"
+		}
+	]
+}

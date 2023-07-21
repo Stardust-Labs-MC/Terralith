@@ -2,7 +2,7 @@
 	"feature": "terralith:highlands/forest/tiny/spruce_tiny_m",
 	"placement": [
 		{
-			"type": "minecraft:heightmap",
+			"type": "heightmap",
 			"heightmap": "OCEAN_FLOOR_WG"
 		},
 		{

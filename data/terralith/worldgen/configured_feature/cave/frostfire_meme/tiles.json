@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 64,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:deepslate"
+        },
+        "state": {
+          "Name": "minecraft:deepslate_tiles"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:deepslate_tiles",
+          "probability": 0.03
+        },
+        "state": {
+          "Name": "minecraft:cracked_deepslate_tiles"
+        }
+      }
+    ]
+  }
+}

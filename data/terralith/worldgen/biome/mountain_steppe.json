@@ -15,12 +15,12 @@
     "air": [
       "minecraft:cave",
       "minecraft:cave_extra_underground",
-      "minecraft:canyon",
-      "terralith:deep_ravine"
+      "minecraft:canyon","terralith:deep_ravine"
     ]
   },
   "features": [
-    [],
+    [
+    ],
     [
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
@@ -194,8 +194,8 @@
   },
   "spawn_costs": {},
   "player_spawn_friendly": true,
+  "precipitation": "rain",
   "temperature": 0.4025,
   "downfall": 0.45,
-  "category": "plains",
-  "has_precipitation": true
+  "category": "plains"
 }

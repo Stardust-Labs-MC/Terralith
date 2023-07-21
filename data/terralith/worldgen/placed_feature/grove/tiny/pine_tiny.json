@@ -2,7 +2,7 @@
 	"feature": "terralith:grove/tiny/pine_tiny",
 	"placement": [
 		{
-			"type": "minecraft:heightmap",
+			"type": "heightmap",
 			"heightmap": "OCEAN_FLOOR_WG"
 		},
 		{

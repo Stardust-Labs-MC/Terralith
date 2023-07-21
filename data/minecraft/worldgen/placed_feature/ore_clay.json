@@ -2,7 +2,7 @@
 	"feature": "minecraft:ore_clay",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 38
 		},
 		{

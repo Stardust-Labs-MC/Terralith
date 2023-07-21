@@ -2,7 +2,7 @@
 	"feature": "terralith:swamp/vanilla/tiny/swamp_special_tiny",
 	"placement": [
 		{
-			"type": "minecraft:count",
+			"type": "count",
 			"count": 8
 		}
 	]

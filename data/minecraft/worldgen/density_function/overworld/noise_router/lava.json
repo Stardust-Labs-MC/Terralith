@@ -1,6 +1,0 @@
-{
-  "type": "minecraft:noise",
-  "noise": "minecraft:aquifer_lava",
-  "xz_scale": 1,
-  "y_scale": 1
-}

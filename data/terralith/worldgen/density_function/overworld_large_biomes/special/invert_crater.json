@@ -1,0 +1,14 @@
+{"type":"flat_cache","argument":{"type":"cache_2d","argument":
+
+{"type":"mul","argument1":-0.75,
+  "argument2":
+{
+            "type":"add",
+            "argument1":"terralith:overworld_large_biomes/special/crater_explosion",
+            "argument2":"terralith:overworld_large_biomes/special/caldera_explosion"
+          }}
+
+
+
+
+        }}
