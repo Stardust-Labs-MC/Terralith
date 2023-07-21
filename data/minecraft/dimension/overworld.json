@@ -45572,7 +45572,7 @@
           "parameters": {
             "temperature": [
               0.3,
-              1.65
+              1
             ],
             "humidity": [
               0.6,
