@@ -1,0 +1,530 @@
+{
+    "terralith:yellowstone": {
+        "r": 136,
+        "g": 136,
+        "b": 136,
+        "name": "Yellowstone"
+    },
+    "terralith:bryce_canyon": {
+        "r": 136,
+        "g": 30,
+        "b": 29,
+        "name": "Bryce Canyon"
+    },
+    "terralith:rocky_mountains": {
+        "r": 50,
+        "g": 50,
+        "b": 50,
+        "name": "Rocky Mountains"
+    },
+    "terralith:amethyst_rainforest": {
+        "r": 161,
+        "g": 93,
+        "b": 220,
+        "name": "Amethyst Rainforest"
+    },
+    "terralith:frozen_cliffs": {
+        "r": 120,
+        "g": 193,
+        "b": 255,
+        "name": "Frozen Cliffs"
+    },
+    "terralith:white_cliffs": {
+        "r": 229,
+        "g": 229,
+        "b": 229,
+        "name": "White Cliffs"
+    },
+    "terralith:basalt_cliffs": {
+        "r": 62,
+        "g": 62,
+        "b": 62,
+        "name": "Basalt Cliffs"
+    },
+    "terralith:alpha_islands": {
+        "r": 99,
+        "g": 255,
+        "b": 50,
+        "name": "Alpha Islands"
+    },
+    "terralith:granite_cliffs": {
+        "r": 206,
+        "g": 124,
+        "b": 132,
+        "name": "Granite Cliffs"
+    },
+    "terralith:scarlet_mountains": {
+        "r": 171,
+        "g": 19,
+        "b": 52,
+        "name": "Scarlet Mountains"
+    },
+    "terralith:siberian_taiga": {
+        "r": 98,
+        "g": 119,
+        "b": 136,
+        "name": "Siberian Taiga"
+    },
+    "terralith:shield": {
+        "r": 97,
+        "g": 109,
+        "b": 81,
+        "name": "Shield"
+    },
+    "terralith:rocky_jungle": {
+        "r": 70,
+        "g": 119,
+        "b": 60,
+        "name": "Rocky Jungle"
+    },
+    "terralith:painted_mountains": {
+        "r": 240,
+        "g": 183,
+        "b": 183,
+        "name": "Painted Mountains"
+    },
+    "terralith:lush_valley": {
+        "r": 72,
+        "g": 95,
+        "b": 68,
+        "name": "Lush Valley"
+    },
+    "terralith:glacial_chasm": {
+        "r": 42,
+        "g": 234,
+        "b": 221,
+        "name": "Glacial Chasm"
+    },
+    "terralith:jungle_mountains": {
+        "r": 45,
+        "g": 143,
+        "b": 0,
+        "name": "Jungle Mountains"
+    },
+    "terralith:blooming_valley": {
+        "r": 3,
+        "g": 226,
+        "b": 141,
+        "name": "Blooming Valley"
+    },
+    "terralith:sandstone_valley": {
+        "r": 216,
+        "g": 221,
+        "b": 136,
+        "name": "Sandstone Valley"
+    },
+    "terralith:moonlight_grove": {
+        "r": 133,
+        "g": 151,
+        "b": 193,
+        "name": "Moonlight Grove"
+    },
+    "terralith:shattered_jungle": {
+        "r": 131,
+        "g": 168,
+        "b": 31,
+        "name": "Shattered Jungle"
+    },
+    "terralith:haze_mountain": {
+        "r": 167,
+        "g": 164,
+        "b": 144,
+        "name": "Haze Mountain"
+    },
+    "terralith:fractured_savanna": {
+        "r": 141,
+        "g": 124,
+        "b": 88,
+        "name": "Fractured Savanna"
+    },
+    "terralith:amethyst_canyon": {
+        "r": 153,
+        "g": 29,
+        "b": 211,
+        "name": "Amethyst Canyon"
+    },
+    "terralith:sakura_grove": {
+        "r": 255,
+        "g": 199,
+        "b": 229,
+        "name": "Sakura Grove"
+    },
+    "terralith:hot_shrubland": {
+        "r": 92,
+        "g": 26,
+        "b": 10,
+        "name": "Hot Shrubland"
+    },
+    "terralith:shrubland": {
+        "r": 144,
+        "g": 107,
+        "b": 90,
+        "name": "Shrubland"
+    },
+    "terralith:cold_shrubland": {
+        "r": 52,
+        "g": 86,
+        "b": 64,
+        "name": "Cold Shrubland"
+    },
+    "terralith:gravel_beach": {
+        "r": 145,
+        "g": 132,
+        "b": 148,
+        "name": "Gravel Beach"
+    },
+    "terralith:lavender_forest": {
+        "r": 224,
+        "g": 181,
+        "b": 247,
+        "name": "Lavender Forest"
+    },
+    "terralith:yosemite_cliffs": {
+        "r": 179,
+        "g": 219,
+        "b": 194,
+        "name": "Yosemite Cliffs"
+    },
+    "terralith:yosemite_lowlands": {
+        "r": 86,
+        "g": 143,
+        "b": 103,
+        "name": "Yosemite Lowlands"
+    },
+    "terralith:tropics": {
+        "r": 78,
+        "g": 75,
+        "b": 75,
+        "name": "Tropics"
+    },
+    "terralith:emerald_peaks": {
+        "r": 42,
+        "g": 141,
+        "b": 90,
+        "name": "Emerald Peaks"
+    },
+    "terralith:highlands": {
+        "r": 183,
+        "g": 225,
+        "b": 191,
+        "name": "Highlands"
+    },
+    "terralith:cloud_forest": {
+        "r": 124,
+        "g": 152,
+        "b": 177,
+        "name": "Cloud Forest"
+    },
+    "terralith:forested_highlands": {
+        "r": 78,
+        "g": 151,
+        "b": 120,
+        "name": "Forested Highlands"
+    },
+    "terralith:rocky_shrubland": {
+        "r": 86,
+        "g": 49,
+        "b": 21,
+        "name": "Rocky Shrubland"
+    },
+    "terralith:temperate_highlands": {
+        "r": 225,
+        "g": 137,
+        "b": 55,
+        "name": "Temperate Highlands"
+    },
+    "terralith:grand_canyon": {
+        "r": 243,
+        "g": 138,
+        "b": 18,
+        "name": "Grand Canyon"
+    },
+    "terralith:savanna_badlands": {
+        "r": 197,
+        "g": 177,
+        "b": 155,
+        "name": "Savanna Badlands"
+    },
+    "terralith:ice_marsh": {
+        "r": 71,
+        "g": 118,
+        "b": 112,
+        "name": "Ice Marsh"
+    },
+    "terralith:wintry_forest": {
+        "r": 149,
+        "g": 177,
+        "b": 213,
+        "name": "Wintry Forest"
+    },
+    "terralith:arid_highlands": {
+        "r": 189,
+        "g": 151,
+        "b": 107,
+        "name": "Arid Highlands"
+    },
+    "terralith:volcanic_peaks": {
+        "r": 13,
+        "g": 13,
+        "b": 13,
+        "name": "Volcanic Peaks"
+    },
+    "terralith:volcanic_crater": {
+        "r": 255,
+        "g": 80,
+        "b": 5,
+        "name": "Volcanic Crater"
+    },
+    "terralith:gravel_desert": {
+        "r": 156,
+        "g": 146,
+        "b": 160,
+        "name": "Gravel Desert"
+    },
+    "terralith:white_mesa": {
+        "r": 223,
+        "g": 203,
+        "b": 191,
+        "name": "White Mesa"
+    },
+    "terralith:skylands_autumn": {
+        "r": 254,
+        "g": 186,
+        "b": 84,
+        "name": "Skylands Autumn"
+    },
+    "terralith:mirage_isles": {
+        "r": 2,
+        "g": 255,
+        "b": 239,
+        "name": "Mirage Isles"
+    },
+    "terralith:warped_mesa": {
+        "r": 37,
+        "g": 113,
+        "b": 136,
+        "name": "Warped Mesa"
+    },
+    "terralith:steppe": {
+        "r": 114,
+        "g": 136,
+        "b": 116,
+        "name": "Steppe"
+    },
+    "terralith:blooming_plateau": {
+        "r": 79,
+        "g": 164,
+        "b": 112,
+        "name": "Blooming Plateau"
+    },
+    "terralith:brushland": {
+        "r": 146,
+        "g": 219,
+        "b": 80,
+        "name": "Brushland"
+    },
+    "terralith:snowy_badlands": {
+        "r": 136,
+        "g": 78,
+        "b": 63,
+        "name": "Snowy Badlands"
+    },
+    "terralith:moonlight_valley": {
+        "r": 108,
+        "g": 165,
+        "b": 191,
+        "name": "Moonlight Valley"
+    },
+    "terralith:caldera": {
+        "r": 136,
+        "g": 69,
+        "b": 57,
+        "name": "Caldera"
+    },
+    "terralith:valley_clearing": {
+        "r": 110,
+        "g": 136,
+        "b": 82,
+        "name": "Valley Clearing"
+    },
+    "terralith:birch_taiga": {
+        "r": 83,
+        "g": 136,
+        "b": 84,
+        "name": "Birch Taiga"
+    },
+    "terralith:desert_oasis": {
+        "r": 198,
+        "g": 213,
+        "b": 29,
+        "name": "Desert Oasis"
+    },
+    "terralith:tropical_jungle": {
+        "r": 178,
+        "g": 255,
+        "b": 0,
+        "name": "Tropical Jungle"
+    },
+    "terralith:ancient_sands": {
+        "r": 255,
+        "g": 142,
+        "b": 130,
+        "name": "Ancient Sands"
+    },
+    "terralith:ashen_savanna": {
+        "r": 152,
+        "g": 139,
+        "b": 115,
+        "name": "Ashen Savanna"
+    },
+    "terralith:savanna_slopes": {
+        "r": 136,
+        "g": 57,
+        "b": 73,
+        "name": "Savanna Slopes"
+    },
+    "terralith:sakura_valley": {
+        "r": 136,
+        "g": 44,
+        "b": 120,
+        "name": "Sakura Valley"
+    },
+    "terralith:lavender_valley": {
+        "r": 144,
+        "g": 120,
+        "b": 197,
+        "name": "Lavender Valley"
+    },
+    "terralith:mountain_steppe": {
+        "r": 76,
+        "g": 114,
+        "b": 88,
+        "name": "Mountain Steppe"
+    },
+    "terralith:snowy_maple_forest": {
+        "r": 219,
+        "g": 109,
+        "b": 99,
+        "name": "Snowy Maple Forest"
+    },
+    "terralith:snowy_shield": {
+        "r": 136,
+        "g": 127,
+        "b": 36,
+        "name": "Snowy Shield"
+    },
+    "terralith:siberian_grove": {
+        "r": 236,
+        "g": 140,
+        "b": 90,
+        "name": "Siberian Grove"
+    },
+    "terralith:desert_spires": {
+        "r": 134,
+        "g": 136,
+        "b": 72,
+        "name": "Desert Spires"
+    },
+    "terralith:stony_spires": {
+        "r": 136,
+        "g": 106,
+        "b": 96,
+        "name": "Stony Spires"
+    },
+    "terralith:windswept_spires": {
+        "r": 97,
+        "g": 136,
+        "b": 117,
+        "name": "Windswept Spires"
+    },
+    "terralith:orchid_swamp": {
+        "r": 81,
+        "g": 194,
+        "b": 198,
+        "name": "Orchid Swamp"
+    },
+    "terralith:alpine_grove": {
+        "r": 142,
+        "g": 154,
+        "b": 190,
+        "name": "Alpine Grove"
+    },
+    "terralith:alpine_highlands": {
+        "r": 104,
+        "g": 149,
+        "b": 78,
+        "name": "Alpine Highlands"
+    },
+    "terralith:warm_river": {
+        "r": 105,
+        "g": 92,
+        "b": 228,
+        "name": "Warm River"
+    },
+    "terralith:red_oasis": {
+        "r": 255,
+        "g": 102,
+        "b": 0,
+        "name": "Red Oasis"
+    },
+    "terralith:shield_clearing": {
+        "r": 132,
+        "g": 136,
+        "b": 69,
+        "name": "Shield Clearing"
+    },
+    "terralith:alpha_islands_winter": {
+        "r": 169,
+        "g": 190,
+        "b": 227,
+        "name": "Alpha Islands Winter"
+    },
+    "terralith:skylands_summer": {
+        "r": 75,
+        "g": 215,
+        "b": 101,
+        "name": "Skylands Summer"
+    },
+    "terralith:skylands_spring": {
+        "r": 236,
+        "g": 159,
+        "b": 221,
+        "name": "Skylands Spring"
+    },
+    "terralith:skylands_winter": {
+        "r": 164,
+        "g": 245,
+        "b": 251,
+        "name": "Skylands Winter"
+    },
+    "terralith:desert_canyon": {
+        "r": 136,
+        "g": 127,
+        "b": 17,
+        "name": "Desert Canyon"
+    },
+    "terralith:wintry_lowlands": {
+        "r": 67,
+        "g": 118,
+        "b": 136,
+        "name": "Wintry Lowlands"
+    },
+    "terralith:glacial_river": {
+        "r": 136,
+        "g": 136,
+        "b": 136,
+        "name": "Glacial River"
+    },
+    "terralith:lush_desert": {
+        "r": 110,
+        "g": 96,
+        "b": 52,
+        "name": "Lush Desert"
+    },
+    "terralith:snowy_cherry_grove": {
+        "r": 226,
+        "g": 211,
+        "b": 245,
+        "name": "Snowy Cherry Grove"
+    }
+}
