@@ -66,8 +66,8 @@
         ],
         [
             "terralith:cave/mantle/replacer",
-            "minecraft:patch_tall_grass_2",
             "minecraft:glow_lichen",
+            "minecraft:patch_tall_grass_2",
             "minecraft:plain_vegetation",
             "minecraft:flower_plain_decorated",
             "minecraft:patch_grass_plain",
