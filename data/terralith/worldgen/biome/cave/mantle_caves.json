@@ -50,6 +50,7 @@
             "minecraft:ore_redstone",
             "minecraft:ore_redstone_lower",
             "minecraft:ore_diamond",
+            "minecraft:ore_diamond_medium",
             "minecraft:ore_diamond_large",
             "minecraft:ore_lapis",
             "minecraft:ore_lapis_buried",
@@ -65,6 +66,10 @@
             "terralith:cave/mantle/basalt_strip"
         ],
         [
+            "minecraft:spring_water",
+            "minecraft:spring_lava"
+        ],
+        [
             "terralith:cave/mantle/replacer",
             "minecraft:glow_lichen",
             "minecraft:patch_tall_grass_2",
@@ -74,9 +79,7 @@
             "minecraft:brown_mushroom_normal",
             "minecraft:red_mushroom_normal",
             "minecraft:patch_sugar_cane",
-            "minecraft:patch_pumpkin",
-            "minecraft:spring_water",
-            "minecraft:spring_lava"
+            "minecraft:patch_pumpkin"
         ]
     ],
     "spawners": {

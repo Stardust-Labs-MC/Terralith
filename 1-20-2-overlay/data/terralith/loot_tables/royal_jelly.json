@@ -1,0 +1,33 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:16762880,custom_potion_effects:[{duration:1000,id:\"minecraft:absorption\"},{duration:300,id:\"minecraft:glowing\"},{duration:6000,id:\"minecraft:haste\",amplifier:1},{duration:1,id:\"minecraft:saturation\",amplifier:40},{duration:6000,id:\"minecraft:speed\"}]}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "text": "Royal Jelly",
+                                "color": "light_purple",
+                                "bold": false,
+                                "italic": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -21,10 +21,10 @@
         "water_color": 4159204,
         "water_fog_color": 329011,
         "music": {
-          "max_delay": 24000,
-          "min_delay": 12000,
-          "replace_current_music": false,
-          "sound": "minecraft:music.overworld.desert"
+            "max_delay": 24000,
+            "min_delay": 12000,
+            "replace_current_music": false,
+            "sound": "minecraft:music.overworld.desert"
         }
     },
     "surface_builder": "terralith:desert_caves",
@@ -62,6 +62,7 @@
             "minecraft:ore_redstone",
             "minecraft:ore_redstone_lower",
             "minecraft:ore_diamond",
+            "minecraft:ore_diamond_medium",
             "minecraft:ore_diamond_large",
             "minecraft:ore_lapis",
             "minecraft:ore_lapis_buried",
@@ -73,6 +74,10 @@
         ],
         [],
         [
+            "minecraft:spring_water",
+            "minecraft:spring_lava"
+        ],
+        [
             "terralith:cave/desert/noise_reducer",
             "terralith:cave/desert/noise_reducer_small",
             "minecraft:glow_lichen",
@@ -83,9 +88,7 @@
             "minecraft:brown_mushroom_normal",
             "minecraft:red_mushroom_normal",
             "minecraft:patch_sugar_cane",
-            "minecraft:patch_pumpkin",
-            "minecraft:spring_water",
-            "minecraft:spring_lava"
+            "minecraft:patch_pumpkin"
         ]
     ],
     "spawners": {
