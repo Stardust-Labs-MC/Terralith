@@ -1,9 +1,6 @@
 {
   "type": "minecraft:random_patch",
   "config": {
-    "tries": 32,
-    "xz_spread": 7,
-    "y_spread": 3,
     "feature": {
       "feature": {
         "type": "minecraft:simple_block",
@@ -27,13 +24,13 @@
             "predicates": [
               {
                 "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:grass_block"
+                ],
                 "offset": [
                   0,
                   -1,
                   0
-                ],
-                "blocks": [
-                  "minecraft:grass_block"
                 ]
               },
               {
@@ -46,6 +43,9 @@
           }
         }
       ]
-    }
+    },
+    "tries": 32,
+    "xz_spread": 7,
+    "y_spread": 3
   }
 }

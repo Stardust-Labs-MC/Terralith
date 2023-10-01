@@ -2,67 +2,66 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:spyglass",
           "conditions": [
             {
-              "condition": "minecraft:random_chance",
-              "chance": 0.2
+              "chance": 0.2,
+              "condition": "minecraft:random_chance"
             }
-          ]
+          ],
+          "name": "minecraft:spyglass"
         }
-      ]
+      ],
+      "rolls": 1
     },
     {
-      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:leather_boots",
           "functions": [
             {
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 0,
-                "max": 10
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.2
-                }
-              ]
+                "max": 10,
+                "min": 0
+              }
             }
-          ]
+          ],
+          "name": "minecraft:leather_boots"
         }
-      ]
+      ],
+      "rolls": 1
     },
     {
-      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:saddle"
+          "name": "minecraft:saddle",
+          "weight": 1
         },
         {
           "type": "minecraft:item",
-          "weight": 7,
-          "name": "minecraft:bundle"
+          "name": "minecraft:bundle",
+          "weight": 7
         },
         {
           "type": "minecraft:item",
-          "weight": 7,
-          "name": "minecraft:lead"
+          "name": "minecraft:lead",
+          "weight": 7
         }
-      ]
+      ],
+      "rolls": 1
     },
     {
-      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
@@ -76,72 +75,73 @@
           "type": "minecraft:item",
           "name": "minecraft:writable_book"
         }
-      ]
+      ],
+      "rolls": 1
     },
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 3,
-        "max": 6
-      },
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:map",
           "functions": [
             {
-              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "name": "minecraft:map"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:paper",
           "functions": [
             {
-              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "name": "minecraft:paper"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:stick",
           "functions": [
             {
-              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "name": "minecraft:stick"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:emerald",
           "functions": [
             {
-              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "name": "minecraft:emerald"
         }
-      ]
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 6,
+        "min": 3
+      }
     }
   ]
 }

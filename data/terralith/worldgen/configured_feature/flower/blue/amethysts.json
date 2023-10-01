@@ -5,34 +5,34 @@
       "type": "minecraft:weighted_state_provider",
       "entries": [
         {
-          "weight": 1,
           "data": {
             "Name": "minecraft:large_amethyst_bud",
             "Properties": {
               "facing": "up",
               "waterlogged": "false"
             }
-          }
+          },
+          "weight": 1
         },
         {
-          "weight": 2,
           "data": {
             "Name": "minecraft:medium_amethyst_bud",
             "Properties": {
               "facing": "up",
               "waterlogged": "false"
             }
-          }
+          },
+          "weight": 2
         },
         {
-          "weight": 3,
           "data": {
             "Name": "minecraft:small_amethyst_bud",
             "Properties": {
               "facing": "up",
               "waterlogged": "false"
             }
-          }
+          },
+          "weight": 3
         }
       ]
     }

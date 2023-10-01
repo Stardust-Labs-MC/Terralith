@@ -1,141 +1,141 @@
 {
-  "name": "terralith:village/desert/roads",
-  "fallback": "terralith:village/desert/terminators",
   "elements": [
     {
-      "weight": 10,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "projection": "terrain_matching",
         "location": "terralith:village/desert/roads/straight2",
-        "processors": "terralith:village/desert/road"
-      }
+        "processors": "terralith:village/desert/road",
+        "projection": "terrain_matching"
+      },
+      "weight": 10
     },
     {
-      "weight": 10,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "projection": "terrain_matching",
         "location": "terralith:village/desert/roads/straight1",
-        "processors": "terralith:village/desert/road"
-      }
+        "processors": "terralith:village/desert/road",
+        "projection": "terrain_matching"
+      },
+      "weight": 10
     },
     {
-      "weight": 10,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "projection": "terrain_matching",
         "location": "terralith:village/desert/roads/straight3",
-        "processors": "terralith:village/desert/road"
-      }
+        "processors": "terralith:village/desert/road",
+        "projection": "terrain_matching"
+      },
+      "weight": 10
     },
     {
-      "weight": 10,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "projection": "terrain_matching",
         "location": "terralith:village/desert/roads/straight4",
-        "processors": "terralith:village/desert/road"
-      }
+        "processors": "terralith:village/desert/road",
+        "projection": "terrain_matching"
+      },
+      "weight": 10
     },
     {
-      "weight": 10,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "projection": "terrain_matching",
         "location": "terralith:village/desert/roads/straight5",
-        "processors": "terralith:village/desert/road"
-      }
+        "processors": "terralith:village/desert/road",
+        "projection": "terrain_matching"
+      },
+      "weight": 10
     },
     {
-      "weight": 10,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "projection": "terrain_matching",
         "location": "terralith:village/desert/roads/straight6",
-        "processors": "terralith:village/desert/road"
-      }
+        "processors": "terralith:village/desert/road",
+        "projection": "terrain_matching"
+      },
+      "weight": 10
     },
     {
-      "weight": 4,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "projection": "terrain_matching",
         "location": "terralith:village/desert/roads/t1",
-        "processors": "terralith:village/desert/road"
-      }
+        "processors": "terralith:village/desert/road",
+        "projection": "terrain_matching"
+      },
+      "weight": 4
     },
     {
-      "weight": 4,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "projection": "terrain_matching",
         "location": "terralith:village/desert/roads/t2",
-        "processors": "terralith:village/desert/road"
-      }
+        "processors": "terralith:village/desert/road",
+        "projection": "terrain_matching"
+      },
+      "weight": 4
     },
     {
-      "weight": 10,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "projection": "terrain_matching",
         "location": "terralith:village/desert/roads/bend1",
-        "processors": "terralith:village/desert/road"
-      }
+        "processors": "terralith:village/desert/road",
+        "projection": "terrain_matching"
+      },
+      "weight": 10
     },
     {
-      "weight": 10,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "projection": "terrain_matching",
         "location": "terralith:village/desert/roads/bend2",
-        "processors": "terralith:village/desert/road"
-      }
+        "processors": "terralith:village/desert/road",
+        "projection": "terrain_matching"
+      },
+      "weight": 10
     },
     {
-      "weight": 6,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "projection": "terrain_matching",
         "location": "terralith:village/desert/roads/inter1",
-        "processors": "terralith:village/desert/road"
-      }
+        "processors": "terralith:village/desert/road",
+        "projection": "terrain_matching"
+      },
+      "weight": 6
     },
     {
-      "weight": 2,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "projection": "terrain_matching",
         "location": "terralith:village/desert/terminators/term1",
-        "processors": "terralith:village/desert/road"
-      }
+        "processors": "terralith:village/desert/road",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
     },
     {
-      "weight": 1,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "projection": "terrain_matching",
         "location": "terralith:village/desert/terminators/term2",
-        "processors": "terralith:village/desert/road"
-      }
+        "processors": "terralith:village/desert/road",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
     },
     {
-      "weight": 1,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "projection": "terrain_matching",
         "location": "terralith:village/desert/terminators/term3",
-        "processors": "terralith:village/desert/road"
-      }
+        "processors": "terralith:village/desert/road",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
     },
     {
-      "weight": 1,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "projection": "terrain_matching",
         "location": "terralith:village/desert/terminators/term4",
-        "processors": "terralith:village/desert/road"
-      }
+        "processors": "terralith:village/desert/road",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
     }
-  ]
+  ],
+  "fallback": "terralith:village/desert/terminators",
+  "name": "terralith:village/desert/roads"
 }

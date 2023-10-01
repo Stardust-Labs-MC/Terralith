@@ -1,17 +1,20 @@
 {
   "feature": {
-    "type": "minecraft:multiface_growth","block":"glow_lichen",
+    "type": "minecraft:multiface_growth",
+    "block": "glow_lichen",
     "config": {
-      "search_range": 2,
-      "chance_of_spreading": 0.1,
-      "can_place_on_floor": true,
-      "can_place_on_ceiling": true,
-      "can_place_on_wall": true,
       "can_be_placed_on": [
         "minecraft:diamond_ore",
         "minecraft:stone",
-        "diorite","calcite","ice"
-      ]
+        "diorite",
+        "calcite",
+        "ice"
+      ],
+      "can_place_on_ceiling": true,
+      "can_place_on_floor": true,
+      "can_place_on_wall": true,
+      "chance_of_spreading": 0.1,
+      "search_range": 2
     }
   },
   "placement": [
@@ -39,15 +42,15 @@
     },
     {
       "type": "minecraft:noise_based_count",
-      "noise_to_count_ratio": 1,
       "noise_factor": 30,
-      "noise_offset": 0.07
+      "noise_offset": 0.07,
+      "noise_to_count_ratio": 1
     },
     {
       "type": "minecraft:noise_based_count",
-      "noise_to_count_ratio": -1,
       "noise_factor": 30,
-      "noise_offset": -0.07
+      "noise_offset": -0.07,
+      "noise_to_count_ratio": -1
     },
     {
       "type": "minecraft:height_range",
@@ -70,13 +73,16 @@
         "predicates": [
           {
             "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:stone",
+              "diorite",
+              "calcite",
+              "ice"
+            ],
             "offset": [
               0,
               1,
               0
-            ],
-            "blocks": [
-              "minecraft:stone","diorite","calcite","ice"
             ]
           }
         ]

@@ -5,10 +5,10 @@
       "type": "minecraft:weighted_state_provider",
       "entries": [
         {
-          "weight": 1,
           "data": {
             "Name": "minecraft:snow_block"
-          }
+          },
+          "weight": 1
         }
       ]
     }

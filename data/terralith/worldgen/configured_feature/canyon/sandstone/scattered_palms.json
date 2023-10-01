@@ -1,6 +1,7 @@
 {
   "type": "minecraft:random_selector",
   "config": {
+    "default": "terralith:canyon/sandstone/palm_1",
     "features": [
       {
         "chance": 0.03,
@@ -26,7 +27,6 @@
           ]
         }
       }
-    ],
-    "default": "terralith:canyon/sandstone/palm_1"
+    ]
   }
 }

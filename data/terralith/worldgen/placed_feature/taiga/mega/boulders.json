@@ -3,221 +3,48 @@
     "type": "minecraft:geode",
     "config": {
       "blocks": {
-        "filling_provider": {
-          "type": "minecraft:weighted_state_provider",
-          "entries": [
-            {
-              "weight": 1,
-              "data": {
-                "Name": "minecraft:copper_ore"
-              }
-            },
-            {
-              "weight": 1,
-              "data": {
-                "Name": "minecraft:iron_ore"
-              }
-            },
-            {
-              "weight": 2,
-              "data": {
-                "Name": "minecraft:stone"
-              }
-            }
-          ]
-        },
-        "inner_layer_provider": {
-          "type": "minecraft:noise_provider",
-          "seed": 0,
-          "noise": {
-            "firstOctave": -5,
-            "amplitudes": [
-              1,
-              1,
-              1.25
-            ]
-          },
-          "scale": 1,
-          "states": [
-            {
-              "Name": "minecraft:mossy_cobblestone"
-            },
-            {
-              "Name": "minecraft:cobblestone"
-            },
-            {
-              "Name": "minecraft:mossy_cobblestone"
-            },
-            {
-              "Name": "minecraft:cobblestone"
-            },
-            {
-              "Name": "minecraft:mossy_cobblestone"
-            },
-            {
-              "Name": "minecraft:cobblestone"
-            },
-            {
-              "Name": "minecraft:mossy_cobblestone"
-            },
-            {
-              "Name": "minecraft:cobblestone"
-            },
-            {
-              "Name": "minecraft:mossy_cobblestone"
-            },
-            {
-              "Name": "minecraft:cobblestone"
-            },
-            {
-              "Name": "minecraft:mossy_cobblestone"
-            },
-            {
-              "Name": "minecraft:cobblestone"
-            },
-            {
-              "Name": "minecraft:mossy_cobblestone"
-            },
-            {
-              "Name": "minecraft:cobblestone"
-            },
-            {
-              "Name": "minecraft:mossy_cobblestone"
-            },
-            {
-              "Name": "minecraft:cobblestone"
-            },
-            {
-              "Name": "minecraft:mossy_cobblestone"
-            },
-            {
-              "Name": "minecraft:cobblestone"
-            },
-            {
-              "Name": "minecraft:mossy_cobblestone"
-            },
-            {
-              "Name": "minecraft:cobblestone"
-            },
-            {
-              "Name": "minecraft:mossy_cobblestone"
-            },
-            {
-              "Name": "minecraft:cobblestone"
-            },
-            {
-              "Name": "minecraft:mossy_cobblestone"
-            },
-            {
-              "Name": "minecraft:cobblestone"
-            }
-          ]
-        },
         "alternate_inner_layer_provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
             "Name": "minecraft:stone"
           }
         },
-        "middle_layer_provider": {
-          "type": "minecraft:noise_provider",
-          "seed": 0,
-          "noise": {
-            "firstOctave": -5,
-            "amplitudes": [
-              1,
-              1,
-              1.25
-            ]
-          },
-          "scale": 1,
-          "states": [
+        "cannot_replace": "#minecraft:features_cannot_replace",
+        "filling_provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
             {
-              "Name": "minecraft:mossy_cobblestone"
+              "data": {
+                "Name": "minecraft:copper_ore"
+              },
+              "weight": 1
             },
             {
-              "Name": "minecraft:cobblestone"
+              "data": {
+                "Name": "minecraft:iron_ore"
+              },
+              "weight": 1
             },
             {
-              "Name": "minecraft:mossy_cobblestone"
-            },
-            {
-              "Name": "minecraft:cobblestone"
-            },
-            {
-              "Name": "minecraft:mossy_cobblestone"
-            },
-            {
-              "Name": "minecraft:cobblestone"
-            },
-            {
-              "Name": "minecraft:mossy_cobblestone"
-            },
-            {
-              "Name": "minecraft:cobblestone"
-            },
-            {
-              "Name": "minecraft:mossy_cobblestone"
-            },
-            {
-              "Name": "minecraft:cobblestone"
-            },
-            {
-              "Name": "minecraft:mossy_cobblestone"
-            },
-            {
-              "Name": "minecraft:cobblestone"
-            },
-            {
-              "Name": "minecraft:mossy_cobblestone"
-            },
-            {
-              "Name": "minecraft:cobblestone"
-            },
-            {
-              "Name": "minecraft:mossy_cobblestone"
-            },
-            {
-              "Name": "minecraft:cobblestone"
-            },
-            {
-              "Name": "minecraft:mossy_cobblestone"
-            },
-            {
-              "Name": "minecraft:cobblestone"
-            },
-            {
-              "Name": "minecraft:mossy_cobblestone"
-            },
-            {
-              "Name": "minecraft:cobblestone"
-            },
-            {
-              "Name": "minecraft:mossy_cobblestone"
-            },
-            {
-              "Name": "minecraft:cobblestone"
-            },
-            {
-              "Name": "minecraft:mossy_cobblestone"
-            },
-            {
-              "Name": "minecraft:cobblestone"
+              "data": {
+                "Name": "minecraft:stone"
+              },
+              "weight": 2
             }
           ]
         },
-        "outer_layer_provider": {
+        "inner_layer_provider": {
           "type": "minecraft:noise_provider",
-          "seed": 0,
           "noise": {
-            "firstOctave": -5,
             "amplitudes": [
               1,
               1,
               1.25
-            ]
+            ],
+            "firstOctave": -5
           },
           "scale": 1,
+          "seed": 0,
           "states": [
             {
               "Name": "minecraft:mossy_cobblestone"
@@ -298,35 +125,209 @@
             "Name": "minecraft:cobblestone"
           }
         ],
-        "cannot_replace": "#terralith:anti_calcite",
-        "invalid_blocks": "#terralith:calcite"
-      },
-      "layers": {
-        "filling": 1,
-        "inner_layer": 1.25,
-        "middle_layer": 1.5,
-        "outer_layer": 2.2
+        "invalid_blocks": "#terralith:calcite",
+        "middle_layer_provider": {
+          "type": "minecraft:noise_provider",
+          "noise": {
+            "amplitudes": [
+              1,
+              1,
+              1.25
+            ],
+            "firstOctave": -5
+          },
+          "scale": 1,
+          "seed": 0,
+          "states": [
+            {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            {
+              "Name": "minecraft:cobblestone"
+            },
+            {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            {
+              "Name": "minecraft:cobblestone"
+            },
+            {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            {
+              "Name": "minecraft:cobblestone"
+            },
+            {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            {
+              "Name": "minecraft:cobblestone"
+            },
+            {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            {
+              "Name": "minecraft:cobblestone"
+            },
+            {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            {
+              "Name": "minecraft:cobblestone"
+            },
+            {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            {
+              "Name": "minecraft:cobblestone"
+            },
+            {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            {
+              "Name": "minecraft:cobblestone"
+            },
+            {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            {
+              "Name": "minecraft:cobblestone"
+            },
+            {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            {
+              "Name": "minecraft:cobblestone"
+            },
+            {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            {
+              "Name": "minecraft:cobblestone"
+            },
+            {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            {
+              "Name": "minecraft:cobblestone"
+            }
+          ]
+        },
+        "outer_layer_provider": {
+          "type": "minecraft:noise_provider",
+          "noise": {
+            "amplitudes": [
+              1,
+              1,
+              1.25
+            ],
+            "firstOctave": -5
+          },
+          "scale": 1,
+          "seed": 0,
+          "states": [
+            {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            {
+              "Name": "minecraft:cobblestone"
+            },
+            {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            {
+              "Name": "minecraft:cobblestone"
+            },
+            {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            {
+              "Name": "minecraft:cobblestone"
+            },
+            {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            {
+              "Name": "minecraft:cobblestone"
+            },
+            {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            {
+              "Name": "minecraft:cobblestone"
+            },
+            {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            {
+              "Name": "minecraft:cobblestone"
+            },
+            {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            {
+              "Name": "minecraft:cobblestone"
+            },
+            {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            {
+              "Name": "minecraft:cobblestone"
+            },
+            {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            {
+              "Name": "minecraft:cobblestone"
+            },
+            {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            {
+              "Name": "minecraft:cobblestone"
+            },
+            {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            {
+              "Name": "minecraft:cobblestone"
+            },
+            {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            {
+              "Name": "minecraft:cobblestone"
+            }
+          ]
+        }
       },
       "crack": {
-        "generate_crack_chance": 0.075,
         "base_crack_size": 0.5,
-        "crack_point_offset": 2
-      },
-      "noise_multiplier": 0.07,
-      "use_potential_placements_chance": 0,
-      "use_alternate_layer0_chance": 0,
-      "outer_wall_distance": {
-        "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 2,
-          "max_inclusive": 4
-        }
+        "crack_point_offset": 2,
+        "generate_crack_chance": 0.075
       },
       "distribution_points": {
         "type": "minecraft:biased_to_bottom",
         "value": {
           "min_inclusive": 2,
           "max_inclusive": 3
+        }
+      },
+      "invalid_blocks_threshold": 0,
+      "layers": {
+        "filling": 1,
+        "inner_layer": 1.25,
+        "middle_layer": 1.5,
+        "outer_layer": 2.2
+      },
+      "max_gen_offset": 12,
+      "min_gen_offset": -12,
+      "noise_multiplier": 0.07,
+      "outer_wall_distance": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 4
         }
       },
       "point_offset": {
@@ -336,9 +337,8 @@
           "max_inclusive": 2
         }
       },
-      "min_gen_offset": -12,
-      "max_gen_offset": 12,
-      "invalid_blocks_threshold": 0
+      "use_alternate_layer0_chance": 0,
+      "use_potential_placements_chance": 0
     }
   },
   "placement": [
@@ -355,6 +355,9 @@
     },
     {
       "type": "minecraft:environment_scan",
+      "allowed_search_condition": {
+        "type": "minecraft:true"
+      },
       "direction_of_search": "down",
       "max_steps": 6,
       "target_condition": {
@@ -362,43 +365,40 @@
         "predicates": [
           {
             "type": "minecraft:matching_blocks",
-            "offset": [
-              0,
-              3,
-              0
-            ],
             "blocks": [
               "minecraft:grass_block",
               "minecraft:podzol",
               "minecraft:coarse_dirt"
+            ],
+            "offset": [
+              0,
+              3,
+              0
             ]
           },
           {
             "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:dirt"
+            ],
             "offset": [
               0,
               2,
               0
-            ],
-            "blocks": [
-              "minecraft:dirt"
             ]
           },
           {
             "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:dirt"
+            ],
             "offset": [
               0,
               1,
               0
-            ],
-            "blocks": [
-              "minecraft:dirt"
             ]
           }
         ]
-      },
-      "allowed_search_condition": {
-        "type": "minecraft:true"
       }
     },
     {

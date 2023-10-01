@@ -1,6 +1,7 @@
 {
   "type": "minecraft:random_selector",
   "config": {
+    "default": "terralith:forest/flower/small/oak_small",
     "features": [
       {
         "chance": 0.25,
@@ -10,7 +11,6 @@
         "chance": 0.2,
         "feature": "terralith:forest/flower/small/oak_small_m"
       }
-    ],
-    "default": "terralith:forest/flower/small/oak_small"
+    ]
   }
 }

@@ -1,28 +1,26 @@
 {
+  "type": "minecraft:cache_once",
   "argument": {
-    "argument1": 
-    {
-    "type":"add",
-    "argument1":-0.7,
-    "argument2":{
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:add",
+      "argument1": -0.7,
+      "argument2": {
+        "type": "minecraft:noise",
         "noise": "terralith:math/arch/vertical_noise",
         "xz_scale": 0.75,
-        "y_scale": 5.0,
-        "type": "minecraft:noise"
+        "y_scale": 5.0
       }
-    }
-    ,
+    },
     "argument2": {
+      "type": "minecraft:mul",
       "argument1": -0.2,
       "argument2": {
+        "type": "minecraft:noise",
         "noise": "minecraft:spaghetti_2d_thickness",
         "xz_scale": 2.0,
-        "y_scale": 1.0,
-        "type": "minecraft:noise"
-      },
-      "type": "minecraft:mul"
-    },
-    "type": "minecraft:add"
-  },
-  "type": "minecraft:cache_once"
+        "y_scale": 1.0
+      }
+    }
+  }
 }

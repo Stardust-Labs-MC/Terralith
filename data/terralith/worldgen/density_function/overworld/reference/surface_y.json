@@ -1,10 +1,9 @@
 {
-  "type":"add",
-  "argument1":128,
-  "argument2":{
-    "type":"mul",
-    "argument1":"minecraft:overworld/depth",
-    "argument2":128
-
+  "type": "minecraft:add",
+  "argument1": 128,
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": "minecraft:overworld/depth",
+    "argument2": 128
   }
 }

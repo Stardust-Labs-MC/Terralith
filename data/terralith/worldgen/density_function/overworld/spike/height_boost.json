@@ -1,15 +1,13 @@
 {
-
-  "argument":{
-
-      "argument1":{
-                                  "noise": "terralith:math/spike/height_boost",
-                                  "xz_scale":1.0,
-                                  "y_scale": 0.0,
-                                  "type": "minecraft:noise"
-},
-"argument2":0.0,
-"type":"add"
-},
-"type":"flat_cache"
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:noise",
+      "noise": "terralith:math/spike/height_boost",
+      "xz_scale": 1.0,
+      "y_scale": 0.0
+    },
+    "argument2": 0.0
+  }
 }

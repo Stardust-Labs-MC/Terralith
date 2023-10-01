@@ -1,25 +1,24 @@
 {
-  "name": "side_to_side",
-  "fallback": "minecraft:empty",
   "elements": [
-    
     {
-      "weight": 6,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
         "location": "terralith:underground/largeminingoutpost",
-        "processors": "minecraft:empty"
-      }
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 6
     },
     {
-      "weight": 7,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
         "location": "terralith:underground/smallminingoutpost",
-        "processors": "minecraft:empty"
-      }
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 7
     }
-  ]
+  ],
+  "fallback": "minecraft:empty",
+  "name": "side_to_side"
 }

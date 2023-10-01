@@ -4,9 +4,7 @@
     "config": {
       "to_place": {
         "type": "minecraft:noise_provider",
-        "seed": 292202,
         "noise": {
-          "firstOctave": -6,
           "amplitudes": [
             1,
             0.85,
@@ -14,9 +12,11 @@
             0.75,
             1.2,
             1.4
-          ]
+          ],
+          "firstOctave": -6
         },
         "scale": 1,
+        "seed": 292202,
         "states": [
           {
             "Name": "minecraft:cobblestone"
@@ -39,10 +39,10 @@
           {
             "Name": "minecraft:stone"
           },
-                    {
+          {
             "Name": "minecraft:stone"
           },
-                              {
+          {
             "Name": "minecraft:stone"
           },
           {
@@ -51,16 +51,16 @@
           {
             "Name": "minecraft:tuff"
           },
-                    {
+          {
             "Name": "minecraft:tuff"
           },
           {
             "Name": "minecraft:cobblestone"
           },
-                              {
+          {
             "Name": "minecraft:stone"
           },
-                    {
+          {
             "Name": "minecraft:stone"
           },
           {
@@ -102,9 +102,9 @@
     },
     {
       "type": "minecraft:noise_based_count",
-      "noise_to_count_ratio": 1,
       "noise_factor": 900,
-      "noise_offset": 0.0
+      "noise_offset": 0.0,
+      "noise_to_count_ratio": 1
     },
     {
       "type": "minecraft:random_offset",

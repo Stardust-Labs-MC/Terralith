@@ -1,6 +1,7 @@
 {
   "type": "minecraft:random_selector",
   "config": {
+    "default": "terralith:yosemite/oak",
     "features": [
       {
         "chance": 0.3,
@@ -22,7 +23,6 @@
         "chance": 0.075,
         "feature": "terralith:yellowstone/birch"
       }
-    ],
-    "default": "terralith:yosemite/oak"
+    ]
   }
 }

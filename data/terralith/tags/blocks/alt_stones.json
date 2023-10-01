@@ -2,7 +2,9 @@
   "replace": false,
   "values": [
     "minecraft:smooth_sandstone",
-    "sandstone",
-    "andesite","granite","diorite"
+    "minecraft:sandstone",
+    "minecraft:andesite",
+    "minecraft:granite",
+    "minecraft:diorite"
   ]
 }

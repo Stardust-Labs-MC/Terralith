@@ -6,7 +6,6 @@
         "feature": {
           "type": "minecraft:block_column",
           "config": {
-            "direction": "north",
             "allowed_placement": {
               "type": "minecraft:all_of",
               "predicates": [
@@ -15,20 +14,20 @@
                 },
                 {
                   "type": "minecraft:matching_blocks",
-                  "offset": [
-                    0,
-                    -1,
-                    0
-                  ],
                   "blocks": [
                     "minecraft:grass_block",
                     "minecraft:stone",
                     "minecraft:gravel"
+                  ],
+                  "offset": [
+                    0,
+                    -1,
+                    0
                   ]
                 }
               ]
             },
-            "prioritize_tip": true,
+            "direction": "north",
             "layers": [
               {
                 "height": {
@@ -48,7 +47,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "prioritize_tip": true
           }
         },
         "placement": [
@@ -56,15 +56,15 @@
             "type": "minecraft:block_predicate_filter",
             "predicate": {
               "type": "minecraft:matching_blocks",
+              "blocks": [
+                "minecraft:grass_block",
+                "minecraft:stone",
+                "minecraft:gravel"
+              ],
               "offset": [
                 0,
                 -1,
                 -4
-              ],
-              "blocks": [
-                "minecraft:grass_block",
-                "minecraft:stone",
-                "minecraft:gravel"
               ]
             }
           }
@@ -74,7 +74,6 @@
         "feature": {
           "type": "minecraft:block_column",
           "config": {
-            "direction": "south",
             "allowed_placement": {
               "type": "minecraft:all_of",
               "predicates": [
@@ -83,20 +82,20 @@
                 },
                 {
                   "type": "minecraft:matching_blocks",
-                  "offset": [
-                    0,
-                    -1,
-                    0
-                  ],
                   "blocks": [
                     "minecraft:grass_block",
                     "minecraft:stone",
                     "minecraft:gravel"
+                  ],
+                  "offset": [
+                    0,
+                    -1,
+                    0
                   ]
                 }
               ]
             },
-            "prioritize_tip": true,
+            "direction": "south",
             "layers": [
               {
                 "height": {
@@ -116,7 +115,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "prioritize_tip": true
           }
         },
         "placement": [
@@ -124,15 +124,15 @@
             "type": "minecraft:block_predicate_filter",
             "predicate": {
               "type": "minecraft:matching_blocks",
+              "blocks": [
+                "minecraft:grass_block",
+                "minecraft:stone",
+                "minecraft:gravel"
+              ],
               "offset": [
                 0,
                 -1,
                 4
-              ],
-              "blocks": [
-                "minecraft:grass_block",
-                "minecraft:stone",
-                "minecraft:gravel"
               ]
             }
           }
@@ -142,7 +142,6 @@
         "feature": {
           "type": "minecraft:block_column",
           "config": {
-            "direction": "east",
             "allowed_placement": {
               "type": "minecraft:all_of",
               "predicates": [
@@ -151,20 +150,20 @@
                 },
                 {
                   "type": "minecraft:matching_blocks",
-                  "offset": [
-                    0,
-                    -1,
-                    0
-                  ],
                   "blocks": [
                     "minecraft:grass_block",
                     "minecraft:stone",
                     "minecraft:gravel"
+                  ],
+                  "offset": [
+                    0,
+                    -1,
+                    0
                   ]
                 }
               ]
             },
-            "prioritize_tip": true,
+            "direction": "east",
             "layers": [
               {
                 "height": {
@@ -184,7 +183,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "prioritize_tip": true
           }
         },
         "placement": [
@@ -192,15 +192,15 @@
             "type": "minecraft:block_predicate_filter",
             "predicate": {
               "type": "minecraft:matching_blocks",
+              "blocks": [
+                "minecraft:grass_block",
+                "minecraft:stone",
+                "minecraft:gravel"
+              ],
               "offset": [
                 4,
                 -1,
                 0
-              ],
-              "blocks": [
-                "minecraft:grass_block",
-                "minecraft:stone",
-                "minecraft:gravel"
               ]
             }
           }
@@ -210,7 +210,6 @@
         "feature": {
           "type": "minecraft:block_column",
           "config": {
-            "direction": "west",
             "allowed_placement": {
               "type": "minecraft:all_of",
               "predicates": [
@@ -219,20 +218,20 @@
                 },
                 {
                   "type": "minecraft:matching_blocks",
-                  "offset": [
-                    0,
-                    -1,
-                    0
-                  ],
                   "blocks": [
                     "minecraft:grass_block",
                     "minecraft:stone",
                     "minecraft:gravel"
+                  ],
+                  "offset": [
+                    0,
+                    -1,
+                    0
                   ]
                 }
               ]
             },
-            "prioritize_tip": true,
+            "direction": "west",
             "layers": [
               {
                 "height": {
@@ -252,7 +251,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "prioritize_tip": true
           }
         },
         "placement": [
@@ -260,15 +260,15 @@
             "type": "minecraft:block_predicate_filter",
             "predicate": {
               "type": "minecraft:matching_blocks",
-              "offset": [
-                -4,
-                -1,
-                0
-              ],
               "blocks": [
                 "minecraft:grass_block",
                 "minecraft:stone",
                 "minecraft:gravel"
+              ],
+              "offset": [
+                -4,
+                -1,
+                0
               ]
             }
           }

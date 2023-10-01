@@ -1,149 +1,146 @@
 {
-  "type": "spline",
-  "min_value": -1,
-  "max_value": 1,
+  "type": "minecraft:spline",
   "spline": {
     "coordinate": "overworld/continents",
     "points": [
       {
-            "location": -0.745,
-            "derivative": 0,
-            "value": -0.2
+        "derivative": 0,
+        "location": -0.745,
+        "value": -0.2
       },
       {
-            "location": -0.6,
-            "derivative": 0,
-            "value": {
-    "coordinate": "overworld/erosion",
-    "points": [
-      {
-            "location": -0.223,
-            "derivative": 0,
-            "value": -0.2
-      },
-      {
-            "location": -0.0865,
-            "derivative": 0,
-            "value": {
-    "coordinate": "overworld/vegetation",
-    "points": [
-      {
-            "location": -0.1,
-            "derivative": 0,
-            "value": -0.2
-      },
-      {
-            "location": 0.0,
-            "derivative": 0,
-            "value": {
-
-    "coordinate": "overworld/temperature",
-    "points": [
-      {
-            "location": -0.45,
-            "derivative": 0,
-            "value": -0.2
-      },
-      {
-            "location": -0.3,
-            "derivative": 0,
-            "value": {
-    "coordinate": "overworld/ridges",
-    "points": [
-      {
-            "location": 0.1,
-            "derivative": 0,
-            "value": -0.25
-      },
-      {
-            "location": 0.225,
-            "derivative": 0.2,
-            "value": {
-    "coordinate": "y",
-    "points": [
-      {
-            "location": 130,
-            "derivative": 0,
-            "value": -0.6
-      },
-      {
-            "location": 150,
-            "derivative": 0,
-            "value": -0.3
-      },
-      {
-            "location": 200,
-            "derivative": 0.0,
-            "value": 1.25
-      },
-      {
-            "location": 220,
-            "derivative": 0,
-            "value": -0.3
-      }
-    ]
-  }
-      },
-      {
-            "location": 0.5,
-            "derivative": 0.0,
-            "value": {
-    "coordinate": "y",
-    "points": [
-      {
-            "location": 160,
-            "derivative": 0,
-            "value": -0.9
-      },
-      {
-            "location": 180,
-            "derivative": 0,
-            "value": -0.3
-      },
-      {
-            "location": 225,
-            "derivative": 0.05,
-            "value": 1.25
-      },
+        "derivative": 0,
+        "location": -0.6,
+        "value": {
+          "coordinate": "overworld/erosion",
+          "points": [
             {
-            "location": 230,
-            "derivative": -0.05,
-            "value": 1.0
+              "derivative": 0,
+              "location": -0.223,
+              "value": -0.2
+            },
+            {
+              "derivative": 0,
+              "location": -0.0865,
+              "value": {
+                "coordinate": "overworld/vegetation",
+                "points": [
+                  {
+                    "derivative": 0,
+                    "location": -0.1,
+                    "value": -0.2
+                  },
+                  {
+                    "derivative": 0,
+                    "location": 0.0,
+                    "value": {
+                      "coordinate": "overworld/temperature",
+                      "points": [
+                        {
+                          "derivative": 0,
+                          "location": -0.45,
+                          "value": -0.2
+                        },
+                        {
+                          "derivative": 0,
+                          "location": -0.3,
+                          "value": {
+                            "coordinate": "overworld/ridges",
+                            "points": [
+                              {
+                                "derivative": 0,
+                                "location": 0.1,
+                                "value": -0.25
+                              },
+                              {
+                                "derivative": 0.2,
+                                "location": 0.225,
+                                "value": {
+                                  "coordinate": "y",
+                                  "points": [
+                                    {
+                                      "derivative": 0,
+                                      "location": 130,
+                                      "value": -0.6
+                                    },
+                                    {
+                                      "derivative": 0,
+                                      "location": 150,
+                                      "value": -0.3
+                                    },
+                                    {
+                                      "derivative": 0.0,
+                                      "location": 200,
+                                      "value": 1.25
+                                    },
+                                    {
+                                      "derivative": 0,
+                                      "location": 220,
+                                      "value": -0.3
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "derivative": 0.0,
+                                "location": 0.5,
+                                "value": {
+                                  "coordinate": "y",
+                                  "points": [
+                                    {
+                                      "derivative": 0,
+                                      "location": 160,
+                                      "value": -0.9
+                                    },
+                                    {
+                                      "derivative": 0,
+                                      "location": 180,
+                                      "value": -0.3
+                                    },
+                                    {
+                                      "derivative": 0.05,
+                                      "location": 225,
+                                      "value": 1.25
+                                    },
+                                    {
+                                      "derivative": -0.05,
+                                      "location": 230,
+                                      "value": 1.0
+                                    },
+                                    {
+                                      "derivative": 0,
+                                      "location": 270,
+                                      "value": -0.7
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "derivative": 0,
+                          "location": 0.1,
+                          "value": -0.2
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "derivative": 0,
+              "location": 0.05,
+              "value": -0.2
+            }
+          ]
+        }
       },
       {
-            "location": 270,
-            "derivative": 0,
-            "value": -0.7
-      }
-    ]
-  }
-      }
-    ]
-  }
-      },
-      {
-            "location": 0.1,
-            "derivative": 0,
-            "value": -0.2
-      }
-    ]
-  }
-      }
-    ]
-  }
-      },
-      {
-            "location": 0.05,
-            "derivative": 0,
-            "value": -0.2
-      }
-    ]
-  }
-      },
-      {
-            "location": -0.455,
-            "derivative": 0,
-            "value": -0.2
+        "derivative": 0,
+        "location": -0.455,
+        "value": -0.2
       }
     ]
   }

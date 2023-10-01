@@ -2,14 +2,13 @@
   "feature": {
     "type": "minecraft:block_column",
     "config": {
-      "direction": "east",
       "allowed_placement": {
         "type": "minecraft:matching_blocks",
         "blocks": [
           "minecraft:air"
         ]
       },
-      "prioritize_tip": false,
+      "direction": "east",
       "layers": [
         {
           "height": 1,
@@ -17,16 +16,16 @@
             "type": "minecraft:weighted_state_provider",
             "entries": [
               {
-                "weight": 99,
                 "data": {
                   "Name": "minecraft:amethyst_block"
-                }
+                },
+                "weight": 99
               },
               {
-                "weight": 1,
                 "data": {
                   "Name": "minecraft:budding_amethyst"
-                }
+                },
+                "weight": 1
               }
             ]
           }
@@ -35,16 +34,16 @@
           "height": 1,
           "provider": {
             "type": "minecraft:noise_provider",
-            "seed": 20,
             "noise": {
-              "firstOctave": -3,
               "amplitudes": [
                 1,
                 0.75,
                 1.25
-              ]
+              ],
+              "firstOctave": -3
             },
             "scale": 1,
+            "seed": 20,
             "states": [
               {
                 "Name": "minecraft:small_amethyst_bud",
@@ -140,7 +139,8 @@
             ]
           }
         }
-      ]
+      ],
+      "prioritize_tip": false
     }
   },
   "placement": [
@@ -175,18 +175,19 @@
           {
             "type": "minecraft:matching_blocks",
             "blocks": [
-              "minecraft:deepslate","amethyst_block"
+              "minecraft:deepslate",
+              "amethyst_block"
             ]
           },
           {
             "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:air"
+            ],
             "offset": [
               1,
               0,
               0
-            ],
-            "blocks": [
-              "minecraft:air"
             ]
           },
           {
@@ -196,57 +197,57 @@
               "predicates": [
                 {
                   "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:air"
+                  ],
                   "offset": [
                     0,
                     1,
                     0
-                  ],
-                  "blocks": [
-                    "minecraft:air"
                   ]
                 },
                 {
                   "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:air"
+                  ],
                   "offset": [
                     0,
                     -1,
                     0
-                  ],
-                  "blocks": [
-                    "minecraft:air"
                   ]
                 },
                 {
                   "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:air"
+                  ],
                   "offset": [
                     0,
                     0,
                     1
-                  ],
-                  "blocks": [
-                    "minecraft:air"
                   ]
                 },
                 {
                   "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:air"
+                  ],
                   "offset": [
                     -1,
                     0,
                     0
-                  ],
-                  "blocks": [
-                    "minecraft:air"
                   ]
                 },
                 {
                   "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:air"
+                  ],
                   "offset": [
                     0,
                     0,
                     -1
-                  ],
-                  "blocks": [
-                    "minecraft:air"
                   ]
                 }
               ]

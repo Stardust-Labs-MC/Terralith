@@ -65,7 +65,7 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
-            "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
@@ -85,7 +85,6 @@
       "minecraft:spring_lava"
     ],
     [
-      "terralith:sakura/bamboo",
       "minecraft:glow_lichen",
       "minecraft:patch_tall_grass_2",
       "minecraft:patch_grass_plain",
@@ -132,9 +131,9 @@
       },
       {
         "type": "minecraft:wolf",
-        "weight": 8,
+        "maxCount": 4,
         "minCount": 4,
-        "maxCount": 4
+        "weight": 8
       }
     ],
     "misc": [],

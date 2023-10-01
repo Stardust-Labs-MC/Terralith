@@ -1,15 +1,15 @@
-  {
-    "name": "spooky_scary",
-    "fallback": "minecraft:empty",
-    "elements": [
-      {
-        "weight": 1,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "terralith:underground/dungeon1",
-          "processors": "minecraft:empty"
-        }
-      }
-    ]
-  }
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "terralith:underground/dungeon1",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty",
+  "name": "spooky_scary"
+}

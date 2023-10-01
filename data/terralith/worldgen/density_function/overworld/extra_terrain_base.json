@@ -1,12 +1,12 @@
 {
-    "type": "cache_once",
-    "argument": {
-        "type": "max",
-        "argument1": "terralith:overworld/arch/total",
-        "argument2": {
-            "type": "max",
-            "argument1": "terralith:overworld/dune/total",
-            "argument2": "terralith:overworld/spikes/tendrils"
-        }
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:max",
+    "argument1": "terralith:overworld/arch/total",
+    "argument2": {
+      "type": "minecraft:max",
+      "argument1": "terralith:overworld/dune/total",
+      "argument2": "terralith:overworld/spikes/tendrils"
     }
+  }
 }

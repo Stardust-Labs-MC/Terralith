@@ -1,6 +1,7 @@
 {
   "type": "minecraft:random_selector",
   "config": {
+    "default": "terralith:taiga/mid/spruce_mid",
     "features": [
       {
         "chance": 0.3,
@@ -10,7 +11,6 @@
         "chance": 0.2,
         "feature": "terralith:taiga/mid/spruce_mid_m"
       }
-    ],
-    "default": "terralith:taiga/mid/spruce_mid"
+    ]
   }
 }

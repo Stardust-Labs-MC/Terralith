@@ -2,243 +2,243 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_axe",
           "functions": [
             {
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 0,
-                "max": 10
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.2
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:charcoal",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 5,
-                "max": 8
+                "max": 10,
+                "min": 0
               }
             }
-          ]
+          ],
+          "name": "minecraft:iron_axe"
         }
-      ]
+      ],
+      "rolls": 1
     },
     {
-      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:suspicious_stew",
           "functions": [
             {
-              "function": "minecraft:set_stew_effect",
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8,
+                "min": 5
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:charcoal"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
               "effects": [
                 {
                   "type": "minecraft:saturation",
                   "duration": {
                     "type": "minecraft:uniform",
-                    "min": 7,
-                    "max": 10
+                    "max": 10,
+                    "min": 7
                   }
                 },
                 {
                   "type": "minecraft:night_vision",
                   "duration": {
                     "type": "minecraft:uniform",
-                    "min": 7,
-                    "max": 10
+                    "max": 10,
+                    "min": 7
                   }
                 },
                 {
                   "type": "minecraft:poison",
                   "duration": {
                     "type": "minecraft:uniform",
-                    "min": 10,
-                    "max": 20
+                    "max": 20,
+                    "min": 10
                   }
                 },
                 {
                   "type": "minecraft:weakness",
                   "duration": {
                     "type": "minecraft:uniform",
-                    "min": 6,
-                    "max": 8
+                    "max": 8,
+                    "min": 6
                   }
                 },
                 {
                   "type": "minecraft:blindness",
                   "duration": {
                     "type": "minecraft:uniform",
-                    "min": 5,
-                    "max": 7
+                    "max": 7,
+                    "min": 5
                   }
                 },
                 {
                   "type": "minecraft:jump_boost",
                   "duration": {
                     "type": "minecraft:uniform",
-                    "min": 7,
-                    "max": 10
+                    "max": 10,
+                    "min": 7
                   }
                 }
-              ]
+              ],
+              "function": "minecraft:set_stew_effect"
             }
-          ]
+          ],
+          "name": "minecraft:suspicious_stew"
         }
-      ]
+      ],
+      "rolls": 1
     },
     {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5,
+                "min": 3
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:rabbit"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5,
+                "min": 3
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:chicken"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5,
+                "min": 3
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:beef"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5,
+                "min": 3
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:porkchop"
+        }
+      ],
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 1,
-        "max": 3
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:rabbit",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 3,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:chicken",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 3,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:beef",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 3,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:porkchop",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 3,
-                "max": 5
-              }
-            }
-          ]
-        }
-      ]
+        "max": 3,
+        "min": 1
+      }
     },
     {
-      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:rabbit_hide",
           "functions": [
             {
-              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3,
-                "max": 6
-              }
+                "max": 6,
+                "min": 3
+              },
+              "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "name": "minecraft:rabbit_hide"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:leather",
           "functions": [
             {
-              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3,
-                "max": 6
-              }
+                "max": 6,
+                "min": 3
+              },
+              "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "name": "minecraft:leather"
         }
-      ]
+      ],
+      "rolls": 1
     },
     {
-      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stripped_oak_wood",
           "functions": [
             {
-              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 4,
-                "max": 8
-              }
+                "max": 8,
+                "min": 4
+              },
+              "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "name": "minecraft:stripped_oak_wood"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:oak_wood",
           "functions": [
             {
-              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 4,
-                "max": 8
-              }
+                "max": 8,
+                "min": 4
+              },
+              "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "name": "minecraft:oak_wood"
         }
-      ]
+      ],
+      "rolls": 1
     }
   ]
 }

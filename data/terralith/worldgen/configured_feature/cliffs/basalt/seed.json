@@ -1,6 +1,7 @@
 {
   "type": "minecraft:netherrack_replace_blobs",
   "config": {
+    "radius": 0,
     "state": {
       "Name": "minecraft:smooth_basalt"
     },
@@ -9,7 +10,6 @@
       "Properites": {
         "axis": "y"
       }
-    },
-    "radius": 0
+    }
   }
 }

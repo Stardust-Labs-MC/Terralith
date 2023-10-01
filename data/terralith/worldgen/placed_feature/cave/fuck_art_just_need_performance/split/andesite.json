@@ -2,19 +2,19 @@
   "feature": {
     "type": "minecraft:netherrack_replace_blobs",
     "config": {
-      "state": {
-        "Name": "minecraft:andesite",
-        "Properties": {}
-      },
-      "target": {
-        "Name": "minecraft:stone"
-      },
       "radius": {
         "type": "minecraft:uniform",
         "value": {
           "min_inclusive": 5,
           "max_inclusive": 12
         }
+      },
+      "state": {
+        "Name": "minecraft:andesite",
+        "Properties": {}
+      },
+      "target": {
+        "Name": "minecraft:stone"
       }
     }
   },
@@ -25,8 +25,8 @@
         "type": "minecraft:weighted_list",
         "distribution": [
           {
-            "weight": 100,
-            "data": 180
+            "data": 180,
+            "weight": 100
           }
         ]
       }
@@ -48,9 +48,9 @@
     },
     {
       "type": "minecraft:noise_based_count",
-      "noise_to_count_ratio": 1,
       "noise_factor": 950,
-      "noise_offset": -0.635
+      "noise_offset": -0.635,
+      "noise_to_count_ratio": 1
     },
     {
       "type": "minecraft:biome"

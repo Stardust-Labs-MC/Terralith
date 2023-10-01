@@ -1,7 +1,6 @@
 {
   "pools": [
     {
-      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
@@ -13,145 +12,146 @@
           "function": "minecraft:enchant_with_levels",
           "levels": {
             "type": "minecraft:uniform",
-            "min": 0,
-            "max": 10
+            "max": 10,
+            "min": 0
           }
         }
-      ]
+      ],
+      "rolls": 1
     },
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 3,
-        "max": 5
-      },
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:axolotl_bucket"
+          "name": "minecraft:axolotl_bucket",
+          "weight": 1
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:water_bucket"
+          "name": "minecraft:water_bucket",
+          "weight": 1
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "minecraft:yellow_dye",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flower_pot",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
             }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:flower_pot"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
+          ],
           "name": "minecraft:brick",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:clay_ball",
           "functions": [
             {
-              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "name": "minecraft:clay_ball",
+          "weight": 3
         }
-      ]
-    },
-    {
+      ],
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 2,
-        "max": 4
-      },
+        "max": 5,
+        "min": 3
+      }
+    },
+    {
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:clay",
           "functions": [
             {
-              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "name": "minecraft:clay"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:smooth_stone",
           "functions": [
             {
-              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "name": "minecraft:smooth_stone"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone_bricks",
           "functions": [
             {
-              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "name": "minecraft:stone_bricks"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone",
           "functions": [
             {
-              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "name": "minecraft:stone"
         }
-      ]
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 4,
+        "min": 2
+      }
     }
   ]
 }

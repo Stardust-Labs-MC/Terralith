@@ -1,9 +1,6 @@
 {
   "type": "minecraft:random_patch",
   "config": {
-    "tries": 32,
-    "xz_spread": 7,
-    "y_spread": 3,
     "feature": {
       "feature": {
         "type": "minecraft:simple_block",
@@ -12,43 +9,43 @@
             "type": "minecraft:weighted_state_provider",
             "entries": [
               {
-                "weight": 50,
                 "data": {
                   "Name": "minecraft:grass"
-                }
+                },
+                "weight": 50
               },
               {
-                "weight": 17,
                 "data": {
                   "Name": "minecraft:fern"
-                }
+                },
+                "weight": 17
               },
               {
-                "weight": 8,
                 "data": {
                   "Name": "minecraft:dead_bush"
-                }
+                },
+                "weight": 8
               },
               {
-                "weight": 3,
                 "data": {
                   "Name": "minecraft:moss_carpet"
-                }
+                },
+                "weight": 3
               },
               {
-                "weight": 1,
                 "data": {
                   "Name": "minecraft:azalea"
-                }
+                },
+                "weight": 1
               },
               {
-                "weight": 1,
                 "data": {
                   "Name": "minecraft:tall_grass",
                   "Properties": {
                     "half": "lower"
                   }
-                }
+                },
+                "weight": 1
               }
             ]
           }
@@ -68,22 +65,25 @@
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [
-                  0,
-                  -1,
-                  0
-                ],
                 "blocks": [
                   "minecraft:oak_leaves",
                   "minecraft:acacia_leaves",
                   "minecraft:grass_block",
                   "moss_block"
+                ],
+                "offset": [
+                  0,
+                  -1,
+                  0
                 ]
               }
             ]
           }
         }
       ]
-    }
+    },
+    "tries": 32,
+    "xz_spread": 7,
+    "y_spread": 3
   }
 }

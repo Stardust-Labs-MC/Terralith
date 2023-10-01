@@ -1,11 +1,10 @@
 {
   "type": "minecraft:block_column",
   "config": {
-    "direction": "down",
     "allowed_placement": {
       "type": "minecraft:true"
     },
-    "prioritize_tip": false,
+    "direction": "down",
     "layers": [
       {
         "height": {
@@ -25,6 +24,7 @@
           }
         }
       }
-    ]
+    ],
+    "prioritize_tip": false
   }
 }

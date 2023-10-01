@@ -1,14 +1,10 @@
 {
   "type": "minecraft:random_patch",
   "config": {
-    "tries": 20,
-    "xz_spread": 7,
-    "y_spread": 3,
     "feature": {
       "feature": {
         "type": "minecraft:block_column",
         "config": {
-          "direction": "up",
           "allowed_placement": {
             "type": "minecraft:would_survive",
             "state": {
@@ -18,7 +14,7 @@
               }
             }
           },
-          "prioritize_tip": false,
+          "direction": "up",
           "layers": [
             {
               "height": {
@@ -38,7 +34,8 @@
                 }
               }
             }
-          ]
+          ],
+          "prioritize_tip": false
         }
       },
       "placement": [
@@ -55,6 +52,9 @@
           }
         }
       ]
-    }
+    },
+    "tries": 20,
+    "xz_spread": 7,
+    "y_spread": 3
   }
 }

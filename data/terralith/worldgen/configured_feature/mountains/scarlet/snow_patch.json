@@ -1,54 +1,51 @@
 {
   "type": "minecraft:random_patch",
   "config": {
-    "tries": 35,
-    "xz_spread": 3,
-    "y_spread": 3,
     "feature": {
       "feature": {
         "type": "minecraft:ore",
         "config": {
-          "size": 23,
           "discard_chance_on_air_exposure": 0,
+          "size": 23,
           "targets": [
             {
+              "state": {
+                "Name": "minecraft:snow_block"
+              },
               "target": {
-                "predicate_type": "minecraft:random_block_match",
                 "block": "minecraft:crimson_nylium",
+                "predicate_type": "minecraft:random_block_match",
                 "probability": 0.4
-              },
-              "state": {
-                "Name": "minecraft:snow_block"
               }
             },
             {
+              "state": {
+                "Name": "minecraft:snow_block"
+              },
               "target": {
-                "predicate_type": "minecraft:random_block_match",
                 "block": "minecraft:netherrack",
+                "predicate_type": "minecraft:random_block_match",
                 "probability": 0.4
-              },
-              "state": {
-                "Name": "minecraft:snow_block"
               }
             },
             {
+              "state": {
+                "Name": "minecraft:snow_block"
+              },
               "target": {
-                "predicate_type": "minecraft:random_block_match",
                 "block": "minecraft:blackstone",
+                "predicate_type": "minecraft:random_block_match",
                 "probability": 0.5
-              },
-              "state": {
-                "Name": "minecraft:snow_block"
               }
             },
             {
-              "target": {
-                "predicate_type": "minecraft:random_block_match",
-                "block": "minecraft:deepslate",
-                "probability": 0.6
-              },
               "state": {
                 "Name": "minecraft:snow_block"
+              },
+              "target": {
+                "block": "minecraft:deepslate",
+                "predicate_type": "minecraft:random_block_match",
+                "probability": 0.6
               }
             }
           ]
@@ -83,6 +80,9 @@
           }
         }
       ]
-    }
+    },
+    "tries": 35,
+    "xz_spread": 3,
+    "y_spread": 3
   }
 }

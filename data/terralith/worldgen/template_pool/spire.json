@@ -1,15 +1,15 @@
 {
-    "name": "terralith:spire",
-    "fallback": "minecraft:empty",
-    "elements": [
-        {
-            "weight": 4,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "terralith:spire",
-                "processors": "minecraft:empty"
-            }
-        }
-    ]
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "terralith:null_structure",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 4
+    }
+  ],
+  "fallback": "minecraft:empty",
+  "name": "terralith:spire"
 }

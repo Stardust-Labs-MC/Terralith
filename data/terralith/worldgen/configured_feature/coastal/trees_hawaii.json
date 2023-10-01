@@ -1,6 +1,7 @@
 {
   "type": "minecraft:random_selector",
   "config": {
+    "default": "minecraft:jungle_tree",
     "features": [
       {
         "chance": 0.1,
@@ -18,7 +19,6 @@
         "chance": 0.1333333,
         "feature": "terralith:coastal/bending_acacia"
       }
-    ],
-    "default": "minecraft:jungle_tree"
+    ]
   }
 }

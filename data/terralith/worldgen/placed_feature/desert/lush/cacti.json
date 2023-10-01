@@ -2,27 +2,23 @@
   "feature": {
     "type": "minecraft:random_patch",
     "config": {
-      "tries": 2,
-      "xz_spread": 6,
-      "y_spread": 2,
       "feature": {
         "feature": {
           "type": "minecraft:block_column",
           "config": {
-            "direction": "up",
             "allowed_placement": {
               "type": "minecraft:true"
             },
-            "prioritize_tip": false,
+            "direction": "up",
             "layers": [
               {
                 "height": {
                   "type": "minecraft:clamped_normal",
                   "value": {
+                    "deviation": 2,
                     "min_inclusive": 1,
                     "max_inclusive": 7,
-                    "mean": 2,
-                    "deviation": 2
+                    "mean": 2
                   }
                 },
                 "provider": {
@@ -32,7 +28,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "prioritize_tip": false
           }
         },
         "placement": [
@@ -43,31 +40,34 @@
               "predicates": [
                 {
                   "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:air"
+                  ],
                   "offset": [
                     0,
                     0,
                     0
-                  ],
-                  "blocks": [
-                    "minecraft:air"
                   ]
                 },
                 {
                   "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:sand"
+                  ],
                   "offset": [
                     0,
                     -1,
                     0
-                  ],
-                  "blocks": [
-                    "minecraft:sand"
                   ]
                 }
               ]
             }
           }
         ]
-      }
+      },
+      "tries": 2,
+      "xz_spread": 6,
+      "y_spread": 2
     }
   },
   "placement": [

@@ -1,5 +1,4 @@
 {
-  "firstOctave": -9,
   "amplitudes": [
     1,
     1,
@@ -11,5 +10,6 @@
     4,
     2.5,
     5.5
-  ]
+  ],
+  "firstOctave": -9
 }

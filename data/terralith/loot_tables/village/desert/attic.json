@@ -1,32 +1,32 @@
 {
   "pools": [
     {
-      "rolls": {
-        "min": 2,
-        "max": 7
-      },
       "entries": [
         {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:cobweb"
+          "type": "minecraft:item",
+          "name": "minecraft:cobweb",
+          "weight": 1
         },
         {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:bowl"
+          "type": "minecraft:item",
+          "name": "minecraft:bowl",
+          "weight": 1
         },
         {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:spider_eye"
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "weight": 1
         },
         {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:glass_bottle"
+          "type": "minecraft:item",
+          "name": "minecraft:glass_bottle",
+          "weight": 1
         }
-      ]
+      ],
+      "rolls": {
+        "max": 7,
+        "min": 2
+      }
     }
   ]
 }

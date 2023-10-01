@@ -2,25 +2,22 @@
   "feature": {
     "type": "minecraft:random_patch",
     "config": {
-      "tries": 8,
-      "xz_spread": 6,
-      "y_spread": 3,
       "feature": {
         "feature": {
           "type": "minecraft:simple_block",
           "config": {
             "to_place": {
               "type": "minecraft:noise_provider",
-              "seed": 26,
               "noise": {
-                "firstOctave": -5,
                 "amplitudes": [
                   1,
                   1,
                   1.5
-                ]
+                ],
+                "firstOctave": -5
               },
               "scale": 1,
+              "seed": 26,
               "states": [
                 {
                   "Name": "minecraft:medium_amethyst_bud",
@@ -36,8 +33,15 @@
                     "waterlogged": "false"
                   }
                 },
-                {"Name":"minecraft:air"},
-                {"Name":"minecraft:air"},{"Name":"minecraft:air"},
+                {
+                  "Name": "minecraft:air"
+                },
+                {
+                  "Name": "minecraft:air"
+                },
+                {
+                  "Name": "minecraft:air"
+                },
                 {
                   "Name": "minecraft:orange_tulip"
                 },
@@ -59,31 +63,34 @@
               "predicates": [
                 {
                   "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:air"
+                  ],
                   "offset": [
                     0,
                     0,
                     0
-                  ],
-                  "blocks": [
-                    "minecraft:air"
                   ]
                 },
                 {
                   "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:grass_block"
+                  ],
                   "offset": [
                     0,
                     -1,
                     0
-                  ],
-                  "blocks": [
-                    "minecraft:grass_block"
                   ]
                 }
               ]
             }
           }
         ]
-      }
+      },
+      "tries": 8,
+      "xz_spread": 6,
+      "y_spread": 3
     }
   },
   "placement": [

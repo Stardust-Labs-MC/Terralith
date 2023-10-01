@@ -1,9 +1,6 @@
 {
   "type": "minecraft:random_patch",
   "config": {
-    "tries": 32,
-    "xz_spread": 7,
-    "y_spread": 3,
     "feature": {
       "feature": {
         "type": "minecraft:simple_block",
@@ -12,10 +9,10 @@
             "type": "minecraft:weighted_state_provider",
             "entries": [
               {
-                "weight": 3,
                 "data": {
                   "Name": "minecraft:crimson_roots"
-                }
+                },
+                "weight": 3
               }
             ]
           }
@@ -35,19 +32,22 @@
               },
               {
                 "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:crimson_nylium"
+                ],
                 "offset": [
                   0,
                   -1,
                   0
-                ],
-                "blocks": [
-                  "minecraft:crimson_nylium"
                 ]
               }
             ]
           }
         }
       ]
-    }
+    },
+    "tries": 32,
+    "xz_spread": 7,
+    "y_spread": 3
   }
 }

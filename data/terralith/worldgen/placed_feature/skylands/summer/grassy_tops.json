@@ -4,102 +4,50 @@
     "config": {
       "to_place": {
         "type": "minecraft:noise_provider",
-        "seed": 523,
         "noise": {
-          "firstOctave": -4,
           "amplitudes": [
             1.5,
             0.75,
             1.25,
             1.75
-          ]
+          ],
+          "firstOctave": -4
         },
         "scale": 1,
-        "variety": {
-          "min_inclusive": 1,
-          "max_inclusive": 26
-        },
+        "seed": 523,
         "slow_noise": {
-          "firstOctave": -5,
           "amplitudes": [
             1.5,
             0.75,
             1.25,
             1.75
-          ]
+          ],
+          "firstOctave": -5
         },
         "slow_scale": 1,
         "states": [
-        	          {
+          {
             "Name": "minecraft:sand"
           },
-                    {
+          {
             "Name": "minecraft:sand"
           },
-                    {
+          {
             "Name": "minecraft:sand"
           },
-                              {
+          {
             "Name": "minecraft:sand"
           },
-                    {
+          {
             "Name": "minecraft:sand"
           },
-                    {
+          {
             "Name": "minecraft:moss_block"
           },
-                              {
+          {
             "Name": "minecraft:moss_block"
           },
-                    {
-            "Name": "minecraft:grass_block",
-            "Properties": {
-              "snowy": "false"
-            }
-          },
-                    {
-            "Name": "minecraft:grass_block",
-            "Properties": {
-              "snowy": "false"
-            }
-          },
-                    {
-            "Name": "minecraft:grass_block",
-            "Properties": {
-              "snowy": "false"
-            }
-          },
-                    {
-            "Name": "minecraft:grass_block",
-            "Properties": {
-              "snowy": "false"
-            }
-          },
-                    {
-            "Name": "minecraft:grass_block",
-            "Properties": {
-              "snowy": "false"
-            }
-          },
-                              {
-            "Name": "minecraft:grass_block",
-            "Properties": {
-              "snowy": "false"
-            }
-          },
-                    {
-            "Name": "minecraft:grass_block",
-            "Properties": {
-              "snowy": "false"
-            }
-          },
-                              {
-            "Name": "minecraft:grass_block",
-            "Properties": {
-              "snowy": "false"
-            }
-          },
-                    {
+          {
             "Name": "minecraft:grass_block",
             "Properties": {
               "snowy": "false"
@@ -111,52 +59,104 @@
               "snowy": "false"
             }
           },
-                    {
+          {
             "Name": "minecraft:grass_block",
             "Properties": {
               "snowy": "false"
             }
           },
-                    {
+          {
             "Name": "minecraft:grass_block",
             "Properties": {
               "snowy": "false"
             }
           },
-                    {
+          {
             "Name": "minecraft:grass_block",
             "Properties": {
               "snowy": "false"
             }
           },
-                    {
+          {
             "Name": "minecraft:grass_block",
             "Properties": {
               "snowy": "false"
             }
           },
-                              {
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          {
             "Name": "minecraft:moss_block"
           },
-                  	          {
+          {
             "Name": "minecraft:moss_block"
           },
-                              {
+          {
             "Name": "minecraft:sand"
           },
-                    {
+          {
             "Name": "minecraft:sand"
           },
-                    {
+          {
             "Name": "minecraft:sand"
           },
-                    {
+          {
             "Name": "minecraft:sand"
           },
-                    {
+          {
             "Name": "minecraft:sand"
           }
-        ]
+        ],
+        "variety": {
+          "min_inclusive": 1,
+          "max_inclusive": 26
+        }
       }
     }
   },
@@ -196,26 +196,26 @@
         "predicates": [
           {
             "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:stone"
+            ],
             "offset": [
               0,
               0,
               0
-            ],
-            "blocks": [
-              "minecraft:stone"
             ]
           },
           {
             "type": "minecraft:matching_blocks",
-            "offset": [
-              0,
-              1,
-              0
-            ],
             "blocks": [
               "minecraft:air",
               "minecraft:grass",
               "minecraft:fern"
+            ],
+            "offset": [
+              0,
+              1,
+              0
             ]
           }
         ]

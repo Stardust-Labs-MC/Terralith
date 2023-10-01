@@ -1,8 +1,0 @@
-{
-	"feature": "terralith:cave/ice/crystal_inside",
-	"placement": [
-		{
-			"type": "minecraft:biome"
-		}
-	]
-}

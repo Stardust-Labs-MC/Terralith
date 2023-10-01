@@ -1,17 +1,17 @@
 {
   "type": "minecraft:ore",
   "config": {
-    "size": 35,
     "discard_chance_on_air_exposure": 0,
+    "size": 35,
     "targets": [
       {
-        "target": {
-          "predicate_type": "minecraft:random_block_match",
-          "block": "minecraft:diorite",
-          "probability": 0.7
-        },
         "state": {
           "Name": "minecraft:andesite"
+        },
+        "target": {
+          "block": "minecraft:diorite",
+          "predicate_type": "minecraft:random_block_match",
+          "probability": 0.7
         }
       }
     ]

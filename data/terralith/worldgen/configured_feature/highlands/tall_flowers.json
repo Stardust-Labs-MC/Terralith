@@ -1,25 +1,22 @@
 {
   "type": "minecraft:random_patch",
   "config": {
-    "tries": 13,
-    "xz_spread": 12,
-    "y_spread": 3,
     "feature": {
       "feature": {
         "type": "minecraft:simple_block",
         "config": {
           "to_place": {
             "type": "minecraft:noise_provider",
-            "seed": 69420,
             "noise": {
-              "firstOctave": -7,
               "amplitudes": [
                 1,
                 1,
                 1
-              ]
+              ],
+              "firstOctave": -7
             },
             "scale": 1,
+            "seed": 69420,
             "states": [
               {
                 "Name": "minecraft:peony"
@@ -42,6 +39,9 @@
           }
         }
       ]
-    }
+    },
+    "tries": 13,
+    "xz_spread": 12,
+    "y_spread": 3
   }
 }

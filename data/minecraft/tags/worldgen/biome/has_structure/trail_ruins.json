@@ -1,20 +1,14 @@
 {
-    "replace": false,
-    "values": [
-        "minecraft:taiga",
-        "minecraft:snowy_taiga",
-        "minecraft:old_growth_pine_taiga",
-        "minecraft:old_growth_spruce_taiga",
-        "minecraft:old_growth_birch_forest",
-        "minecraft:jungle",
-        "terralith:birch_taiga",
-        "terralith:forested_highlands",
-        "terralith:rocky_jungle",
-        "terralith:shield",
-        "terralith:shield_clearing",
-        "terralith:siberian_taiga",
-        "terralith:snowy_maple_forest",
-        "terralith:snowy_shield",
-        "terralith:valley_clearing"
-    ]
+  "replace": false,
+  "values": [
+    "terralith:birch_taiga",
+    "terralith:forested_highlands",
+    "terralith:rocky_jungle",
+    "terralith:shield",
+    "terralith:shield_clearing",
+    "terralith:siberian_taiga",
+    "terralith:snowy_maple_forest",
+    "terralith:snowy_shield",
+    "terralith:valley_clearing"
+  ]
 }

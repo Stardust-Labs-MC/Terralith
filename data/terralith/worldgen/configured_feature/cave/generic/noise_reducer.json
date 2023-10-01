@@ -1,16 +1,16 @@
 {
   "type": "minecraft:ore",
   "config": {
-    "size": 48,
     "discard_chance_on_air_exposure": 0,
+    "size": 48,
     "targets": [
       {
+        "state": {
+          "Name": "minecraft:stone"
+        },
         "target": {
           "predicate_type": "minecraft:tag_match",
           "tag": "terralith:alt_stones"
-        },
-        "state": {
-          "Name": "minecraft:stone"
         }
       }
     ]

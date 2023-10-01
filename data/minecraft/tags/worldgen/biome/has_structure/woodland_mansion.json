@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "minecraft:dark_forest","terralith:sakura_grove"
+    "terralith:sakura_grove"
   ]
 }

@@ -6,6 +6,6 @@
     "min_inclusive": -1000000,
     "max_exclusive": 2.0,
     "when_in_range": "terralith:overworld/cliff/carve",
-    "when_out_of_range": 64 //UNRECOVERABLY_DENSE. sad
+    "when_out_of_range": 64
 }
 }

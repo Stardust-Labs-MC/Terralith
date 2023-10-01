@@ -1,16 +1,16 @@
 {
   "type": "minecraft:ore",
   "config": {
-    "size": 45,
     "discard_chance_on_air_exposure": 0,
+    "size": 45,
     "targets": [
       {
+        "state": {
+          "Name": "minecraft:calcite"
+        },
         "target": {
           "predicate_type": "minecraft:tag_match",
           "tag": "terralith:stone_diorite"
-        },
-        "state": {
-          "Name": "minecraft:calcite"
         }
       }
     ]

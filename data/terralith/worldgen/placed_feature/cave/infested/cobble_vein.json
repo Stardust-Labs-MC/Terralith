@@ -2,35 +2,35 @@
   "feature": {
     "type": "minecraft:scattered_ore",
     "config": {
-      "size": 64,
       "discard_chance_on_air_exposure": 0,
+      "size": 64,
       "targets": [
-                {
-          "target": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:stone",
-            "probability": 0.35
-          },
+        {
           "state": {
             "Name": "minecraft:mossy_cobblestone"
+          },
+          "target": {
+            "block": "minecraft:stone",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.35
           }
         },
         {
-          "target": {
-            "predicate_type": "minecraft:block_match",
-            "block": "minecraft:stone"
-          },
           "state": {
             "Name": "minecraft:cobblestone"
+          },
+          "target": {
+            "block": "minecraft:stone",
+            "predicate_type": "minecraft:block_match"
           }
         },
         {
-          "target": {
-            "predicate_type": "minecraft:block_match",
-            "block": "minecraft:deepslate"
-          },
           "state": {
             "Name": "minecraft:cobbled_deepslate"
+          },
+          "target": {
+            "block": "minecraft:deepslate",
+            "predicate_type": "minecraft:block_match"
           }
         }
       ]
@@ -63,61 +63,63 @@
         "predicates": [
           {
             "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air",
             "offset": [
               0,
               6,
               0
-            ],
-            "blocks": "minecraft:air"
+            ]
           },
           {
             "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air",
             "offset": [
               -6,
               0,
               0
-            ],
-            "blocks": "minecraft:air"
+            ]
           },
           {
             "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air",
             "offset": [
               6,
               0,
               0
-            ],
-            "blocks": "minecraft:air"
+            ]
           },
           {
             "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air",
             "offset": [
               0,
               0,
               -6
-            ],
-            "blocks": "minecraft:air"
+            ]
           },
           {
             "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air",
             "offset": [
               0,
               0,
               6
-            ],
-            "blocks": "minecraft:air"
+            ]
           },
           {
             "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air",
             "offset": [
               0,
               -6,
               0
-            ],
-            "blocks": "minecraft:air"
+            ]
           }
         ]
       }
     },
-    {"type":"biome"}
+    {
+      "type": "minecraft:biome"
+    }
   ]
 }

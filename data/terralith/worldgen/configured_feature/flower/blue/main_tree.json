@@ -1,8 +1,55 @@
 {
   "type": "minecraft:tree",
   "config": {
-    "ignore_vines": true,
+    "decorators": [],
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "foliage_placer": {
+      "type": "minecraft:mega_pine_foliage_placer",
+      "crown_height": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 9,
+          "max_inclusive": 12
+        }
+      },
+      "offset": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 4,
+          "max_inclusive": 5
+        }
+      },
+      "radius": 1
+    },
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:acacia_leaves",
+            "Properties": {
+              "distance": "7",
+              "persistent": "false",
+              "waterlogged": "false"
+            }
+          },
+          "weight": 12
+        },
+        {
+          "data": {
+            "Name": "minecraft:air"
+          },
+          "weight": 1
+        }
+      ]
+    },
     "force_dirt": true,
+    "ignore_vines": true,
     "minimum_size": {
       "type": "minecraft:two_layers_feature_size",
       "limit": 1,
@@ -18,11 +65,11 @@
         }
       }
     },
-    "dirt_provider": {
-      "type": "minecraft:simple_state_provider",
-      "state": {
-        "Name": "minecraft:dirt"
-      }
+    "trunk_placer": {
+      "type": "minecraft:straight_trunk_placer",
+      "base_height": 11,
+      "height_rand_a": 6,
+      "height_rand_b": 4
     },
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
@@ -32,52 +79,6 @@
           "axis": "y"
         }
       }
-    },
-    "foliage_provider": {
-      "type": "minecraft:weighted_state_provider",
-      "entries": [
-        {
-          "weight": 12,
-          "data": {
-            "Name": "minecraft:acacia_leaves",
-            "Properties": {
-              "distance": "7",
-              "persistent": "false"
-            }
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:air"
-          }
-        }
-      ]
-    },
-    "trunk_placer": {
-      "type": "minecraft:straight_trunk_placer",
-      "base_height": 11,
-      "height_rand_a": 6,
-      "height_rand_b": 4
-    },
-    "foliage_placer": {
-      "type": "minecraft:mega_pine_foliage_placer",
-      "radius": 1,
-      "offset": {
-        "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 4,
-          "max_inclusive": 5
-        }
-      },
-      "crown_height": {
-        "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 9,
-          "max_inclusive": 12
-        }
-      }
-    },
-    "decorators": []
+    }
   }
 }

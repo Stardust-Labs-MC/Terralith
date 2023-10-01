@@ -1,12 +1,47 @@
 {
   "type": "minecraft:tree",
   "config": {
+    "decorators": [],
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "foliage_placer": {
+      "type": "minecraft:fancy_foliage_placer",
+      "height": 4,
+      "offset": 2,
+      "radius": 2
+    },
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:air"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "minecraft:oak_leaves",
+            "Properties": {
+              "distance": "7",
+              "persistent": "false",
+              "waterlogged": "false"
+            }
+          },
+          "weight": 4
+        }
+      ]
+    },
     "force_dirt": true,
     "minimum_size": {
       "type": "minecraft:two_layers_feature_size",
-      "min_clipped_height": 4,
       "limit": 0,
       "lower_size": 0,
+      "min_clipped_height": 4,
       "upper_size": 0
     },
     "sapling_provider": {
@@ -18,11 +53,19 @@
         }
       }
     },
-    "dirt_provider": {
-      "type": "minecraft:simple_state_provider",
-      "state": {
-        "Name": "minecraft:dirt"
-      }
+    "trunk_placer": {
+      "type": "minecraft:bending_trunk_placer",
+      "base_height": 7,
+      "bend_length": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 1,
+          "max_inclusive": 3
+        }
+      },
+      "height_rand_a": 5,
+      "height_rand_b": 0,
+      "min_height_for_leaves": 7
     },
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
@@ -32,48 +75,6 @@
           "axis": "y"
         }
       }
-    },
-    "foliage_provider": {
-      "type": "minecraft:weighted_state_provider",
-      "entries": [
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:air"
-          }
-        },
-        {
-          "weight": 4,
-          "data": {
-            "Name": "minecraft:oak_leaves",
-            "Properties": {
-              "distance": "7",
-              "persistent": "false"
-            }
-          }
-        }
-      ]
-    },
-    "trunk_placer": {
-      "type": "minecraft:bending_trunk_placer",
-      "base_height": 7,
-      "height_rand_a": 5,
-      "height_rand_b": 0,
-      "bend_length": {
-        "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 1,
-          "max_inclusive": 3
-        }
-      },
-      "min_height_for_leaves": 7
-    },
-    "foliage_placer": {
-      "type": "minecraft:fancy_foliage_placer",
-      "radius": 2,
-      "offset": 2,
-      "height": 4
-    },
-    "decorators": []
+    }
   }
 }

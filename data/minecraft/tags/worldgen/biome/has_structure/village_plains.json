@@ -1,8 +1,6 @@
 {
   "replace": false,
   "values": [
-    "minecraft:plains",
-    "minecraft:meadow",
     "terralith:blooming_plateau",
     "terralith:steppe",
     "terralith:birch_taiga",

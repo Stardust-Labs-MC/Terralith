@@ -1,15 +1,15 @@
 {
-  "name": "bad_luck",
-  "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
         "location": "terralith:underground/witchhut_01",
-        "processors": "minecraft:empty"
-      }
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
     }
-  ]
+  ],
+  "fallback": "minecraft:empty",
+  "name": "bad_luck"
 }

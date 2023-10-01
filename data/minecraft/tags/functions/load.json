@@ -1,5 +1,8 @@
 {
-    "values": [
-        "terralith:setup"
-    ]
+  "values": [
+    {
+      "id": "terralith:setup",
+      "required": false
+    }
+  ]
 }

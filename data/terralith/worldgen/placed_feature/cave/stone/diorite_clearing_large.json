@@ -270,7 +270,7 @@
       },
       "y_spread": 0
     },
-        {
+    {
       "type": "minecraft:random_offset",
       "xz_spread": {
         "type": "minecraft:uniform",
@@ -305,6 +305,9 @@
     },
     {
       "type": "minecraft:environment_scan",
+      "allowed_search_condition": {
+        "type": "minecraft:true"
+      },
       "direction_of_search": "down",
       "max_steps": 18,
       "target_condition": {
@@ -320,9 +323,6 @@
           "minecraft:tuff",
           "minecraft:cobbled_deepslate"
         ]
-      },
-      "allowed_search_condition": {
-        "type": "minecraft:true"
       }
     }
   ]

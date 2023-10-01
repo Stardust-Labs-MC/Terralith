@@ -1,26 +1,15 @@
 {
   "type": "minecraft:tree",
   "config": {
-    "ignore_vines": true,
-    "minimum_size": {
-      "limit": 2,
-      "lower_size": 0,
-      "upper_size": 2,
-      "type": "minecraft:two_layers_feature_size"
-    },
     "decorators": [],
-    "trunk_provider": {
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
       "state": {
-        "Properties": {
-          "axis": "y"
-        },
-        "Name": "minecraft:birch_log"
-      },
-      "type": "minecraft:simple_state_provider"
+        "Name": "minecraft:dirt"
+      }
     },
     "foliage_placer": {
-      "radius": 1,
-      "offset": 1,
+      "type": "minecraft:pine_foliage_placer",
       "height": {
         "type": "minecraft:uniform",
         "value": {
@@ -28,25 +17,28 @@
           "max_inclusive": 4
         }
       },
-      "type": "minecraft:pine_foliage_placer"
-    },
-    "trunk_placer": {
-      "base_height": 15,
-      "height_rand_a": 4,
-      "height_rand_b": 5,
-      "type": "minecraft:straight_trunk_placer"
+      "offset": 1,
+      "radius": 1
     },
     "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
       "state": {
+        "Name": "minecraft:birch_leaves",
         "Properties": {
+          "distance": "7",
           "persistent": "false",
-          "distance": "7"
-        },
-        "Name": "minecraft:birch_leaves"
-      },
-      "type": "minecraft:simple_state_provider"
+          "waterlogged": "false"
+        }
+      }
     },
     "force_dirt": false,
+    "ignore_vines": true,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 2,
+      "lower_size": 0,
+      "upper_size": 2
+    },
     "sapling_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
@@ -56,11 +48,20 @@
         }
       }
     },
-    "dirt_provider": {
+    "trunk_placer": {
+      "type": "minecraft:straight_trunk_placer",
+      "base_height": 15,
+      "height_rand_a": 4,
+      "height_rand_b": 5
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:dirt"
-      },
-      "type": "minecraft:simple_state_provider"
+        "Name": "minecraft:birch_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
     }
   }
 }

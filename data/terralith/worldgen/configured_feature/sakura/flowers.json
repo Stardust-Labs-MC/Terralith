@@ -1,9 +1,6 @@
 {
   "type": "minecraft:flower",
   "config": {
-    "tries": 64,
-    "xz_spread": 7,
-    "y_spread": 3,
     "feature": {
       "feature": {
         "type": "minecraft:simple_block",
@@ -12,182 +9,182 @@
             "type": "minecraft:weighted_state_provider",
             "entries": [
               {
-                "weight": 40,
                 "data": {
                   "Name": "minecraft:allium"
-                }
+                },
+                "weight": 40
               },
               {
-                "weight": 24,
                 "data": {
                   "Name": "minecraft:pink_tulip"
-                }
+                },
+                "weight": 24
               },
               {
-                "weight": 8,
                 "data": {
                   "Name": "minecraft:white_tulip"
-                }
+                },
+                "weight": 8
               },
               {
-                "weight": 1,
                 "data": {
                   "Name": "minecraft:pink_petals",
                   "Properties": {
                     "facing": "north",
                     "flower_amount": "1"
                   }
-                }
+                },
+                "weight": 1
               },
               {
-                "weight": 1,
                 "data": {
                   "Name": "minecraft:pink_petals",
                   "Properties": {
                     "facing": "east",
                     "flower_amount": "1"
                   }
-                }
+                },
+                "weight": 1
               },
               {
-                "weight": 1,
                 "data": {
                   "Name": "minecraft:pink_petals",
                   "Properties": {
                     "facing": "south",
                     "flower_amount": "1"
                   }
-                }
+                },
+                "weight": 1
               },
               {
-                "weight": 1,
                 "data": {
                   "Name": "minecraft:pink_petals",
                   "Properties": {
                     "facing": "west",
                     "flower_amount": "1"
                   }
-                }
+                },
+                "weight": 1
               },
               {
-                "weight": 1,
                 "data": {
                   "Name": "minecraft:pink_petals",
                   "Properties": {
                     "facing": "north",
                     "flower_amount": "2"
                   }
-                }
+                },
+                "weight": 1
               },
               {
-                "weight": 1,
                 "data": {
                   "Name": "minecraft:pink_petals",
                   "Properties": {
                     "facing": "east",
                     "flower_amount": "2"
                   }
-                }
+                },
+                "weight": 1
               },
               {
-                "weight": 1,
                 "data": {
                   "Name": "minecraft:pink_petals",
                   "Properties": {
                     "facing": "south",
                     "flower_amount": "2"
                   }
-                }
+                },
+                "weight": 1
               },
               {
-                "weight": 1,
                 "data": {
                   "Name": "minecraft:pink_petals",
                   "Properties": {
                     "facing": "west",
                     "flower_amount": "2"
                   }
-                }
+                },
+                "weight": 1
               },
               {
-                "weight": 1,
                 "data": {
                   "Name": "minecraft:pink_petals",
                   "Properties": {
                     "facing": "north",
                     "flower_amount": "3"
                   }
-                }
+                },
+                "weight": 1
               },
               {
-                "weight": 1,
                 "data": {
                   "Name": "minecraft:pink_petals",
                   "Properties": {
                     "facing": "east",
                     "flower_amount": "3"
                   }
-                }
+                },
+                "weight": 1
               },
               {
-                "weight": 1,
                 "data": {
                   "Name": "minecraft:pink_petals",
                   "Properties": {
                     "facing": "south",
                     "flower_amount": "3"
                   }
-                }
+                },
+                "weight": 1
               },
               {
-                "weight": 1,
                 "data": {
                   "Name": "minecraft:pink_petals",
                   "Properties": {
                     "facing": "west",
                     "flower_amount": "3"
                   }
-                }
+                },
+                "weight": 1
               },
               {
-                "weight": 1,
                 "data": {
                   "Name": "minecraft:pink_petals",
                   "Properties": {
                     "facing": "north",
                     "flower_amount": "4"
                   }
-                }
+                },
+                "weight": 1
               },
               {
-                "weight": 1,
                 "data": {
                   "Name": "minecraft:pink_petals",
                   "Properties": {
                     "facing": "east",
                     "flower_amount": "4"
                   }
-                }
+                },
+                "weight": 1
               },
               {
-                "weight": 1,
                 "data": {
                   "Name": "minecraft:pink_petals",
                   "Properties": {
                     "facing": "south",
                     "flower_amount": "4"
                   }
-                }
+                },
+                "weight": 1
               },
               {
-                "weight": 1,
                 "data": {
                   "Name": "minecraft:pink_petals",
                   "Properties": {
                     "facing": "west",
                     "flower_amount": "4"
                   }
-                }
+                },
+                "weight": 1
               }
             ]
           }
@@ -203,13 +200,13 @@
                 "type": "minecraft:not",
                 "predicate": {
                   "type": "minecraft:matching_fluids",
+                  "fluids": [
+                    "minecraft:water"
+                  ],
                   "offset": [
                     0,
                     0,
                     0
-                  ],
-                  "fluids": [
-                    "minecraft:water"
                   ]
                 }
               },
@@ -226,6 +223,9 @@
           }
         }
       ]
-    }
+    },
+    "tries": 64,
+    "xz_spread": 7,
+    "y_spread": 3
   }
 }

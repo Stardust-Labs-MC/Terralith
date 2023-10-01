@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "minecraft:taiga",
     "terralith:highlands",
     "terralith:forested_highlands",
     "terralith:siberian_taiga",

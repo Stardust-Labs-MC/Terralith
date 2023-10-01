@@ -1,11 +1,8 @@
 {
-    "type":"cache_once",
-    "argument":
-
-{
-    "type": "min",
-    "argument1":"terralith:overworld/cliff/carve",
-    "argument2":64
-}
-
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:min",
+    "argument1": "terralith:overworld/cliff/carve",
+    "argument2": 64
+  }
 }

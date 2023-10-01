@@ -1,35 +1,20 @@
 {
   "type": "minecraft:tree",
   "config": {
-    "ignore_vines": true,
-    "minimum_size": {
-      "type": "minecraft:two_layers_feature_size",
-      "limit": 2,
-      "lower_size": 0,
-      "upper_size": 2
-    },
-    "trunk_provider": {
+    "decorators": [],
+    "dirt_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:spruce_log",
-        "Properties": {
-          "axis": "y"
-        }
+        "Name": "minecraft:dirt"
       }
-    },
-    "trunk_placer": {
-      "type": "minecraft:straight_trunk_placer",
-      "base_height": 15,
-      "height_rand_a": 4,
-      "height_rand_b": 5
     },
     "foliage_placer": {
       "type": "minecraft:mega_pine_foliage_placer",
-      "radius": {
+      "crown_height": {
         "type": "minecraft:uniform",
         "value": {
-          "min_inclusive": 0,
-          "max_inclusive": 1
+          "min_inclusive": 13,
+          "max_inclusive": 16
         }
       },
       "offset": {
@@ -39,26 +24,33 @@
           "max_inclusive": 2
         }
       },
-      "crown_height": {
+      "radius": {
         "type": "minecraft:uniform",
         "value": {
-          "min_inclusive": 13,
-          "max_inclusive": 16
+          "min_inclusive": 0,
+          "max_inclusive": 1
         }
       }
     },
-    "decorators": [],
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
         "Name": "minecraft:spruce_leaves",
         "Properties": {
+          "distance": "7",
           "persistent": "false",
-          "distance": "7"
+          "waterlogged": "false"
         }
       }
     },
     "force_dirt": false,
+    "ignore_vines": true,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 2,
+      "lower_size": 0,
+      "upper_size": 2
+    },
     "sapling_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
@@ -68,11 +60,20 @@
         }
       }
     },
-    "dirt_provider": {
+    "trunk_placer": {
+      "type": "minecraft:straight_trunk_placer",
+      "base_height": 15,
+      "height_rand_a": 4,
+      "height_rand_b": 5
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:dirt"
-      },
-      "type": "minecraft:simple_state_provider"
+        "Name": "minecraft:spruce_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
     }
   }
 }

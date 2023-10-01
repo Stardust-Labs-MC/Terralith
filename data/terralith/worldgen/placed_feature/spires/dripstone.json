@@ -2,6 +2,21 @@
   "feature": {
     "type": "minecraft:dripstone_cluster",
     "config": {
+      "chance_of_dripstone_column_at_max_distance_from_center": 0.5,
+      "density": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0.1,
+          "max_exclusive": 1
+        }
+      },
+      "dripstone_block_layer_thickness": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 1,
+          "max_inclusive": 1
+        }
+      },
       "floor_to_ceiling_search_range": 50,
       "height": {
         "type": "minecraft:uniform",
@@ -10,6 +25,10 @@
           "max_inclusive": 7
         }
       },
+      "height_deviation": 3,
+      "max_distance_from_center_affecting_height_bias": 2,
+      "max_distance_from_edge_affecting_chance_of_dripstone_column": 2,
+      "max_stalagmite_stalactite_height_diff": 4,
       "radius": {
         "type": "minecraft:uniform",
         "value": {
@@ -17,26 +36,7 @@
           "max_inclusive": 2
         }
       },
-      "max_stalagmite_stalactite_height_diff": 4,
-      "height_deviation": 3,
-      "dripstone_block_layer_thickness": {
-        "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 1,
-          "max_inclusive": 1
-        }
-      },
-      "density": {
-        "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 0.1,
-          "max_exclusive": 1
-        }
-      },
-      "wetness": 0,
-      "chance_of_dripstone_column_at_max_distance_from_center": 0.5,
-      "max_distance_from_edge_affecting_chance_of_dripstone_column": 2,
-      "max_distance_from_center_affecting_height_bias": 2
+      "wetness": 0
     }
   },
   "placement": [
@@ -55,13 +55,13 @@
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:dripstone_block"
+        ],
         "offset": [
           0,
           -1,
           0
-        ],
-        "blocks": [
-          "minecraft:dripstone_block"
         ]
       }
     },

@@ -1,6 +1,7 @@
 {
   "type": "minecraft:random_selector",
   "config": {
+    "default": "terralith:flower/blue/main_tree",
     "features": [
       {
         "chance": 0.2,
@@ -10,7 +11,6 @@
         "chance": 0.2,
         "feature": "terralith:flower/blue/blue_tree"
       }
-    ],
-    "default": "terralith:flower/blue/main_tree"
+    ]
   }
 }

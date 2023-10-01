@@ -1,6 +1,7 @@
 {
   "type": "minecraft:random_selector",
   "config": {
+    "default": "terralith:taiga/birch/birch",
     "features": [
       {
         "chance": 0.01,
@@ -22,7 +23,6 @@
         "chance": 0.25,
         "feature": "terralith:taiga/birch/cloud_tree"
       }
-    ],
-    "default": "terralith:taiga/birch/birch"
+    ]
   }
 }

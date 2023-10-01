@@ -1,6 +1,7 @@
 {
   "type": "minecraft:random_selector",
   "config": {
+    "default": "terralith:nothing",
     "features": [
       {
         "chance": 0.03,
@@ -22,7 +23,6 @@
         "chance": 0.17,
         "feature": "terralith:skylands/mid_tree"
       }
-    ],
-    "default": "terralith:nothing"
+    ]
   }
 }

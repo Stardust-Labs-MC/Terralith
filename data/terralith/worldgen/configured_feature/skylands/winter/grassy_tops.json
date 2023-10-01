@@ -1,7 +1,6 @@
 {
   "type": "minecraft:block_column",
   "config": {
-    "direction": "up",
     "allowed_placement": {
       "type": "minecraft:matching_blocks",
       "blocks": [
@@ -11,7 +10,7 @@
         "minecraft:air"
       ]
     },
-    "prioritize_tip": false,
+    "direction": "up",
     "layers": [
       {
         "height": 1,
@@ -29,16 +28,16 @@
         "height": 1,
         "provider": {
           "type": "minecraft:noise_provider",
-          "seed": 56,
           "noise": {
-            "firstOctave": -4,
             "amplitudes": [
               1.4,
               1,
               1.25
-            ]
+            ],
+            "firstOctave": -4
           },
           "scale": 1,
+          "seed": 56,
           "states": [
             {
               "Name": "minecraft:snow",
@@ -79,6 +78,7 @@
           ]
         }
       }
-    ]
+    ],
+    "prioritize_tip": false
   }
 }

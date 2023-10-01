@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "calcite",
-    "moss_block",
-    "diorite"
+    "minecraft:calcite",
+    "minecraft:moss_block",
+    "minecraft:diorite"
   ]
 }

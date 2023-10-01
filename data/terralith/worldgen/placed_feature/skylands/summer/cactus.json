@@ -2,21 +2,17 @@
   "feature": {
     "type": "minecraft:random_patch",
     "config": {
-      "tries": 16,
-      "xz_spread": 5,
-      "y_spread": 2,
       "feature": {
         "feature": {
           "type": "minecraft:block_column",
           "config": {
-            "direction": "up",
             "allowed_placement": {
               "type": "minecraft:matching_blocks",
               "blocks": [
                 "minecraft:air"
               ]
             },
-            "prioritize_tip": true,
+            "direction": "up",
             "layers": [
               {
                 "height": {
@@ -28,15 +24,15 @@
                 },
                 "provider": {
                   "type": "minecraft:noise_provider",
-                  "seed": 0,
                   "noise": {
-                    "firstOctave": -3,
                     "amplitudes": [
                       1,
                       1
-                    ]
+                    ],
+                    "firstOctave": -3
                   },
                   "scale": 1,
+                  "seed": 0,
                   "states": [
                     {
                       "Name": "minecraft:cactus",
@@ -53,7 +49,8 @@
                   ]
                 }
               }
-            ]
+            ],
+            "prioritize_tip": true
           }
         },
         "placement": [
@@ -76,7 +73,10 @@
             }
           }
         ]
-      }
+      },
+      "tries": 16,
+      "xz_spread": 5,
+      "y_spread": 2
     }
   },
   "placement": [

@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "blackstone",
-    "deepslate_tiles"
+    "minecraft:blackstone",
+    "minecraft:deepslate_tiles"
   ]
 }

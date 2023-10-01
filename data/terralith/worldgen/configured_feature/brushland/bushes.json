@@ -1,24 +1,24 @@
 {
   "type": "minecraft:random_selector",
   "config": {
+    "default": "terralith:highlands/steppe/bush_small",
     "features": [
       {
-        "feature": "minecraft:oak",
-        "chance": 0.01
+        "chance": 0.01,
+        "feature": "minecraft:oak"
       },
       {
-        "feature": "terralith:highlands/arid/bush_small",
-        "chance": 0.03
+        "chance": 0.03,
+        "feature": "terralith:highlands/arid/bush_small"
       },
       {
-        "feature": "terralith:highlands/arid/bush_medium",
-        "chance": 0.21
+        "chance": 0.21,
+        "feature": "terralith:highlands/arid/bush_medium"
       },
       {
-        "feature": "terralith:highlands/steppe/bush_medium",
-        "chance": 0.55
+        "chance": 0.55,
+        "feature": "terralith:highlands/steppe/bush_medium"
       }
-    ],
-    "default": "terralith:highlands/steppe/bush_small"
+    ]
   }
 }

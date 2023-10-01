@@ -1,10 +1,6 @@
 {
   "replace": false,
   "values": [
-    "minecraft:taiga",
-    "minecraft:snowy_taiga",
-    "minecraft:old_growth_pine_taiga",
-    "minecraft:old_growth_spruce_taiga",
     "terralith:birch_taiga",
     "terralith:lush_valley",
     "terralith:shield",

@@ -1,6 +1,13 @@
 {
   "type": "minecraft:netherrack_replace_blobs",
   "config": {
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 10,
+        "max_inclusive": 12
+      }
+    },
     "state": {
       "Name": "minecraft:deepslate"
     },
@@ -8,13 +15,6 @@
       "Name": "minecraft:lava",
       "Properties": {
         "level": "0"
-      }
-    },
-    "radius": {
-      "type": "minecraft:uniform",
-      "value": {
-        "min_inclusive": 10,
-        "max_inclusive": 12
       }
     }
   }

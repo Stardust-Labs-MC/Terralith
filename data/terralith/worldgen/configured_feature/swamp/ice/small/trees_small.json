@@ -1,12 +1,12 @@
 {
   "type": "minecraft:random_selector",
   "config": {
+    "default": "terralith:swamp/ice/small/swamp_small",
     "features": [
       {
         "chance": 0.2,
         "feature": "terralith:swamp/ice/small/swamp_special_small"
       }
-    ],
-    "default": "terralith:swamp/ice/small/swamp_small"
+    ]
   }
 }

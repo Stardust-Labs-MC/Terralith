@@ -25,6 +25,9 @@
     },
     {
       "type": "minecraft:environment_scan",
+      "allowed_search_condition": {
+        "type": "minecraft:true"
+      },
       "direction_of_search": "up",
       "max_steps": 2,
       "target_condition": {
@@ -35,19 +38,16 @@
           },
           {
             "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:birch_log"
+            ],
             "offset": [
               0,
               -1,
               0
-            ],
-            "blocks": [
-              "minecraft:birch_log"
             ]
           }
         ]
-      },
-      "allowed_search_condition": {
-        "type": "minecraft:true"
       }
     },
     {

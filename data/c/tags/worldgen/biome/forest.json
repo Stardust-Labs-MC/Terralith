@@ -1,20 +1,31 @@
 {
   "replace": false,
   "values": [
-    "terralith:alpha_islands",
+    "terralith:alpine_grove",
     "terralith:birch_taiga",
+    "terralith:cloud_forest",
+    "terralith:forested_highlands",
     "terralith:lavender_forest",
     "terralith:lavender_valley",
+    "terralith:lush_valley",
     "terralith:mirage_isles",
     "terralith:moonlight_grove",
+    "terralith:moonlight_valley",
     "terralith:sakura_grove",
     "terralith:sakura_valley",
     "terralith:skylands",
     "terralith:skylands_autumn",
     "terralith:skylands_spring",
+    "terralith:shield",
+    "terralith:siberian_grove",
+    "terralith:siberian_taiga",
     "terralith:snowy_cherry_grove",
+    "terralith:snowy_maple_forest",
+    "terralith:snowy_shield",
     "terralith:temperate_highlands",
     "terralith:white_cliffs",
+    "terralith:wintry_forest",
+    "terralith:wintry_lowlands",
     "terralith:yosemite_lowlands"
   ]
 }

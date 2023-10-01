@@ -1,15 +1,13 @@
 {
-
-  "argument":{
-
-      "argument1":{
-                                  "noise": "terralith:math/dune/amount",
-                                  "xz_scale": 5.0,
-                                  "y_scale": 0.0,
-                                  "type": "minecraft:noise"
-},
-"argument2":1.0,
-"type":"mul"
-},
-"type":"flat_cache"
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:mul",
+    "argument1": {
+      "type": "minecraft:noise",
+      "noise": "terralith:math/dune/amount",
+      "xz_scale": 5.0,
+      "y_scale": 0.0
+    },
+    "argument2": 1.0
+  }
 }

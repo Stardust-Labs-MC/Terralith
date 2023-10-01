@@ -2,7 +2,6 @@
   "feature": {
     "type": "minecraft:vegetation_patch",
     "config": {
-      "surface": "floor",
       "depth": {
         "type": "minecraft:uniform",
         "value": {
@@ -10,32 +9,22 @@
           "max_inclusive": 3
         }
       },
-      "vertical_range": 4,
       "extra_bottom_block_chance": 0.25,
       "extra_edge_column_chance": 0.675,
-      "vegetation_chance": 0.07,
-      "xz_radius": {
-        "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 2,
-          "max_inclusive": 5
-        }
-      },
-      "replaceable": "#minecraft:lush_ground_replaceable",
       "ground_state": {
         "type": "minecraft:noise_provider",
-        "seed": 513,
         "noise": {
-          "firstOctave": -6,
           "amplitudes": [
             1,
             0.5,
             2.25,
             1.65,
             2.75
-          ]
+          ],
+          "firstOctave": -6
         },
         "scale": 1,
+        "seed": 513,
         "states": [
           {
             "Name": "minecraft:clay"
@@ -72,27 +61,76 @@
           }
         ]
       },
+      "replaceable": "#minecraft:lush_ground_replaceable",
+      "surface": "floor",
+      "vegetation_chance": 0.07,
       "vegetation_feature": {
         "feature": {
           "type": "minecraft:random_selector",
           "config": {
+            "default": {
+              "feature": {
+                "type": "minecraft:simple_block",
+                "config": {
+                  "to_place": {
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                      {
+                        "data": {
+                          "Name": "minecraft:grass"
+                        },
+                        "weight": 4
+                      },
+                      {
+                        "data": {
+                          "Name": "minecraft:fern"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  }
+                }
+              },
+              "placement": [
+                {
+                  "type": "minecraft:block_predicate_filter",
+                  "predicate": {
+                    "type": "minecraft:all_of",
+                    "predicates": [
+                      {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": "minecraft:mud",
+                        "offset": [
+                          0,
+                          -1,
+                          0
+                        ]
+                      },
+                      {
+                        "type": "minecraft:replaceable"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
             "features": [
-                            {
+              {
                 "chance": 0.0465,
                 "feature": {
                   "feature": {
                     "type": "minecraft:ore",
                     "config": {
-                      "size": 58,
                       "discard_chance_on_air_exposure": 0.25,
+                      "size": 58,
                       "targets": [
                         {
+                          "state": {
+                            "Name": "minecraft:sand"
+                          },
                           "target": {
                             "predicate_type": "minecraft:tag_match",
                             "tag": "minecraft:base_stone_overworld"
-                          },
-                          "state": {
-                            "Name": "minecraft:sand"
                           }
                         }
                       ]
@@ -107,16 +145,16 @@
                   "feature": {
                     "type": "minecraft:ore",
                     "config": {
-                      "size": 42,
                       "discard_chance_on_air_exposure": 0.25,
+                      "size": 42,
                       "targets": [
                         {
+                          "state": {
+                            "Name": "minecraft:mud"
+                          },
                           "target": {
                             "predicate_type": "minecraft:tag_match",
                             "tag": "minecraft:base_stone_overworld"
-                          },
-                          "state": {
-                            "Name": "minecraft:mud"
                           }
                         }
                       ]
@@ -134,70 +172,32 @@
                       "type": "minecraft:block_predicate_filter",
                       "predicate": {
                         "type": "minecraft:matching_blocks",
+                        "blocks": [
+                          "minecraft:mud",
+                          "minecraft:clay"
+                        ],
                         "offset": [
                           0,
                           -1,
                           0
-                        ],
-                        "blocks": [
-                          "minecraft:mud",
-                          "minecraft:clay"
                         ]
                       }
                     }
                   ]
                 }
               }
-            ],
-            "default": {
-              "feature": {
-                "type": "minecraft:simple_block",
-                "config": {
-                  "to_place": {
-                    "type": "minecraft:weighted_state_provider",
-                    "entries": [
-                      {
-                        "weight": 4,
-                        "data": {
-                          "Name": "minecraft:grass"
-                        }
-                      },
-                      {
-                        "weight": 1,
-                        "data": {
-                          "Name": "minecraft:fern"
-                        }
-                      }
-                    ]
-                  }
-                }
-              },
-              "placement": [
-                {
-                  "type": "minecraft:block_predicate_filter",
-                  "predicate": {
-                    "type": "minecraft:all_of",
-                    "predicates": [
-                      {
-                        "type": "minecraft:matching_blocks",
-                        "offset": [
-                          0,
-                          -1,
-                          0
-                        ],
-                        "blocks": "minecraft:mud"
-                      },
-                      {
-                        "type": "minecraft:replaceable"
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
+            ]
           }
         },
         "placement": []
+      },
+      "vertical_range": 4,
+      "xz_radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 5
+        }
       }
     }
   },
@@ -223,14 +223,14 @@
     },
     {
       "type": "minecraft:environment_scan",
+      "allowed_search_condition": {
+        "type": "minecraft:matching_blocks",
+        "blocks": "minecraft:air"
+      },
       "direction_of_search": "down",
       "max_steps": 12,
       "target_condition": {
         "type": "minecraft:solid"
-      },
-      "allowed_search_condition": {
-        "type": "minecraft:matching_blocks",
-        "blocks": "minecraft:air"
       }
     },
     {

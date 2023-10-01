@@ -2,303 +2,303 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 3,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "functions": [
+            {
+              "count": {
+                "max": 7,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "minecraft:snow_block",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 7
-              }
-            }
-          ]
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "functions": [
+            {
+              "count": {
+                "max": 2,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "minecraft:powder_snow_bucket",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "functions": [
+            {
+              "count": {
+                "max": 12,
+                "min": 3
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "minecraft:packed_ice",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3,
-                "max": 12
-              }
-            }
-          ]
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
+          "functions": [
+            {
+              "count": {
+                "max": 7,
+                "min": 3
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "minecraft:blue_ice",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3,
-                "max": 7
-              }
-            }
-          ]
+          "weight": 4
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:snowball",
           "functions": [
             {
-              "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 6
-              }
+                "max": 6,
+                "min": 2
+              },
+              "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "name": "minecraft:snowball",
+          "weight": 5
         }
-      ]
+      ],
+      "rolls": 3
     },
     {
-      "rolls": 1,
+      "conditions": [
+        {
+          "chance": 0.5,
+          "condition": "minecraft:random_chance"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:tag",
-          "name": "terralith:spire/rare_tools",
           "expand": true,
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 10,
-                "max": 22
-              },
-              "treasure": true,
               "conditions": [
                 {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.65
+                  "chance": 0.65,
+                  "condition": "minecraft:random_chance"
                 }
-              ]
+              ],
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 22,
+                "min": 10
+              },
+              "treasure": true
             },
             {
-              "function": "minecraft:set_damage",
               "damage": {
-                "min": 0.5,
-                "max": 1
-              }
+                "max": 1,
+                "min": 0.5
+              },
+              "function": "minecraft:set_damage"
             }
-          ]
+          ],
+          "name": "terralith:spire/rare_tools"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.5
-        }
-      ]
+      "rolls": 1
     },
     {
-      "rolls": 3,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:book",
+          "conditions": [
+            {
+              "chance": 0.2,
+              "condition": "minecraft:random_chance"
+            }
+          ],
           "functions": [
             {
               "function": "minecraft:enchant_randomly"
             }
           ],
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.2
-            }
-          ]
+          "name": "minecraft:book"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:book",
+          "conditions": [
+            {
+              "chance": 0.2,
+              "condition": "minecraft:random_chance"
+            }
+          ],
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
-                "min": 1,
-                "max": 22
+                "max": 22,
+                "min": 1
               },
               "treasure": false
             }
           ],
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.2
-            }
-          ]
+          "name": "minecraft:book"
         }
-      ]
+      ],
+      "rolls": 3
     },
     {
-      "rolls": 3,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "chance": 0.5,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "count": {
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "minecraft:diamond",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.5
-                }
-              ]
-            }
-          ]
+          "weight": 1
         },
         {
-          "weight": 3,
           "type": "minecraft:item",
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "chance": 0.33,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "count": {
+                "max": 11,
+                "min": 7
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "minecraft:gold_ingot",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 7,
-                "max": 11
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.33
-                }
-              ]
-            }
-          ]
+          "weight": 3
         },
         {
-          "weight": 4,
           "type": "minecraft:item",
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "count": {
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "minecraft:iron_block",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.2
-                }
-              ]
-            }
-          ]
+          "weight": 4
         },
         {
-          "weight": 1,
           "type": "minecraft:item",
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "count": {
+                "max": 7,
+                "min": 4
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "minecraft:copper_block",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 4,
-                "max": 7
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.25
-                }
-              ]
-            }
-          ]
+          "weight": 1
         },
         {
-          "weight": 1,
           "type": "minecraft:item",
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "count": {
+                "max": 7,
+                "min": 4
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "minecraft:weathered_copper",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 4,
-                "max": 7
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.25
-                }
-              ]
-            }
-          ]
+          "weight": 1
         },
         {
-          "weight": 1,
           "type": "minecraft:item",
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "count": {
+                "max": 7,
+                "min": 4
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "minecraft:exposed_copper",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 4,
-                "max": 7
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.25
-                }
-              ]
-            }
-          ]
+          "weight": 1
         },
         {
-          "weight": 1,
           "type": "minecraft:item",
-          "name": "minecraft:oxidized_copper",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 4,
-                "max": 7
-              },
               "conditions": [
                 {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.25
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
                 }
-              ]
+              ],
+              "count": {
+                "max": 7,
+                "min": 4
+              },
+              "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "name": "minecraft:oxidized_copper",
+          "weight": 1
         }
-      ]
+      ],
+      "rolls": 3
     }
   ]
 }

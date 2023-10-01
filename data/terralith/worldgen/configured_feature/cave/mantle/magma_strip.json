@@ -1,7 +1,6 @@
 {
   "type": "minecraft:vegetation_patch",
   "config": {
-    "surface": "floor",
     "depth": {
       "type": "minecraft:uniform",
       "value": {
@@ -9,35 +8,20 @@
         "max_inclusive": 10
       }
     },
-    "vertical_range": 5,
     "extra_bottom_block_chance": 0.5,
     "extra_edge_column_chance": 0.5,
-    "vegetation_chance": 0.001,
-    "xz_radius": {
-      "type": "minecraft:uniform",
-      "value": {
-        "min_inclusive": 2,
-        "max_inclusive": 5
-      }
-    },
-    "replaceable": "#minecraft:base_stone_overworld",
     "ground_state": {
       "type": "minecraft:dual_noise_provider",
-      "seed": 0,
       "noise": {
-        "firstOctave": -3,
         "amplitudes": [
           0,
           0
-        ]
+        ],
+        "firstOctave": -3
       },
       "scale": 1,
-      "variety": {
-        "min_inclusive": 1,
-        "max_inclusive": 1
-      },
+      "seed": 0,
       "slow_noise": {
-        "firstOctave": -6,
         "amplitudes": [
           1,
           1,
@@ -45,7 +29,8 @@
           0,
           1.5,
           0
-        ]
+        ],
+        "firstOctave": -6
       },
       "slow_scale": 1,
       "states": [
@@ -112,26 +97,44 @@
         {
           "Name": "minecraft:blackstone"
         }
-      ]
+      ],
+      "variety": {
+        "min_inclusive": 1,
+        "max_inclusive": 1
+      }
     },
-    "vegetation_feature":{"placement":[],"feature": {
-      "type": "minecraft:simple_block",
-      "config": {
-        "to_place": {
-          "type": "minecraft:simple_state_provider",
-          "state": {
-            "Name": "minecraft:fire",
-            "Properties": {
-              "age": "0",
-              "east": "false",
-              "north": "false",
-              "south": "false",
-              "up": "false",
-              "west": "false"
+    "replaceable": "#minecraft:base_stone_overworld",
+    "surface": "floor",
+    "vegetation_chance": 0.001,
+    "vegetation_feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:fire",
+              "Properties": {
+                "age": "0",
+                "east": "false",
+                "north": "false",
+                "south": "false",
+                "up": "false",
+                "west": "false"
+              }
             }
           }
         }
+      },
+      "placement": []
+    },
+    "vertical_range": 5,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 5
       }
-    }}
+    }
   }
 }

@@ -1,12 +1,12 @@
 {
   "type": "minecraft:random_selector",
   "config": {
+    "default": "terralith:highlands/steppe/bush_small",
     "features": [
       {
-        "feature": "terralith:highlands/steppe/bush_small",
-        "chance": 0.2
+        "chance": 0.2,
+        "feature": "terralith:highlands/steppe/bush_small"
       }
-    ],
-    "default": "terralith:highlands/steppe/bush_small"
+    ]
   }
 }

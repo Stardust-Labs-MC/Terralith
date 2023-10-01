@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "#base_stone_overworld","diamond_ore","lapis_ore","coal_ore","calcite","diorite","blue_ice","packed_ice"
+    "#base_stone_overworld",
+    "minecraft:diamond_ore",
+    "minecraft:lapis_ore",
+    "minecraft:coal_ore",
+    "minecraft:calcite",
+    "minecraft:diorite",
+    "minecraft:blue_ice",
+    "minecraft:packed_ice"
   ]
 }

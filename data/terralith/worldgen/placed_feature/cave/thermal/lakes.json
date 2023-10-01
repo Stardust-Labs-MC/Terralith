@@ -1,16 +1,262 @@
 {
-	"feature": "terralith:cave/thermal/lakes",
-	"placement": [
-		{
-			"type": "minecraft:count",
-			"count": 14
-		},
-		{
-			"type": "minecraft:count_on_every_layer",
-			"count": 15
-		},
-		{
-			"type": "minecraft:biome"
-		}
-	]
+  "feature": "terralith:cave/thermal/lakes",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 14
+    },
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 15
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 6,
+          "max_inclusive": 7
+        }
+      }
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": -2,
+          "max_inclusive": 2
+        }
+      },
+      "y_spread": 0
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 8,
+      "target_condition": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:any_of",
+              "predicates": [
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:smooth_basalt",
+                    "minecraft:tuff",
+                    "minecraft:stone",
+                    "andesite",
+                    "deepslate",
+                    "cobbled_deepslate",
+                    "minecraft:air",
+                    "lava"
+                  ],
+                  "offset": [
+                    -1,
+                    0,
+                    1
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:smooth_basalt",
+                    "minecraft:tuff",
+                    "minecraft:stone",
+                    "andesite",
+                    "deepslate",
+                    "cobbled_deepslate",
+                    "minecraft:air",
+                    "lava"
+                  ],
+                  "offset": [
+                    1,
+                    0,
+                    1
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:smooth_basalt",
+                    "minecraft:tuff",
+                    "minecraft:stone",
+                    "andesite",
+                    "deepslate",
+                    "cobbled_deepslate",
+                    "minecraft:air",
+                    "lava"
+                  ],
+                  "offset": [
+                    -1,
+                    0,
+                    -1
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:smooth_basalt",
+                    "minecraft:tuff",
+                    "minecraft:stone",
+                    "andesite",
+                    "deepslate",
+                    "cobbled_deepslate",
+                    "minecraft:air",
+                    "lava"
+                  ],
+                  "offset": [
+                    1,
+                    0,
+                    -1
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:blackstone",
+              "minecraft:magma_block",
+              "deepslate_iron_ore",
+              "iron_ore",
+              "coal_ore"
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:blackstone",
+              "minecraft:magma_block"
+            ],
+            "offset": [
+              0,
+              -1,
+              0
+            ]
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:any_of",
+              "predicates": [
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:yellow_terracotta",
+                    "minecraft:red_sand",
+                    "minecraft:blackstone",
+                    "minecraft:calcite",
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:gravel",
+                    "minecraft:smooth_basalt",
+                    "minecraft:tuff",
+                    "minecraft:stone",
+                    "andesite",
+                    "deepslate",
+                    "cobbled_deepslate",
+                    "lava"
+                  ],
+                  "offset": [
+                    -1,
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:yellow_terracotta",
+                    "minecraft:red_sand",
+                    "minecraft:blackstone",
+                    "minecraft:calcite",
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:gravel",
+                    "minecraft:smooth_basalt",
+                    "minecraft:tuff",
+                    "minecraft:stone",
+                    "andesite",
+                    "deepslate",
+                    "cobbled_deepslate",
+                    "lava"
+                  ],
+                  "offset": [
+                    1,
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:yellow_terracotta",
+                    "minecraft:red_sand",
+                    "minecraft:blackstone",
+                    "minecraft:calcite",
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:gravel",
+                    "minecraft:smooth_basalt",
+                    "minecraft:tuff",
+                    "minecraft:stone",
+                    "andesite",
+                    "deepslate",
+                    "cobbled_deepslate",
+                    "lava"
+                  ],
+                  "offset": [
+                    0,
+                    1,
+                    -1
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:yellow_terracotta",
+                    "minecraft:red_sand",
+                    "minecraft:blackstone",
+                    "minecraft:calcite",
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:gravel",
+                    "minecraft:smooth_basalt",
+                    "minecraft:tuff",
+                    "minecraft:stone",
+                    "andesite",
+                    "deepslate",
+                    "cobbled_deepslate",
+                    "lava"
+                  ],
+                  "offset": [
+                    0,
+                    1,
+                    1
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
 }

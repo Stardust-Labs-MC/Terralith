@@ -27,6 +27,12 @@
     },
     {
       "type": "minecraft:environment_scan",
+      "allowed_search_condition": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:air"
+        ]
+      },
       "direction_of_search": "up",
       "max_steps": 32,
       "target_condition": {
@@ -38,12 +44,6 @@
             "minecraft:cave_air"
           ]
         }
-      },
-      "allowed_search_condition": {
-        "type": "minecraft:matching_blocks",
-        "blocks": [
-          "minecraft:air"
-        ]
       }
     },
     {

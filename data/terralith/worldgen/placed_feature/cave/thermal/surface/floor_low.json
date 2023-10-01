@@ -2,7 +2,6 @@
   "feature": {
     "type": "minecraft:vegetation_patch",
     "config": {
-      "surface": "floor",
       "depth": {
         "type": "minecraft:uniform",
         "value": {
@@ -10,33 +9,23 @@
           "max_inclusive": 9
         }
       },
-      "vertical_range": 5,
       "extra_bottom_block_chance": 0.5,
       "extra_edge_column_chance": 0.65,
-      "vegetation_chance": 0,
-      "xz_radius": {
-        "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 4,
-          "max_inclusive": 5
-        }
-      },
-      "replaceable": "#terralith:deepslate",
       "ground_state": {
         "type": "minecraft:noise_provider",
-        "seed": 111,
         "noise": {
-          "firstOctave": -5,
           "amplitudes": [
             1.2,
-    0.9,
-    1.1,
-    2.0,
-    0,
-    4.0
-          ]
+            0.9,
+            1.1,
+            2.0,
+            0,
+            4.0
+          ],
+          "firstOctave": -5
         },
         "scale": 1,
+        "seed": 111,
         "states": [
           {
             "Name": "minecraft:granite"
@@ -85,7 +74,18 @@
           }
         ]
       },
-      "vegetation_feature": "terralith:nothing"
+      "replaceable": "#terralith:deepslate",
+      "surface": "floor",
+      "vegetation_chance": 0,
+      "vegetation_feature": "terralith:nothing",
+      "vertical_range": 5,
+      "xz_radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 4,
+          "max_inclusive": 5
+        }
+      }
     }
   },
   "placement": [

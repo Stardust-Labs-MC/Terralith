@@ -1,7 +1,7 @@
 {
-  "firstOctave": -2,
   "amplitudes": [
     1,
     1.25
-  ]
+  ],
+  "firstOctave": -2
 }

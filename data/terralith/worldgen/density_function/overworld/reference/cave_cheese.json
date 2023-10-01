@@ -1,40 +1,35 @@
 {
-   "type":"minecraft:clamp",
-   "input":{
-      "argument":{
-        "type":"min",
-        "argument1":
-        
-        {"type":"mul",
-          "argument1":2.0,
-          "argument2":
-        {
-         "argument1":{
-            "noise":"terralith:math/cheese/megacave",
-            "xz_scale":1.5,
-            "y_scale":1.725,
-            "type":"minecraft:noise"
-         },
-         "argument2":0.47,
-         "type":"add"
-       }},
-
-
-
-       "argument2":{
-
-      "argument1":{
-                                  "noise": "minecraft:cave_cheese",
-                                  "xz_scale": 1.0,
-                                  "y_scale": 0.6666666666666666,
-                                  "type": "minecraft:noise"
-},
-"argument2":0.27,
-"type":"add"
-}
+  "type": "minecraft:clamp",
+  "input": {
+    "type": "minecraft:cache_once",
+    "argument": {
+      "type": "minecraft:min",
+      "argument1": {
+        "type": "minecraft:mul",
+        "argument1": 2.0,
+        "argument2": {
+          "type": "minecraft:add",
+          "argument1": {
+            "type": "minecraft:noise",
+            "noise": "terralith:math/cheese/megacave",
+            "xz_scale": 1.5,
+            "y_scale": 1.725
+          },
+          "argument2": 0.47
+        }
       },
-      "type":"cache_once"
-   },
-   "min":-1,
-   "max":1
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:noise",
+          "noise": "minecraft:cave_cheese",
+          "xz_scale": 1.0,
+          "y_scale": 0.6666666666666666
+        },
+        "argument2": 0.27
+      }
+    }
+  },
+  "max": 1,
+  "min": -1
 }

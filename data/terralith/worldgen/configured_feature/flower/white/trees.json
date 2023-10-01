@@ -1,6 +1,7 @@
 {
   "type": "minecraft:random_selector",
   "config": {
+    "default": "terralith:flower/white/cloud_tree",
     "features": [
       {
         "chance": 0.135,
@@ -14,7 +15,6 @@
         "chance": 0.16,
         "feature": "terralith:flower/white/cloud_tree_bending"
       }
-    ],
-    "default": "terralith:flower/white/cloud_tree"
+    ]
   }
 }

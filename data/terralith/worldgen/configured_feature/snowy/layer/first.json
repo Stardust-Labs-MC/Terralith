@@ -5,22 +5,22 @@
       "type": "minecraft:weighted_state_provider",
       "entries": [
         {
-          "weight": 5,
           "data": {
             "Name": "minecraft:snow",
             "Properties": {
               "layers": "6"
             }
-          }
+          },
+          "weight": 5
         },
         {
-          "weight": 4,
           "data": {
             "Name": "minecraft:snow",
             "Properties": {
               "layers": "7"
             }
-          }
+          },
+          "weight": 4
         }
       ]
     }

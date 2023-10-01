@@ -5,19 +5,18 @@
       "type": "minecraft:weighted_state_provider",
       "entries": [
         {
-          "weight": 3,
           "data": {
             "Name": "minecraft:campfire",
             "Properties": {
-              "lit": "true",
               "facing": "north",
+              "lit": "true",
               "signal_fire": "false",
               "waterlogged": "false"
             }
-          }
+          },
+          "weight": 3
         },
         {
-          "weight": 1,
           "data": {
             "Name": "minecraft:campfire",
             "Properties": {
@@ -26,7 +25,8 @@
               "signal_fire": "true",
               "waterlogged": "false"
             }
-          }
+          },
+          "weight": 1
         }
       ]
     }

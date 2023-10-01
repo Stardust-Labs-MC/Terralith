@@ -2,39 +2,30 @@
   "feature": {
     "type": "minecraft:random_patch",
     "config": {
-      "tries": 6,
-      "xz_spread": 6,
-      "y_spread": 2,
       "feature": {
         "feature": {
           "type": "minecraft:block_column",
           "config": {
-            "direction": "up",
             "allowed_placement": {
               "type": "minecraft:true"
             },
-            "prioritize_tip": false,
+            "direction": "up",
             "layers": [
               {
                 "height": 1,
                 "provider": {
                   "type": "minecraft:dual_noise_provider",
-                  "seed": 62353,
                   "noise": {
-                    "firstOctave": -3,
                     "amplitudes": [
                       1,
                       1.75,
                       2.75
-                    ]
+                    ],
+                    "firstOctave": -3
                   },
                   "scale": 1,
-                  "variety": {
-                    "min_inclusive": 1,
-                    "max_inclusive": 19
-                  },
+                  "seed": 62353,
                   "slow_noise": {
-                    "firstOctave": -5,
                     "amplitudes": [
                       1,
                       0.25,
@@ -42,7 +33,8 @@
                       1.875,
                       6.75,
                       14.5
-                    ]
+                    ],
+                    "firstOctave": -5
                   },
                   "slow_scale": 1,
                   "states": [
@@ -67,7 +59,7 @@
                     {
                       "Name": "minecraft:grass"
                     },
-                                        {
+                    {
                       "Name": "minecraft:grass"
                     },
                     {
@@ -91,7 +83,7 @@
                     {
                       "Name": "minecraft:air"
                     },
-                                        {
+                    {
                       "Name": "minecraft:air"
                     },
                     {
@@ -103,11 +95,15 @@
                     {
                       "Name": "minecraft:grass"
                     }
-
-                  ]
+                  ],
+                  "variety": {
+                    "min_inclusive": 1,
+                    "max_inclusive": 19
+                  }
                 }
               }
-            ]
+            ],
+            "prioritize_tip": false
           }
         },
         "placement": [
@@ -118,31 +114,34 @@
               "predicates": [
                 {
                   "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:air"
+                  ],
                   "offset": [
                     0,
                     0,
                     0
-                  ],
-                  "blocks": [
-                    "minecraft:air"
                   ]
                 },
                 {
                   "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:sand"
+                  ],
                   "offset": [
                     0,
                     -1,
                     0
-                  ],
-                  "blocks": [
-                    "minecraft:sand"
                   ]
                 }
               ]
             }
           }
         ]
-      }
+      },
+      "tries": 6,
+      "xz_spread": 6,
+      "y_spread": 2
     }
   },
   "placement": [

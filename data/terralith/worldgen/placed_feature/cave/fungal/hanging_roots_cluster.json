@@ -29,9 +29,9 @@
     },
     {
       "type": "minecraft:noise_based_count",
-      "noise_to_count_ratio": 5,
       "noise_factor": 30,
-      "noise_offset": -0.35
+      "noise_offset": -0.35,
+      "noise_to_count_ratio": 5
     },
     {
       "type": "minecraft:height_range",
@@ -45,7 +45,7 @@
         }
       }
     },
-        {
+    {
       "type": "minecraft:environment_scan",
       "direction_of_search": "up",
       "max_steps": 6,
@@ -54,24 +54,30 @@
         "predicates": [
           {
             "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:air"
+            ],
             "offset": [
               0,
               0,
               0
-            ],
-            "blocks": [
-              "minecraft:air"
             ]
           },
           {
             "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:stone",
+              "deepslate",
+              "granite",
+              "andesite",
+              "diorite",
+              "coarse_dirt",
+              "rooted_dirt"
+            ],
             "offset": [
               0,
               1,
               0
-            ],
-            "blocks": [
-              "minecraft:stone","deepslate","granite","andesite","diorite","coarse_dirt","rooted_dirt"
             ]
           }
         ]

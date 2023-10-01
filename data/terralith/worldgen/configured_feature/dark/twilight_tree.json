@@ -1,8 +1,37 @@
 {
   "type": "minecraft:tree",
   "config": {
-    "ignore_vines": true,
+    "decorators": [],
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "foliage_placer": {
+      "type": "minecraft:acacia_foliage_placer",
+      "offset": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0,
+          "max_inclusive": 1
+        }
+      },
+      "radius": 2
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dark_oak_leaves",
+        "Properties": {
+          "distance": "7",
+          "persistent": "false",
+          "waterlogged": "false"
+        }
+      }
+    },
     "force_dirt": true,
+    "ignore_vines": true,
     "minimum_size": {
       "type": "minecraft:two_layers_feature_size",
       "limit": 1,
@@ -18,11 +47,11 @@
         }
       }
     },
-    "dirt_provider": {
-      "type": "minecraft:simple_state_provider",
-      "state": {
-        "Name": "minecraft:dirt"
-      }
+    "trunk_placer": {
+      "type": "minecraft:forking_trunk_placer",
+      "base_height": 16,
+      "height_rand_a": 0,
+      "height_rand_b": 1
     },
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
@@ -32,34 +61,6 @@
           "axis": "y"
         }
       }
-    },
-    "foliage_provider": {
-      "type": "minecraft:simple_state_provider",
-      "state": {
-        "Name": "minecraft:dark_oak_leaves",
-        "Properties": {
-          "persistent": "false",
-          "distance": "7"
-        }
-      }
-    },
-    "trunk_placer": {
-      "type": "minecraft:forking_trunk_placer",
-      "base_height": 16,
-      "height_rand_a": 0,
-      "height_rand_b": 1
-    },
-    "foliage_placer": {
-      "type": "minecraft:acacia_foliage_placer",
-      "radius": 2,
-      "offset": {
-        "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 0,
-          "max_inclusive": 1
-        }
-      }
-    },
-    "decorators": []
+    }
   }
 }

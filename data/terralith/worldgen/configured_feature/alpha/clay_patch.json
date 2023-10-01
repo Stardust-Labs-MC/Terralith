@@ -1,16 +1,16 @@
 {
   "type": "minecraft:ore",
   "config": {
-    "size": 50,
     "discard_chance_on_air_exposure": 0,
+    "size": 50,
     "targets": [
       {
-        "target": {
-          "predicate_type": "minecraft:block_match",
-          "block": "minecraft:sand"
-        },
         "state": {
           "Name": "minecraft:clay"
+        },
+        "target": {
+          "block": "minecraft:sand",
+          "predicate_type": "minecraft:block_match"
         }
       }
     ]

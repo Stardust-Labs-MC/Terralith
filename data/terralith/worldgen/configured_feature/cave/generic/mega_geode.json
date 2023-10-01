@@ -99,13 +99,6 @@
       "middle_layer": 4.8,
       "outer_layer": 6.3
     },
-
-    /*"layers": {
-      "filling": 2.35,
-      "inner_layer": 3.085,
-      "middle_layer": 3.65,
-      "outer_layer": 5.2
-    },*/
     "crack": {
       "generate_crack_chance": 0.95,
       "base_crack_size": 3.15,

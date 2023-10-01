@@ -1,14 +1,14 @@
 {
-  "biomes": "terralith:emerald_peaks",
-  "adapt_noise": false,
-  "spawn_overrides": {},
   "type": "minecraft:jigsaw",
-  "start_pool": "terralith:nothing",
+  "adapt_noise": false,
+  "biomes": "terralith:emerald_peaks",
+  "max_distance_from_center": 80,
   "size": 1,
-  "step": "surface_structures",
+  "spawn_overrides": {},
   "start_height": {
     "absolute": 33
   },
-  "max_distance_from_center": 80,
+  "start_pool": "terralith:nothing",
+  "step": "surface_structures",
   "use_expansion_hack": false
 }

@@ -1,16 +1,19 @@
 {
   "feature": {
     "type": "minecraft:multiface_growth",
-    "block":"glow_lichen",
+    "block": "glow_lichen",
     "config": {
-      "search_range": 2,
-      "chance_of_spreading": 0.3,
-      "can_place_on_floor": true,
-      "can_place_on_ceiling": true,
-      "can_place_on_wall": true,
       "can_be_placed_on": [
-        "clay","stone","deepslate","andesite"
-      ]
+        "clay",
+        "stone",
+        "deepslate",
+        "andesite"
+      ],
+      "can_place_on_ceiling": true,
+      "can_place_on_floor": true,
+      "can_place_on_wall": true,
+      "chance_of_spreading": 0.3,
+      "search_range": 2
     }
   },
   "placement": [
@@ -30,35 +33,35 @@
         "predicates": [
           {
             "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:air"
+            ],
             "offset": [
               0,
               1,
               0
-            ],
-            "blocks": [
-              "minecraft:air"
             ]
           },
           {
             "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:air"
+            ],
             "offset": [
               0,
               0,
               0
-            ],
-            "blocks": [
-              "minecraft:air"
             ]
           },
           {
             "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:clay"
+            ],
             "offset": [
               0,
               -1,
               0
-            ],
-            "blocks": [
-              "minecraft:clay"
             ]
           }
         ]

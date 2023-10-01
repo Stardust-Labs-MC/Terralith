@@ -1,17 +1,17 @@
 {
-	"feature": "terralith:birch/cloud_tree_tall",
-	"placement": [
-		{
-			"type": "minecraft:block_predicate_filter",
-			"predicate": {
-				"state": {
-					"Properties": {
-						"stage": "0"
-					},
-					"Name": "minecraft:birch_sapling"
-				},
-				"type": "minecraft:would_survive"
-			}
-		}
-	]
+  "feature": "terralith:birch/cloud_tree_tall",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "minecraft:birch_sapling",
+          "Properties": {
+            "stage": "0"
+          }
+        }
+      }
+    }
+  ]
 }

@@ -2,6 +2,27 @@
   "feature": {
     "type": "minecraft:tree",
     "config": {
+      "decorators": [],
+      "dirt_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:coarse_dirt"
+        }
+      },
+      "foliage_placer": {
+        "type": "minecraft:random_spread_foliage_placer",
+        "foliage_height": 1,
+        "leaf_placement_attempts": 0,
+        "offset": 0,
+        "radius": 0
+      },
+      "foliage_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:air",
+          "Properties": {}
+        }
+      },
       "ignore_vines": true,
       "minimum_size": {
         "type": "minecraft:two_layers_feature_size",
@@ -9,11 +30,11 @@
         "lower_size": 0,
         "upper_size": 1
       },
-      "dirt_provider": {
-        "type": "minecraft:simple_state_provider",
-        "state": {
-          "Name": "minecraft:coarse_dirt"
-        }
+      "trunk_placer": {
+        "type": "minecraft:straight_trunk_placer",
+        "base_height": 3,
+        "height_rand_a": 2,
+        "height_rand_b": 1
       },
       "trunk_provider": {
         "type": "minecraft:simple_state_provider",
@@ -23,28 +44,7 @@
             "axis": "y"
           }
         }
-      },
-      "foliage_provider": {
-        "type": "minecraft:simple_state_provider",
-        "state": {
-          "Name": "minecraft:air",
-          "Properties": {}
-        }
-      },
-      "trunk_placer": {
-        "type": "minecraft:straight_trunk_placer",
-        "base_height": 3,
-        "height_rand_a": 2,
-        "height_rand_b": 1
-      },
-      "foliage_placer": {
-        "type": "minecraft:random_spread_foliage_placer",
-        "radius": 0,
-        "offset": 0,
-        "foliage_height": 1,
-        "leaf_placement_attempts": 0
-      },
-      "decorators": []
+      }
     }
   },
   "placement": []

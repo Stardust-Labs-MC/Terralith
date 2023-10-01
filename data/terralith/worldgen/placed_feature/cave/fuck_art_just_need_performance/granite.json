@@ -2,6 +2,13 @@
   "feature": {
     "type": "minecraft:netherrack_replace_blobs",
     "config": {
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 5,
+          "max_inclusive": 12
+        }
+      },
       "state": {
         "Name": "minecraft:granite",
         "Properties": {
@@ -10,13 +17,6 @@
       },
       "target": {
         "Name": "minecraft:stone"
-      },
-      "radius": {
-        "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 5,
-          "max_inclusive": 12
-        }
       }
     }
   },
@@ -27,8 +27,8 @@
         "type": "minecraft:weighted_list",
         "distribution": [
           {
-            "weight": 100,
-            "data": 180
+            "data": 180,
+            "weight": 100
           }
         ]
       }

@@ -7,12 +7,12 @@
         "type": "minecraft:weighted_list",
         "distribution": [
           {
-            "weight": 90,
-            "data": 4
+            "data": 4,
+            "weight": 90
           },
           {
-            "weight": 10,
-            "data": 5
+            "data": 5,
+            "weight": 10
           }
         ]
       }
@@ -28,34 +28,6 @@
     },
     {
       "type": "minecraft:environment_scan",
-      "direction_of_search": "down",
-      "max_steps": 32,
-      "target_condition": {
-        "type": "minecraft:all_of",
-        "predicates": [
-          {
-            "type": "minecraft:any_of",
-            "predicates": [
-              {
-                "type": "minecraft:all_of",
-                "predicates": [
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "offset": [
-                      0,
-                      -1,
-                      0
-                    ],
-                    "blocks": [
-                      "minecraft:stone","grass_block","diorite","calcite"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
       "allowed_search_condition": {
         "type": "minecraft:not",
         "predicate": {
@@ -76,6 +48,37 @@
             }
           ]
         }
+      },
+      "direction_of_search": "down",
+      "max_steps": 32,
+      "target_condition": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:any_of",
+            "predicates": [
+              {
+                "type": "minecraft:all_of",
+                "predicates": [
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": [
+                      "minecraft:stone",
+                      "grass_block",
+                      "diorite",
+                      "calcite"
+                    ],
+                    "offset": [
+                      0,
+                      -1,
+                      0
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     },
     {

@@ -2,7 +2,6 @@
   "feature": {
     "type": "minecraft:vegetation_patch",
     "config": {
-      "surface": "ceiling",
       "depth": {
         "type": "minecraft:uniform",
         "value": {
@@ -10,31 +9,21 @@
           "max_inclusive": 3
         }
       },
-      "vertical_range": 4,
       "extra_bottom_block_chance": 0,
       "extra_edge_column_chance": 0.5,
-      "vegetation_chance": 0.03,
-      "xz_radius": {
-        "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 0,
-          "max_inclusive": 2
-        }
-      },
-      "replaceable": "#minecraft:lush_ground_replaceable",
       "ground_state": {
         "type": "minecraft:noise_provider",
-        "seed": 0,
         "noise": {
-          "firstOctave": -5,
           "amplitudes": [
             1.3,
             0.5,
             1.6,
             1.725
-          ]
+          ],
+          "firstOctave": -5
         },
         "scale": 1,
+        "seed": 0,
         "states": [
           {
             "Name": "minecraft:stone"
@@ -65,7 +54,18 @@
           }
         ]
       },
-      "vegetation_feature": "terralith:skylands/summer/vine"
+      "replaceable": "#minecraft:lush_ground_replaceable",
+      "surface": "ceiling",
+      "vegetation_chance": 0.03,
+      "vegetation_feature": "terralith:skylands/summer/vine",
+      "vertical_range": 4,
+      "xz_radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0,
+          "max_inclusive": 2
+        }
+      }
     }
   },
   "placement": [
@@ -108,13 +108,13 @@
         "predicates": [
           {
             "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:stone"
+            ],
             "offset": [
               0,
               1,
               0
-            ],
-            "blocks": [
-              "minecraft:stone"
             ]
           }
         ]

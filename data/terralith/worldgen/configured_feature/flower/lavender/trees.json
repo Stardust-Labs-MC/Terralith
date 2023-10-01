@@ -1,6 +1,7 @@
 {
   "type": "minecraft:random_selector",
   "config": {
+    "default": "terralith:flower/lavender/main_tree",
     "features": [
       {
         "chance": 0.01,
@@ -8,9 +9,8 @@
       },
       {
         "chance": 0.325,
-        "feature": "minecraft:birch"
+        "feature": "minecraft:birch_checked"
       }
-    ],
-    "default": "terralith:flower/lavender/main_tree"
+    ]
   }
 }

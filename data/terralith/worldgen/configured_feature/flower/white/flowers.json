@@ -1,18 +1,13 @@
 {
   "type": "minecraft:random_patch",
   "config": {
-    "tries": 50,
-    "xz_spread": 9,
-    "y_spread": 3,
     "feature": {
       "feature": {
         "type": "minecraft:simple_block",
         "config": {
           "to_place": {
             "type": "minecraft:noise_provider",
-            "seed": 4,
             "noise": {
-              "firstOctave": -6,
               "amplitudes": [
                 1,
                 1.2,
@@ -20,9 +15,11 @@
                 0.85,
                 2,
                 4.5
-              ]
+              ],
+              "firstOctave": -6
             },
             "scale": 1,
+            "seed": 4,
             "states": [
               {
                 "Name": "minecraft:white_tulip"
@@ -45,17 +42,20 @@
           "type": "minecraft:block_predicate_filter",
           "predicate": {
             "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:grass_block"
+            ],
             "offset": [
               0,
               -1,
               0
-            ],
-            "blocks": [
-              "minecraft:grass_block"
             ]
           }
         }
       ]
-    }
+    },
+    "tries": 50,
+    "xz_spread": 9,
+    "y_spread": 3
   }
 }

@@ -1,10 +1,11 @@
 {
   "type": "minecraft:random_selector",
   "config": {
+    "default": "terralith:dark/oak",
     "features": [
       {
         "chance": 0.025,
-        "feature": "minecraft:huge_brown_mushroom"
+        "feature": "terralith:mushroom/vanilla_huge_brown_mushroom"
       },
       {
         "chance": 0.0125,
@@ -16,7 +17,7 @@
       },
       {
         "chance": 0.025,
-        "feature": "minecraft:huge_red_mushroom"
+        "feature": "terralith:mushroom/vanilla_huge_red_mushroom"
       },
       {
         "chance": 0.025,
@@ -42,7 +43,6 @@
         "chance": 0.34,
         "feature": "terralith:dark/twilight_tree"
       }
-    ],
-    "default": "terralith:dark/oak"
+    ]
   }
 }

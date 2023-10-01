@@ -2,6 +2,13 @@
   "feature": {
     "type": "minecraft:netherrack_replace_blobs",
     "config": {
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 5,
+          "max_inclusive": 12
+        }
+      },
       "state": {
         "Name": "minecraft:blackstone",
         "Properties": {
@@ -12,12 +19,6 @@
         "Name": "minecraft:deepslate",
         "Properties": {
           "axis": "y"
-        }},
-      "radius": {
-        "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 5,
-          "max_inclusive": 12
         }
       }
     }
@@ -29,8 +30,8 @@
         "type": "minecraft:weighted_list",
         "distribution": [
           {
-            "weight": 100,
-            "data": 256
+            "data": 256,
+            "weight": 100
           }
         ]
       }

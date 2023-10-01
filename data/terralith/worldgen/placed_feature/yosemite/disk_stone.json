@@ -1,37 +1,32 @@
 {
-	"feature": "terralith:yosemite/disk_stone",
-	"placement": [
-		{
-			"type": "minecraft:count",
-			"count": {
-				"type": "minecraft:weighted_list",
-				"distribution": [
-					{
-						"weight": 0,
-						"data": 128
-					},
-					{
-						"weight": 100,
-						"data": 228
-					}
-				]
-			}
-		},
-		{
-			"type": "minecraft:in_square"
-		},
-		{
-			"type": "minecraft:noise_based_count",
-			"noise_to_count_ratio": 1,
-			"noise_factor": 175,
-			"noise_offset": 1
-		},
-		{
-			"type": "minecraft:heightmap",
-			"heightmap": "OCEAN_FLOOR_WG"
-		},
-		{
-			"type": "minecraft:biome"
-		}
-	]
+  "feature": "terralith:yosemite/disk_stone",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 228
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:noise_based_count",
+      "noise_factor": 175,
+      "noise_offset": 1,
+      "noise_to_count_ratio": 1
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_fluids",
+        "fluids": "minecraft:water"
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
 }

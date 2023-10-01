@@ -2,14 +2,13 @@
   "feature": {
     "type": "minecraft:block_column",
     "config": {
-      "direction": "down",
       "allowed_placement": {
         "type": "minecraft:matching_blocks",
         "blocks": [
           "minecraft:air"
         ]
       },
-      "prioritize_tip": false,
+      "direction": "down",
       "layers": [
         {
           "height": {
@@ -26,7 +25,8 @@
             }
           }
         }
-      ]
+      ],
+      "prioritize_tip": false
     }
   },
   "placement": [
@@ -55,12 +55,12 @@
       "max_steps": 32,
       "target_condition": {
         "type": "minecraft:has_sturdy_face",
+        "direction": "down",
         "offset": [
           0,
           1,
           0
-        ],
-        "direction": "down"
+        ]
       }
     },
     {

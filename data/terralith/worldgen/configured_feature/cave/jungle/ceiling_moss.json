@@ -4,8 +4,8 @@
     "depth": {
       "type": "minecraft:uniform",
       "value": {
-        "max_inclusive": 2,
-        "min_inclusive": 1
+        "min_inclusive": 1,
+        "max_inclusive": 2
       }
     },
     "extra_bottom_block_chance": 0.0,
@@ -27,8 +27,8 @@
     "xz_radius": {
       "type": "minecraft:uniform",
       "value": {
-        "max_inclusive": 7,
-        "min_inclusive": 4
+        "min_inclusive": 4,
+        "max_inclusive": 7
       }
     }
   }

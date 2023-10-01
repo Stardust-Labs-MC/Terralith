@@ -2,10 +2,10 @@
   "type": "minecraft:add",
   "argument1": {
     "type": "minecraft:y_clamped_gradient",
-    "from_y": -64,
-    "to_y": 320,
     "from_value": 1.5,
-    "to_value": -1.5
+    "from_y": -64,
+    "to_value": -1.5,
+    "to_y": 320
   },
   "argument2": {
     "type": "minecraft:flat_cache",

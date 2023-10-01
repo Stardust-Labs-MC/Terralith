@@ -1,6 +1,41 @@
 {
   "type": "minecraft:tree",
   "config": {
+    "decorators": [
+      {
+        "type": "minecraft:leave_vine",
+        "probability": 0.25
+      }
+    ],
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "foliage_placer": {
+      "type": "minecraft:jungle_foliage_placer",
+      "height": 2,
+      "offset": 0,
+      "radius": 1
+    },
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:birch_leaves",
+            "Properties": {
+              "distance": "7",
+              "persistent": "false",
+              "waterlogged": "false"
+            }
+          },
+          "weight": 4
+        }
+      ]
+    },
+    "force_dirt": false,
     "ignore_vines": false,
     "minimum_size": {
       "type": "minecraft:two_layers_feature_size",
@@ -8,49 +43,6 @@
       "lower_size": 0,
       "upper_size": 1
     },
-    "trunk_provider": {
-      "type": "minecraft:simple_state_provider",
-      "state": {
-        "Name": "minecraft:birch_log",
-        "Properties": {
-          "axis": "y"
-        }
-      }
-    },
-    "trunk_placer": {
-      "type": "minecraft:straight_trunk_placer",
-      "base_height": 5,
-      "height_rand_a": 1,
-      "height_rand_b": 2
-    },
-    "foliage_placer": {
-      "type": "minecraft:jungle_foliage_placer",
-      "radius": 1,
-      "offset": 0,
-      "height": 2
-    },
-    "decorators": [
-      {
-        "type": "minecraft:leave_vine",
-        "probability": 0.25
-      }
-    ],
-    "foliage_provider": {
-      "type": "minecraft:weighted_state_provider",
-      "entries": [
-        {
-          "weight": 4,
-          "data": {
-            "Name": "minecraft:birch_leaves",
-            "Properties": {
-              "distance": "7",
-              "persistent": "false"
-            }
-          }
-        }
-      ]
-    },
-    "force_dirt": false,
     "sapling_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
@@ -60,11 +52,20 @@
         }
       }
     },
-    "dirt_provider": {
+    "trunk_placer": {
+      "type": "minecraft:straight_trunk_placer",
+      "base_height": 5,
+      "height_rand_a": 1,
+      "height_rand_b": 2
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:dirt"
-      },
-      "type": "minecraft:simple_state_provider"
+        "Name": "minecraft:birch_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
     }
   }
 }

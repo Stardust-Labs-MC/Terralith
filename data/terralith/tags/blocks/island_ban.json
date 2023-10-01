@@ -1,8 +1,7 @@
 {
   "replace": false,
   "values": [
-    "grass_block",
-    "farmland",
-    "grass","tall_grass","wheat","water","sunflower","sand","moss_block","stone","cave_air"
+    "#terralith:island_ban_winter",
+    "minecraft:grass_block"
   ]
 }

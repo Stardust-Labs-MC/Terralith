@@ -1,6 +1,7 @@
 {
   "type": "minecraft:random_selector",
   "config": {
+    "default": "terralith:skylands/winter/oak",
     "features": [
       {
         "chance": 0.2,
@@ -18,7 +19,6 @@
         "chance": 0.125,
         "feature": "terralith:taiga/small/pine_small"
       }
-    ],
-    "default": "terralith:skylands/winter/oak"
+    ]
   }
 }

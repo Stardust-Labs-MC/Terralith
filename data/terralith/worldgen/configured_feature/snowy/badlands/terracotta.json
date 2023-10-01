@@ -6,18 +6,18 @@
         "feature": {
           "type": "minecraft:netherrack_replace_blobs",
           "config": {
+            "radius": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": 7,
+                "max_inclusive": 12
+              }
+            },
             "state": {
               "Name": "minecraft:terracotta"
             },
             "target": {
               "Name": "minecraft:orange_terracotta"
-            },
-            "radius": {
-              "type": "minecraft:uniform",
-              "value": {
-                "min_inclusive": 7,
-                "max_inclusive": 12
-              }
             }
           }
         },
@@ -27,18 +27,18 @@
         "feature": {
           "type": "minecraft:netherrack_replace_blobs",
           "config": {
+            "radius": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": 7,
+                "max_inclusive": 12
+              }
+            },
             "state": {
               "Name": "minecraft:brown_terracotta"
             },
             "target": {
               "Name": "minecraft:yellow_terracotta"
-            },
-            "radius": {
-              "type": "minecraft:uniform",
-              "value": {
-                "min_inclusive": 7,
-                "max_inclusive": 12
-              }
             }
           }
         },
@@ -48,18 +48,18 @@
         "feature": {
           "type": "minecraft:netherrack_replace_blobs",
           "config": {
-            "state": {
-              "Name": "minecraft:black_terracotta"
-            },
-            "target": {
-              "Name": "minecraft:red_terracotta"
-            },
             "radius": {
               "type": "minecraft:uniform",
               "value": {
                 "min_inclusive": 7,
                 "max_inclusive": 12
               }
+            },
+            "state": {
+              "Name": "minecraft:black_terracotta"
+            },
+            "target": {
+              "Name": "minecraft:red_terracotta"
             }
           }
         },

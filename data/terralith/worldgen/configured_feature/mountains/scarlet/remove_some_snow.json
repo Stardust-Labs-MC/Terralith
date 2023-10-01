@@ -3,16 +3,16 @@
   "config": {
     "to_place": {
       "type": "minecraft:noise_provider",
-      "seed": 15,
       "noise": {
-        "firstOctave": -3,
         "amplitudes": [
           1,
           1,
           1.55
-        ]
+        ],
+        "firstOctave": -3
       },
       "scale": 1,
+      "seed": 15,
       "states": [
         {
           "Name": "minecraft:snow",

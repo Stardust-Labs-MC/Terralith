@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "cave_air",
-    "air",
-    "void_air",
-    "snow_block"
+    "minecraft:cave_air",
+    "minecraft:air",
+    "minecraft:void_air",
+    "minecraft:snow_block"
   ]
 }

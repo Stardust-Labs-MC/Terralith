@@ -1,9 +1,6 @@
 {
   "type": "minecraft:flower",
   "config": {
-    "tries": 8,
-    "xz_spread": 6,
-    "y_spread": 2,
     "feature": {
       "feature": {
         "type": "minecraft:simple_block",
@@ -12,22 +9,22 @@
             "type": "minecraft:weighted_state_provider",
             "entries": [
               {
-                "weight": 1,
                 "data": {
                   "Name": "minecraft:pink_tulip"
-                }
+                },
+                "weight": 1
               },
               {
-                "weight": 1,
                 "data": {
                   "Name": "minecraft:white_tulip"
-                }
+                },
+                "weight": 1
               },
               {
-                "weight": 1,
                 "data": {
                   "Name": "minecraft:peony"
-                }
+                },
+                "weight": 1
               }
             ]
           }
@@ -42,6 +39,9 @@
           }
         }
       ]
-    }
+    },
+    "tries": 8,
+    "xz_spread": 6,
+    "y_spread": 2
   }
 }

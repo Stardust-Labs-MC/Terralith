@@ -1,15 +1,15 @@
 {
-	"feature": "terralith:coastal/bending_acacia",
-	"placement": [
-		{
-			"type": "minecraft:count",
-			"count": {
-				"type": "minecraft:uniform",
-				"value": {
-					"min_inclusive": 1,
-					"max_inclusive": 1
-				}
-			}
-		}
-	]
+  "feature": "terralith:coastal/bending_acacia",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 1,
+          "max_inclusive": 1
+        }
+      }
+    }
+  ]
 }

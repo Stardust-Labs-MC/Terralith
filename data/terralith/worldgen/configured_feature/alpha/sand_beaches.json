@@ -1,16 +1,16 @@
 {
   "type": "minecraft:ore",
   "config": {
-    "size": 50,
     "discard_chance_on_air_exposure": 0,
+    "size": 50,
     "targets": [
       {
+        "state": {
+          "Name": "minecraft:sand"
+        },
         "target": {
           "predicate_type": "minecraft:tag_match",
           "tag": "terralith:soil_and_gravel"
-        },
-        "state": {
-          "Name": "minecraft:sand"
         }
       }
     ]

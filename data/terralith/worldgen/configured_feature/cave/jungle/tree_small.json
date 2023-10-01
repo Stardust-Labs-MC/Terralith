@@ -11,8 +11,7 @@
         "block_provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-              "Name": "minecraft:spore_blossom"
-            
+            "Name": "minecraft:spore_blossom"
           }
         },
         "directions": [
@@ -43,8 +42,8 @@
           "values": {
             "type": "minecraft:uniform",
             "value": {
-              "max_inclusive": 4,
-              "min_inclusive": 0
+              "min_inclusive": 0,
+              "max_inclusive": 4
             }
           }
         },
@@ -135,8 +134,8 @@
       "trunk_offset_y": {
         "type": "minecraft:uniform",
         "value": {
-          "max_inclusive": 7,
-          "min_inclusive": 3
+          "min_inclusive": 3,
+          "max_inclusive": 7
         }
       }
     },
@@ -147,15 +146,15 @@
       "extra_branch_length": {
         "type": "minecraft:uniform",
         "value": {
-          "max_inclusive": 1,
-          "min_inclusive": 0
+          "min_inclusive": 0,
+          "max_inclusive": 1
         }
       },
       "extra_branch_steps": {
         "type": "minecraft:uniform",
         "value": {
-          "max_inclusive": 6,
-          "min_inclusive": 1
+          "min_inclusive": 1,
+          "max_inclusive": 6
         }
       },
       "height_rand_a": 1,

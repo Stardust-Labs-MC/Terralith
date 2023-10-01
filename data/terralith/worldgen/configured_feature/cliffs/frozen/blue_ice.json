@@ -1,16 +1,16 @@
 {
   "type": "minecraft:ore",
   "config": {
-    "size": 64,
     "discard_chance_on_air_exposure": 0,
+    "size": 64,
     "targets": [
       {
-        "target": {
-          "predicate_type": "minecraft:block_match",
-          "block": "minecraft:stone"
-        },
         "state": {
           "Name": "minecraft:blue_ice"
+        },
+        "target": {
+          "block": "minecraft:stone",
+          "predicate_type": "minecraft:block_match"
         }
       }
     ]

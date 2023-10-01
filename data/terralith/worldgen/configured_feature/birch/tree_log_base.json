@@ -28,24 +28,24 @@
                 },
                 {
                   "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:birch_log"
+                  ],
                   "offset": [
                     1,
                     0,
                     0
-                  ],
-                  "blocks": [
-                    "minecraft:birch_log"
                   ]
                 },
                 {
                   "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:birch_log"
+                  ],
                   "offset": [
                     1,
                     -1,
                     0
-                  ],
-                  "blocks": [
-                    "minecraft:birch_log"
                   ]
                 },
                 {
@@ -55,77 +55,77 @@
                     "predicates": [
                       {
                         "type": "minecraft:matching_blocks",
+                        "blocks": [
+                          "minecraft:grass",
+                          "stone",
+                          "dirt",
+                          "gravel"
+                        ],
                         "offset": [
                           0,
                           -1,
                           0
-                        ],
+                        ]
+                      },
+                      {
+                        "type": "minecraft:matching_blocks",
                         "blocks": [
                           "minecraft:grass",
                           "stone",
                           "dirt",
                           "gravel"
-                        ]
-                      },
-                      {
-                        "type": "minecraft:matching_blocks",
+                        ],
                         "offset": [
                           0,
                           -2,
                           0
-                        ],
+                        ]
+                      },
+                      {
+                        "type": "minecraft:matching_blocks",
                         "blocks": [
                           "minecraft:grass",
                           "stone",
                           "dirt",
                           "gravel"
-                        ]
-                      },
-                      {
-                        "type": "minecraft:matching_blocks",
+                        ],
                         "offset": [
                           0,
                           -3,
                           0
-                        ],
-                        "blocks": [
-                          "minecraft:grass",
-                          "stone",
-                          "dirt",
-                          "gravel"
                         ]
                       },
                       {
                         "type": "minecraft:matching_blocks",
+                        "blocks": [
+                          "minecraft:birch_log"
+                        ],
                         "offset": [
                           2,
                           0,
                           0
-                        ],
-                        "blocks": [
-                          "minecraft:birch_log"
                         ]
                       },
                       {
                         "type": "minecraft:matching_blocks",
+                        "blocks": [
+                          "minecraft:birch_log"
+                        ],
                         "offset": [
                           1,
                           0,
                           1
-                        ],
-                        "blocks": [
-                          "minecraft:birch_log"
                         ]
                       },
                       {
                         "type": "minecraft:matching_blocks",
+                        "blocks": [
+                          "minecraft:birch_log"
+                        ],
                         "offset": [
                           1,
                           0,
                           -1
-                        ],
-                        "blocks": [
-                          "minecraft:birch_log"
                         ]
                       }
                     ]
@@ -162,24 +162,24 @@
                 },
                 {
                   "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:birch_log"
+                  ],
                   "offset": [
                     -1,
                     0,
                     0
-                  ],
-                  "blocks": [
-                    "minecraft:birch_log"
                   ]
                 },
                 {
                   "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:birch_log"
+                  ],
                   "offset": [
                     -1,
                     -1,
                     0
-                  ],
-                  "blocks": [
-                    "minecraft:birch_log"
                   ]
                 },
                 {
@@ -189,77 +189,77 @@
                     "predicates": [
                       {
                         "type": "minecraft:matching_blocks",
+                        "blocks": [
+                          "minecraft:grass",
+                          "stone",
+                          "dirt",
+                          "gravel"
+                        ],
                         "offset": [
                           0,
                           -1,
                           0
-                        ],
+                        ]
+                      },
+                      {
+                        "type": "minecraft:matching_blocks",
                         "blocks": [
                           "minecraft:grass",
                           "stone",
                           "dirt",
                           "gravel"
-                        ]
-                      },
-                      {
-                        "type": "minecraft:matching_blocks",
+                        ],
                         "offset": [
                           0,
                           -2,
                           0
-                        ],
+                        ]
+                      },
+                      {
+                        "type": "minecraft:matching_blocks",
                         "blocks": [
                           "minecraft:grass",
                           "stone",
                           "dirt",
                           "gravel"
-                        ]
-                      },
-                      {
-                        "type": "minecraft:matching_blocks",
+                        ],
                         "offset": [
                           0,
                           -3,
                           0
-                        ],
-                        "blocks": [
-                          "minecraft:grass",
-                          "stone",
-                          "dirt",
-                          "gravel"
                         ]
                       },
                       {
                         "type": "minecraft:matching_blocks",
+                        "blocks": [
+                          "minecraft:birch_log"
+                        ],
                         "offset": [
                           -2,
                           0,
                           0
-                        ],
-                        "blocks": [
-                          "minecraft:birch_log"
                         ]
                       },
                       {
                         "type": "minecraft:matching_blocks",
+                        "blocks": [
+                          "minecraft:birch_log"
+                        ],
                         "offset": [
                           -1,
                           0,
                           -1
-                        ],
-                        "blocks": [
-                          "minecraft:birch_log"
                         ]
                       },
                       {
                         "type": "minecraft:matching_blocks",
+                        "blocks": [
+                          "minecraft:birch_log"
+                        ],
                         "offset": [
                           -1,
                           0,
                           1
-                        ],
-                        "blocks": [
-                          "minecraft:birch_log"
                         ]
                       }
                     ]
@@ -296,24 +296,24 @@
                 },
                 {
                   "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:birch_log"
+                  ],
                   "offset": [
                     0,
                     0,
                     1
-                  ],
-                  "blocks": [
-                    "minecraft:birch_log"
                   ]
                 },
                 {
                   "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:birch_log"
+                  ],
                   "offset": [
                     1,
                     -1,
                     0
-                  ],
-                  "blocks": [
-                    "minecraft:birch_log"
                   ]
                 },
                 {
@@ -323,77 +323,77 @@
                     "predicates": [
                       {
                         "type": "minecraft:matching_blocks",
-                        "offset": [
-                          0,
-                          -1,
-                          0
-                        ],
                         "blocks": [
                           "minecraft:grass",
                           "stone",
                           "dirt",
                           "gravel"
+                        ],
+                        "offset": [
+                          0,
+                          -1,
+                          0
                         ]
                       },
                       {
                         "type": "minecraft:matching_blocks",
+                        "blocks": [
+                          "minecraft:grass",
+                          "stone",
+                          "dirt",
+                          "gravel"
+                        ],
                         "offset": [
                           0,
                           -2,
                           0
-                        ],
+                        ]
+                      },
+                      {
+                        "type": "minecraft:matching_blocks",
                         "blocks": [
                           "minecraft:grass",
                           "stone",
                           "dirt",
                           "gravel"
-                        ]
-                      },
-                      {
-                        "type": "minecraft:matching_blocks",
+                        ],
                         "offset": [
                           0,
                           -3,
                           0
-                        ],
-                        "blocks": [
-                          "minecraft:grass",
-                          "stone",
-                          "dirt",
-                          "gravel"
                         ]
                       },
                       {
                         "type": "minecraft:matching_blocks",
+                        "blocks": [
+                          "minecraft:birch_log"
+                        ],
                         "offset": [
                           0,
                           0,
                           2
-                        ],
-                        "blocks": [
-                          "minecraft:birch_log"
                         ]
                       },
                       {
                         "type": "minecraft:matching_blocks",
+                        "blocks": [
+                          "minecraft:birch_log"
+                        ],
                         "offset": [
                           1,
                           0,
                           1
-                        ],
-                        "blocks": [
-                          "minecraft:birch_log"
                         ]
                       },
                       {
                         "type": "minecraft:matching_blocks",
+                        "blocks": [
+                          "minecraft:birch_log"
+                        ],
                         "offset": [
                           -1,
                           0,
                           1
-                        ],
-                        "blocks": [
-                          "minecraft:birch_log"
                         ]
                       }
                     ]
@@ -430,24 +430,24 @@
                 },
                 {
                   "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:birch_log"
+                  ],
                   "offset": [
                     0,
                     0,
                     -1
-                  ],
-                  "blocks": [
-                    "minecraft:birch_log"
                   ]
                 },
                 {
                   "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:birch_log"
+                  ],
                   "offset": [
                     0,
                     -1,
                     -1
-                  ],
-                  "blocks": [
-                    "minecraft:birch_log"
                   ]
                 },
                 {
@@ -457,77 +457,77 @@
                     "predicates": [
                       {
                         "type": "minecraft:matching_blocks",
-                        "offset": [
-                          0,
-                          -1,
-                          0
-                        ],
                         "blocks": [
                           "minecraft:grass",
                           "stone",
                           "dirt",
                           "gravel"
+                        ],
+                        "offset": [
+                          0,
+                          -1,
+                          0
                         ]
                       },
                       {
                         "type": "minecraft:matching_blocks",
+                        "blocks": [
+                          "minecraft:grass",
+                          "stone",
+                          "dirt",
+                          "gravel"
+                        ],
                         "offset": [
                           0,
                           -2,
                           0
-                        ],
+                        ]
+                      },
+                      {
+                        "type": "minecraft:matching_blocks",
                         "blocks": [
                           "minecraft:grass",
                           "stone",
                           "dirt",
                           "gravel"
-                        ]
-                      },
-                      {
-                        "type": "minecraft:matching_blocks",
+                        ],
                         "offset": [
                           0,
                           -3,
                           0
-                        ],
-                        "blocks": [
-                          "minecraft:grass",
-                          "stone",
-                          "dirt",
-                          "gravel"
                         ]
                       },
                       {
                         "type": "minecraft:matching_blocks",
+                        "blocks": [
+                          "minecraft:birch_log"
+                        ],
                         "offset": [
                           0,
                           0,
                           -2
-                        ],
-                        "blocks": [
-                          "minecraft:birch_log"
                         ]
                       },
                       {
                         "type": "minecraft:matching_blocks",
+                        "blocks": [
+                          "minecraft:birch_log"
+                        ],
                         "offset": [
                           -1,
                           0,
                           -1
-                        ],
-                        "blocks": [
-                          "minecraft:birch_log"
                         ]
                       },
                       {
                         "type": "minecraft:matching_blocks",
+                        "blocks": [
+                          "minecraft:birch_log"
+                        ],
                         "offset": [
                           1,
                           0,
                           -1
-                        ],
-                        "blocks": [
-                          "minecraft:birch_log"
                         ]
                       }
                     ]

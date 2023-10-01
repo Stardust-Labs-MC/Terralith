@@ -1,19 +1,26 @@
 {
-	"feature": "terralith:highlands/forest/disk_gravel",
-	"placement": [
-		{
-			"type": "minecraft:count",
-			"count": 64
-		},
-		{
-			"type": "minecraft:in_square"
-		},
-		{
-			"type": "minecraft:heightmap",
-			"heightmap": "OCEAN_FLOOR"
-		},
-		{
-			"type": "minecraft:biome"
-		}
-	]
+  "feature": "terralith:highlands/forest/disk_gravel",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 64
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_fluids",
+        "fluids": "minecraft:water"
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
 }

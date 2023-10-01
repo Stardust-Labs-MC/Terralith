@@ -1,63 +1,62 @@
-{"type":"flat_cache",
-    "argument":{
-        "type":"cache_2d",
-        "argument":
 {
-   "type":"spline",
-   "min_value":0,
-   "max_value":4,
-   "spline":{
-      "coordinate":"overworld/continents",
-      "points":[
-        {
-            "location":-0.275,
-            "derivative":0,
-            "value":4
-         },
-         {
-            "location":-0.2375,
-            "derivative":0,
-            "value":{
-               "coordinate":"overworld/erosion",
-               "points":[
-                  {
-                     "location":-0.55,
-                     "derivative":0,
-                     "value":0
-                  },
-                  {
-                     "location":-0.5,
-                     "derivative":0,
-                     "value":4
-                  }
-               ]
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "overworld/continents",
+        "points": [
+          {
+            "derivative": 0,
+            "location": -0.275,
+            "value": 4
+          },
+          {
+            "derivative": 0,
+            "location": -0.2375,
+            "value": {
+              "coordinate": "overworld/erosion",
+              "points": [
+                {
+                  "derivative": 0,
+                  "location": -0.55,
+                  "value": 0
+                },
+                {
+                  "derivative": 0,
+                  "location": -0.5,
+                  "value": 4
+                }
+              ]
             }
-         },
-
-        {
-            "location":-0.18,
-            "derivative":0,
-            "value":{
-               "coordinate":"overworld/erosion",
-               "points":[
-                  {
-                     "location":-0.55,
-                     "derivative":0,
-                     "value":0
-                  },
-                  {
-                     "location":-0.5,
-                     "derivative":0,
-                     "value":4
-                  }
-               ]
+          },
+          {
+            "derivative": 0,
+            "location": -0.18,
+            "value": {
+              "coordinate": "overworld/erosion",
+              "points": [
+                {
+                  "derivative": 0,
+                  "location": -0.55,
+                  "value": 0
+                },
+                {
+                  "derivative": 0,
+                  "location": -0.5,
+                  "value": 4
+                }
+              ]
             }
-         },
-         {
-            "location":-0.09,
-            "derivative":0,
-            "value":4.0
-         }
-      ]
-   }
-}}}
+          },
+          {
+            "derivative": 0,
+            "location": -0.09,
+            "value": 4.0
+          }
+        ]
+      }
+    }
+  }
+}
