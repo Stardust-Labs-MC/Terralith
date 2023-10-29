@@ -67,6 +67,10 @@
         ],
         [],
         [
+            "minecraft:spring_water",
+            "minecraft:spring_lava"
+        ],
+        [
             "terralith:cave/desert/noise_reducer",
             "terralith:cave/desert/noise_reducer_small",
             "minecraft:glow_lichen",
@@ -77,9 +81,10 @@
             "minecraft:brown_mushroom_normal",
             "minecraft:red_mushroom_normal",
             "minecraft:patch_sugar_cane",
-            "minecraft:patch_pumpkin",
-            "minecraft:spring_water",
-            "minecraft:spring_lava"
+            "minecraft:patch_pumpkin"
+        ],
+        [
+            "minecraft:freeze_top_layer"
         ]
     ],
     "spawners": {
