@@ -374,7 +374,7 @@
         "max_inclusive": 2
       }
     },
-    "replaceable": "#terralith:terracotta",
+    "replaceable": "#minecraft:terracotta",
     "surface": "floor",
     "vegetation_chance": 0,
     "vegetation_feature": "terralith:nothing",

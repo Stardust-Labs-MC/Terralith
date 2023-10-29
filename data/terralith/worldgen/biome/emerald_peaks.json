@@ -82,6 +82,7 @@
       "minecraft:glow_lichen"
     ],
     [
+      "minecraft:freeze_top_layer",
       "terralith:mountains/scarlet/remove_some_snow",
       "terralith:mountains/scarlet/remove_steep_snow"
     ]

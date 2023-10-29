@@ -43,7 +43,9 @@
       "terralith:cave/frostfire/columns",
       "terralith:cave/frostfire/sculk_patch",
       "terralith:cave/frostfire/frostfire_patch",
-      "terralith:cave/frostfire/frostfire_ceiling"
+      "terralith:cave/frostfire/frostfire_ceiling",
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
     ],
     [
       "minecraft:amethyst_geode",
@@ -51,7 +53,8 @@
       "minecraft:large_dripstone"
     ],
     [
-      "minecraft:monster_room"
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
     ],
     [],
     [],
@@ -84,6 +87,7 @@
       "minecraft:disk_gravel"
     ],
     [],
+    [],
     [
       "terralith:cave/ice/no_lava",
       "terralith:cave/frostfire/replacer",
@@ -96,6 +100,9 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin"
+    ],
+    [
+      "minecraft:freeze_top_layer"
     ]
   ],
   "has_precipitation": true,
