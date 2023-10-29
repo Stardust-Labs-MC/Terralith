@@ -69,10 +69,15 @@
             "minecraft:ore_infested"
         ],
         [
-            "minecraft:glow_lichen",
-            "minecraft:patch_dead_bush",
             "minecraft:spring_water",
             "minecraft:spring_lava"
+        ],
+        [
+            "minecraft:glow_lichen",
+            "minecraft:patch_dead_bush"
+        ],
+        [
+            "minecraft:freeze_top_layer"
         ]
     ],
     "spawners": {
@@ -157,8 +162,8 @@
     },
     "spawn_costs": {},
     "player_spawn_friendly": false,
+    "has_precipitation": true,
     "temperature": 1,
     "downfall": 0.3,
-    "category": "mountain",
-    "has_precipitation": true
+    "category": "mountain"
 }

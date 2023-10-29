@@ -65,6 +65,10 @@
             "terralith:cave/mantle/basalt_strip"
         ],
         [
+            "minecraft:spring_water",
+            "minecraft:spring_lava"
+        ],
+        [
             "terralith:cave/mantle/replacer",
             "minecraft:glow_lichen",
             "minecraft:patch_tall_grass_2",
@@ -74,9 +78,10 @@
             "minecraft:brown_mushroom_normal",
             "minecraft:red_mushroom_normal",
             "minecraft:patch_sugar_cane",
-            "minecraft:patch_pumpkin",
-            "minecraft:spring_water",
-            "minecraft:spring_lava"
+            "minecraft:patch_pumpkin"
+        ],
+        [
+            "minecraft:freeze_top_layer"
         ]
     ],
     "spawners": {
@@ -154,8 +159,8 @@
     },
     "spawn_costs": {},
     "player_spawn_friendly": false,
+    "has_precipitation": true,
     "temperature": 2,
     "downfall": 0,
-    "category": "underground",
-    "has_precipitation": true
+    "category": "underground"
 }
