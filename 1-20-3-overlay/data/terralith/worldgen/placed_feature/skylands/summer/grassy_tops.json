@@ -1,0 +1,228 @@
+{
+  "feature": {
+    "type": "minecraft:simple_block",
+    "config": {
+      "to_place": {
+        "type": "minecraft:noise_provider",
+        "noise": {
+          "amplitudes": [
+            1.5,
+            0.75,
+            1.25,
+            1.75
+          ],
+          "firstOctave": -4
+        },
+        "scale": 1,
+        "seed": 523,
+        "slow_noise": {
+          "amplitudes": [
+            1.5,
+            0.75,
+            1.25,
+            1.75
+          ],
+          "firstOctave": -5
+        },
+        "slow_scale": 1,
+        "states": [
+          {
+            "Name": "minecraft:sand"
+          },
+          {
+            "Name": "minecraft:sand"
+          },
+          {
+            "Name": "minecraft:sand"
+          },
+          {
+            "Name": "minecraft:sand"
+          },
+          {
+            "Name": "minecraft:sand"
+          },
+          {
+            "Name": "minecraft:moss_block"
+          },
+          {
+            "Name": "minecraft:moss_block"
+          },
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          {
+            "Name": "minecraft:moss_block"
+          },
+          {
+            "Name": "minecraft:moss_block"
+          },
+          {
+            "Name": "minecraft:sand"
+          },
+          {
+            "Name": "minecraft:sand"
+          },
+          {
+            "Name": "minecraft:sand"
+          },
+          {
+            "Name": "minecraft:sand"
+          },
+          {
+            "Name": "minecraft:sand"
+          }
+        ],
+        "variety": {
+          "min_inclusive": 1,
+          "max_inclusive": 26
+        }
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 100
+    },
+    {
+      "type": "minecraft:count",
+      "count": 40
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": -8,
+          "max_inclusive": 8
+        }
+      },
+      "y_spread": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES"
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 2,
+      "target_condition": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:stone"
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:air",
+              "minecraft:short_grass",
+              "minecraft:fern"
+            ],
+            "offset": [
+              0,
+              1,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 {
-  "values": [
-    "minecraft:dirt_path",
-    "minecraft:snow_block"
-  ]
+    "values": [
+        "minecraft:dirt_path",
+        "minecraft:snow_block",
+        "minecraft:packed_mud"
+    ],
+    "replace": false
 }

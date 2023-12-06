@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:farmland",
+    "minecraft:short_grass",
+    "minecraft:tall_grass",
+    "minecraft:wheat",
+    "minecraft:water",
+    "minecraft:sunflower",
+    "minecraft:sand",
+    "minecraft:moss_block",
+    "minecraft:stone",
+    "minecraft:cave_air"
+  ]
+}

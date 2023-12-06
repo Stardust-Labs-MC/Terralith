@@ -1,9 +1,9 @@
 {
-  "pack": {
-    "supported_formats": [
-      15,
-      18
-    ],
+	"pack": {
+		"supported_formats": [
+			15,
+			26
+		],
 		"pack_format": 15,
 		"description": [
 			{
@@ -20,12 +20,19 @@
 			}
 		]
 	},
-    "overlays": {
-        "entries": [
-            {
-                "formats": 18,
-                "directory": "1-20-2-overlay"
-            }
-        ]
-    }
+	"overlays": {
+		"entries": [
+			{
+				"formats": [
+					18,
+					26
+				],
+				"directory": "1-20-2-overlay"
+			},
+			{
+				"formats": 26,
+				"directory": "1-20-3-overlay"
+			}
+		]
+	}
 }

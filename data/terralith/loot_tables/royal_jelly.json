@@ -11,7 +11,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionColor:16762880,CustomPotionEffects:[{Duration:1000,Id:22},{Duration:300,Id:24},{Duration:6000,Id:3,Amplifier:1},{Duration:1,Id:23,Amplifier:40},{Duration:6000,Id:1}]}"
+              "tag": "{CustomPotionColor:16762880,CustomPotionEffects:[{Duration:1000,Id:22},{Duration:300,Id:24},{Duration:6000,Id:3,Amplifier:1},{Duration:1,Id:23,Amplifier:40},{Duration:6000,Id:1}],custom_potion_effects:[{duration:1000,id:\"minecraft:absorption\"},{duration:300,id:\"minecraft:glowing\"},{duration:6000,id:\"minecraft:haste\",amplifier:1},{duration:1,id:\"minecraft:saturation\",amplifier:40},{duration:6000,id:\"minecraft:speed\"}]}"
             },
             {
               "entity": "this",

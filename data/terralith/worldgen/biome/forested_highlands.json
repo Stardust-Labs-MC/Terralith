@@ -25,9 +25,9 @@
     [
       "terralith:highlands/forest/creek",
       "terralith:highlands/forest/disk_gravel",
-      "terralith:highlands/pillar",
       "terralith:canyon/generic/cliff",
-      "terralith:canyon/generic/slab_stone"
+      "terralith:canyon/generic/slab_stone",
+      "terralith:highlands/pillar"
     ],
     [
       "minecraft:lake_lava_underground",

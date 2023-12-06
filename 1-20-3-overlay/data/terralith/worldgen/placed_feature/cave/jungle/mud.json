@@ -1,0 +1,245 @@
+{
+  "feature": {
+    "type": "minecraft:vegetation_patch",
+    "config": {
+      "depth": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 3
+        }
+      },
+      "extra_bottom_block_chance": 0.25,
+      "extra_edge_column_chance": 0.675,
+      "ground_state": {
+        "type": "minecraft:noise_provider",
+        "noise": {
+          "amplitudes": [
+            1,
+            0.5,
+            2.25,
+            1.65,
+            2.75
+          ],
+          "firstOctave": -6
+        },
+        "scale": 1,
+        "seed": 513,
+        "states": [
+          {
+            "Name": "minecraft:clay"
+          },
+          {
+            "Name": "minecraft:mud"
+          },
+          {
+            "Name": "minecraft:mud"
+          },
+          {
+            "Name": "minecraft:mud"
+          },
+          {
+            "Name": "minecraft:clay"
+          },
+          {
+            "Name": "minecraft:mud"
+          },
+          {
+            "Name": "minecraft:mud"
+          },
+          {
+            "Name": "minecraft:mud"
+          },
+          {
+            "Name": "minecraft:mud"
+          },
+          {
+            "Name": "minecraft:mud"
+          },
+          {
+            "Name": "minecraft:mud"
+          }
+        ]
+      },
+      "replaceable": "#minecraft:lush_ground_replaceable",
+      "surface": "floor",
+      "vegetation_chance": 0.07,
+      "vegetation_feature": {
+        "feature": {
+          "type": "minecraft:random_selector",
+          "config": {
+            "default": {
+              "feature": {
+                "type": "minecraft:simple_block",
+                "config": {
+                  "to_place": {
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                      {
+                        "data": {
+                          "Name": "minecraft:short_grass"
+                        },
+                        "weight": 4
+                      },
+                      {
+                        "data": {
+                          "Name": "minecraft:fern"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  }
+                }
+              },
+              "placement": [
+                {
+                  "type": "minecraft:block_predicate_filter",
+                  "predicate": {
+                    "type": "minecraft:all_of",
+                    "predicates": [
+                      {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": "minecraft:mud",
+                        "offset": [
+                          0,
+                          -1,
+                          0
+                        ]
+                      },
+                      {
+                        "type": "minecraft:replaceable"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "features": [
+              {
+                "chance": 0.0465,
+                "feature": {
+                  "feature": {
+                    "type": "minecraft:ore",
+                    "config": {
+                      "discard_chance_on_air_exposure": 0.25,
+                      "size": 58,
+                      "targets": [
+                        {
+                          "state": {
+                            "Name": "minecraft:sand"
+                          },
+                          "target": {
+                            "predicate_type": "minecraft:tag_match",
+                            "tag": "minecraft:base_stone_overworld"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "placement": []
+                }
+              },
+              {
+                "chance": 0.125,
+                "feature": {
+                  "feature": {
+                    "type": "minecraft:ore",
+                    "config": {
+                      "discard_chance_on_air_exposure": 0.25,
+                      "size": 42,
+                      "targets": [
+                        {
+                          "state": {
+                            "Name": "minecraft:mud"
+                          },
+                          "target": {
+                            "predicate_type": "minecraft:tag_match",
+                            "tag": "minecraft:base_stone_overworld"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "placement": []
+                }
+              },
+              {
+                "chance": 0.3,
+                "feature": {
+                  "feature": "terralith:cave/jungle/big_dripleaf",
+                  "placement": [
+                    {
+                      "type": "minecraft:block_predicate_filter",
+                      "predicate": {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": [
+                          "minecraft:mud",
+                          "minecraft:clay"
+                        ],
+                        "offset": [
+                          0,
+                          -1,
+                          0
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      "vertical_range": 4,
+      "xz_radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 5
+        }
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 155
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "above_bottom": 0
+        },
+        "max_inclusive": {
+          "absolute": 256
+        }
+      }
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "allowed_search_condition": {
+        "type": "minecraft:matching_blocks",
+        "blocks": "minecraft:air"
+      },
+      "direction_of_search": "down",
+      "max_steps": 12,
+      "target_condition": {
+        "type": "minecraft:solid"
+      }
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": 0,
+      "y_spread": 1
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

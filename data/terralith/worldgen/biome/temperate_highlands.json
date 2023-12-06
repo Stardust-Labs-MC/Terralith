@@ -24,9 +24,9 @@
   "features": [
     [
       "terralith:highlands/forest/disk_gravel",
-      "terralith:highlands/pillar",
       "terralith:canyon/generic/cliff",
-      "terralith:canyon/generic/slab_stone"
+      "terralith:canyon/generic/slab_stone",
+      "terralith:highlands/pillar"
     ],
     [
       "minecraft:lake_lava_underground",
@@ -209,5 +209,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.9
+  "temperature": 0.5
 }

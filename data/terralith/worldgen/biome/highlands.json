@@ -22,9 +22,9 @@
   },
   "features": [
     [
-      "terralith:highlands/pillar",
       "terralith:canyon/generic/cliff",
       "terralith:canyon/generic/slab_stone",
+      "terralith:highlands/pillar",
       "terralith:highlands/lake"
     ],
     [

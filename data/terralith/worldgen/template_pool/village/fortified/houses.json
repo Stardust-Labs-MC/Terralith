@@ -111,15 +111,6 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "terralith:village/fortified/houses/church",
-        "processors": "minecraft:empty",
-        "projection": "rigid"
-      },
-      "weight": 2
-    },
-    {
-      "element": {
-        "element_type": "minecraft:single_pool_element",
         "location": "terralith:village/fortified/houses/archer",
         "processors": "minecraft:empty",
         "projection": "rigid"
