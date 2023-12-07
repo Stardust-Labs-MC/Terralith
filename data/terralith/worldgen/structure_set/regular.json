@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "terralith:witch_hut",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 235890235372,
+      "spacing": 20,
+      "separation": 12
+    }
+  }
+  

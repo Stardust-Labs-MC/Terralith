@@ -3,7 +3,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "terralith:underground/witchhut_01",
+        "location": "terralith:regular/witchhut_01",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },

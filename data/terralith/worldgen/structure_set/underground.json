@@ -19,10 +19,6 @@
     {
       "structure": "terralith:underground/sunken_tower",
       "weight": 5
-    },
-    {
-      "structure": "terralith:underground/witch_hut",
-      "weight": 4
     }
   ],
   "placement": {

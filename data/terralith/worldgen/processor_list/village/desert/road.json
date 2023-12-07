@@ -1,78 +1,123 @@
 {
-  "processors": [
-    {
-      "processor_type": "minecraft:rule",
-      "rules": [
+    "processors": [
         {
-          "input_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "location_predicate": {
-            "block": "minecraft:tall_grass",
-            "predicate_type": "minecraft:block_match"
-          },
-          "output_state": {
-            "Name": "minecraft:air"
-          }
-        },
-        {
-          "input_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "location_predicate": {
-            "block": "minecraft:grass",
-            "predicate_type": "minecraft:block_match"
-          },
-          "output_state": {
-            "Name": "minecraft:air"
-          }
-        },
-        {
-          "input_predicate": {
-            "block": "minecraft:deepslate",
-            "predicate_type": "minecraft:random_block_match",
-            "probability": 0.05
-          },
-          "location_predicate": {
-            "block": "minecraft:grass_block",
-            "predicate_type": "minecraft:block_match"
-          },
-          "output_state": {
-            "Name": "minecraft:cobbled_deepslate"
-          }
-        },
-        {
-          "input_predicate": {
-            "block": "minecraft:deepslate",
-            "predicate_type": "minecraft:random_block_match",
-            "probability": 0.3
-          },
-          "location_predicate": {
-            "block": "minecraft:grass_block",
-            "predicate_type": "minecraft:block_match"
-          },
-          "output_state": {
-            "Name": "minecraft:basalt",
-            "Properties": {
-              "axis": "y"
-            }
-          }
-        },
-        {
-          "input_predicate": {
-            "block": "minecraft:deepslate",
-            "predicate_type": "minecraft:random_block_match",
-            "probability": 0.02
-          },
-          "location_predicate": {
-            "block": "minecraft:grass_block",
-            "predicate_type": "minecraft:block_match"
-          },
-          "output_state": {
-            "Name": "minecraft:smooth_basalt"
-          }
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "location_predicate": {
+                        "block": "minecraft:tall_grass",
+                        "predicate_type": "minecraft:block_match"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:air"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "location_predicate": {
+                        "block": "minecraft:grass",
+                        "predicate_type": "minecraft:block_match"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:air"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "block": "minecraft:dirt",
+                        "predicate_type": "minecraft:block_match"
+                    },
+                    "location_predicate": {
+                        "block": "minecraft:water",
+                        "predicate_type": "minecraft:block_match"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:water",
+                        "Properties": {
+                            "level": "0"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "block": "minecraft:grass_block",
+                        "predicate_type": "minecraft:block_match"
+                    },
+                    "location_predicate": {
+                        "block": "minecraft:water",
+                        "predicate_type": "minecraft:block_match"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:water",
+                        "Properties": {
+                            "level": "0"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "block": "minecraft:deepslate",
+                        "predicate_type": "minecraft:block_match"
+                    },
+                    "location_predicate": {
+                        "block": "minecraft:water",
+                        "predicate_type": "minecraft:block_match"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:spruce_planks"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "block": "minecraft:deepslate",
+                        "predicate_type": "minecraft:random_block_match",
+                        "probability": 0.05
+                    },
+                    "location_predicate": {
+                        "block": "minecraft:grass_block",
+                        "predicate_type": "minecraft:block_match"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:cobbled_deepslate"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "block": "minecraft:deepslate",
+                        "predicate_type": "minecraft:random_block_match",
+                        "probability": 0.3
+                    },
+                    "location_predicate": {
+                        "block": "minecraft:grass_block",
+                        "predicate_type": "minecraft:block_match"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:basalt",
+                        "Properties": {
+                            "axis": "y"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "block": "minecraft:deepslate",
+                        "predicate_type": "minecraft:random_block_match",
+                        "probability": 0.02
+                    },
+                    "location_predicate": {
+                        "block": "minecraft:grass_block",
+                        "predicate_type": "minecraft:block_match"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:smooth_basalt"
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

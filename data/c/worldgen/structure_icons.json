@@ -1,38 +1,38 @@
 {
-  "terralith:fortified_desert_village": {
-    "item": "minecraft:sandstone_stairs"
-  },
-  "terralith:fortified_village": {
-    "item": "minecraft:stone_brick_stairs"
-  },
-  "terralith:glacial_hut": {
-    "item": "minecraft:candle"
-  },
-  "terralith:spire": {
-    "item": "minecraft:blue_ice"
-  },
-  "terralith:underground/frosted_dungeon": {
-    "item": "minecraft:polished_deepslate"
-  },
-  "terralith:underground/giant_bee_hive": {
-    "item": "minecraft:honeycomb_block"
-  },
-  "terralith:underground/mining_outpost": {
-    "item": "minecraft:iron_pickaxe"
-  },
-  "terralith:underground/oak_cabin": {
-    "item": "minecraft:moss_block"
-  },
-  "terralith:underground/old_refinery": {
-    "item": "minecraft:iron_ore"
-  },
-  "terralith:underground/sunken_tower": {
-    "item": "minecraft:stripped_spruce_log"
-  },
-  "terralith:underground/witch_hut": {
-    "item": "minecraft:brown_mushroom"
-  },
-  "terralith:underground_cabin": {
-    "item": "minecraft:moss_block"
-  }
+    "terralith:fortified_desert_village": {
+        "item": "minecraft:sandstone_stairs"
+    },
+    "terralith:fortified_village": {
+        "item": "minecraft:stone_brick_stairs"
+    },
+    "terralith:glacial_hut": {
+        "item": "minecraft:candle"
+    },
+    "terralith:spire": {
+        "item": "minecraft:blue_ice"
+    },
+    "terralith:witch_hut": {
+        "item": "minecraft:brown_mushroom"
+    },
+    "terralith:underground/frosted_dungeon": {
+        "item": "minecraft:polished_deepslate"
+    },
+    "terralith:underground/giant_bee_hive": {
+        "item": "minecraft:honeycomb_block"
+    },
+    "terralith:underground/mining_outpost": {
+        "item": "minecraft:iron_pickaxe"
+    },
+    "terralith:underground/oak_cabin": {
+        "item": "minecraft:moss_block"
+    },
+    "terralith:underground/old_refinery": {
+        "item": "minecraft:iron_ore"
+    },
+    "terralith:underground/sunken_tower": {
+        "item": "minecraft:stripped_spruce_log"
+    },
+    "terralith:underground_cabin": {
+        "item": "minecraft:moss_block"
+    }
 }
